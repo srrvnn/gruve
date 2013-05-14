@@ -1,0 +1,8 @@
+13052013_02.46.56.982-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-46-55-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"NaN;NaN"}
+13052013_02.46.57.083-0700	{"utterance":"Hi. I am here to help you with directions in this game.","uttType":"setup","userType":"im"}
+13052013_02.47.01.483-0700	{"userDA":"{\"cf\":\"requestRoute\",\"destination_name\":\"West Nicolson Street\",\"destination_type\":\"street\"}","sessionId":"Mon-13-May-2013-09-46-55-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+13052013_02.47.01.519-0700	{"utterance":"Let's get started. Move ahead, so that I know you are there.","uttType":"setup","userType":"im"}
+13052013_02.47.02.886-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-46-55-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+13052013_02.47.02.922-0700	{"utterance":"Alright. Finding directions to West Nicolson Street. One moment please...","uttType":"navInstruction","userType":"im"}
+13052013_02.47.12.800-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-46-55-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+13052013_02.47.13.350-0700	{"utterance":"We are <b>4blocks <\/b> from our destination. <br\/>Head straight, continue on: Potterrow.","uttType":"navInstruction","userType":"im"}

@@ -1,0 +1,2793 @@
+13052013_14.21.07.446-0700	
+13052013_14.21.07.446-0700	Run: 1
+13052013_14.21.07.446-0700	
+13052013_14.21.07.447-0700	Time: 1368480067447
+13052013_14.21.07.467-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+13052013_14.21.07.467-0700	User location reported:55.94575;-3.1871019999999817
+13052013_14.21.07.467-0700	User DA: {"cf":"null"}
+13052013_14.21.07.467-0700	User reported position: 55.94575,-3.1871019999999817
+13052013_14.21.07.467-0700	Coordinates used: repo13052013_14.21.07.643-0700	Current ways list (possibilities): []
+13052013_14.21.07.643-0700	Current way: null
+13052013_14.21.07.661-0700	User location: []
+13052013_14.21.07.661-0700	Current Step Distance: unknown
+13052013_14.21.07.661-0700	user walking: false
+13052013_14.21.07.661-0700	User Orientation: unknown
+13052013_14.21.07.661-0700	User DACF: null
+13052013_14.21.07.661-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"NaN,NaN","cf":"greetUser"}
+13052013_14.21.07.661-0700	Setting lastTimeOfUtterance to 1368480067438
+13052013_14.21.07.661-0700	Sys Utterance: Hi. I am here to help you with directions in this game.
+13052013_14.21.07.661-0700	sysResponse: {"utterance":"Hi. I am here to help you with directions in this game.","uttType":"setup"}
+th directions in this game.
+13052013_14.21.07.612-0700	sysResponse: {"utterance":"Hi. I am here to help you with directions in this game.","uttType":"setup"}
+13052013_14.21.15.086-0700	
+13052013_14.21.15.086-0700	Run: 2
+13052013_14.21.15.086-0700	
+13052013_14.21.15.086-0700	Time: 1368480075086
+13052013_14.21.15.086-0700	Time between updates: 7639
+13052013_14.21.15.087-0700	userResponse:{"userDA":"{\"cf\":\"requestRoute\",\"destination_name\":\"South College Street\",\"destination_type\":\"street\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+13052013_14.21.15.087-0700	User location reported:55.94575;-3.1871019999999817
+13052013_14.21.15.087-0700	User DA: {"destination_name":"South College Street","destination_type":"street","cf":"requestRoute"}
+13052013_14.21.15.087-0700	User reported position: 55.94575,-3.1871019999999817
+13052013_14.21.15.087-0700	Coordinates used: reported
+13052013_14.21.15.088-0700	User current position: 55.94575,-3.1871019999999817
+13052013_14.21.15.191-0700	Current ways list (possibilities): [197, 193, 192]
+13052013_14.21.15.192-0700	Current way: 197
+13052013_14.21.15.216-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+13052013_14.21.15.217-0700	Current Step Distance (in meters): 0.0
+13052013_14.21.15.217-0700	user walking: false
+13052013_14.21.15.217-0700	User Orientation: unknown
+13052013_14.21.15.217-0700	User DACF: requestRoute
+13052013_14.21.15.217-0700	SysDA: {"userDA":"{\"destination_name\":\"South College Street\",\"destination_type\":\"street\",\"cf\":\"requestRoute\"}","currentUserOrientation":0.0,"currentUserCoor":"55.94575,-3.1871019999999817","cf":"startWalking"}
+13052013_14.21.15.217-0700	Setting lastTimeOfUtterance to 1368480075086
+13052013_14.21.15.217-0700	Sys Utterance: Let's get started. Move ahead, so that I know you are there.
+13052013_14.21.15.218-0700	sysResponse: {"utterance":"Let's get started. Move ahead, so that I know you are there.","uttType":"setup"}
+13052013_14.21.17.083-0700	
+13052013_14.21.17.084-0700	Run: 3
+13052013_14.21.17.084-0700	
+13052013_14.21.17.084-0700	Time: 1368480077084
+13052013_14.21.17.084-0700	Time between updates: 1998
+13052013_14.21.17.084-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+13052013_14.21.17.084-0700	User location reported:55.94575;-3.1871019999999817
+13052013_14.21.17.084-0700	User DA: {"cf":"null"}
+13052013_14.21.17.084-0700	User reported position: 55.94575,-3.1871019999999817
+13052013_14.21.17.085-0700	Coordinates used: reported
+13052013_14.21.17.085-0700	User current position: 55.94575,-3.1871019999999817
+13052013_14.21.17.099-0700	Current ways list (possibilities): [197, 193, 192]
+13052013_14.21.17.099-0700	Current way: 197
+13052013_14.21.17.110-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+13052013_14.21.17.110-0700	Current Step Distance (in meters): 0.0
+13052013_14.21.17.110-0700	user walking: false
+13052013_14.21.17.110-0700	User Orientation: unknown
+13052013_14.21.17.110-0700	User DACF: null
+13052013_14.21.17.111-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"entityId":"null","currentUserCoor":"55.94575,-3.1871019999999817","cf":"acknowledgeRouteRequest","entityName":"South College Street"}
+13052013_14.21.17.111-0700	Setting lastTimeOfUtterance to 1368480077084
+13052013_14.21.17.111-0700	Sys Utterance: Alright. Finding directions to South College Street. One moment please...
+13052013_14.21.17.111-0700	sysResponse: {"utterance":"Alright. Finding directions to South College Street. One moment please...","uttType":"navInstruction"}
+13052013_14.21.17.986-0700	
+13052013_14.21.17.986-0700	Run: 4
+13052013_14.21.17.986-0700	
+13052013_14.21.17.986-0700	Time: 1368480077986
+13052013_14.21.17.986-0700	Time between updates: 902
+13052013_14.21.17.986-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+13052013_14.21.17.986-0700	User location reported:55.94565;-3.1870340000000397
+13052013_14.21.17.987-0700	User DA: {"cf":"null"}
+13052013_14.21.17.987-0700	User reported position: 55.94565,-3.1870340000000397
+13052013_14.21.17.987-0700	Coordinates used: reported
+13052013_14.21.17.987-0700	User current position: 55.94565,-3.1870340000000397
+13052013_14.21.18.000-0700	Current ways list (possibilities): [197, 194, 193, 192]
+13052013_14.21.18.000-0700	Current way: 197
+13052013_14.21.18.013-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+13052013_14.21.18.013-0700	Current Step Distance (in meters): 11.898363356495217
+13052013_14.21.18.013-0700	user walking: true
+13052013_14.21.18.014-0700	Using calculated orientation
+13052013_14.21.18.014-0700	User orientation:159.15387544107944
+13052013_14.21.18.014-0700	User DACF: null
+13052013_14.21.18.081-0700	Finding route to 89,South College Street on [South Bridge, South College Street, Drummond Street, Nicolson Street] at 55.947209286489546,-3.1860502684478433
+13052013_14.21.18.081-0700	Found destination coordinates: 55.947209286489546,-3.1860502684478433
+13052013_14.21.18.351-0700	First node: 154
+13052013_14.21.18.351-0700	Second node: 160
+13052013_14.21.18.351-0700	First node is close to second node
+13052013_14.21.18.787-0700	Next node: 154
+13052013_14.21.18.787-0700	Next Next node: 160
+13052013_14.21.18.810-0700	Next Way: 192
+13052013_14.21.18.813-0700	Closest node: 154
+13052013_14.21.18.821-0700	Choosing randomly
+13052013_14.21.18.822-0700	Current Way: 197
+13052013_14.21.18.822-0700	Route ready
+13052013_14.21.18.822-0700	Destination id: 89
+13052013_14.21.18.822-0700	Expected current way name: Bristo Square
+13052013_14.21.18.828-0700	Current adjancent ways: [197, 194, 193, 192]
+13052013_14.21.18.828-0700	Expected way on route: 197
+13052013_14.21.18.828-0700	User reported at expected location
+13052013_14.21.18.828-0700	Prev Distance from Next node: 6.9509470798617965
+13052013_14.21.18.828-0700	Current Distance from Next node: 5.9509470798617965
+13052013_14.21.18.828-0700	User near Next node: true
+13052013_14.21.18.835-0700	Setting nextNode to :160
+13052013_14.21.18.835-0700	Distance to next node:49.692751662664946
+13052013_14.21.18.836-0700	Setting nextNextNode to: 206,55.94597769216023,-3.1861253703002603
+13052013_14.21.18.836-0700	Current Way:192
+13052013_14.21.18.836-0700	Current Way Name: Marshall Street
+13052013_14.21.18.887-0700	Current Distance from New Next node: 50.915425722955085
+13052013_14.21.18.887-0700	User moving towards Next Node : true
+13052013_14.21.18.887-0700	To reach the next node, user should turn -91.71897792141272
+13052013_14.21.18.888-0700	Expected user orientation: 67.43489751966672
+13052013_14.21.18.888-0700	User in expected orientation: false
+13052013_14.21.18.888-0700	Expecting user to turn:false
+13052013_14.21.18.888-0700	Warning: user may be walking in the wrong direction
+13052013_14.21.18.888-0700	Next node: 160 at 55.945821487153594,-3.1862970316772135
+13052013_14.21.18.888-0700	UserWalking: true
+13052013_14.21.18.891-0700	Landmarks within 20m:[]
+13052013_14.21.18.891-0700	Landmarks nearby:none
+13052013_14.21.18.891-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","index":1,"currentUserOrientation":159.15387544107944,"route":hw.macs.gruve.Route@10310199,"currentUserCoor":"55.94565,-3.1870340000000397","cf":"presentRoute"}
+13052013_14.21.18.892-0700	Setting lastTimeOfUtterance to 1368480077986
+13052013_14.21.18.892-0700	Sys Utterance: We are <b>4 blocks (node) </b> from our destination. <br/>Turn left, walk onto: Marshall Street.
+13052013_14.21.18.892-0700	sysResponse: {"utterance":"We are <b>4 blocks (node) <\/b> from our destination. <br\/>Turn left, walk onto: Marshall Street.","uttType":"navInstruction"}
+13052013_14.21.27.743-0700	
+13052013_14.21.27.743-0700	Run: 5
+13052013_14.21.27.743-0700	
+13052013_14.21.27.743-0700	Time: 1368480087743
+13052013_14.21.27.743-0700	Time between updates: 9757
+13052013_14.21.27.744-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945705;-3.1867990000000646"}
+13052013_14.21.27.744-0700	User location reported:55.945705;-3.1867990000000646
+13052013_14.21.27.744-0700	User DA: {"cf":"null"}
+13052013_14.21.27.744-0700	User reported position: 55.945705,-3.1867990000000646
+13052013_14.21.27.744-0700	Coordinates used: reported
+13052013_14.21.27.745-0700	User current position: 55.945705,-3.1867990000000646
+13052013_14.21.27.756-0700	Current ways list (possibilities): [197, 194, 193, 192]
+13052013_14.21.27.756-0700	Current way: 197
+13052013_14.21.27.766-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+13052013_14.21.27.766-0700	Current Step Distance (in meters): 15.859312833612114
+13052013_14.21.27.766-0700	user walking: true
+13052013_14.21.27.766-0700	Using calculated orientation
+13052013_14.21.27.766-0700	User orientation:67.31746009035788
+13052013_14.21.27.766-0700	User DACF: null
+13052013_14.21.27.766-0700	Destination id: 89
+13052013_14.21.27.766-0700	Expected current way name: Marshall Street
+13052013_14.21.27.782-0700	Current adjancent ways: [197, 194, 193, 192]
+13052013_14.21.27.782-0700	Expected way on route: 192
+13052013_14.21.27.782-0700	User reported at expected location
+13052013_14.21.27.782-0700	Prev Distance from Next node: 50.915425722955085
+13052013_14.21.27.782-0700	Current Distance from Next node: 33.83348775830841
+13052013_14.21.27.782-0700	User near Next node: false
+13052013_14.21.27.782-0700	User moving towards Next Node : true
+13052013_14.21.27.782-0700	Expected user orientation: 67.43489751966672
+13052013_14.21.27.783-0700	User in expected orientation: true
+13052013_14.21.27.783-0700	Expecting user to turn:false
+13052013_14.21.27.783-0700	Next node: 160 at 55.945821487153594,-3.1862970316772135
+13052013_14.21.27.783-0700	UserWalking: true
+13052013_14.21.27.791-0700	Landmarks within 20m:[]
+13052013_14.21.27.791-0700	Landmarks nearby:none
+13052013_14.21.27.792-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":67.31746009035788,"currentUserCoor":"55.945705,-3.1867990000000646","cf":"navigationHelpPrompt"}
+13052013_14.21.27.792-0700	Setting lastTimeOfUtterance to 1368480087743
+13052013_14.21.27.792-0700	Setting lastTimeOfDiffCoordinates to 1368480087743
+13052013_14.21.27.792-0700	Sys Utterance: 
+13052013_14.21.27.792-0700	sysResponse: {"utterance":"","uttType":"navInstruction"}
+13052013_14.21.28.463-0700	
+13052013_14.21.28.463-0700	Run: 6
+13052013_14.21.28.463-0700	
+13052013_14.21.28.463-0700	Time: 1368480088463
+13052013_14.21.28.463-0700	Time between updates: 720
+13052013_14.21.28.464-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945736;-3.186664999999948"}
+13052013_14.21.28.464-0700	User location reported:55.945736;-3.186664999999948
+13052013_14.21.28.464-0700	User DA: {"cf":"null"}
+13052013_14.21.28.465-0700	User reported position: 55.945736,-3.186664999999948
+13052013_14.21.28.465-0700	Coordinates used: reported
+13052013_14.21.28.465-0700	User current position: 55.945736,-3.186664999999948
+13052013_14.21.28.480-0700	Current ways list (possibilities): [193, 192]
+13052013_14.21.28.480-0700	Current way: 193
+13052013_14.21.28.499-0700	User location: [Potterrow, Marshall Street]
+13052013_14.21.28.500-0700	Current Step Distance (in meters): 9.027740795409702
+13052013_14.21.28.500-0700	user walking: true
+13052013_14.21.28.500-0700	Using calculated orientation
+13052013_14.21.28.500-0700	User orientation:67.5529954622209
+13052013_14.21.28.500-0700	User DACF: null
+13052013_14.21.28.500-0700	Destination id: 89
+13052013_14.21.28.500-0700	Expected current way name: Marshall Street
+13052013_14.21.28.519-0700	Current adjancent ways: [193, 192]
+13052013_14.21.28.520-0700	Expected way on route: 192
+13052013_14.21.28.520-0700	User reported at expected location
+13052013_14.21.28.520-0700	Prev Distance from Next node: 33.83348775830841
+13052013_14.21.28.520-0700	Current Distance from Next node: 24.805754372197143
+13052013_14.21.28.520-0700	User near Next node: false
+13052013_14.21.28.520-0700	User moving towards Next Node : true
+13052013_14.21.28.520-0700	Expected user orientation: 67.43489751966672
+13052013_14.21.28.520-0700	User in expected orientation: true
+13052013_14.21.28.521-0700	Expecting user to turn:false
+13052013_14.21.28.521-0700	Next node: 160 at 55.945821487153594,-3.1862970316772135
+13052013_14.21.28.521-0700	UserWalking: true
+13052013_14.21.28.527-0700	Landmarks within 20m:[]
+13052013_14.21.28.527-0700	Landmarks nearby:none
+13052013_14.21.28.528-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":67.5529954622209,"currentUserCoor":"55.945736,-3.186664999999948","cf":"null"}
+13052013_14.21.28.528-0700	Setting lastTimeOfUtterance to 1368480088463
+13052013_14.21.28.528-0700	Setting lastTimeOfDiffCoordinates to 1368480088463
+13052013_14.21.28.528-0700	Sys Utterance: 
+13052013_14.21.28.528-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.21.29.663-0700	
+13052013_14.21.29.663-0700	Run: 7
+13052013_14.21.29.663-0700	
+13052013_14.21.29.663-0700	Time: 1368480089663
+13052013_14.21.29.663-0700	Time between updates: 1200
+13052013_14.21.29.664-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945785;-3.186460000000011"}
+13052013_14.21.29.664-0700	User location reported:55.945785;-3.186460000000011
+13052013_14.21.29.664-0700	User DA: {"cf":"null"}
+13052013_14.21.29.664-0700	User reported position: 55.945785,-3.186460000000011
+13052013_14.21.29.664-0700	Coordinates used: reported
+13052013_14.21.29.664-0700	User current position: 55.945785,-3.186460000000011
+13052013_14.21.29.676-0700	Current ways list (possibilities): [192, 226, 223]
+13052013_14.21.29.676-0700	Current way: 192
+13052013_14.21.29.688-0700	User location: [Marshall Street, Nicolson Square]
+13052013_14.21.29.688-0700	Current Step Distance (in meters): 13.87888173614266
+13052013_14.21.29.688-0700	user walking: true
+13052013_14.21.29.689-0700	Using calculated orientation
+13052013_14.21.29.689-0700	User orientation:66.88487470110744
+13052013_14.21.29.689-0700	User DACF: null
+13052013_14.21.29.689-0700	Destination id: 89
+13052013_14.21.29.689-0700	Expected current way name: Marshall Street
+13052013_14.21.29.700-0700	Current adjancent ways: [192, 226, 223]
+13052013_14.21.29.701-0700	Expected way on route: 192
+13052013_14.21.29.701-0700	User reported at expected location
+13052013_14.21.29.701-0700	Prev Distance from Next node: 24.805754372197143
+13052013_14.21.29.701-0700	Current Distance from Next node: 10.92850078406623
+13052013_14.21.29.701-0700	User near Next node: false
+13052013_14.21.29.701-0700	User moving towards Next Node : true
+13052013_14.21.29.701-0700	Expected user orientation: 67.43489751966672
+13052013_14.21.29.702-0700	User in expected orientation: true
+13052013_14.21.29.702-0700	Expecting user to turn:false
+13052013_14.21.29.702-0700	Next node: 160 at 55.945821487153594,-3.1862970316772135
+13052013_14.21.29.702-0700	UserWalking: true
+13052013_14.21.29.710-0700	Landmarks within 20m:[]
+13052013_14.21.29.711-0700	Landmarks nearby:none
+13052013_14.21.29.713-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":66.88487470110744,"currentUserCoor":"55.945785,-3.186460000000011","cf":"null"}
+13052013_14.21.29.714-0700	Setting lastTimeOfUtterance to 1368480089663
+13052013_14.21.29.715-0700	Setting lastTimeOfDiffCoordinates to 1368480089663
+13052013_14.21.29.715-0700	Sys Utterance: 
+13052013_14.21.29.715-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.21.33.465-0700	
+13052013_14.21.33.465-0700	Run: 8
+13052013_14.21.33.465-0700	
+13052013_14.21.33.465-0700	Time: 1368480093465
+13052013_14.21.33.465-0700	Time between updates: 3802
+13052013_14.21.33.465-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94582;-3.1863100000000486"}
+13052013_14.21.33.465-0700	User location reported:55.94582;-3.1863100000000486
+13052013_14.21.33.465-0700	User DA: {"cf":"null"}
+13052013_14.21.33.466-0700	User reported position: 55.94582,-3.1863100000000486
+13052013_14.21.33.466-0700	Coordinates used: reported
+13052013_14.21.33.466-0700	User current position: 55.94582,-3.1863100000000486
+13052013_14.21.33.475-0700	Current ways list (possibilities): [192, 226, 223]
+13052013_14.21.33.476-0700	Current way: 192
+13052013_14.21.33.487-0700	User location: [Marshall Street, Nicolson Square]
+13052013_14.21.33.487-0700	Current Step Distance (in meters): 10.118382060995494
+13052013_14.21.33.487-0700	user walking: true
+13052013_14.21.33.487-0700	Using calculated orientation
+13052013_14.21.33.487-0700	User orientation:67.37923234528205
+13052013_14.21.33.487-0700	User DACF: null
+13052013_14.21.33.487-0700	Destination id: 89
+13052013_14.21.33.487-0700	Expected current way name: Marshall Street
+13052013_14.21.33.503-0700	Current adjancent ways: [192, 226, 223]
+13052013_14.21.33.504-0700	Expected way on route: 192
+13052013_14.21.33.504-0700	User reported at expected location
+13052013_14.21.33.504-0700	Prev Distance from Next node: 10.92850078406623
+13052013_14.21.33.504-0700	Current Distance from Next node: 0.8242510936034317
+13052013_14.21.33.504-0700	User near Next node: true
+13052013_14.21.33.517-0700	Setting nextNode to :206
+13052013_14.21.33.517-0700	Distance to next node:20.967223049453143
+13052013_14.21.33.518-0700	Setting nextNextNode to: 204,55.946218006324685,-3.1853207075957926
+13052013_14.21.33.518-0700	Current Way:223
+13052013_14.21.33.518-0700	Current Way Name: Nicolson Square
+13052013_14.21.33.654-0700	Current Distance from New Next node: 21.218820033679457
+13052013_14.21.33.654-0700	User moving towards Next Node : true
+13052013_14.21.33.654-0700	To reach the next node, user should turn -34.12915844605027
+13052013_14.21.33.654-0700	Expected user orientation: 33.25007389923178
+13052013_14.21.33.655-0700	User in expected orientation: true
+13052013_14.21.33.655-0700	Expecting user to turn:false
+13052013_14.21.33.655-0700	Next node: 206 at 55.94597769216023,-3.1861253703002603
+13052013_14.21.33.655-0700	UserWalking: true
+13052013_14.21.33.658-0700	Landmarks within 20m:[]
+13052013_14.21.33.659-0700	Landmarks nearby:none
+13052013_14.21.33.659-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","index":2,"currentUserOrientation":67.37923234528205,"route":hw.macs.gruve.Route@10310199,"currentUserCoor":"55.94582,-3.1863100000000486","cf":"presentRoute"}
+13052013_14.21.33.660-0700	Setting lastTimeOfUtterance to 1368480093465
+13052013_14.21.33.660-0700	Setting lastTimeOfDiffCoordinates to 1368480093465
+13052013_14.21.33.660-0700	Sys Utterance: Head left, continue on: Nicolson Square.
+13052013_14.21.33.660-0700	sysResponse: {"utterance":"Head left, continue on: Nicolson Square.","uttType":"navInstruction"}
+13052013_14.21.36.670-0700	
+13052013_14.21.36.670-0700	Run: 9
+13052013_14.21.36.670-0700	
+13052013_14.21.36.670-0700	Time: 1368480096670
+13052013_14.21.36.671-0700	Time between updates: 3205
+13052013_14.21.36.671-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945934;-3.1862149999999474"}
+13052013_14.21.36.671-0700	User location reported:55.945934;-3.1862149999999474
+13052013_14.21.36.671-0700	User DA: {"cf":"null"}
+13052013_14.21.36.671-0700	User reported position: 55.945934,-3.1862149999999474
+13052013_14.21.36.671-0700	Coordinates used: reported
+13052013_14.21.36.672-0700	User current position: 55.945934,-3.1862149999999474
+13052013_14.21.36.683-0700	Current ways list (possibilities): [229, 226, 225, 224, 223]
+13052013_14.21.36.684-0700	Current way: 229
+13052013_14.21.36.696-0700	User location: [Nicolson Square]
+13052013_14.21.36.696-0700	Current Step Distance (in meters): 13.988478764362526
+13052013_14.21.36.696-0700	user walking: true
+13052013_14.21.36.696-0700	Using calculated orientation
+13052013_14.21.36.696-0700	User orientation:25.01590464811187
+13052013_14.21.36.696-0700	User DACF: null
+13052013_14.21.36.697-0700	Destination id: 89
+13052013_14.21.36.697-0700	Expected current way name: Nicolson Square
+13052013_14.21.36.711-0700	Current adjancent ways: [229, 226, 225, 224, 223]
+13052013_14.21.36.712-0700	Expected way on route: 223
+13052013_14.21.36.712-0700	User reported at expected location
+13052013_14.21.36.712-0700	Prev Distance from Next node: 21.218820033679457
+13052013_14.21.36.712-0700	Current Distance from Next node: 7.399332701981071
+13052013_14.21.36.712-0700	User near Next node: true
+13052013_14.21.36.724-0700	Setting nextNode to :204
+13052013_14.21.36.724-0700	Distance to next node:64.0158102518974
+13052013_14.21.36.725-0700	Setting nextNextNode to: 89,55.947209286489546,-3.1860502684478433
+13052013_14.21.36.725-0700	Current Way:229
+13052013_14.21.36.725-0700	Current Way Name: Nicolson Square
+13052013_14.21.36.837-0700	Current Distance from New Next node: 64.18297896473504
+13052013_14.21.36.837-0700	User moving towards Next Node : true
+13052013_14.21.36.837-0700	To reach the next node, user should turn 35.424918118170524
+13052013_14.21.36.837-0700	Expected user orientation: 60.440822766282395
+13052013_14.21.36.838-0700	User in expected orientation: true
+13052013_14.21.36.838-0700	Expecting user to turn:false
+13052013_14.21.36.838-0700	Next node: 204 at 55.946218006324685,-3.1853207075957926
+13052013_14.21.36.838-0700	UserWalking: true
+13052013_14.21.36.857-0700	Landmarks within 20m:[]
+13052013_14.21.36.857-0700	Landmarks nearby:none
+13052013_14.21.36.858-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","index":3,"currentUserOrientation":25.01590464811187,"route":hw.macs.gruve.Route@10310199,"currentUserCoor":"55.945934,-3.1862149999999474","cf":"presentRoute"}
+13052013_14.21.36.859-0700	Setting lastTimeOfUtterance to 1368480096670
+13052013_14.21.36.859-0700	Setting lastTimeOfDiffCoordinates to 1368480096670
+13052013_14.21.36.859-0700	Sys Utterance: Head right, continue on: Nicolson Square.
+13052013_14.21.36.859-0700	sysResponse: {"utterance":"Head right, continue on: Nicolson Square.","uttType":"navInstruction"}
+13052013_14.21.38.860-0700	
+13052013_14.21.38.860-0700	Run: 10
+13052013_14.21.38.860-0700	
+13052013_14.21.38.860-0700	Time: 1368480098860
+13052013_14.21.38.861-0700	Time between updates: 2190
+13052013_14.21.38.861-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946011;-3.186059"}
+13052013_14.21.38.861-0700	User location reported:55.946011;-3.186059
+13052013_14.21.38.861-0700	User DA: {"cf":"null"}
+13052013_14.21.38.861-0700	User reported position: 55.946011,-3.186059
+13052013_14.21.38.861-0700	Coordinates used: reported
+13052013_14.21.38.862-0700	User current position: 55.946011,-3.186059
+13052013_14.21.38.874-0700	Current ways list (possibilities): [229, 224, 223]
+13052013_14.21.38.874-0700	Current way: 229
+13052013_14.21.38.887-0700	User location: [Nicolson Square]
+13052013_14.21.38.887-0700	Current Step Distance (in meters): 12.948395881112054
+13052013_14.21.38.888-0700	user walking: true
+13052013_14.21.38.888-0700	Using calculated orientation
+13052013_14.21.38.888-0700	User orientation:48.605353308834594
+13052013_14.21.38.888-0700	User DACF: null
+13052013_14.21.38.888-0700	Destination id: 89
+13052013_14.21.38.888-0700	Expected current way name: Nicolson Square
+13052013_14.21.38.900-0700	Current adjancent ways: [229, 224, 223]
+13052013_14.21.38.900-0700	Expected way on route: 229
+13052013_14.21.38.900-0700	User reported at expected location
+13052013_14.21.38.900-0700	Prev Distance from Next node: 64.18297896473504
+13052013_14.21.38.900-0700	Current Distance from Next node: 51.411328722649685
+13052013_14.21.38.901-0700	User near Next node: false
+13052013_14.21.38.901-0700	User moving towards Next Node : true
+13052013_14.21.38.901-0700	Expected user orientation: 60.440822766282395
+13052013_14.21.38.901-0700	User in expected orientation: true
+13052013_14.21.38.901-0700	Expecting user to turn:false
+13052013_14.21.38.901-0700	Next node: 204 at 55.946218006324685,-3.1853207075957926
+13052013_14.21.38.901-0700	UserWalking: true
+13052013_14.21.38.908-0700	Landmarks within 20m:[]
+13052013_14.21.38.908-0700	Landmarks nearby:none
+13052013_14.21.38.909-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":48.605353308834594,"currentUserCoor":"55.946011,-3.186059","cf":"null"}
+13052013_14.21.38.909-0700	Setting lastTimeOfUtterance to 1368480098860
+13052013_14.21.38.909-0700	Setting lastTimeOfDiffCoordinates to 1368480098860
+13052013_14.21.38.909-0700	Sys Utterance: 
+13052013_14.21.38.909-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.21.40.449-0700	
+13052013_14.21.40.450-0700	Run: 11
+13052013_14.21.40.450-0700	
+13052013_14.21.40.450-0700	Time: 1368480100450
+13052013_14.21.40.450-0700	Time between updates: 1590
+13052013_14.21.40.450-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946057;-3.185905000000048"}
+13052013_14.21.40.450-0700	User location reported:55.946057;-3.185905000000048
+13052013_14.21.40.450-0700	User DA: {"cf":"null"}
+13052013_14.21.40.451-0700	User reported position: 55.946057,-3.185905000000048
+13052013_14.21.40.451-0700	Coordinates used: reported
+13052013_14.21.40.451-0700	User current position: 55.946057,-3.185905000000048
+13052013_14.21.40.463-0700	Current ways list (possibilities): [229, 224]
+13052013_14.21.40.463-0700	Current way: 229
+13052013_14.21.40.509-0700	User location: [Nicolson Square]
+13052013_14.21.40.509-0700	Current Step Distance (in meters): 10.867922764781797
+13052013_14.21.40.509-0700	user walking: true
+13052013_14.21.40.509-0700	Using calculated orientation
+13052013_14.21.40.509-0700	User orientation:61.92356529818869
+13052013_14.21.40.509-0700	User DACF: null
+13052013_14.21.40.510-0700	Destination id: 89
+13052013_14.21.40.510-0700	Expected current way name: Nicolson Square
+13052013_14.21.40.520-0700	Current adjancent ways: [229, 224]
+13052013_14.21.40.520-0700	Expected way on route: 229
+13052013_14.21.40.520-0700	User reported at expected location
+13052013_14.21.40.520-0700	Prev Distance from Next node: 51.411328722649685
+13052013_14.21.40.520-0700	Current Distance from Next node: 40.547993241983264
+13052013_14.21.40.520-0700	User near Next node: false
+13052013_14.21.40.520-0700	User moving towards Next Node : true
+13052013_14.21.40.520-0700	Expected user orientation: 60.440822766282395
+13052013_14.21.40.520-0700	User in expected orientation: true
+13052013_14.21.40.521-0700	Expecting user to turn:false
+13052013_14.21.40.521-0700	Next node: 204 at 55.946218006324685,-3.1853207075957926
+13052013_14.21.40.521-0700	UserWalking: true
+13052013_14.21.40.525-0700	Landmarks within 20m:[]
+13052013_14.21.40.525-0700	Landmarks nearby:none
+13052013_14.21.40.526-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":61.92356529818869,"currentUserCoor":"55.946057,-3.185905000000048","cf":"null"}
+13052013_14.21.40.526-0700	Setting lastTimeOfUtterance to 1368480100450
+13052013_14.21.40.526-0700	Setting lastTimeOfDiffCoordinates to 1368480100450
+13052013_14.21.40.526-0700	Sys Utterance: 
+13052013_14.21.40.526-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.21.41.522-0700	
+13052013_14.21.41.522-0700	Run: 12
+13052013_14.21.41.522-0700	
+13052013_14.21.41.522-0700	Time: 1368480101522
+13052013_14.21.41.522-0700	Time between updates: 1072
+13052013_14.21.41.523-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946092;-3.185790999999881"}
+13052013_14.21.41.523-0700	User location reported:55.946092;-3.185790999999881
+13052013_14.21.41.523-0700	User DA: {"cf":"null"}
+13052013_14.21.41.523-0700	User reported position: 55.946092,-3.185790999999881
+13052013_14.21.41.523-0700	Coordinates used: reported
+13052013_14.21.41.523-0700	User current position: 55.946092,-3.185790999999881
+13052013_14.21.41.534-0700	Current ways list (possibilities): [229]
+13052013_14.21.41.534-0700	Current way: 229
+13052013_14.21.41.545-0700	User location: [Nicolson Square]
+13052013_14.21.41.545-0700	Current Step Distance (in meters): 8.095228597174325
+13052013_14.21.41.545-0700	user walking: true
+13052013_14.21.41.545-0700	Using calculated orientation
+13052013_14.21.41.545-0700	User orientation:61.26522238822571
+13052013_14.21.41.545-0700	User DACF: null
+13052013_14.21.41.545-0700	Destination id: 89
+13052013_14.21.41.546-0700	Expected current way name: Nicolson Square
+13052013_14.21.41.564-0700	Current adjancent ways: [229]
+13052013_14.21.41.564-0700	Expected way on route: 229
+13052013_14.21.41.564-0700	User reported at expected location
+13052013_14.21.41.565-0700	Prev Distance from Next node: 40.547993241983264
+13052013_14.21.41.565-0700	Current Distance from Next node: 32.462646536937
+13052013_14.21.41.565-0700	User near Next node: false
+13052013_14.21.41.565-0700	User moving towards Next Node : true
+13052013_14.21.41.565-0700	Expected user orientation: 60.440822766282395
+13052013_14.21.41.565-0700	User in expected orientation: true
+13052013_14.21.41.565-0700	Expecting user to turn:false
+13052013_14.21.41.565-0700	Next node: 204 at 55.946218006324685,-3.1853207075957926
+13052013_14.21.41.565-0700	UserWalking: true
+13052013_14.21.41.583-0700	Landmarks within 20m:[]
+13052013_14.21.41.583-0700	Landmarks nearby:none
+13052013_14.21.41.584-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":61.26522238822571,"currentUserCoor":"55.946092,-3.185790999999881","cf":"null"}
+13052013_14.21.41.584-0700	Setting lastTimeOfUtterance to 1368480101522
+13052013_14.21.41.584-0700	Setting lastTimeOfDiffCoordinates to 1368480101522
+13052013_14.21.41.584-0700	Sys Utterance: 
+13052013_14.21.41.584-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.21.42.844-0700	
+13052013_14.21.42.844-0700	Run: 13
+13052013_14.21.42.845-0700	
+13052013_14.21.42.845-0700	Time: 1368480102845
+13052013_14.21.42.845-0700	Time between updates: 1323
+13052013_14.21.42.845-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94614000000001;-3.1856290000000627"}
+13052013_14.21.42.845-0700	User location reported:55.94614000000001;-3.1856290000000627
+13052013_14.21.42.845-0700	User DA: {"cf":"null"}
+13052013_14.21.42.846-0700	User reported position: 55.94614000000001,-3.1856290000000627
+13052013_14.21.42.846-0700	Coordinates used: reported
+13052013_14.21.42.846-0700	User current position: 55.94614000000001,-3.1856290000000627
+13052013_14.21.42.856-0700	Current ways list (possibilities): [229]
+13052013_14.21.42.857-0700	Current way: 229
+13052013_14.21.42.867-0700	User location: [Nicolson Square]
+13052013_14.21.42.867-0700	Current Step Distance (in meters): 11.412145566875552
+13052013_14.21.42.867-0700	user walking: true
+13052013_14.21.42.867-0700	Using calculated orientation
+13052013_14.21.42.867-0700	User orientation:62.11542179225523
+13052013_14.21.42.867-0700	User DACF: null
+13052013_14.21.42.867-0700	Destination id: 89
+13052013_14.21.42.867-0700	Expected current way name: Nicolson Square
+13052013_14.21.42.885-0700	Current adjancent ways: [229]
+13052013_14.21.42.885-0700	Expected way on route: 229
+13052013_14.21.42.885-0700	User reported at expected location
+13052013_14.21.42.885-0700	Prev Distance from Next node: 32.462646536937
+13052013_14.21.42.885-0700	Current Distance from Next node: 21.06485306722448
+13052013_14.21.42.885-0700	User near Next node: false
+13052013_14.21.42.885-0700	User moving towards Next Node : true
+13052013_14.21.42.885-0700	Expected user orientation: 60.440822766282395
+13052013_14.21.42.886-0700	User in expected orientation: true
+13052013_14.21.42.886-0700	Expecting user to turn:false
+13052013_14.21.42.886-0700	Next node: 204 at 55.946218006324685,-3.1853207075957926
+13052013_14.21.42.886-0700	UserWalking: true
+13052013_14.21.42.891-0700	Landmarks within 20m:[8976]
+13052013_14.21.42.891-0700	Landmark nearby:8976
+13052013_14.21.42.891-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":62.11542179225523,"currentUserCoor":"55.94614000000001,-3.1856290000000627","cf":"null"}
+13052013_14.21.42.892-0700	Setting lastTimeOfUtterance to 1368480102845
+13052013_14.21.42.892-0700	Setting lastTimeOfDiffCoordinates to 1368480102845
+13052013_14.21.42.892-0700	Sys Utterance: 
+13052013_14.21.42.892-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.21.44.207-0700	
+13052013_14.21.44.207-0700	Run: 14
+13052013_14.21.44.207-0700	
+13052013_14.21.44.207-0700	Time: 1368480104207
+13052013_14.21.44.207-0700	Time between updates: 1362
+13052013_14.21.44.207-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94617900000001;-3.1854980000000523"}
+13052013_14.21.44.208-0700	User location reported:55.94617900000001;-3.1854980000000523
+13052013_14.21.44.208-0700	User DA: {"cf":"null"}
+13052013_14.21.44.209-0700	User reported position: 55.94617900000001,-3.1854980000000523
+13052013_14.21.44.209-0700	Coordinates used: reported
+13052013_14.21.44.209-0700	User current position: 55.94617900000001,-3.1854980000000523
+13052013_14.21.44.220-0700	Current ways list (possibilities): [230, 229, 222]
+13052013_14.21.44.221-0700	Current way: 230
+13052013_14.21.44.231-0700	User location: [Nicolson Street, Nicolson Square]
+13052013_14.21.44.232-0700	Current Step Distance (in meters): 9.237980310007561
+13052013_14.21.44.232-0700	user walking: true
+13052013_14.21.44.232-0700	Using calculated orientation
+13052013_14.21.44.232-0700	User orientation:62.002523063535364
+13052013_14.21.44.232-0700	User DACF: null
+13052013_14.21.44.232-0700	Destination id: 89
+13052013_14.21.44.232-0700	Expected current way name: Nicolson Square
+13052013_14.21.44.252-0700	Current adjancent ways: [230, 229, 222]
+13052013_14.21.44.252-0700	Expected way on route: 229
+13052013_14.21.44.252-0700	User reported at expected location
+13052013_14.21.44.254-0700	Prev Distance from Next node: 21.06485306722448
+13052013_14.21.44.254-0700	Current Distance from Next node: 11.86077221227722
+13052013_14.21.44.254-0700	User near Next node: false
+13052013_14.21.44.254-0700	User moving towards Next Node : true
+13052013_14.21.44.254-0700	Expected user orientation: 60.440822766282395
+13052013_14.21.44.254-0700	User in expected orientation: true
+13052013_14.21.44.255-0700	Expecting user to turn:false
+13052013_14.21.44.255-0700	Next node: 204 at 55.946218006324685,-3.1853207075957926
+13052013_14.21.44.255-0700	UserWalking: true
+13052013_14.21.44.262-0700	Landmarks within 20m:[8976]
+13052013_14.21.44.262-0700	Landmark nearby:8976
+13052013_14.21.44.262-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":62.002523063535364,"currentUserCoor":"55.94617900000001,-3.1854980000000523","cf":"null"}
+13052013_14.21.44.262-0700	Setting lastTimeOfUtterance to 1368480104207
+13052013_14.21.44.263-0700	Setting lastTimeOfDiffCoordinates to 1368480104207
+13052013_14.21.44.263-0700	Sys Utterance: 
+13052013_14.21.44.263-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.21.45.334-0700	
+13052013_14.21.45.334-0700	Run: 15
+13052013_14.21.45.335-0700	
+13052013_14.21.45.335-0700	Time: 1368480105335
+13052013_14.21.45.335-0700	Time between updates: 1128
+13052013_14.21.45.335-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946231;-3.185322000000042"}
+13052013_14.21.45.335-0700	User location reported:55.946231;-3.185322000000042
+13052013_14.21.45.335-0700	User DA: {"cf":"null"}
+13052013_14.21.45.336-0700	User reported position: 55.946231,-3.185322000000042
+13052013_14.21.45.336-0700	Coordinates used: reported
+13052013_14.21.45.336-0700	User current position: 55.946231,-3.185322000000042
+13052013_14.21.45.350-0700	Current ways list (possibilities): [230, 229, 222]
+13052013_14.21.45.350-0700	Current way: 230
+13052013_14.21.45.362-0700	User location: [Nicolson Street, Nicolson Square]
+13052013_14.21.45.362-0700	Current Step Distance (in meters): 12.39066223622816
+13052013_14.21.45.362-0700	user walking: true
+13052013_14.21.45.362-0700	Using calculated orientation
+13052013_14.21.45.363-0700	User orientation:62.18269157160802
+13052013_14.21.45.363-0700	User DACF: null
+13052013_14.21.45.363-0700	Destination id: 89
+13052013_14.21.45.363-0700	Expected current way name: Nicolson Square
+13052013_14.21.45.375-0700	Current adjancent ways: [230, 229, 222]
+13052013_14.21.45.376-0700	Expected way on route: 229
+13052013_14.21.45.376-0700	User reported at expected location
+13052013_14.21.45.376-0700	Prev Distance from Next node: 11.86077221227722
+13052013_14.21.45.376-0700	Current Distance from Next node: 1.4470700820825912
+13052013_14.21.45.376-0700	User near Next node: true
+13052013_14.21.45.387-0700	Setting nextNode to :89
+13052013_14.21.45.388-0700	Distance to next node:117.8534253594932
+13052013_14.21.45.388-0700	Current Way:222
+13052013_14.21.45.388-0700	Current Way Name: Nicolson Street
+13052013_14.21.45.452-0700	Current Distance from New Next node: 120.66603450389438
+13052013_14.21.45.452-0700	User moving towards Next Node : true
+13052013_14.21.45.452-0700	To reach the next node, user should turn -84.81145867306435
+13052013_14.21.45.453-0700	Expected user orientation: 337.37123289854367
+13052013_14.21.45.453-0700	User in expected orientation: false
+13052013_14.21.45.453-0700	Expecting user to turn:false
+13052013_14.21.45.453-0700	Warning: user may be walking in the wrong direction
+13052013_14.21.45.453-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.21.45.453-0700	UserWalking: true
+13052013_14.21.45.456-0700	Landmarks within 20m:[8976]
+13052013_14.21.45.456-0700	Landmark nearby:8976
+13052013_14.21.45.456-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","index":4,"currentUserOrientation":62.18269157160802,"route":hw.macs.gruve.Route@10310199,"currentUserCoor":"55.946231,-3.185322000000042","cf":"presentRoute"}
+13052013_14.21.45.457-0700	Setting lastTimeOfUtterance to 1368480105335
+13052013_14.21.45.457-0700	Setting lastTimeOfDiffCoordinates to 1368480105335
+13052013_14.21.45.457-0700	Sys Utterance: Turn left, walk onto: Nicolson Street.
+13052013_14.21.45.457-0700	sysResponse: {"utterance":"Turn left, walk onto: Nicolson Street.","uttType":"navInstruction"}
+13052013_14.21.49.031-0700	
+13052013_14.21.49.031-0700	Run: 16
+13052013_14.21.49.031-0700	
+13052013_14.21.49.031-0700	Time: 1368480109031
+13052013_14.21.49.031-0700	Time between updates: 3696
+13052013_14.21.49.031-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946335000000005;-3.1854210000000194"}
+13052013_14.21.49.032-0700	User location reported:55.946335000000005;-3.1854210000000194
+13052013_14.21.49.032-0700	User DA: {"cf":"null"}
+13052013_14.21.49.032-0700	User reported position: 55.946335000000005,-3.1854210000000194
+13052013_14.21.49.032-0700	Coordinates used: reported
+13052013_14.21.49.032-0700	User current position: 55.946335000000005,-3.1854210000000194
+13052013_14.21.49.042-0700	Current ways list (possibilities): [229, 222]
+13052013_14.21.49.042-0700	Current way: 229
+13052013_14.21.49.053-0700	User location: [Nicolson Square, Nicolson Street]
+13052013_14.21.49.053-0700	Current Step Distance (in meters): 13.104624423542285
+13052013_14.21.49.053-0700	user walking: true
+13052013_14.21.49.053-0700	Using calculated orientation
+13052013_14.21.49.053-0700	User orientation:331.94027100667455
+13052013_14.21.49.053-0700	User DACF: null
+13052013_14.21.49.054-0700	Destination id: 89
+13052013_14.21.49.054-0700	Expected current way name: Nicolson Street
+13052013_14.21.49.070-0700	Current adjancent ways: [229, 222]
+13052013_14.21.49.070-0700	Expected way on route: 222
+13052013_14.21.49.070-0700	User reported at expected location
+13052013_14.21.49.070-0700	Prev Distance from Next node: 120.66603450389438
+13052013_14.21.49.070-0700	Current Distance from Next node: 104.81496674721362
+13052013_14.21.49.070-0700	User near Next node: false
+13052013_14.21.49.070-0700	User moving towards Next Node : true
+13052013_14.21.49.071-0700	Expected user orientation: 337.37123289854367
+13052013_14.21.49.071-0700	User in expected orientation: true
+13052013_14.21.49.071-0700	Expecting user to turn:false
+13052013_14.21.49.071-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.21.49.071-0700	UserWalking: true
+13052013_14.21.49.076-0700	Landmarks within 20m:[8976]
+13052013_14.21.49.076-0700	Landmark nearby:8976
+13052013_14.21.49.076-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":331.94027100667455,"currentUserCoor":"55.946335000000005,-3.1854210000000194","cf":"null"}
+13052013_14.21.49.077-0700	Setting lastTimeOfUtterance to 1368480109031
+13052013_14.21.49.077-0700	Setting lastTimeOfDiffCoordinates to 1368480109031
+13052013_14.21.49.077-0700	Sys Utterance: 
+13052013_14.21.49.077-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.21.49.620-0700	
+13052013_14.21.49.620-0700	Run: 17
+13052013_14.21.49.620-0700	
+13052013_14.21.49.620-0700	Time: 1368480109620
+13052013_14.21.49.621-0700	Time between updates: 589
+13052013_14.21.49.621-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94642699999999;-3.1855030000000397"}
+13052013_14.21.49.621-0700	User location reported:55.94642699999999;-3.1855030000000397
+13052013_14.21.49.621-0700	User DA: {"cf":"null"}
+13052013_14.21.49.621-0700	User reported position: 55.94642699999999,-3.1855030000000397
+13052013_14.21.49.621-0700	Coordinates used: reported
+13052013_14.21.49.631-0700	User current position: 55.94642699999999,-3.1855030000000397
+13052013_14.21.49.640-0700	Current ways list (possibilities): [222]
+13052013_14.21.49.640-0700	Current way: 222
+13052013_14.21.49.652-0700	User location: [Nicolson Street]
+13052013_14.21.49.652-0700	Current Step Distance (in meters): 11.433309329550166
+13052013_14.21.49.652-0700	user walking: true
+13052013_14.21.49.652-0700	Using calculated orientation
+13052013_14.21.49.652-0700	User orientation:333.4761425999655
+13052013_14.21.49.652-0700	User DACF: null
+13052013_14.21.49.653-0700	Destination id: 89
+13052013_14.21.49.653-0700	Expected current way name: Nicolson Street
+13052013_14.21.49.664-0700	Current adjancent ways: [222]
+13052013_14.21.49.665-0700	Expected way on route: 222
+13052013_14.21.49.665-0700	User reported at expected location
+13052013_14.21.49.666-0700	Prev Distance from Next node: 104.81496674721362
+13052013_14.21.49.666-0700	Current Distance from Next node: 93.42250244711927
+13052013_14.21.49.666-0700	User near Next node: false
+13052013_14.21.49.666-0700	User moving towards Next Node : true
+13052013_14.21.49.666-0700	Expected user orientation: 337.37123289854367
+13052013_14.21.49.666-0700	User in expected orientation: true
+13052013_14.21.49.666-0700	Expecting user to turn:false
+13052013_14.21.49.666-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.21.49.666-0700	UserWalking: true
+13052013_14.21.49.676-0700	Landmarks within 20m:[8976]
+13052013_14.21.49.676-0700	Landmark nearby:8976
+13052013_14.21.49.676-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":333.4761425999655,"currentUserCoor":"55.94642699999999,-3.1855030000000397","cf":"null"}
+13052013_14.21.49.677-0700	Setting lastTimeOfUtterance to 1368480109620
+13052013_14.21.49.677-0700	Setting lastTimeOfDiffCoordinates to 1368480109620
+13052013_14.21.49.677-0700	Sys Utterance: 
+13052013_14.21.49.677-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.21.50.271-0700	
+13052013_14.21.50.271-0700	Run: 18
+13052013_14.21.50.272-0700	
+13052013_14.21.50.272-0700	Time: 1368480110272
+13052013_14.21.50.272-0700	Time between updates: 652
+13052013_14.21.50.272-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946508;-3.185571999999979"}
+13052013_14.21.50.272-0700	User location reported:55.946508;-3.185571999999979
+13052013_14.21.50.272-0700	User DA: {"cf":"null"}
+13052013_14.21.50.272-0700	User reported position: 55.946508,-3.185571999999979
+13052013_14.21.50.273-0700	Coordinates used: reported
+13052013_14.21.50.273-0700	User current position: 55.946508,-3.185571999999979
+13052013_14.21.50.285-0700	Current ways list (possibilities): [222]
+13052013_14.21.50.286-0700	Current way: 222
+13052013_14.21.50.319-0700	User location: [Nicolson Street]
+13052013_14.21.50.319-0700	Current Step Distance (in meters): 9.979008981131663
+13052013_14.21.50.319-0700	user walking: true
+13052013_14.21.50.319-0700	Using calculated orientation
+13052013_14.21.50.319-0700	User orientation:334.49846022886777
+13052013_14.21.50.331-0700	User DACF: null
+13052013_14.21.50.331-0700	Destination id: 89
+13052013_14.21.50.331-0700	Expected current way name: Nicolson Street
+13052013_14.21.50.342-0700	Current adjancent ways: [222]
+13052013_14.21.50.342-0700	Expected way on route: 222
+13052013_14.21.50.343-0700	User reported at expected location
+13052013_14.21.50.343-0700	Prev Distance from Next node: 93.42250244711927
+13052013_14.21.50.343-0700	Current Distance from Next node: 83.47221663758424
+13052013_14.21.50.343-0700	User near Next node: false
+13052013_14.21.50.343-0700	User moving towards Next Node : true
+13052013_14.21.50.343-0700	Expected user orientation: 337.37123289854367
+13052013_14.21.50.343-0700	User in expected orientation: true
+13052013_14.21.50.343-0700	Expecting user to turn:false
+13052013_14.21.50.343-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.21.50.343-0700	UserWalking: true
+13052013_14.21.50.347-0700	Landmarks within 20m:[]
+13052013_14.21.50.348-0700	Landmarks nearby:none
+13052013_14.21.50.348-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":334.49846022886777,"currentUserCoor":"55.946508,-3.185571999999979","cf":"null"}
+13052013_14.21.50.348-0700	Setting lastTimeOfUtterance to 1368480110272
+13052013_14.21.50.348-0700	Setting lastTimeOfDiffCoordinates to 1368480110272
+13052013_14.21.50.348-0700	Sys Utterance: 
+13052013_14.21.50.348-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.21.50.924-0700	
+13052013_14.21.50.924-0700	Run: 19
+13052013_14.21.50.924-0700	
+13052013_14.21.50.924-0700	Time: 1368480110924
+13052013_14.21.50.925-0700	Time between updates: 652
+13052013_14.21.50.925-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94658900000001;-3.18564200000003"}
+13052013_14.21.50.925-0700	User location reported:55.94658900000001;-3.18564200000003
+13052013_14.21.50.925-0700	User DA: {"cf":"null"}
+13052013_14.21.50.925-0700	User reported position: 55.94658900000001,-3.18564200000003
+13052013_14.21.50.926-0700	Coordinates used: reported
+13052013_14.21.50.928-0700	User current position: 55.94658900000001,-3.18564200000003
+13052013_14.21.50.937-0700	Current ways list (possibilities): [222]
+13052013_14.21.50.938-0700	Current way: 222
+13052013_14.21.50.947-0700	User location: [Nicolson Street]
+13052013_14.21.50.948-0700	Current Step Distance (in meters): 10.005970371561956
+13052013_14.21.50.948-0700	user walking: true
+13052013_14.21.50.948-0700	Using calculated orientation
+13052013_14.21.50.948-0700	User orientation:334.176700436346
+13052013_14.21.50.948-0700	User DACF: null
+13052013_14.21.50.948-0700	Destination id: 89
+13052013_14.21.50.948-0700	Expected current way name: Nicolson Street
+13052013_14.21.50.984-0700	Current adjancent ways: [222]
+13052013_14.21.50.984-0700	Expected way on route: 222
+13052013_14.21.50.984-0700	User reported at expected location
+13052013_14.21.50.984-0700	Prev Distance from Next node: 83.47221663758424
+13052013_14.21.50.984-0700	Current Distance from Next node: 73.50816272145235
+13052013_14.21.50.984-0700	User near Next node: false
+13052013_14.21.50.984-0700	User moving towards Next Node : true
+13052013_14.21.50.984-0700	Expected user orientation: 337.37123289854367
+13052013_14.21.50.985-0700	User in expected orientation: true
+13052013_14.21.50.985-0700	Expecting user to turn:false
+13052013_14.21.50.985-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.21.50.985-0700	UserWalking: true
+13052013_14.21.50.989-0700	Landmarks within 20m:[]
+13052013_14.21.50.989-0700	Landmarks nearby:none
+13052013_14.21.50.990-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":334.176700436346,"currentUserCoor":"55.94658900000001,-3.18564200000003","cf":"null"}
+13052013_14.21.50.990-0700	Setting lastTimeOfUtterance to 1368480110924
+13052013_14.21.50.990-0700	Setting lastTimeOfDiffCoordinates to 1368480110924
+13052013_14.21.50.990-0700	Sys Utterance: 
+13052013_14.21.50.990-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.21.51.483-0700	
+13052013_14.21.51.483-0700	Run: 20
+13052013_14.21.51.483-0700	
+13052013_14.21.51.484-0700	Time: 1368480111483
+13052013_14.21.51.484-0700	Time between updates: 559
+13052013_14.21.51.484-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946662;-3.185703999999987"}
+13052013_14.21.51.484-0700	User location reported:55.946662;-3.185703999999987
+13052013_14.21.51.484-0700	User DA: {"cf":"null"}
+13052013_14.21.51.484-0700	User reported position: 55.946662,-3.185703999999987
+13052013_14.21.51.484-0700	Coordinates used: reported
+13052013_14.21.51.485-0700	User current position: 55.946662,-3.185703999999987
+13052013_14.21.51.495-0700	Current ways list (possibilities): [222]
+13052013_14.21.51.496-0700	Current way: 222
+13052013_14.21.51.506-0700	User location: [Nicolson Street]
+13052013_14.21.51.506-0700	Current Step Distance (in meters): 8.98846274791662
+13052013_14.21.51.507-0700	user walking: true
+13052013_14.21.51.507-0700	Using calculated orientation
+13052013_14.21.51.507-0700	User orientation:334.5648876784079
+13052013_14.21.51.507-0700	User DACF: null
+13052013_14.21.51.507-0700	Destination id: 89
+13052013_14.21.51.508-0700	Expected current way name: Nicolson Street
+13052013_14.21.51.522-0700	Current adjancent ways: [222]
+13052013_14.21.51.522-0700	Expected way on route: 222
+13052013_14.21.51.522-0700	User reported at expected location
+13052013_14.21.51.522-0700	Prev Distance from Next node: 73.50816272145235
+13052013_14.21.51.522-0700	Current Distance from Next node: 64.56188588879142
+13052013_14.21.51.522-0700	User near Next node: false
+13052013_14.21.51.522-0700	User moving towards Next Node : true
+13052013_14.21.51.522-0700	Expected user orientation: 337.37123289854367
+13052013_14.21.51.522-0700	User in expected orientation: true
+13052013_14.21.51.523-0700	Expecting user to turn:false
+13052013_14.21.51.523-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.21.51.523-0700	UserWalking: true
+13052013_14.21.51.527-0700	Landmarks within 20m:[]
+13052013_14.21.51.555-0700	Landmarks nearby:none
+13052013_14.21.51.555-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":334.5648876784079,"currentUserCoor":"55.946662,-3.185703999999987","cf":"null"}
+13052013_14.21.51.555-0700	Setting lastTimeOfUtterance to 1368480111483
+13052013_14.21.51.555-0700	Setting lastTimeOfDiffCoordinates to 1368480111483
+13052013_14.21.51.555-0700	Sys Utterance: 
+13052013_14.21.51.556-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.21.52.264-0700	
+13052013_14.21.52.264-0700	Run: 21
+13052013_14.21.52.264-0700	
+13052013_14.21.52.264-0700	Time: 1368480112264
+13052013_14.21.52.265-0700	Time between updates: 781
+13052013_14.21.52.265-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946736;-3.1857559999999694"}
+13052013_14.21.52.265-0700	User location reported:55.946736;-3.1857559999999694
+13052013_14.21.52.265-0700	User DA: {"cf":"null"}
+13052013_14.21.52.265-0700	User reported position: 55.946736,-3.1857559999999694
+13052013_14.21.52.265-0700	Coordinates used: reported
+13052013_14.21.52.265-0700	User current position: 55.946736,-3.1857559999999694
+13052013_14.21.52.281-0700	Current ways list (possibilities): [222]
+13052013_14.21.52.281-0700	Current way: 222
+13052013_14.21.52.291-0700	User location: [Nicolson Street]
+13052013_14.21.52.291-0700	Current Step Distance (in meters): 8.84252446314855
+13052013_14.21.52.291-0700	user walking: true
+13052013_14.21.52.291-0700	Using calculated orientation
+13052013_14.21.52.291-0700	User orientation:338.5209720708169
+13052013_14.21.52.292-0700	User DACF: null
+13052013_14.21.52.292-0700	Destination id: 89
+13052013_14.21.52.292-0700	Expected current way name: Nicolson Street
+13052013_14.21.52.309-0700	Current adjancent ways: [222]
+13052013_14.21.52.310-0700	Expected way on route: 222
+13052013_14.21.52.310-0700	User reported at expected location
+13052013_14.21.52.310-0700	Prev Distance from Next node: 64.56188588879142
+13052013_14.21.52.310-0700	Current Distance from Next node: 55.72542032692516
+13052013_14.21.52.310-0700	User near Next node: false
+13052013_14.21.52.310-0700	User moving towards Next Node : true
+13052013_14.21.52.310-0700	Expected user orientation: 337.37123289854367
+13052013_14.21.52.311-0700	User in expected orientation: true
+13052013_14.21.52.311-0700	Expecting user to turn:false
+13052013_14.21.52.311-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.21.52.311-0700	UserWalking: true
+13052013_14.21.52.315-0700	Landmarks within 20m:[503816]
+13052013_14.21.52.338-0700	Landmark nearby:503816
+13052013_14.21.52.339-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":338.5209720708169,"currentUserCoor":"55.946736,-3.1857559999999694","cf":"null"}
+13052013_14.21.52.339-0700	Setting lastTimeOfUtterance to 1368480112264
+13052013_14.21.52.339-0700	Setting lastTimeOfDiffCoordinates to 1368480112264
+13052013_14.21.52.339-0700	Sys Utterance: 
+13052013_14.21.52.339-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.21.53.639-0700	
+13052013_14.21.53.640-0700	Run: 22
+13052013_14.21.53.640-0700	
+13052013_14.21.53.640-0700	Time: 1368480113640
+13052013_14.21.53.640-0700	Time between updates: 1376
+13052013_14.21.53.640-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946819;-3.1858139999999366"}
+13052013_14.21.53.640-0700	User location reported:55.946819;-3.1858139999999366
+13052013_14.21.53.640-0700	User DA: {"cf":"null"}
+13052013_14.21.53.640-0700	User reported position: 55.946819,-3.1858139999999366
+13052013_14.21.53.641-0700	Coordinates used: reported
+13052013_14.21.53.641-0700	User current position: 55.946819,-3.1858139999999366
+13052013_14.21.53.662-0700	Current ways list (possibilities): [222]
+13052013_14.21.53.662-0700	Current way: 222
+13052013_14.21.53.672-0700	User location: [Nicolson Street]
+13052013_14.21.53.672-0700	Current Step Distance (in meters): 9.910587483128015
+13052013_14.21.53.672-0700	user walking: true
+13052013_14.21.53.672-0700	Using calculated orientation
+13052013_14.21.53.672-0700	User orientation:338.6296536161816
+13052013_14.21.53.675-0700	User DACF: null
+13052013_14.21.53.675-0700	Destination id: 89
+13052013_14.21.53.675-0700	Expected current way name: Nicolson Street
+13052013_14.21.53.689-0700	Current adjancent ways: [222]
+13052013_14.21.53.690-0700	Expected way on route: 222
+13052013_14.21.53.690-0700	User reported at expected location
+13052013_14.21.53.690-0700	Prev Distance from Next node: 55.72542032692516
+13052013_14.21.53.690-0700	Current Distance from Next node: 45.82351231069955
+13052013_14.21.53.690-0700	User near Next node: false
+13052013_14.21.53.690-0700	User moving towards Next Node : true
+13052013_14.21.53.690-0700	Expected user orientation: 337.37123289854367
+13052013_14.21.53.690-0700	User in expected orientation: true
+13052013_14.21.53.690-0700	Expecting user to turn:false
+13052013_14.21.53.690-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.21.53.690-0700	UserWalking: true
+13052013_14.21.53.694-0700	Landmarks within 20m:[503816]
+13052013_14.21.53.694-0700	Landmark nearby:503816
+13052013_14.21.53.695-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":338.6296536161816,"currentUserCoor":"55.946819,-3.1858139999999366","cf":"null"}
+13052013_14.21.53.695-0700	Setting lastTimeOfUtterance to 1368480113640
+13052013_14.21.53.695-0700	Setting lastTimeOfDiffCoordinates to 1368480113640
+13052013_14.21.53.695-0700	Sys Utterance: 
+13052013_14.21.53.695-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.21.54.647-0700	
+13052013_14.21.54.648-0700	Run: 23
+13052013_14.21.54.648-0700	
+13052013_14.21.54.648-0700	Time: 1368480114648
+13052013_14.21.54.648-0700	Time between updates: 1008
+13052013_14.21.54.649-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94690700000002;-3.1858760000000075"}
+13052013_14.21.54.649-0700	User location reported:55.94690700000002;-3.1858760000000075
+13052013_14.21.54.649-0700	User DA: {"cf":"null"}
+13052013_14.21.54.649-0700	User reported position: 55.94690700000002,-3.1858760000000075
+13052013_14.21.54.649-0700	Coordinates used: reported
+13052013_14.21.54.649-0700	User current position: 55.94690700000002,-3.1858760000000075
+13052013_14.21.54.664-0700	Current ways list (possibilities): [222]
+13052013_14.21.54.664-0700	Current way: 222
+13052013_14.21.54.674-0700	User location: [Nicolson Street]
+13052013_14.21.54.674-0700	Current Step Distance (in meters): 10.519129843239872
+13052013_14.21.54.674-0700	user walking: true
+13052013_14.21.54.674-0700	Using calculated orientation
+13052013_14.21.54.674-0700	User orientation:338.4698817044999
+13052013_14.21.54.674-0700	User DACF: null
+13052013_14.21.54.674-0700	Destination id: 89
+13052013_14.21.54.674-0700	Expected current way name: Nicolson Street
+13052013_14.21.54.697-0700	Current adjancent ways: [222]
+13052013_14.21.54.697-0700	Expected way on route: 222
+13052013_14.21.54.697-0700	User reported at expected location
+13052013_14.21.54.697-0700	Prev Distance from Next node: 45.82351231069955
+13052013_14.21.54.697-0700	Current Distance from Next node: 35.3207301734916
+13052013_14.21.54.697-0700	User near Next node: false
+13052013_14.21.54.697-0700	User moving towards Next Node : true
+13052013_14.21.54.698-0700	Expected user orientation: 337.37123289854367
+13052013_14.21.54.698-0700	User in expected orientation: true
+13052013_14.21.54.698-0700	Expecting user to turn:false
+13052013_14.21.54.698-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.21.54.698-0700	UserWalking: true
+13052013_14.21.54.702-0700	Landmarks within 20m:[503816]
+13052013_14.21.54.702-0700	Landmark nearby:503816
+13052013_14.21.54.702-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":338.4698817044999,"currentUserCoor":"55.94690700000002,-3.1858760000000075","cf":"null"}
+13052013_14.21.54.702-0700	Setting lastTimeOfUtterance to 1368480114648
+13052013_14.21.54.702-0700	Setting lastTimeOfDiffCoordinates to 1368480114648
+13052013_14.21.54.704-0700	Sys Utterance: 
+13052013_14.21.54.704-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.21.56.554-0700	
+13052013_14.21.56.554-0700	Run: 24
+13052013_14.21.56.554-0700	
+13052013_14.21.56.554-0700	Time: 1368480116554
+13052013_14.21.56.554-0700	Time between updates: 1906
+13052013_14.21.56.554-0700	userResponse:{"userDA":"{\"cf\":\"requestDirection\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946907;-3.1858760000000075"}
+13052013_14.21.56.554-0700	User location reported:55.946907;-3.1858760000000075
+13052013_14.21.56.555-0700	User DA: {"cf":"requestDirection"}
+13052013_14.21.56.555-0700	User reported position: 55.946907,-3.1858760000000075
+13052013_14.21.56.555-0700	Coordinates used: reported
+13052013_14.21.56.555-0700	User current position: 55.946907,-3.1858760000000075
+13052013_14.21.56.565-0700	Current ways list (possibilities): [222]
+13052013_14.21.56.565-0700	Current way: 222
+13052013_14.21.56.575-0700	User location: [Nicolson Street]
+13052013_14.21.56.575-0700	Current Step Distance (in meters): 1.5801749476133683E-9
+13052013_14.21.56.575-0700	user walking: false
+13052013_14.21.56.575-0700	Using previous orientation
+13052013_14.21.56.575-0700	User orientation:338.4698817044999
+13052013_14.21.56.575-0700	User DACF: requestDirection
+13052013_14.21.56.576-0700	Destination id: 89
+13052013_14.21.56.576-0700	Expected current way name: Nicolson Street
+13052013_14.21.56.587-0700	Current adjancent ways: [222]
+13052013_14.21.56.587-0700	Expected way on route: 222
+13052013_14.21.56.588-0700	User reported at expected location
+13052013_14.21.56.588-0700	Prev Distance from Next node: 35.3207301734916
+13052013_14.21.56.588-0700	Current Distance from Next node: 35.32073017499537
+13052013_14.21.56.588-0700	User near Next node: false
+13052013_14.21.56.588-0700	User moving towards Next Node : false
+13052013_14.21.56.588-0700	Expected user orientation: 337.37123289854367
+13052013_14.21.56.588-0700	User in expected orientation: true
+13052013_14.21.56.588-0700	User asked for directions. He needs to turn 3.6392433104050497
+13052013_14.21.56.588-0700	Expecting user to turn:false
+13052013_14.21.56.588-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.21.56.588-0700	UserWalking: false
+13052013_14.21.56.592-0700	Landmarks within 20m:[503816]
+13052013_14.21.56.592-0700	Landmark nearby:503816
+13052013_14.21.56.593-0700	SysDA: {"userDA":"{\"cf\":\"requestDirection\"}","index":4,"currentUserOrientation":338.4698817044999,"route":hw.macs.gruve.Route@10310199,"currentUserCoor":"55.946907,-3.1858760000000075","cf":"presentRoute"}
+13052013_14.21.56.594-0700	Setting lastTimeOfUtterance to 1368480116554
+13052013_14.21.56.594-0700	Setting lastTimeOfDiffCoordinates to 1368480116554
+13052013_14.21.56.594-0700	Sys Utterance: Head straight, continue on: Nicolson Street.
+13052013_14.21.56.594-0700	sysResponse: {"utterance":"Head straight, continue on: Nicolson Street.","uttType":"navInstruction"}
+13052013_14.21.58.195-0700	
+13052013_14.21.58.195-0700	Run: 25
+13052013_14.21.58.195-0700	
+13052013_14.21.58.196-0700	Time: 1368480118196
+13052013_14.21.58.196-0700	Time between updates: 1642
+13052013_14.21.58.196-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946991;-3.18593199999998"}
+13052013_14.21.58.196-0700	User location reported:55.946991;-3.18593199999998
+13052013_14.21.58.196-0700	User DA: {"cf":"null"}
+13052013_14.21.58.196-0700	User reported position: 55.946991,-3.18593199999998
+13052013_14.21.58.196-0700	Coordinates used: reported
+13052013_14.21.58.197-0700	User current position: 55.946991,-3.18593199999998
+13052013_14.21.58.220-0700	Current ways list (possibilities): [222]
+13052013_14.21.58.221-0700	Current way: 222
+13052013_14.21.58.231-0700	User location: [Nicolson Street]
+13052013_14.21.58.232-0700	Current Step Distance (in meters): 9.969981745979782
+13052013_14.21.58.232-0700	user walking: true
+13052013_14.21.58.232-0700	Using calculated orientation
+13052013_14.21.58.232-0700	User orientation:339.5290752405658
+13052013_14.21.58.232-0700	User DACF: null
+13052013_14.21.58.232-0700	Destination id: 89
+13052013_14.21.58.232-0700	Expected current way name: Nicolson Street
+13052013_14.21.58.253-0700	Current adjancent ways: [222]
+13052013_14.21.58.253-0700	Expected way on route: 222
+13052013_14.21.58.253-0700	User reported at expected location
+13052013_14.21.58.253-0700	Prev Distance from Next node: 35.32073017499537
+13052013_14.21.58.253-0700	Current Distance from Next node: 25.364825756260934
+13052013_14.21.58.253-0700	User near Next node: false
+13052013_14.21.58.253-0700	User moving towards Next Node : true
+13052013_14.21.58.254-0700	Expected user orientation: 337.37123289854367
+13052013_14.21.58.254-0700	User in expected orientation: true
+13052013_14.21.58.254-0700	Expecting user to turn:false
+13052013_14.21.58.254-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.21.58.254-0700	UserWalking: true
+13052013_14.21.58.258-0700	Landmarks within 20m:[503816]
+13052013_14.21.58.258-0700	Landmark nearby:503816
+13052013_14.21.58.258-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":339.5290752405658,"currentUserCoor":"55.946991,-3.18593199999998","cf":"null"}
+13052013_14.21.58.258-0700	Setting lastTimeOfUtterance to 1368480118196
+13052013_14.21.58.258-0700	Setting lastTimeOfDiffCoordinates to 1368480118196
+13052013_14.21.58.258-0700	Sys Utterance: 
+13052013_14.21.58.259-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.21.58.901-0700	
+13052013_14.21.58.901-0700	Run: 26
+13052013_14.21.58.901-0700	
+13052013_14.21.58.901-0700	Time: 1368480118901
+13052013_14.21.58.901-0700	Time between updates: 705
+13052013_14.21.58.902-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.947084000000004;-3.185993000000053"}
+13052013_14.21.58.902-0700	User location reported:55.947084000000004;-3.185993000000053
+13052013_14.21.58.902-0700	User DA: {"cf":"null"}
+13052013_14.21.58.902-0700	User reported position: 55.947084000000004,-3.185993000000053
+13052013_14.21.58.902-0700	Coordinates used: reported
+13052013_14.21.58.902-0700	User current position: 55.947084000000004,-3.185993000000053
+13052013_14.21.58.912-0700	Current ways list (possibilities): [107, 468, 222]
+13052013_14.21.58.912-0700	Current way: 107
+13052013_14.21.58.921-0700	User location: [South College Street, Drummond Street, Nicolson Street]
+13052013_14.21.58.922-0700	Current Step Distance (in meters): 11.016569526239206
+13052013_14.21.58.922-0700	user walking: true
+13052013_14.21.58.922-0700	Using calculated orientation
+13052013_14.21.58.922-0700	User orientation:339.83250196963706
+13052013_14.21.58.922-0700	User DACF: null
+13052013_14.21.58.922-0700	Destination id: 89
+13052013_14.21.58.922-0700	Expected current way name: Nicolson Street
+13052013_14.21.58.966-0700	Current adjancent ways: [107, 468, 222]
+13052013_14.21.58.966-0700	Expected way on route: 222
+13052013_14.21.58.966-0700	User reported at expected location
+13052013_14.21.58.966-0700	Prev Distance from Next node: 25.364825756260934
+13052013_14.21.58.966-0700	Current Distance from Next node: 14.380326261828012
+13052013_14.21.58.966-0700	User near Next node: false
+13052013_14.21.58.966-0700	User moving towards Next Node : true
+13052013_14.21.58.966-0700	Expected user orientation: 337.37123289854367
+13052013_14.21.58.967-0700	User in expected orientation: true
+13052013_14.21.58.967-0700	Expecting user to turn:false
+13052013_14.21.58.967-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.21.58.967-0700	UserWalking: true
+13052013_14.21.58.971-0700	Landmarks within 20m:[]
+13052013_14.21.58.972-0700	Landmarks nearby:none
+13052013_14.21.58.972-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":339.83250196963706,"currentUserCoor":"55.947084000000004,-3.185993000000053","cf":"null"}
+13052013_14.21.58.972-0700	Setting lastTimeOfUtterance to 1368480118901
+13052013_14.21.58.972-0700	Setting lastTimeOfDiffCoordinates to 1368480118901
+13052013_14.21.58.972-0700	Sys Utterance: 
+13052013_14.21.58.972-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.21.59.348-0700	
+13052013_14.21.59.348-0700	Run: 27
+13052013_14.21.59.348-0700	
+13052013_14.21.59.348-0700	Time: 1368480119348
+13052013_14.21.59.348-0700	Time between updates: 447
+13052013_14.21.59.348-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.947215;-3.1860699999999724"}
+13052013_14.21.59.349-0700	User location reported:55.947215;-3.1860699999999724
+13052013_14.21.59.349-0700	User DA: {"cf":"null"}
+13052013_14.21.59.349-0700	User reported position: 55.947215,-3.1860699999999724
+13052013_14.21.59.349-0700	Coordinates used: reported
+13052013_14.21.59.349-0700	User current position: 55.947215,-3.1860699999999724
+13052013_14.21.59.375-0700	Current ways list (possibilities): [486, 107, 468, 222]
+13052013_14.21.59.375-0700	Current way: 486
+13052013_14.21.59.384-0700	User location: [South Bridge, South College Street, Drummond Street, Nicolson Street]
+13052013_14.21.59.385-0700	Current Step Distance (in meters): 15.335248427413019
+13052013_14.21.59.385-0700	user walking: true
+13052013_14.21.59.385-0700	Using calculated orientation
+13052013_14.21.59.385-0700	User orientation:341.7818339804941
+13052013_14.21.59.385-0700	User DACF: null
+13052013_14.21.59.385-0700	Destination id: 89
+13052013_14.21.59.385-0700	Expected current way name: Nicolson Street
+13052013_14.21.59.394-0700	Current adjancent ways: [486, 107, 468, 222]
+13052013_14.21.59.394-0700	Expected way on route: 222
+13052013_14.21.59.395-0700	User reported at expected location
+13052013_14.21.59.395-0700	Prev Distance from Next node: 14.380326261828012
+13052013_14.21.59.395-0700	Current Distance from Next node: 1.3831165589787964
+13052013_14.21.59.395-0700	User near Next node: true
+13052013_14.21.59.395-0700	User moving towards Next Node : true
+13052013_14.21.59.395-0700	Expected user orientation: 337.37123289854367
+13052013_14.21.59.395-0700	User in expected orientation: true
+13052013_14.21.59.395-0700	Expecting user to turn:false
+13052013_14.21.59.395-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.21.59.395-0700	UserWalking: true
+13052013_14.21.59.399-0700	Landmarks within 20m:[]
+13052013_14.21.59.400-0700	Landmarks nearby:none
+13052013_14.21.59.400-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":341.7818339804941,"entityId":"89","currentUserCoor":"55.947215,-3.1860699999999724","cf":"destinationReached","entityName":"South College Street"}
+13052013_14.21.59.400-0700	Setting lastTimeOfUtterance to 1368480119348
+13052013_14.21.59.400-0700	Setting lastTimeOfDiffCoordinates to 1368480119348
+13052013_14.21.59.400-0700	Sys Utterance: We have reached South College Street
+13052013_14.21.59.400-0700	sysResponse: {"utterance":"We have reached South College Street","uttType":"navInstruction"}
+13052013_14.22.09.474-0700	
+13052013_14.22.09.474-0700	Run: 28
+13052013_14.22.09.474-0700	
+13052013_14.22.09.474-0700	Time: 1368480129474
+13052013_14.22.09.474-0700	Time between updates: 10126
+13052013_14.22.09.474-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.947215;-3.1860699999999724"}
+13052013_14.22.09.474-0700	User location reported:55.947215;-3.1860699999999724
+13052013_14.22.09.474-0700	User DA: {"cf":"null"}
+13052013_14.22.09.474-0700	User reported position: 55.947215,-3.1860699999999724
+13052013_14.22.09.475-0700	Coordinates used: reported
+13052013_14.22.09.475-0700	User current position: 55.947215,-3.1860699999999724
+13052013_14.22.09.480-0700	Current ways list (possibilities): [486, 107, 468, 222]
+13052013_14.22.09.480-0700	Current way: 486
+13052013_14.22.09.487-0700	User location: [South Bridge, South College Street, Drummond Street, Nicolson Street]
+13052013_14.22.09.487-0700	Current Step Distance (in meters): 0.0
+13052013_14.22.09.487-0700	user walking: false
+13052013_14.22.09.487-0700	Using previous orientation
+13052013_14.22.09.487-0700	User orientation:341.7818339804941
+13052013_14.22.09.487-0700	User DACF: null
+13052013_14.22.09.487-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":341.7818339804941,"currentUserCoor":"55.947215,-3.1860699999999724","cf":"null"}
+13052013_14.22.09.487-0700	Setting lastTimeOfUtterance to 1368480129474
+13052013_14.22.09.487-0700	Sys Utterance: 
+13052013_14.22.09.487-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.22.11.976-0700	
+13052013_14.22.11.976-0700	Run: 29
+13052013_14.22.11.976-0700	
+13052013_14.22.11.976-0700	Time: 1368480131976
+13052013_14.22.11.976-0700	Time between updates: 2502
+13052013_14.22.11.976-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.947084000000004;-3.185993000000053"}
+13052013_14.22.11.977-0700	User location reported:55.947084000000004;-3.185993000000053
+13052013_14.22.11.977-0700	User DA: {"cf":"null"}
+13052013_14.22.11.977-0700	User reported position: 55.947084000000004,-3.185993000000053
+13052013_14.22.11.977-0700	Coordinates used: reported
+13052013_14.22.11.977-0700	User current position: 55.947084000000004,-3.185993000000053
+13052013_14.22.11.987-0700	Current ways list (possibilities): [107, 468, 222]
+13052013_14.22.11.988-0700	Current way: 107
+13052013_14.22.11.997-0700	User location: [South College Street, Drummond Street, Nicolson Street]
+13052013_14.22.11.998-0700	Current Step Distance (in meters): 15.335248427413019
+13052013_14.22.11.998-0700	user walking: true
+13052013_14.22.11.998-0700	Using calculated orientation
+13052013_14.22.11.998-0700	User orientation:161.78177018449355
+13052013_14.22.11.998-0700	User DACF: null
+13052013_14.22.11.998-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":161.78177018449355,"currentUserCoor":"55.947084000000004,-3.185993000000053","cf":"null"}
+13052013_14.22.11.998-0700	Setting lastTimeOfUtterance to 1368480131976
+13052013_14.22.11.998-0700	Setting lastTimeOfDiffCoordinates to 1368480131976
+13052013_14.22.11.998-0700	Sys Utterance: 
+13052013_14.22.11.998-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.22.12.774-0700	
+13052013_14.22.12.774-0700	Run: 30
+13052013_14.22.12.774-0700	
+13052013_14.22.12.775-0700	Time: 1368480132775
+13052013_14.22.12.775-0700	Time between updates: 799
+13052013_14.22.12.775-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946991;-3.18593199999998"}
+13052013_14.22.12.775-0700	User location reported:55.946991;-3.18593199999998
+13052013_14.22.12.775-0700	User DA: {"cf":"null"}
+13052013_14.22.12.775-0700	User reported position: 55.946991,-3.18593199999998
+13052013_14.22.12.775-0700	Coordinates used: reported
+13052013_14.22.12.775-0700	User current position: 55.946991,-3.18593199999998
+13052013_14.22.12.785-0700	Current ways list (possibilities): [222]
+13052013_14.22.12.785-0700	Current way: 222
+13052013_14.22.12.795-0700	User location: [Nicolson Street]
+13052013_14.22.12.795-0700	Current Step Distance (in meters): 11.016569526239206
+13052013_14.22.12.795-0700	user walking: true
+13052013_14.22.12.796-0700	Using calculated orientation
+13052013_14.22.12.796-0700	User orientation:159.83245142934697
+13052013_14.22.12.796-0700	User DACF: null
+13052013_14.22.12.796-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":159.83245142934697,"currentUserCoor":"55.946991,-3.18593199999998","cf":"null"}
+13052013_14.22.12.796-0700	Setting lastTimeOfUtterance to 1368480132775
+13052013_14.22.12.796-0700	Setting lastTimeOfDiffCoordinates to 1368480132775
+13052013_14.22.12.796-0700	Sys Utterance: 
+13052013_14.22.12.796-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.22.13.530-0700	
+13052013_14.22.13.530-0700	Run: 31
+13052013_14.22.13.531-0700	
+13052013_14.22.13.531-0700	Time: 1368480133531
+13052013_14.22.13.531-0700	Time between updates: 756
+13052013_14.22.13.531-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94690700000002;-3.1858760000000075"}
+13052013_14.22.13.531-0700	User location reported:55.94690700000002;-3.1858760000000075
+13052013_14.22.13.531-0700	User DA: {"cf":"null"}
+13052013_14.22.13.531-0700	User reported position: 55.94690700000002,-3.1858760000000075
+13052013_14.22.13.531-0700	Coordinates used: reported
+13052013_14.22.13.532-0700	User current position: 55.94690700000002,-3.1858760000000075
+13052013_14.22.13.542-0700	Current ways list (possibilities): [222]
+13052013_14.22.13.542-0700	Current way: 222
+13052013_14.22.13.551-0700	User location: [Nicolson Street]
+13052013_14.22.13.551-0700	Current Step Distance (in meters): 9.969981744499396
+13052013_14.22.13.551-0700	user walking: true
+13052013_14.22.13.551-0700	Using calculated orientation
+13052013_14.22.13.552-0700	User orientation:159.52902884050218
+13052013_14.22.13.552-0700	User DACF: null
+13052013_14.22.13.552-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":159.52902884050218,"currentUserCoor":"55.94690700000002,-3.1858760000000075","cf":"null"}
+13052013_14.22.13.552-0700	Setting lastTimeOfUtterance to 1368480133531
+13052013_14.22.13.552-0700	Setting lastTimeOfDiffCoordinates to 1368480133531
+13052013_14.22.13.552-0700	Sys Utterance: 
+13052013_14.22.13.552-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.22.15.061-0700	
+13052013_14.22.15.061-0700	Run: 32
+13052013_14.22.15.061-0700	
+13052013_14.22.15.061-0700	Time: 1368480135061
+13052013_14.22.15.061-0700	Time between updates: 1530
+13052013_14.22.15.062-0700	userResponse:{"userDA":"{\"cf\":\"requestDirection\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946907;-3.1858760000000075"}
+13052013_14.22.15.062-0700	User location reported:55.946907;-3.1858760000000075
+13052013_14.22.15.062-0700	User DA: {"cf":"requestDirection"}
+13052013_14.22.15.062-0700	User reported position: 55.946907,-3.1858760000000075
+13052013_14.22.15.062-0700	Coordinates used: reported
+13052013_14.22.15.062-0700	User current position: 55.946907,-3.1858760000000075
+13052013_14.22.15.073-0700	Current ways list (possibilities): [222]
+13052013_14.22.15.073-0700	Current way: 222
+13052013_14.22.15.082-0700	User location: [Nicolson Street]
+13052013_14.22.15.083-0700	Current Step Distance (in meters): 1.5801749476133683E-9
+13052013_14.22.15.083-0700	user walking: false
+13052013_14.22.15.083-0700	Using previous orientation
+13052013_14.22.15.083-0700	User orientation:159.52902884050218
+13052013_14.22.15.083-0700	User DACF: requestDirection
+13052013_14.22.15.083-0700	SysDA: {"userDA":"{\"cf\":\"requestDirection\"}","currentUserOrientation":159.52902884050218,"currentUserCoor":"55.946907,-3.1858760000000075","cf":"null"}
+13052013_14.22.15.083-0700	Setting lastTimeOfUtterance to 1368480135061
+13052013_14.22.15.083-0700	Setting lastTimeOfDiffCoordinates to 1368480135061
+13052013_14.22.15.083-0700	Sys Utterance: 
+13052013_14.22.15.083-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.22.15.747-0700	
+13052013_14.22.15.748-0700	Run: 33
+13052013_14.22.15.748-0700	
+13052013_14.22.15.748-0700	Time: 1368480135748
+13052013_14.22.15.748-0700	Time between updates: 687
+13052013_14.22.15.748-0700	userResponse:{"userDA":"{\"cf\":\"requestDirection\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946907;-3.1858760000000075"}
+13052013_14.22.15.748-0700	User location reported:55.946907;-3.1858760000000075
+13052013_14.22.15.748-0700	User DA: {"cf":"requestDirection"}
+13052013_14.22.15.748-0700	User reported position: 55.946907,-3.1858760000000075
+13052013_14.22.15.748-0700	Coordinates used: reported
+13052013_14.22.15.748-0700	User current position: 55.946907,-3.1858760000000075
+13052013_14.22.15.758-0700	Current ways list (possibilities): [222]
+13052013_14.22.15.758-0700	Current way: 222
+13052013_14.22.15.768-0700	User location: [Nicolson Street]
+13052013_14.22.15.768-0700	Current Step Distance (in meters): 0.0
+13052013_14.22.15.768-0700	user walking: false
+13052013_14.22.15.768-0700	Using previous orientation
+13052013_14.22.15.768-0700	User orientation:159.52902884050218
+13052013_14.22.15.768-0700	User DACF: requestDirection
+13052013_14.22.15.768-0700	SysDA: {"userDA":"{\"cf\":\"requestDirection\"}","currentUserOrientation":159.52902884050218,"currentUserCoor":"55.946907,-3.1858760000000075","cf":"null"}
+13052013_14.22.15.769-0700	Setting lastTimeOfUtterance to 1368480135748
+13052013_14.22.15.769-0700	Sys Utterance: 
+13052013_14.22.15.769-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.22.15.905-0700	
+13052013_14.22.15.905-0700	Run: 34
+13052013_14.22.15.906-0700	
+13052013_14.22.15.906-0700	Time: 1368480135906
+13052013_14.22.15.906-0700	Time between updates: 158
+13052013_14.22.15.906-0700	userResponse:{"userDA":"{\"cf\":\"requestDirection\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946907;-3.1858760000000075"}
+13052013_14.22.15.906-0700	User location reported:55.946907;-3.1858760000000075
+13052013_14.22.15.906-0700	User DA: {"cf":"requestDirection"}
+13052013_14.22.15.906-0700	User reported position: 55.946907,-3.1858760000000075
+13052013_14.22.15.906-0700	Coordinates used: reported
+13052013_14.22.15.906-0700	User current position: 55.946907,-3.1858760000000075
+13052013_14.22.15.915-0700	Current ways list (possibilities): [222]
+13052013_14.22.15.916-0700	Current way: 222
+13052013_14.22.15.926-0700	User location: [Nicolson Street]
+13052013_14.22.15.926-0700	Current Step Distance (in meters): 0.0
+13052013_14.22.15.926-0700	user walking: false
+13052013_14.22.15.926-0700	Using previous orientation
+13052013_14.22.15.926-0700	User orientation:159.52902884050218
+13052013_14.22.15.926-0700	User DACF: requestDirection
+13052013_14.22.15.926-0700	SysDA: {"userDA":"{\"cf\":\"requestDirection\"}","currentUserOrientation":159.52902884050218,"currentUserCoor":"55.946907,-3.1858760000000075","cf":"null"}
+13052013_14.22.15.926-0700	Setting lastTimeOfUtterance to 1368480135906
+13052013_14.22.15.926-0700	Sys Utterance: 
+13052013_14.22.15.926-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.22.16.039-0700	
+13052013_14.22.16.039-0700	Run: 35
+13052013_14.22.16.039-0700	
+13052013_14.22.16.039-0700	Time: 1368480136039
+13052013_14.22.16.039-0700	Time between updates: 133
+13052013_14.22.16.039-0700	userResponse:{"userDA":"{\"cf\":\"requestDirection\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946907;-3.1858760000000075"}
+13052013_14.22.16.040-0700	User location reported:55.946907;-3.1858760000000075
+13052013_14.22.16.040-0700	User DA: {"cf":"requestDirection"}
+13052013_14.22.16.040-0700	User reported position: 55.946907,-3.1858760000000075
+13052013_14.22.16.040-0700	Coordinates used: reported
+13052013_14.22.16.040-0700	User current position: 55.946907,-3.1858760000000075
+13052013_14.22.16.049-0700	Current ways list (possibilities): [222]
+13052013_14.22.16.049-0700	Current way: 222
+13052013_14.22.16.059-0700	User location: [Nicolson Street]
+13052013_14.22.16.059-0700	Current Step Distance (in meters): 0.0
+13052013_14.22.16.059-0700	user walking: false
+13052013_14.22.16.059-0700	Using previous orientation
+13052013_14.22.16.059-0700	User orientation:159.52902884050218
+13052013_14.22.16.059-0700	User DACF: requestDirection
+13052013_14.22.16.059-0700	SysDA: {"userDA":"{\"cf\":\"requestDirection\"}","currentUserOrientation":159.52902884050218,"currentUserCoor":"55.946907,-3.1858760000000075","cf":"null"}
+13052013_14.22.16.059-0700	Setting lastTimeOfUtterance to 1368480136039
+13052013_14.22.16.059-0700	Sys Utterance: 
+13052013_14.22.16.060-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.22.16.490-0700	
+13052013_14.22.16.490-0700	Run: 36
+13052013_14.22.16.491-0700	
+13052013_14.22.16.491-0700	Time: 1368480136491
+13052013_14.22.16.491-0700	Time between updates: 452
+13052013_14.22.16.491-0700	userResponse:{"userDA":"{\"cf\":\"requestDirection\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946907;-3.1858760000000075"}
+13052013_14.22.16.491-0700	User location reported:55.946907;-3.1858760000000075
+13052013_14.22.16.491-0700	User DA: {"cf":"requestDirection"}
+13052013_14.22.16.492-0700	User reported position: 55.946907,-3.1858760000000075
+13052013_14.22.16.492-0700	Coordinates used: reported
+13052013_14.22.16.492-0700	User current position: 55.946907,-3.1858760000000075
+13052013_14.22.16.502-0700	Current ways list (possibilities): [222]
+13052013_14.22.16.502-0700	Current way: 222
+13052013_14.22.16.512-0700	User location: [Nicolson Street]
+13052013_14.22.16.512-0700	Current Step Distance (in meters): 0.0
+13052013_14.22.16.512-0700	user walking: false
+13052013_14.22.16.512-0700	Using previous orientation
+13052013_14.22.16.512-0700	User orientation:159.52902884050218
+13052013_14.22.16.512-0700	User DACF: requestDirection
+13052013_14.22.16.513-0700	SysDA: {"userDA":"{\"cf\":\"requestDirection\"}","currentUserOrientation":159.52902884050218,"currentUserCoor":"55.946907,-3.1858760000000075","cf":"null"}
+13052013_14.22.16.513-0700	Setting lastTimeOfUtterance to 1368480136491
+13052013_14.22.16.513-0700	Sys Utterance: 
+13052013_14.22.16.513-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.22.17.131-0700	
+13052013_14.22.17.131-0700	Run: 37
+13052013_14.22.17.131-0700	
+13052013_14.22.17.131-0700	Time: 1368480137131
+13052013_14.22.17.131-0700	Time between updates: 640
+13052013_14.22.17.132-0700	userResponse:{"userDA":"{\"cf\":\"stopDirections\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946907;-3.1858760000000075"}
+13052013_14.22.17.132-0700	User location reported:55.946907;-3.1858760000000075
+13052013_14.22.17.132-0700	User DA: {"cf":"stopDirections"}
+13052013_14.22.17.132-0700	User reported position: 55.946907,-3.1858760000000075
+13052013_14.22.17.132-0700	Coordinates used: reported
+13052013_14.22.17.132-0700	User current position: 55.946907,-3.1858760000000075
+13052013_14.22.17.141-0700	Current ways list (possibilities): [222]
+13052013_14.22.17.141-0700	Current way: 222
+13052013_14.22.17.150-0700	User location: [Nicolson Street]
+13052013_14.22.17.150-0700	Current Step Distance (in meters): 0.0
+13052013_14.22.17.150-0700	user walking: false
+13052013_14.22.17.150-0700	Using previous orientation
+13052013_14.22.17.151-0700	User orientation:159.52902884050218
+13052013_14.22.17.151-0700	User DACF: stopDirections
+13052013_14.22.17.151-0700	SysDA: {"userDA":"{\"cf\":\"stopDirections\"}","currentUserOrientation":159.52902884050218,"currentUserCoor":"55.946907,-3.1858760000000075","cf":"acknowledge"}
+13052013_14.22.17.151-0700	Setting lastTimeOfUtterance to 1368480137131
+13052013_14.22.17.151-0700	Sys Utterance: Alright.
+13052013_14.22.17.151-0700	sysResponse: {"utterance":"Alright.","uttType":"dm"}
+13052013_14.22.18.549-0700	
+13052013_14.22.18.549-0700	Run: 38
+13052013_14.22.18.549-0700	
+13052013_14.22.18.549-0700	Time: 1368480138549
+13052013_14.22.18.549-0700	Time between updates: 1418
+13052013_14.22.18.550-0700	userResponse:{"userDA":"{\"cf\":\"requestRoute\",\"destination_name\":\"South College Street\",\"destination_type\":\"street\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946907;-3.1858760000000075"}
+13052013_14.22.18.550-0700	User location reported:55.946907;-3.1858760000000075
+13052013_14.22.18.550-0700	User DA: {"destination_name":"South College Street","destination_type":"street","cf":"requestRoute"}
+13052013_14.22.18.550-0700	User reported position: 55.946907,-3.1858760000000075
+13052013_14.22.18.550-0700	Coordinates used: reported
+13052013_14.22.18.550-0700	User current position: 55.946907,-3.1858760000000075
+13052013_14.22.18.559-0700	Current ways list (possibilities): [222]
+13052013_14.22.18.560-0700	Current way: 222
+13052013_14.22.18.569-0700	User location: [Nicolson Street]
+13052013_14.22.18.570-0700	Current Step Distance (in meters): 0.0
+13052013_14.22.18.570-0700	user walking: false
+13052013_14.22.18.570-0700	Using previous orientation
+13052013_14.22.18.570-0700	User orientation:159.52902884050218
+13052013_14.22.18.570-0700	User DACF: requestRoute
+13052013_14.22.18.570-0700	SysDA: {"userDA":"{\"destination_name\":\"South College Street\",\"destination_type\":\"street\",\"cf\":\"requestRoute\"}","currentUserOrientation":159.52902884050218,"entityId":"null","currentUserCoor":"55.946907,-3.1858760000000075","cf":"acknowledgeRouteRequest","entityName":"South College Street"}
+13052013_14.22.18.570-0700	Setting lastTimeOfUtterance to 1368480138549
+13052013_14.22.18.570-0700	Sys Utterance: Alright. Finding directions to South College Street. One moment please...
+13052013_14.22.18.570-0700	sysResponse: {"utterance":"Alright. Finding directions to South College Street. One moment please...","uttType":"navInstruction"}
+13052013_14.22.20.550-0700	
+13052013_14.22.20.550-0700	Run: 39
+13052013_14.22.20.551-0700	
+13052013_14.22.20.551-0700	Time: 1368480140551
+13052013_14.22.20.551-0700	Time between updates: 2002
+13052013_14.22.20.551-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94690700000002;-3.1858760000000075"}
+13052013_14.22.20.551-0700	User location reported:55.94690700000002;-3.1858760000000075
+13052013_14.22.20.551-0700	User DA: {"cf":"null"}
+13052013_14.22.20.551-0700	User reported position: 55.94690700000002,-3.1858760000000075
+13052013_14.22.20.551-0700	Coordinates used: reported
+13052013_14.22.20.551-0700	User current position: 55.94690700000002,-3.1858760000000075
+13052013_14.22.20.560-0700	Current ways list (possibilities): [222]
+13052013_14.22.20.560-0700	Current way: 222
+13052013_14.22.20.570-0700	User location: [Nicolson Street]
+13052013_14.22.20.570-0700	Current Step Distance (in meters): 1.5801749476133683E-9
+13052013_14.22.20.570-0700	user walking: false
+13052013_14.22.20.570-0700	Using previous orientation
+13052013_14.22.20.570-0700	User orientation:159.52902884050218
+13052013_14.22.20.570-0700	User DACF: null
+13052013_14.22.20.626-0700	Finding route to 89,South College Street on [South Bridge, South College Street, Drummond Street, Nicolson Street] at 55.947209286489546,-3.1860502684478433
+13052013_14.22.20.626-0700	Found destination coordinates: 55.947209286489546,-3.1860502684478433
+13052013_14.22.20.670-0700	First node: 89
+13052013_14.22.20.670-0700	There is only one node!
+13052013_14.22.20.670-0700	Next node: 89
+13052013_14.22.20.670-0700	Next Next node: null
+13052013_14.22.20.705-0700	Next Way: null
+13052013_14.22.20.708-0700	Closest node: 89
+13052013_14.22.20.717-0700	Current Way: 222
+13052013_14.22.20.717-0700	Route ready
+13052013_14.22.20.717-0700	Destination id: 89
+13052013_14.22.20.717-0700	Expected current way name: Nicolson Street
+13052013_14.22.20.727-0700	Current adjancent ways: [222]
+13052013_14.22.20.727-0700	Expected way on route: 222
+13052013_14.22.20.727-0700	User reported at expected location
+13052013_14.22.20.730-0700	Prev Distance from Next node: 36.3207301734916
+13052013_14.22.20.730-0700	Current Distance from Next node: 35.3207301734916
+13052013_14.22.20.730-0700	User near Next node: false
+13052013_14.22.20.730-0700	User moving towards Next Node : true
+13052013_14.22.20.730-0700	To reach the next node, user should turn -177.41990382630217
+13052013_14.22.20.730-0700	Expected user orientation: 342.1091250142
+13052013_14.22.20.730-0700	User in expected orientation: false
+13052013_14.22.20.730-0700	User asked for directions. He needs to turn -177.41990382630217
+13052013_14.22.20.730-0700	Expecting user to turn:false
+13052013_14.22.20.730-0700	Warning: user may be walking in the wrong direction
+13052013_14.22.20.730-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.22.20.730-0700	UserWalking: false
+13052013_14.22.20.734-0700	Landmarks within 20m:[503816]
+13052013_14.22.20.734-0700	Landmark nearby:503816
+13052013_14.22.20.735-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","index":4,"currentUserOrientation":159.52902884050218,"route":hw.macs.gruve.Route@618d7f32,"currentUserCoor":"55.94690700000002,-3.1858760000000075","cf":"presentRoute"}
+13052013_14.22.20.743-0700	Setting lastTimeOfUtterance to 1368480140551
+13052013_14.22.20.743-0700	Sys Utterance: 
+13052013_14.22.20.744-0700	sysResponse: {"utterance":"","uttType":"navInstruction"}
+13052013_14.22.30.619-0700	
+13052013_14.22.30.619-0700	Run: 40
+13052013_14.22.30.619-0700	
+13052013_14.22.30.619-0700	Time: 1368480150619
+13052013_14.22.30.619-0700	Time between updates: 10068
+13052013_14.22.30.619-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94690700000002;-3.1858760000000075"}
+13052013_14.22.30.619-0700	User location reported:55.94690700000002;-3.1858760000000075
+13052013_14.22.30.619-0700	User DA: {"cf":"null"}
+13052013_14.22.30.620-0700	User reported position: 55.94690700000002,-3.1858760000000075
+13052013_14.22.30.620-0700	Coordinates used: reported
+13052013_14.22.30.620-0700	User current position: 55.94690700000002,-3.1858760000000075
+13052013_14.22.30.630-0700	Current ways list (possibilities): [222]
+13052013_14.22.30.630-0700	Current way: 222
+13052013_14.22.30.639-0700	User location: [Nicolson Street]
+13052013_14.22.30.640-0700	Current Step Distance (in meters): 0.0
+13052013_14.22.30.640-0700	user walking: false
+13052013_14.22.30.640-0700	Using previous orientation
+13052013_14.22.30.640-0700	User orientation:159.52902884050218
+13052013_14.22.30.640-0700	User DACF: null
+13052013_14.22.30.640-0700	Destination id: 89
+13052013_14.22.30.640-0700	Expected current way name: Nicolson Street
+13052013_14.22.30.650-0700	Current adjancent ways: [222]
+13052013_14.22.30.650-0700	Expected way on route: 222
+13052013_14.22.30.650-0700	User reported at expected location
+13052013_14.22.30.695-0700	Prev Distance from Next node: 35.3207301734916
+13052013_14.22.30.696-0700	Current Distance from Next node: 35.3207301734916
+13052013_14.22.30.696-0700	User near Next node: false
+13052013_14.22.30.696-0700	User moving towards Next Node : false
+13052013_14.22.30.696-0700	Expected user orientation: 342.1091250142
+13052013_14.22.30.697-0700	User in expected orientation: false
+13052013_14.22.30.697-0700	User asked for directions. He needs to turn -177.41990382630217
+13052013_14.22.30.698-0700	Expecting user to turn:false
+13052013_14.22.30.698-0700	Warning: user may be walking in the wrong direction
+13052013_14.22.30.698-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.22.30.698-0700	UserWalking: false
+13052013_14.22.30.707-0700	Landmarks within 20m:[503816]
+13052013_14.22.30.707-0700	Landmark nearby:503816
+13052013_14.22.30.707-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":159.52902884050218,"currentUserCoor":"55.94690700000002,-3.1858760000000075","cf":"navigationHelpPrompt"}
+13052013_14.22.30.707-0700	Setting lastTimeOfUtterance to 1368480150619
+13052013_14.22.30.708-0700	Sys Utterance: 
+13052013_14.22.30.708-0700	sysResponse: {"utterance":"","uttType":"navInstruction"}
+13052013_14.22.40.622-0700	
+13052013_14.22.40.622-0700	Run: 41
+13052013_14.22.40.622-0700	
+13052013_14.22.40.622-0700	Time: 1368480160622
+13052013_14.22.40.622-0700	Time between updates: 10003
+13052013_14.22.40.622-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94690700000002;-3.1858760000000075"}
+13052013_14.22.40.623-0700	User location reported:55.94690700000002;-3.1858760000000075
+13052013_14.22.40.623-0700	User DA: {"cf":"null"}
+13052013_14.22.40.623-0700	User reported position: 55.94690700000002,-3.1858760000000075
+13052013_14.22.40.623-0700	Coordinates used: reported
+13052013_14.22.40.623-0700	User current position: 55.94690700000002,-3.1858760000000075
+13052013_14.22.40.634-0700	Current ways list (possibilities): [222]
+13052013_14.22.40.634-0700	Current way: 222
+13052013_14.22.40.647-0700	User location: [Nicolson Street]
+13052013_14.22.40.648-0700	Current Step Distance (in meters): 0.0
+13052013_14.22.40.648-0700	user walking: false
+13052013_14.22.40.648-0700	Using previous orientation
+13052013_14.22.40.648-0700	User orientation:159.52902884050218
+13052013_14.22.40.648-0700	User DACF: null
+13052013_14.22.40.648-0700	Destination id: 89
+13052013_14.22.40.648-0700	Expected current way name: Nicolson Street
+13052013_14.22.40.675-0700	Current adjancent ways: [222]
+13052013_14.22.40.676-0700	Expected way on route: 222
+13052013_14.22.40.676-0700	User reported at expected location
+13052013_14.22.40.676-0700	Prev Distance from Next node: 35.3207301734916
+13052013_14.22.40.676-0700	Current Distance from Next node: 35.3207301734916
+13052013_14.22.40.676-0700	User near Next node: false
+13052013_14.22.40.676-0700	User moving towards Next Node : false
+13052013_14.22.40.676-0700	Expected user orientation: 342.1091250142
+13052013_14.22.40.676-0700	User in expected orientation: false
+13052013_14.22.40.676-0700	User asked for directions. He needs to turn -177.41990382630217
+13052013_14.22.40.676-0700	Expecting user to turn:false
+13052013_14.22.40.676-0700	Warning: user may be walking in the wrong direction
+13052013_14.22.40.676-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.22.40.676-0700	UserWalking: false
+13052013_14.22.40.683-0700	Landmarks within 20m:[503816]
+13052013_14.22.40.684-0700	Landmark nearby:503816
+13052013_14.22.40.684-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","index":4,"currentUserOrientation":159.52902884050218,"route":hw.macs.gruve.Route@618d7f32,"currentUserCoor":"55.94690700000002,-3.1858760000000075","cf":"presentRoute"}
+13052013_14.22.40.684-0700	Setting lastTimeOfUtterance to 1368480160622
+13052013_14.22.40.684-0700	Sys Utterance: 
+13052013_14.22.40.685-0700	sysResponse: {"utterance":"","uttType":"navInstruction"}
+13052013_14.22.50.616-0700	
+13052013_14.22.50.616-0700	Run: 42
+13052013_14.22.50.616-0700	
+13052013_14.22.50.616-0700	Time: 1368480170616
+13052013_14.22.50.617-0700	Time between updates: 9994
+13052013_14.22.50.617-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94690700000002;-3.1858760000000075"}
+13052013_14.22.50.617-0700	User location reported:55.94690700000002;-3.1858760000000075
+13052013_14.22.50.617-0700	User DA: {"cf":"null"}
+13052013_14.22.50.617-0700	User reported position: 55.94690700000002,-3.1858760000000075
+13052013_14.22.50.617-0700	Coordinates used: reported
+13052013_14.22.50.617-0700	User current position: 55.94690700000002,-3.1858760000000075
+13052013_14.22.50.627-0700	Current ways list (possibilities): [222]
+13052013_14.22.50.627-0700	Current way: 222
+13052013_14.22.50.637-0700	User location: [Nicolson Street]
+13052013_14.22.50.637-0700	Current Step Distance (in meters): 0.0
+13052013_14.22.50.637-0700	user walking: false
+13052013_14.22.50.637-0700	Using previous orientation
+13052013_14.22.50.637-0700	User orientation:159.52902884050218
+13052013_14.22.50.637-0700	User DACF: null
+13052013_14.22.50.637-0700	Destination id: 89
+13052013_14.22.50.637-0700	Expected current way name: Nicolson Street
+13052013_14.22.50.647-0700	Current adjancent ways: [222]
+13052013_14.22.50.647-0700	Expected way on route: 222
+13052013_14.22.50.647-0700	User reported at expected location
+13052013_14.22.50.647-0700	Prev Distance from Next node: 35.3207301734916
+13052013_14.22.50.647-0700	Current Distance from Next node: 35.3207301734916
+13052013_14.22.50.647-0700	User near Next node: false
+13052013_14.22.50.647-0700	User moving towards Next Node : false
+13052013_14.22.50.647-0700	Expected user orientation: 342.1091250142
+13052013_14.22.50.647-0700	User in expected orientation: false
+13052013_14.22.50.647-0700	Expecting user to turn:false
+13052013_14.22.50.647-0700	Warning: user may be walking in the wrong direction
+13052013_14.22.50.647-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.22.50.647-0700	UserWalking: false
+13052013_14.22.50.651-0700	Landmarks within 20m:[503816]
+13052013_14.22.50.651-0700	Landmark nearby:503816
+13052013_14.22.50.652-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":159.52902884050218,"currentUserCoor":"55.94690700000002,-3.1858760000000075","cf":"null"}
+13052013_14.22.50.652-0700	Setting lastTimeOfUtterance to 1368480170616
+13052013_14.22.50.652-0700	Sys Utterance: 
+13052013_14.22.50.652-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.22.59.992-0700	
+13052013_14.22.59.993-0700	Run: 43
+13052013_14.22.59.993-0700	
+13052013_14.22.59.993-0700	Time: 1368480179993
+13052013_14.22.59.993-0700	Time between updates: 9377
+13052013_14.22.59.993-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946819;-3.1858139999999366"}
+13052013_14.22.59.993-0700	User location reported:55.946819;-3.1858139999999366
+13052013_14.22.59.993-0700	User DA: {"cf":"null"}
+13052013_14.22.59.993-0700	User reported position: 55.946819,-3.1858139999999366
+13052013_14.22.59.993-0700	Coordinates used: reported
+13052013_14.22.59.993-0700	User current position: 55.946819,-3.1858139999999366
+13052013_14.23.00.003-0700	Current ways list (possibilities): [222]
+13052013_14.23.00.004-0700	Current way: 222
+13052013_14.23.00.014-0700	User location: [Nicolson Street]
+13052013_14.23.00.014-0700	Current Step Distance (in meters): 10.519129843239872
+13052013_14.23.00.014-0700	user walking: true
+13052013_14.23.00.014-0700	Using calculated orientation
+13052013_14.23.00.015-0700	User orientation:158.4698303365551
+13052013_14.23.00.015-0700	User DACF: null
+13052013_14.23.00.015-0700	Destination id: 89
+13052013_14.23.00.015-0700	Expected current way name: Nicolson Street
+13052013_14.23.00.026-0700	Current adjancent ways: [222]
+13052013_14.23.00.026-0700	Expected way on route: 222
+13052013_14.23.00.026-0700	User reported at expected location
+13052013_14.23.00.026-0700	Prev Distance from Next node: 35.3207301734916
+13052013_14.23.00.026-0700	Current Distance from Next node: 45.82351231069955
+13052013_14.23.00.026-0700	User near Next node: false
+13052013_14.23.00.026-0700	User moving towards Next Node : false
+13052013_14.23.00.026-0700	Expected user orientation: 342.1091250142
+13052013_14.23.00.026-0700	User in expected orientation: false
+13052013_14.23.00.027-0700	Expecting user to turn:false
+13052013_14.23.00.027-0700	Warning: user may be walking in the wrong direction
+13052013_14.23.00.027-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.23.00.027-0700	UserWalking: true
+13052013_14.23.00.032-0700	Landmarks within 20m:[503816]
+13052013_14.23.00.032-0700	Landmark nearby:503816
+13052013_14.23.00.032-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":158.4698303365551,"currentUserCoor":"55.946819,-3.1858139999999366","cf":"null"}
+13052013_14.23.00.032-0700	Setting lastTimeOfUtterance to 1368480179993
+13052013_14.23.00.032-0700	Setting lastTimeOfDiffCoordinates to 1368480179993
+13052013_14.23.00.032-0700	Sys Utterance: 
+13052013_14.23.00.032-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.23.00.582-0700	
+13052013_14.23.00.582-0700	Run: 44
+13052013_14.23.00.582-0700	
+13052013_14.23.00.582-0700	Time: 1368480180582
+13052013_14.23.00.582-0700	Time between updates: 589
+13052013_14.23.00.583-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946736;-3.1857559999999694"}
+13052013_14.23.00.583-0700	User location reported:55.946736;-3.1857559999999694
+13052013_14.23.00.583-0700	User DA: {"cf":"null"}
+13052013_14.23.00.583-0700	User reported position: 55.946736,-3.1857559999999694
+13052013_14.23.00.583-0700	Coordinates used: reported
+13052013_14.23.00.583-0700	User current position: 55.946736,-3.1857559999999694
+13052013_14.23.00.594-0700	Current ways list (possibilities): [222]
+13052013_14.23.00.594-0700	Current way: 222
+13052013_14.23.00.604-0700	User location: [Nicolson Street]
+13052013_14.23.00.604-0700	Current Step Distance (in meters): 9.910587483128015
+13052013_14.23.00.604-0700	user walking: true
+13052013_14.23.00.604-0700	Using calculated orientation
+13052013_14.23.00.604-0700	User orientation:158.62960556236817
+13052013_14.23.00.604-0700	User DACF: null
+13052013_14.23.00.604-0700	Destination id: 89
+13052013_14.23.00.604-0700	Expected current way name: Nicolson Street
+13052013_14.23.00.619-0700	Current adjancent ways: [222]
+13052013_14.23.00.625-0700	Expected way on route: 222
+13052013_14.23.00.625-0700	User reported at expected location
+13052013_14.23.00.625-0700	Prev Distance from Next node: 45.82351231069955
+13052013_14.23.00.625-0700	Current Distance from Next node: 55.72542032692516
+13052013_14.23.00.625-0700	User near Next node: false
+13052013_14.23.00.626-0700	User moving towards Next Node : false
+13052013_14.23.00.626-0700	Expected user orientation: 342.1091250142
+13052013_14.23.00.626-0700	User in expected orientation: false
+13052013_14.23.00.626-0700	Expecting user to turn:false
+13052013_14.23.00.626-0700	Warning: user may be walking in the wrong direction
+13052013_14.23.00.626-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.23.00.626-0700	UserWalking: true
+13052013_14.23.00.635-0700	Landmarks within 20m:[503816]
+13052013_14.23.00.635-0700	Landmark nearby:503816
+13052013_14.23.00.636-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":158.62960556236817,"currentUserCoor":"55.946736,-3.1857559999999694","cf":"null"}
+13052013_14.23.00.636-0700	Setting lastTimeOfUtterance to 1368480180582
+13052013_14.23.00.636-0700	Setting lastTimeOfDiffCoordinates to 1368480180582
+13052013_14.23.00.636-0700	Sys Utterance: 
+13052013_14.23.00.636-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.23.01.085-0700	
+13052013_14.23.01.085-0700	Run: 45
+13052013_14.23.01.085-0700	
+13052013_14.23.01.085-0700	Time: 1368480181085
+13052013_14.23.01.085-0700	Time between updates: 503
+13052013_14.23.01.085-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946662;-3.185703999999987"}
+13052013_14.23.01.085-0700	User location reported:55.946662;-3.185703999999987
+13052013_14.23.01.085-0700	User DA: {"cf":"null"}
+13052013_14.23.01.086-0700	User reported position: 55.946662,-3.185703999999987
+13052013_14.23.01.086-0700	Coordinates used: reported
+13052013_14.23.01.086-0700	User current position: 55.946662,-3.185703999999987
+13052013_14.23.01.096-0700	Current ways list (possibilities): [222]
+13052013_14.23.01.097-0700	Current way: 222
+13052013_14.23.01.106-0700	User location: [Nicolson Street]
+13052013_14.23.01.106-0700	Current Step Distance (in meters): 8.84252446314855
+13052013_14.23.01.106-0700	user walking: true
+13052013_14.23.01.106-0700	Using calculated orientation
+13052013_14.23.01.106-0700	User orientation:158.52092898795615
+13052013_14.23.01.106-0700	User DACF: null
+13052013_14.23.01.106-0700	Destination id: 89
+13052013_14.23.01.106-0700	Expected current way name: Nicolson Street
+13052013_14.23.01.121-0700	Current adjancent ways: [222]
+13052013_14.23.01.121-0700	Expected way on route: 222
+13052013_14.23.01.122-0700	User reported at expected location
+13052013_14.23.01.122-0700	Prev Distance from Next node: 55.72542032692516
+13052013_14.23.01.122-0700	Current Distance from Next node: 64.56188588879142
+13052013_14.23.01.122-0700	User near Next node: false
+13052013_14.23.01.122-0700	User moving towards Next Node : false
+13052013_14.23.01.122-0700	Expected user orientation: 342.1091250142
+13052013_14.23.01.122-0700	User in expected orientation: false
+13052013_14.23.01.122-0700	Expecting user to turn:false
+13052013_14.23.01.122-0700	Warning: user may be walking in the wrong direction
+13052013_14.23.01.122-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.23.01.122-0700	UserWalking: true
+13052013_14.23.01.129-0700	Landmarks within 20m:[]
+13052013_14.23.01.129-0700	Landmarks nearby:none
+13052013_14.23.01.129-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":158.52092898795615,"currentUserCoor":"55.946662,-3.185703999999987","cf":"null"}
+13052013_14.23.01.130-0700	Setting lastTimeOfUtterance to 1368480181085
+13052013_14.23.01.130-0700	Setting lastTimeOfDiffCoordinates to 1368480181085
+13052013_14.23.01.130-0700	Sys Utterance: 
+13052013_14.23.01.130-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.23.01.528-0700	
+13052013_14.23.01.529-0700	Run: 46
+13052013_14.23.01.529-0700	
+13052013_14.23.01.529-0700	Time: 1368480181529
+13052013_14.23.01.529-0700	Time between updates: 444
+13052013_14.23.01.529-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94658900000001;-3.18564200000003"}
+13052013_14.23.01.529-0700	User location reported:55.94658900000001;-3.18564200000003
+13052013_14.23.01.529-0700	User DA: {"cf":"null"}
+13052013_14.23.01.529-0700	User reported position: 55.94658900000001,-3.18564200000003
+13052013_14.23.01.529-0700	Coordinates used: reported
+13052013_14.23.01.529-0700	User current position: 55.94658900000001,-3.18564200000003
+13052013_14.23.01.548-0700	Current ways list (possibilities): [222]
+13052013_14.23.01.548-0700	Current way: 222
+13052013_14.23.01.555-0700	User location: [Nicolson Street]
+13052013_14.23.01.555-0700	Current Step Distance (in meters): 8.98846274791662
+13052013_14.23.01.555-0700	user walking: true
+13052013_14.23.01.555-0700	Using calculated orientation
+13052013_14.23.01.555-0700	User orientation:154.5648363107158
+13052013_14.23.01.555-0700	User DACF: null
+13052013_14.23.01.555-0700	Destination id: 89
+13052013_14.23.01.555-0700	Expected current way name: Nicolson Street
+13052013_14.23.01.564-0700	Current adjancent ways: [222]
+13052013_14.23.01.564-0700	Expected way on route: 222
+13052013_14.23.01.564-0700	User reported at expected location
+13052013_14.23.01.565-0700	Prev Distance from Next node: 64.56188588879142
+13052013_14.23.01.565-0700	Current Distance from Next node: 73.50816272145235
+13052013_14.23.01.565-0700	User near Next node: false
+13052013_14.23.01.565-0700	User moving towards Next Node : false
+13052013_14.23.01.565-0700	Expected user orientation: 342.1091250142
+13052013_14.23.01.565-0700	User in expected orientation: false
+13052013_14.23.01.565-0700	Expecting user to turn:false
+13052013_14.23.01.565-0700	Warning: user may be walking in the wrong direction
+13052013_14.23.01.565-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.23.01.565-0700	UserWalking: true
+13052013_14.23.01.568-0700	Landmarks within 20m:[]
+13052013_14.23.01.568-0700	Landmarks nearby:none
+13052013_14.23.01.569-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":154.5648363107158,"currentUserCoor":"55.94658900000001,-3.18564200000003","cf":"null"}
+13052013_14.23.01.569-0700	Setting lastTimeOfUtterance to 1368480181529
+13052013_14.23.01.569-0700	Setting lastTimeOfDiffCoordinates to 1368480181529
+13052013_14.23.01.569-0700	Sys Utterance: 
+13052013_14.23.01.569-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.23.02.305-0700	
+13052013_14.23.02.305-0700	Run: 47
+13052013_14.23.02.305-0700	
+13052013_14.23.02.305-0700	Time: 1368480182305
+13052013_14.23.02.305-0700	Time between updates: 776
+13052013_14.23.02.305-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946508;-3.185571999999979"}
+13052013_14.23.02.306-0700	User location reported:55.946508;-3.185571999999979
+13052013_14.23.02.306-0700	User DA: {"cf":"null"}
+13052013_14.23.02.306-0700	User reported position: 55.946508,-3.185571999999979
+13052013_14.23.02.306-0700	Coordinates used: reported
+13052013_14.23.02.306-0700	User current position: 55.946508,-3.185571999999979
+13052013_14.23.02.317-0700	Current ways list (possibilities): [222]
+13052013_14.23.02.317-0700	Current way: 222
+13052013_14.23.02.332-0700	User location: [Nicolson Street]
+13052013_14.23.02.332-0700	Current Step Distance (in meters): 10.005970371561956
+13052013_14.23.02.332-0700	user walking: true
+13052013_14.23.02.332-0700	Using calculated orientation
+13052013_14.23.02.332-0700	User orientation:154.17664244094783
+13052013_14.23.02.332-0700	User DACF: null
+13052013_14.23.02.332-0700	Destination id: 89
+13052013_14.23.02.332-0700	Expected current way name: Nicolson Street
+13052013_14.23.02.350-0700	Current adjancent ways: [222]
+13052013_14.23.02.350-0700	Expected way on route: 222
+13052013_14.23.02.350-0700	User reported at expected location
+13052013_14.23.02.351-0700	Prev Distance from Next node: 73.50816272145235
+13052013_14.23.02.351-0700	Current Distance from Next node: 83.47221663758424
+13052013_14.23.02.351-0700	User near Next node: false
+13052013_14.23.02.351-0700	User moving towards Next Node : false
+13052013_14.23.02.351-0700	Expected user orientation: 342.1091250142
+13052013_14.23.02.351-0700	User in expected orientation: false
+13052013_14.23.02.351-0700	Expecting user to turn:false
+13052013_14.23.02.351-0700	Warning: user may be walking in the wrong direction
+13052013_14.23.02.351-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.23.02.351-0700	UserWalking: true
+13052013_14.23.02.357-0700	Landmarks within 20m:[]
+13052013_14.23.02.358-0700	Landmarks nearby:none
+13052013_14.23.02.358-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":154.17664244094783,"currentUserCoor":"55.946508,-3.185571999999979","cf":"null"}
+13052013_14.23.02.358-0700	Setting lastTimeOfUtterance to 1368480182305
+13052013_14.23.02.358-0700	Setting lastTimeOfDiffCoordinates to 1368480182305
+13052013_14.23.02.358-0700	Sys Utterance: 
+13052013_14.23.02.358-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.23.02.737-0700	
+13052013_14.23.02.738-0700	Run: 48
+13052013_14.23.02.738-0700	
+13052013_14.23.02.738-0700	Time: 1368480182738
+13052013_14.23.02.738-0700	Time between updates: 433
+13052013_14.23.02.738-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94642699999999;-3.1855030000000397"}
+13052013_14.23.02.738-0700	User location reported:55.94642699999999;-3.1855030000000397
+13052013_14.23.02.738-0700	User DA: {"cf":"null"}
+13052013_14.23.02.738-0700	User reported position: 55.94642699999999,-3.1855030000000397
+13052013_14.23.02.738-0700	Coordinates used: reported
+13052013_14.23.02.738-0700	User current position: 55.94642699999999,-3.1855030000000397
+13052013_14.23.02.756-0700	Current ways list (possibilities): [222]
+13052013_14.23.02.756-0700	Current way: 222
+13052013_14.23.02.764-0700	User location: [Nicolson Street]
+13052013_14.23.02.764-0700	Current Step Distance (in meters): 9.979008981131663
+13052013_14.23.02.765-0700	user walking: true
+13052013_14.23.02.765-0700	Using calculated orientation
+13052013_14.23.02.765-0700	User orientation:154.49840306215378
+13052013_14.23.02.765-0700	User DACF: null
+13052013_14.23.02.765-0700	Destination id: 89
+13052013_14.23.02.765-0700	Expected current way name: Nicolson Street
+13052013_14.23.02.773-0700	Current adjancent ways: [222]
+13052013_14.23.02.773-0700	Expected way on route: 222
+13052013_14.23.02.773-0700	User reported at expected location
+13052013_14.23.02.773-0700	Prev Distance from Next node: 83.47221663758424
+13052013_14.23.02.773-0700	Current Distance from Next node: 93.42250244711927
+13052013_14.23.02.773-0700	User near Next node: false
+13052013_14.23.02.773-0700	User moving towards Next Node : false
+13052013_14.23.02.773-0700	Expected user orientation: 342.1091250142
+13052013_14.23.02.773-0700	User in expected orientation: false
+13052013_14.23.02.773-0700	Expecting user to turn:false
+13052013_14.23.02.773-0700	Warning: user may be walking in the wrong direction
+13052013_14.23.02.774-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.23.02.774-0700	UserWalking: true
+13052013_14.23.02.777-0700	Landmarks within 20m:[8976]
+13052013_14.23.02.777-0700	Landmark nearby:8976
+13052013_14.23.02.777-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":154.49840306215378,"currentUserCoor":"55.94642699999999,-3.1855030000000397","cf":"null"}
+13052013_14.23.02.777-0700	Setting lastTimeOfUtterance to 1368480182738
+13052013_14.23.02.777-0700	Setting lastTimeOfDiffCoordinates to 1368480182738
+13052013_14.23.02.777-0700	Sys Utterance: 
+13052013_14.23.02.777-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.23.03.297-0700	
+13052013_14.23.03.297-0700	Run: 49
+13052013_14.23.03.297-0700	
+13052013_14.23.03.297-0700	Time: 1368480183297
+13052013_14.23.03.297-0700	Time between updates: 559
+13052013_14.23.03.297-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946335000000005;-3.1854210000000194"}
+13052013_14.23.03.298-0700	User location reported:55.946335000000005;-3.1854210000000194
+13052013_14.23.03.299-0700	User DA: {"cf":"null"}
+13052013_14.23.03.299-0700	User reported position: 55.946335000000005,-3.1854210000000194
+13052013_14.23.03.299-0700	Coordinates used: reported
+13052013_14.23.03.299-0700	User current position: 55.946335000000005,-3.1854210000000194
+13052013_14.23.03.311-0700	Current ways list (possibilities): [229, 222]
+13052013_14.23.03.311-0700	Current way: 229
+13052013_14.23.03.321-0700	User location: [Nicolson Square, Nicolson Street]
+13052013_14.23.03.321-0700	Current Step Distance (in meters): 11.433309329550166
+13052013_14.23.03.321-0700	user walking: true
+13052013_14.23.03.321-0700	Using calculated orientation
+13052013_14.23.03.322-0700	User orientation:153.4760746622179
+13052013_14.23.03.322-0700	User DACF: null
+13052013_14.23.03.322-0700	Destination id: 89
+13052013_14.23.03.322-0700	Expected current way name: Nicolson Street
+13052013_14.23.03.344-0700	Current adjancent ways: [229, 222]
+13052013_14.23.03.344-0700	Expected way on route: 222
+13052013_14.23.03.344-0700	User reported at expected location
+13052013_14.23.03.344-0700	Prev Distance from Next node: 93.42250244711927
+13052013_14.23.03.344-0700	Current Distance from Next node: 104.81496674721362
+13052013_14.23.03.344-0700	User near Next node: false
+13052013_14.23.03.344-0700	User moving towards Next Node : false
+13052013_14.23.03.345-0700	Expected user orientation: 342.1091250142
+13052013_14.23.03.345-0700	User in expected orientation: false
+13052013_14.23.03.345-0700	Expecting user to turn:false
+13052013_14.23.03.345-0700	Warning: user may be walking in the wrong direction
+13052013_14.23.03.345-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.23.03.345-0700	UserWalking: true
+13052013_14.23.03.350-0700	Landmarks within 20m:[8976]
+13052013_14.23.03.350-0700	Landmark nearby:8976
+13052013_14.23.03.351-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":153.4760746622179,"currentUserCoor":"55.946335000000005,-3.1854210000000194","cf":"null"}
+13052013_14.23.03.351-0700	Setting lastTimeOfUtterance to 1368480183297
+13052013_14.23.03.351-0700	Setting lastTimeOfDiffCoordinates to 1368480183297
+13052013_14.23.03.351-0700	Sys Utterance: 
+13052013_14.23.03.351-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.23.03.734-0700	
+13052013_14.23.03.734-0700	Run: 50
+13052013_14.23.03.734-0700	
+13052013_14.23.03.734-0700	Time: 1368480183734
+13052013_14.23.03.734-0700	Time between updates: 437
+13052013_14.23.03.734-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946231;-3.185322000000042"}
+13052013_14.23.03.734-0700	User location reported:55.946231;-3.185322000000042
+13052013_14.23.03.734-0700	User DA: {"cf":"null"}
+13052013_14.23.03.734-0700	User reported position: 55.946231,-3.185322000000042
+13052013_14.23.03.734-0700	Coordinates used: reported
+13052013_14.23.03.734-0700	User current position: 55.946231,-3.185322000000042
+13052013_14.23.03.745-0700	Current ways list (possibilities): [230, 229, 222]
+13052013_14.23.03.745-0700	Current way: 230
+13052013_14.23.03.756-0700	User location: [Nicolson Street, Nicolson Square]
+13052013_14.23.03.790-0700	Current Step Distance (in meters): 13.104624423542285
+13052013_14.23.03.790-0700	user walking: true
+13052013_14.23.03.790-0700	Using calculated orientation
+13052013_14.23.03.790-0700	User orientation:151.94018898404022
+13052013_14.23.03.790-0700	User DACF: null
+13052013_14.23.03.790-0700	Destination id: 89
+13052013_14.23.03.790-0700	Expected current way name: Nicolson Street
+13052013_14.23.03.831-0700	Current adjancent ways: [230, 229, 222]
+13052013_14.23.03.831-0700	Expected way on route: 222
+13052013_14.23.03.831-0700	User reported at expected location
+13052013_14.23.03.831-0700	Prev Distance from Next node: 104.81496674721362
+13052013_14.23.03.831-0700	Current Distance from Next node: 117.8534253594932
+13052013_14.23.03.831-0700	User near Next node: false
+13052013_14.23.03.831-0700	User moving towards Next Node : false
+13052013_14.23.03.831-0700	Expected user orientation: 342.1091250142
+13052013_14.23.03.831-0700	User in expected orientation: false
+13052013_14.23.03.831-0700	Expecting user to turn:false
+13052013_14.23.03.832-0700	Warning: user may be walking in the wrong direction
+13052013_14.23.03.832-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.23.03.832-0700	UserWalking: true
+13052013_14.23.03.837-0700	Landmarks within 20m:[8976]
+13052013_14.23.03.837-0700	Landmark nearby:8976
+13052013_14.23.03.837-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":151.94018898404022,"currentUserCoor":"55.946231,-3.185322000000042","cf":"null"}
+13052013_14.23.03.837-0700	Setting lastTimeOfUtterance to 1368480183734
+13052013_14.23.03.838-0700	Setting lastTimeOfDiffCoordinates to 1368480183734
+13052013_14.23.03.838-0700	Sys Utterance: 
+13052013_14.23.03.838-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.23.04.326-0700	
+13052013_14.23.04.326-0700	Run: 51
+13052013_14.23.04.327-0700	
+13052013_14.23.04.327-0700	Time: 1368480184327
+13052013_14.23.04.327-0700	Time between updates: 593
+13052013_14.23.04.327-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946144000000004;-3.1852330000000393"}
+13052013_14.23.04.327-0700	User location reported:55.946144000000004;-3.1852330000000393
+13052013_14.23.04.327-0700	User DA: {"cf":"null"}
+13052013_14.23.04.327-0700	User reported position: 55.946144000000004,-3.1852330000000393
+13052013_14.23.04.327-0700	Coordinates used: reported
+13052013_14.23.04.327-0700	User current position: 55.946144000000004,-3.1852330000000393
+13052013_14.23.04.339-0700	Current ways list (possibilities): [230, 229, 222]
+13052013_14.23.04.340-0700	Current way: 230
+13052013_14.23.04.372-0700	User location: [Nicolson Street, Nicolson Square]
+13052013_14.23.04.372-0700	Current Step Distance (in meters): 11.148793359624172
+13052013_14.23.04.372-0700	user walking: true
+13052013_14.23.04.372-0700	Using calculated orientation
+13052013_14.23.04.373-0700	User orientation:150.19397515200558
+13052013_14.23.04.373-0700	User DACF: null
+13052013_14.23.04.373-0700	Destination id: 89
+13052013_14.23.04.373-0700	Expected current way name: Nicolson Street
+13052013_14.23.04.423-0700	Current adjancent ways: [230, 229, 222]
+13052013_14.23.04.423-0700	Expected way on route: 222
+13052013_14.23.04.423-0700	User reported at expected location
+13052013_14.23.04.423-0700	Prev Distance from Next node: 117.8534253594932
+13052013_14.23.04.423-0700	Current Distance from Next node: 128.92238595907264
+13052013_14.23.04.424-0700	User near Next node: false
+13052013_14.23.04.424-0700	User moving towards Next Node : false
+13052013_14.23.04.424-0700	Expected user orientation: 342.1091250142
+13052013_14.23.04.424-0700	User in expected orientation: false
+13052013_14.23.04.424-0700	Expecting user to turn:false
+13052013_14.23.04.424-0700	Warning: user may be walking in the wrong direction
+13052013_14.23.04.424-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.23.04.424-0700	UserWalking: true
+13052013_14.23.04.431-0700	Landmarks within 20m:[]
+13052013_14.23.04.431-0700	Landmarks nearby:none
+13052013_14.23.04.431-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":150.19397515200558,"currentUserCoor":"55.946144000000004,-3.1852330000000393","cf":"null"}
+13052013_14.23.04.432-0700	Setting lastTimeOfUtterance to 1368480184327
+13052013_14.23.04.432-0700	Setting lastTimeOfDiffCoordinates to 1368480184327
+13052013_14.23.04.432-0700	Sys Utterance: 
+13052013_14.23.04.432-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.23.05.280-0700	
+13052013_14.23.05.280-0700	Run: 52
+13052013_14.23.05.280-0700	
+13052013_14.23.05.280-0700	Time: 1368480185280
+13052013_14.23.05.280-0700	Time between updates: 953
+13052013_14.23.05.280-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94605800000001;-3.1851460000000316"}
+13052013_14.23.05.280-0700	User location reported:55.94605800000001;-3.1851460000000316
+13052013_14.23.05.280-0700	User DA: {"cf":"null"}
+13052013_14.23.05.280-0700	User reported position: 55.94605800000001,-3.1851460000000316
+13052013_14.23.05.280-0700	Coordinates used: reported
+13052013_14.23.05.281-0700	User current position: 55.94605800000001,-3.1851460000000316
+13052013_14.23.05.292-0700	Current ways list (possibilities): [230, 228]
+13052013_14.23.05.292-0700	Current way: 230
+13052013_14.23.05.324-0700	User location: [Nicolson Street, Nicolson Square]
+13052013_14.23.05.324-0700	Current Step Distance (in meters): 10.990540329515802
+13052013_14.23.05.324-0700	user walking: true
+13052013_14.23.05.324-0700	Using calculated orientation
+13052013_14.23.05.324-0700	User orientation:150.4691108487765
+13052013_14.23.05.324-0700	User DACF: null
+13052013_14.23.05.324-0700	Destination id: 89
+13052013_14.23.05.324-0700	Expected current way name: Nicolson Street
+13052013_14.23.05.338-0700	Current adjancent ways: [230, 228]
+13052013_14.23.05.338-0700	Expected way on route: 222
+13052013_14.23.05.338-0700	User NOT reported at expected location
+13052013_14.23.05.339-0700	Prev Distance from Next node: 128.92238595907264
+13052013_14.23.05.339-0700	Current Distance from Next node: 139.8520810129436
+13052013_14.23.05.339-0700	User near Next node: false
+13052013_14.23.05.339-0700	User moving towards Next Node : false
+13052013_14.23.05.339-0700	Expected user orientation: 342.1091250142
+13052013_14.23.05.339-0700	User in expected orientation: false
+13052013_14.23.05.339-0700	Expecting user to turn:false
+13052013_14.23.05.339-0700	Warning: user may be walking in the wrong direction
+13052013_14.23.05.339-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.23.05.339-0700	UserWalking: true
+13052013_14.23.05.358-0700	Landmarks within 20m:[]
+13052013_14.23.05.358-0700	Landmarks nearby:none
+13052013_14.23.05.359-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":150.4691108487765,"currentUserCoor":"55.94605800000001,-3.1851460000000316","cf":"null"}
+13052013_14.23.05.359-0700	Setting lastTimeOfUtterance to 1368480185280
+13052013_14.23.05.359-0700	Setting lastTimeOfDiffCoordinates to 1368480185280
+13052013_14.23.05.359-0700	Sys Utterance: 
+13052013_14.23.05.359-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.23.05.910-0700	
+13052013_14.23.05.910-0700	Run: 53
+13052013_14.23.05.910-0700	
+13052013_14.23.05.910-0700	Time: 1368480185910
+13052013_14.23.05.910-0700	Time between updates: 630
+13052013_14.23.05.910-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946003000000005;-3.1850910000000567"}
+13052013_14.23.05.910-0700	User location reported:55.946003000000005;-3.1850910000000567
+13052013_14.23.05.910-0700	User DA: {"cf":"null"}
+13052013_14.23.05.911-0700	User reported position: 55.946003000000005,-3.1850910000000567
+13052013_14.23.05.911-0700	Coordinates used: reported
+13052013_14.23.05.911-0700	User current position: 55.946003000000005,-3.1850910000000567
+13052013_14.23.05.921-0700	Current ways list (possibilities): [231, 230, 228]
+13052013_14.23.05.921-0700	Current way: 231
+13052013_14.23.05.930-0700	User location: [Nicolson Street, Nicolson Square]
+13052013_14.23.05.931-0700	Current Step Distance (in meters): 7.009294984166005
+13052013_14.23.05.931-0700	user walking: true
+13052013_14.23.05.931-0700	Using calculated orientation
+13052013_14.23.05.931-0700	User orientation:150.75230399716406
+13052013_14.23.05.931-0700	User DACF: null
+13052013_14.23.05.931-0700	Destination id: 89
+13052013_14.23.05.931-0700	Expected current way name: Nicolson Street
+13052013_14.23.05.945-0700	Current adjancent ways: [231, 230, 228]
+13052013_14.23.05.946-0700	Expected way on route: 222
+13052013_14.23.05.946-0700	User NOT reported at expected location
+13052013_14.23.05.946-0700	Prev Distance from Next node: 139.8520810129436
+13052013_14.23.05.946-0700	Current Distance from Next node: 146.83056272186985
+13052013_14.23.05.946-0700	User near Next node: false
+13052013_14.23.05.948-0700	User moving towards Next Node : false
+13052013_14.23.05.948-0700	Expected user orientation: 342.1091250142
+13052013_14.23.05.948-0700	User in expected orientation: false
+13052013_14.23.05.948-0700	Expecting user to turn:false
+13052013_14.23.05.948-0700	Warning: user may be walking in the wrong direction
+13052013_14.23.05.948-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.23.05.948-0700	UserWalking: true
+13052013_14.23.05.953-0700	Landmarks within 20m:[503270, 300512]
+13052013_14.23.05.953-0700	Landmark nearby:503270
+13052013_14.23.05.953-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":150.75230399716406,"currentUserCoor":"55.946003000000005,-3.1850910000000567","cf":"null"}
+13052013_14.23.05.953-0700	Setting lastTimeOfUtterance to 1368480185910
+13052013_14.23.05.953-0700	Setting lastTimeOfDiffCoordinates to 1368480185910
+13052013_14.23.05.953-0700	Sys Utterance: 
+13052013_14.23.05.953-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.23.08.451-0700	
+13052013_14.23.08.451-0700	Run: 54
+13052013_14.23.08.451-0700	
+13052013_14.23.08.451-0700	Time: 1368480188451
+13052013_14.23.08.451-0700	Time between updates: 2541
+13052013_14.23.08.451-0700	userResponse:{"userDA":"{\"cf\":\"requestRoute\",\"destination_name\":\"South College Street\",\"destination_type\":\"street\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946003;-3.1850910000000567"}
+13052013_14.23.08.451-0700	User location reported:55.946003;-3.1850910000000567
+13052013_14.23.08.451-0700	User DA: {"destination_name":"South College Street","destination_type":"street","cf":"requestRoute"}
+13052013_14.23.08.451-0700	User reported position: 55.946003,-3.1850910000000567
+13052013_14.23.08.451-0700	Coordinates used: reported
+13052013_14.23.08.451-0700	User current position: 55.946003,-3.1850910000000567
+13052013_14.23.08.461-0700	Current ways list (possibilities): [231, 230, 228]
+13052013_14.23.08.461-0700	Current way: 231
+13052013_14.23.08.472-0700	User location: [Nicolson Street, Nicolson Square]
+13052013_14.23.08.472-0700	Current Step Distance (in meters): 7.900874738066842E-10
+13052013_14.23.08.472-0700	user walking: false
+13052013_14.23.08.472-0700	Using previous orientation
+13052013_14.23.08.473-0700	User orientation:150.75230399716406
+13052013_14.23.08.473-0700	User DACF: requestRoute
+13052013_14.23.08.473-0700	SysDA: {"userDA":"{\"destination_name\":\"South College Street\",\"destination_type\":\"street\",\"cf\":\"requestRoute\"}","currentUserOrientation":150.75230399716406,"entityId":"89","currentUserCoor":"55.946003,-3.1850910000000567","cf":"acknowledgeRouteRequest","entityName":"South College Street"}
+13052013_14.23.08.473-0700	Setting lastTimeOfUtterance to 1368480188451
+13052013_14.23.08.473-0700	Setting lastTimeOfDiffCoordinates to 1368480188451
+13052013_14.23.08.473-0700	Sys Utterance: Alright. Finding directions to South College Street. One moment please...
+13052013_14.23.08.473-0700	sysResponse: {"utterance":"Alright. Finding directions to South College Street. One moment please...","uttType":"navInstruction"}
+13052013_14.23.10.461-0700	
+13052013_14.23.10.461-0700	Run: 55
+13052013_14.23.10.461-0700	
+13052013_14.23.10.461-0700	Time: 1368480190461
+13052013_14.23.10.461-0700	Time between updates: 2010
+13052013_14.23.10.462-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946003000000005;-3.1850910000000567"}
+13052013_14.23.10.462-0700	User location reported:55.946003000000005;-3.1850910000000567
+13052013_14.23.10.462-0700	User DA: {"cf":"null"}
+13052013_14.23.10.462-0700	User reported position: 55.946003000000005,-3.1850910000000567
+13052013_14.23.10.462-0700	Coordinates used: reported
+13052013_14.23.10.462-0700	User current position: 55.946003000000005,-3.1850910000000567
+13052013_14.23.10.473-0700	Current ways list (possibilities): [231, 230, 228]
+13052013_14.23.10.473-0700	Current way: 231
+13052013_14.23.10.483-0700	User location: [Nicolson Street, Nicolson Square]
+13052013_14.23.10.483-0700	Current Step Distance (in meters): 7.900874738066842E-10
+13052013_14.23.10.483-0700	user walking: false
+13052013_14.23.10.483-0700	Using previous orientation
+13052013_14.23.10.483-0700	User orientation:150.75230399716406
+13052013_14.23.10.483-0700	User DACF: null
+13052013_14.23.10.513-0700	Finding route to 89,South College Street on [South Bridge, South College Street, Drummond Street, Nicolson Street] at 55.947209286489546,-3.1860502684478433
+13052013_14.23.10.513-0700	Found destination coordinates: 55.947209286489546,-3.1860502684478433
+13052013_14.23.10.644-0700	First node: 203
+13052013_14.23.10.644-0700	Second node: 204
+13052013_14.23.10.644-0700	Current loc is close to second node
+13052013_14.23.10.645-0700	Next node: 204
+13052013_14.23.10.645-0700	Next Next node: 89
+13052013_14.23.10.730-0700	Next Way: 222
+13052013_14.23.10.734-0700	Closest node: 203
+13052013_14.23.10.735-0700	Current Way: 230
+13052013_14.23.10.735-0700	Route ready
+13052013_14.23.10.735-0700	Destination id: 89
+13052013_14.23.10.735-0700	Expected current way name: Nicolson Street
+13052013_14.23.10.745-0700	Current adjancent ways: [231, 230, 228]
+13052013_14.23.10.745-0700	Expected way on route: 230
+13052013_14.23.10.745-0700	User reported at expected location
+13052013_14.23.10.745-0700	Prev Distance from Next node: 41.006259896345064
+13052013_14.23.10.745-0700	Current Distance from Next node: 27.85946109354424
+13052013_14.23.10.745-0700	User near Next node: false
+13052013_14.23.10.745-0700	User moving towards Next Node : true
+13052013_14.23.10.745-0700	To reach the next node, user should turn 178.3573503889731
+13052013_14.23.10.745-0700	Expected user orientation: 329.10965438613715
+13052013_14.23.10.746-0700	User in expected orientation: false
+13052013_14.23.10.746-0700	Expecting user to turn:false
+13052013_14.23.10.746-0700	Warning: user may be walking in the wrong direction
+13052013_14.23.10.746-0700	Next node: 204 at 55.946218006324685,-3.1853207075957926
+13052013_14.23.10.746-0700	UserWalking: false
+13052013_14.23.10.750-0700	Landmarks within 20m:[503270, 300512]
+13052013_14.23.10.751-0700	Landmark nearby:503270
+13052013_14.23.10.751-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","index":1,"currentUserOrientation":150.75230399716406,"route":hw.macs.gruve.Route@3d642042,"currentUserCoor":"55.946003000000005,-3.1850910000000567","cf":"presentRoute"}
+13052013_14.23.10.752-0700	Setting lastTimeOfUtterance to 1368480190461
+13052013_14.23.10.752-0700	Sys Utterance: We are <b>2 blocks (node) </b> from our destination. <br/>Turn around, continue on: Nicolson Street.
+13052013_14.23.10.752-0700	sysResponse: {"utterance":"We are <b>2 blocks (node) <\/b> from our destination. <br\/>Turn around, continue on: Nicolson Street.","uttType":"navInstruction"}
+13052013_14.23.20.517-0700	
+13052013_14.23.20.518-0700	Run: 56
+13052013_14.23.20.518-0700	
+13052013_14.23.20.518-0700	Time: 1368480200518
+13052013_14.23.20.518-0700	Time between updates: 10057
+13052013_14.23.20.518-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946003000000005;-3.1850910000000567"}
+13052013_14.23.20.518-0700	User location reported:55.946003000000005;-3.1850910000000567
+13052013_14.23.20.518-0700	User DA: {"cf":"null"}
+13052013_14.23.20.518-0700	User reported position: 55.946003000000005,-3.1850910000000567
+13052013_14.23.20.518-0700	Coordinates used: reported
+13052013_14.23.20.519-0700	User current position: 55.946003000000005,-3.1850910000000567
+13052013_14.23.20.527-0700	Current ways list (possibilities): [231, 230, 228]
+13052013_14.23.20.528-0700	Current way: 231
+13052013_14.23.20.535-0700	User location: [Nicolson Street, Nicolson Square]
+13052013_14.23.20.536-0700	Current Step Distance (in meters): 0.0
+13052013_14.23.20.536-0700	user walking: false
+13052013_14.23.20.536-0700	Using previous orientation
+13052013_14.23.20.536-0700	User orientation:150.75230399716406
+13052013_14.23.20.536-0700	User DACF: null
+13052013_14.23.20.536-0700	Destination id: 89
+13052013_14.23.20.536-0700	Expected current way name: Nicolson Street
+13052013_14.23.20.544-0700	Current adjancent ways: [231, 230, 228]
+13052013_14.23.20.545-0700	Expected way on route: 230
+13052013_14.23.20.545-0700	User reported at expected location
+13052013_14.23.20.545-0700	Prev Distance from Next node: 27.85946109354424
+13052013_14.23.20.545-0700	Current Distance from Next node: 27.85946109354424
+13052013_14.23.20.545-0700	User near Next node: false
+13052013_14.23.20.545-0700	User moving towards Next Node : false
+13052013_14.23.20.545-0700	Expected user orientation: 329.10965438613715
+13052013_14.23.20.545-0700	User in expected orientation: false
+13052013_14.23.20.545-0700	Expecting user to turn:false
+13052013_14.23.20.545-0700	Warning: user may be walking in the wrong direction
+13052013_14.23.20.545-0700	Next node: 204 at 55.946218006324685,-3.1853207075957926
+13052013_14.23.20.545-0700	UserWalking: false
+13052013_14.23.20.549-0700	Landmarks within 20m:[503270, 300512]
+13052013_14.23.20.549-0700	Landmark nearby:503270
+13052013_14.23.20.549-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":150.75230399716406,"currentUserCoor":"55.946003000000005,-3.1850910000000567","cf":"navigationHelpPrompt"}
+13052013_14.23.20.549-0700	Setting lastTimeOfUtterance to 1368480200518
+13052013_14.23.20.549-0700	Sys Utterance: 
+13052013_14.23.20.549-0700	sysResponse: {"utterance":"","uttType":"navInstruction"}
+13052013_14.23.22.932-0700	
+13052013_14.23.22.932-0700	Run: 57
+13052013_14.23.22.932-0700	
+13052013_14.23.22.932-0700	Time: 1368480202932
+13052013_14.23.22.932-0700	Time between updates: 2414
+13052013_14.23.22.932-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945965;-3.1850540000000365"}
+13052013_14.23.22.932-0700	User location reported:55.945965;-3.1850540000000365
+13052013_14.23.22.932-0700	User DA: {"cf":"null"}
+13052013_14.23.22.932-0700	User reported position: 55.945965,-3.1850540000000365
+13052013_14.23.22.932-0700	Coordinates used: reported
+13052013_14.23.22.933-0700	User current position: 55.945965,-3.1850540000000365
+13052013_14.23.22.943-0700	Current ways list (possibilities): [231, 230, 228]
+13052013_14.23.22.943-0700	Current way: 231
+13052013_14.23.22.953-0700	User location: [Nicolson Street, Nicolson Square]
+13052013_14.23.22.954-0700	Current Step Distance (in meters): 4.812671214372997
+13052013_14.23.22.954-0700	user walking: true
+13052013_14.23.22.954-0700	Using calculated orientation
+13052013_14.23.22.954-0700	User orientation:151.39908488525288
+13052013_14.23.22.954-0700	User DACF: null
+13052013_14.23.22.954-0700	Destination id: 89
+13052013_14.23.22.954-0700	Expected current way name: Nicolson Street
+13052013_14.23.22.982-0700	Current adjancent ways: [231, 230, 228]
+13052013_14.23.22.982-0700	Expected way on route: 230
+13052013_14.23.22.982-0700	User reported at expected location
+13052013_14.23.22.982-0700	Prev Distance from Next node: 27.85946109354424
+13052013_14.23.22.983-0700	Current Distance from Next node: 32.668856449814676
+13052013_14.23.22.983-0700	User near Next node: false
+13052013_14.23.22.983-0700	User moving towards Next Node : false
+13052013_14.23.22.983-0700	Expected user orientation: 329.10965438613715
+13052013_14.23.22.983-0700	User in expected orientation: false
+13052013_14.23.22.983-0700	Expecting user to turn:false
+13052013_14.23.22.983-0700	Warning: user may be walking in the wrong direction
+13052013_14.23.22.983-0700	Next node: 204 at 55.946218006324685,-3.1853207075957926
+13052013_14.23.22.983-0700	UserWalking: true
+13052013_14.23.22.987-0700	Landmarks within 20m:[503270, 300512]
+13052013_14.23.22.988-0700	Landmark nearby:503270
+13052013_14.23.22.988-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":151.39908488525288,"currentUserCoor":"55.945965,-3.1850540000000365","cf":"null"}
+13052013_14.23.22.988-0700	Setting lastTimeOfUtterance to 1368480202932
+13052013_14.23.22.988-0700	Setting lastTimeOfDiffCoordinates to 1368480202932
+13052013_14.23.22.988-0700	Sys Utterance: 
+13052013_14.23.22.988-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.23.24.880-0700	
+13052013_14.23.24.880-0700	Run: 58
+13052013_14.23.24.880-0700	
+13052013_14.23.24.880-0700	Time: 1368480204880
+13052013_14.23.24.880-0700	Time between updates: 1948
+13052013_14.23.24.880-0700	userResponse:{"userDA":"{\"cf\":\"requestDirection\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945965;-3.1850540000000365"}
+13052013_14.23.24.880-0700	User location reported:55.945965;-3.1850540000000365
+13052013_14.23.24.880-0700	User DA: {"cf":"requestDirection"}
+13052013_14.23.24.880-0700	User reported position: 55.945965,-3.1850540000000365
+13052013_14.23.24.880-0700	Coordinates used: reported
+13052013_14.23.24.880-0700	User current position: 55.945965,-3.1850540000000365
+13052013_14.23.24.890-0700	Current ways list (possibilities): [231, 230, 228]
+13052013_14.23.24.890-0700	Current way: 231
+13052013_14.23.24.900-0700	User location: [Nicolson Street, Nicolson Square]
+13052013_14.23.24.900-0700	Current Step Distance (in meters): 0.0
+13052013_14.23.24.900-0700	user walking: false
+13052013_14.23.24.900-0700	Using previous orientation
+13052013_14.23.24.900-0700	User orientation:151.39908488525288
+13052013_14.23.24.900-0700	User DACF: requestDirection
+13052013_14.23.24.900-0700	Destination id: 89
+13052013_14.23.24.900-0700	Expected current way name: Nicolson Street
+13052013_14.23.24.910-0700	Current adjancent ways: [231, 230, 228]
+13052013_14.23.24.910-0700	Expected way on route: 230
+13052013_14.23.24.910-0700	User reported at expected location
+13052013_14.23.24.910-0700	Prev Distance from Next node: 32.668856449814676
+13052013_14.23.24.910-0700	Current Distance from Next node: 32.668856449814676
+13052013_14.23.24.911-0700	User near Next node: false
+13052013_14.23.24.911-0700	User moving towards Next Node : false
+13052013_14.23.24.911-0700	Expected user orientation: 329.10965438613715
+13052013_14.23.24.911-0700	User in expected orientation: false
+13052013_14.23.24.911-0700	User asked for directions. He needs to turn 178.0477839208874
+13052013_14.23.24.911-0700	Expecting user to turn:false
+13052013_14.23.24.911-0700	Warning: user may be walking in the wrong direction
+13052013_14.23.24.911-0700	Next node: 204 at 55.946218006324685,-3.1853207075957926
+13052013_14.23.24.911-0700	UserWalking: false
+13052013_14.23.24.915-0700	Landmarks within 20m:[503270, 300512]
+13052013_14.23.24.915-0700	Landmark nearby:503270
+13052013_14.23.24.916-0700	SysDA: {"userDA":"{\"cf\":\"requestDirection\"}","index":1,"currentUserOrientation":151.39908488525288,"route":hw.macs.gruve.Route@3d642042,"currentUserCoor":"55.945965,-3.1850540000000365","cf":"presentRoute"}
+13052013_14.23.24.917-0700	Setting lastTimeOfUtterance to 1368480204880
+13052013_14.23.24.917-0700	Sys Utterance: We are <b>2 blocks (node) </b> from our destination. <br/>Turn around, continue on: Nicolson Street.
+13052013_14.23.24.917-0700	sysResponse: {"utterance":"We are <b>2 blocks (node) <\/b> from our destination. <br\/>Turn around, continue on: Nicolson Street.","uttType":"navInstruction"}
+13052013_14.23.33.081-0700	
+13052013_14.23.33.081-0700	Run: 59
+13052013_14.23.33.082-0700	
+13052013_14.23.33.082-0700	Time: 1368480213082
+13052013_14.23.33.082-0700	Time between updates: 8202
+13052013_14.23.33.082-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946003000000005;-3.1850910000000567"}
+13052013_14.23.33.082-0700	User location reported:55.946003000000005;-3.1850910000000567
+13052013_14.23.33.082-0700	User DA: {"cf":"null"}
+13052013_14.23.33.082-0700	User reported position: 55.946003000000005,-3.1850910000000567
+13052013_14.23.33.082-0700	Coordinates used: reported
+13052013_14.23.33.082-0700	User current position: 55.946003000000005,-3.1850910000000567
+13052013_14.23.33.095-0700	Current ways list (possibilities): [231, 230, 228]
+13052013_14.23.33.095-0700	Current way: 231
+13052013_14.23.33.110-0700	User location: [Nicolson Street, Nicolson Square]
+13052013_14.23.33.110-0700	Current Step Distance (in meters): 4.812671214372997
+13052013_14.23.33.110-0700	user walking: true
+13052013_14.23.33.110-0700	Using calculated orientation
+13052013_14.23.33.110-0700	User orientation:331.3991155414764
+13052013_14.23.33.110-0700	User DACF: null
+13052013_14.23.33.110-0700	Destination id: 89
+13052013_14.23.33.110-0700	Expected current way name: Nicolson Street
+13052013_14.23.33.122-0700	Current adjancent ways: [231, 230, 228]
+13052013_14.23.33.122-0700	Expected way on route: 230
+13052013_14.23.33.122-0700	User reported at expected location
+13052013_14.23.33.122-0700	Prev Distance from Next node: 32.668856449814676
+13052013_14.23.33.122-0700	Current Distance from Next node: 27.85946109354424
+13052013_14.23.33.122-0700	User near Next node: false
+13052013_14.23.33.123-0700	User moving towards Next Node : true
+13052013_14.23.33.123-0700	Expected user orientation: 329.10965438613715
+13052013_14.23.33.123-0700	User in expected orientation: true
+13052013_14.23.33.123-0700	Expecting user to turn:false
+13052013_14.23.33.123-0700	Next node: 204 at 55.946218006324685,-3.1853207075957926
+13052013_14.23.33.123-0700	UserWalking: true
+13052013_14.23.33.126-0700	Landmarks within 20m:[503270, 300512]
+13052013_14.23.33.127-0700	Landmark nearby:503270
+13052013_14.23.33.127-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":331.3991155414764,"currentUserCoor":"55.946003000000005,-3.1850910000000567","cf":"null"}
+13052013_14.23.33.127-0700	Setting lastTimeOfUtterance to 1368480213082
+13052013_14.23.33.127-0700	Setting lastTimeOfDiffCoordinates to 1368480213082
+13052013_14.23.33.127-0700	Sys Utterance: 
+13052013_14.23.33.127-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.23.34.932-0700	
+13052013_14.23.34.932-0700	Run: 60
+13052013_14.23.34.932-0700	
+13052013_14.23.34.932-0700	Time: 1368480214932
+13052013_14.23.34.932-0700	Time between updates: 1850
+13052013_14.23.34.932-0700	userResponse:{"userDA":"{\"cf\":\"requestDirection\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946003;-3.1850910000000567"}
+13052013_14.23.34.933-0700	User location reported:55.946003;-3.1850910000000567
+13052013_14.23.34.933-0700	User DA: {"cf":"requestDirection"}
+13052013_14.23.34.933-0700	User reported position: 55.946003,-3.1850910000000567
+13052013_14.23.34.933-0700	Coordinates used: reported
+13052013_14.23.34.933-0700	User current position: 55.946003,-3.1850910000000567
+13052013_14.23.34.944-0700	Current ways list (possibilities): [231, 230, 228]
+13052013_14.23.34.944-0700	Current way: 231
+13052013_14.23.34.953-0700	User location: [Nicolson Street, Nicolson Square]
+13052013_14.23.34.954-0700	Current Step Distance (in meters): 7.900874738066842E-10
+13052013_14.23.34.954-0700	user walking: false
+13052013_14.23.34.954-0700	Using previous orientation
+13052013_14.23.34.954-0700	User orientation:331.3991155414764
+13052013_14.23.34.954-0700	User DACF: requestDirection
+13052013_14.23.34.954-0700	Destination id: 89
+13052013_14.23.34.954-0700	Expected current way name: Nicolson Street
+13052013_14.23.34.964-0700	Current adjancent ways: [231, 230, 228]
+13052013_14.23.34.964-0700	Expected way on route: 230
+13052013_14.23.34.964-0700	User reported at expected location
+13052013_14.23.34.964-0700	Prev Distance from Next node: 27.85946109354424
+13052013_14.23.34.964-0700	Current Distance from Next node: 27.859461094222265
+13052013_14.23.34.964-0700	User near Next node: false
+13052013_14.23.34.964-0700	User moving towards Next Node : false
+13052013_14.23.34.964-0700	Expected user orientation: 329.10965438613715
+13052013_14.23.34.964-0700	User in expected orientation: true
+13052013_14.23.34.964-0700	User asked for directions. He needs to turn -2.289461154592459
+13052013_14.23.34.964-0700	Expecting user to turn:false
+13052013_14.23.34.964-0700	Next node: 204 at 55.946218006324685,-3.1853207075957926
+13052013_14.23.34.965-0700	UserWalking: false
+13052013_14.23.34.968-0700	Landmarks within 20m:[503270, 300512]
+13052013_14.23.34.968-0700	Landmark nearby:503270
+13052013_14.23.34.969-0700	SysDA: {"userDA":"{\"cf\":\"requestDirection\"}","index":1,"currentUserOrientation":331.3991155414764,"route":hw.macs.gruve.Route@3d642042,"currentUserCoor":"55.946003,-3.1850910000000567","cf":"presentRoute"}
+13052013_14.23.34.969-0700	Setting lastTimeOfUtterance to 1368480214932
+13052013_14.23.34.969-0700	Setting lastTimeOfDiffCoordinates to 1368480214932
+13052013_14.23.34.970-0700	Sys Utterance: We are <b>2 blocks (node) </b> from our destination. <br/>Head straight, continue on: Nicolson Street.
+13052013_14.23.34.970-0700	sysResponse: {"utterance":"We are <b>2 blocks (node) <\/b> from our destination. <br\/>Head straight, continue on: Nicolson Street.","uttType":"navInstruction"}
+13052013_14.23.38.160-0700	
+13052013_14.23.38.160-0700	Run: 61
+13052013_14.23.38.160-0700	
+13052013_14.23.38.160-0700	Time: 1368480218160
+13052013_14.23.38.160-0700	Time between updates: 3228
+13052013_14.23.38.160-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94605800000001;-3.1851460000000316"}
+13052013_14.23.38.160-0700	User location reported:55.94605800000001;-3.1851460000000316
+13052013_14.23.38.160-0700	User DA: {"cf":"null"}
+13052013_14.23.38.161-0700	User reported position: 55.94605800000001,-3.1851460000000316
+13052013_14.23.38.161-0700	Coordinates used: reported
+13052013_14.23.38.161-0700	User current position: 55.94605800000001,-3.1851460000000316
+13052013_14.23.38.171-0700	Current ways list (possibilities): [230, 228]
+13052013_14.23.38.171-0700	Current way: 230
+13052013_14.23.38.181-0700	User location: [Nicolson Street, Nicolson Square]
+13052013_14.23.38.182-0700	Current Step Distance (in meters): 7.0092949848553685
+13052013_14.23.38.182-0700	user walking: true
+13052013_14.23.38.185-0700	Using calculated orientation
+13052013_14.23.38.186-0700	User orientation:330.75234956901966
+13052013_14.23.38.186-0700	User DACF: null
+13052013_14.23.38.186-0700	Destination id: 89
+13052013_14.23.38.186-0700	Expected current way name: Nicolson Street
+13052013_14.23.38.199-0700	Current adjancent ways: [230, 228]
+13052013_14.23.38.200-0700	Expected way on route: 230
+13052013_14.23.38.200-0700	User reported at expected location
+13052013_14.23.38.200-0700	Prev Distance from Next node: 27.859461094222265
+13052013_14.23.38.200-0700	Current Distance from Next node: 20.854014741544542
+13052013_14.23.38.200-0700	User near Next node: false
+13052013_14.23.38.200-0700	User moving towards Next Node : true
+13052013_14.23.38.200-0700	Expected user orientation: 329.10965438613715
+13052013_14.23.38.200-0700	User in expected orientation: true
+13052013_14.23.38.200-0700	Expecting user to turn:false
+13052013_14.23.38.200-0700	Next node: 204 at 55.946218006324685,-3.1853207075957926
+13052013_14.23.38.200-0700	UserWalking: true
+13052013_14.23.38.234-0700	Landmarks within 20m:[]
+13052013_14.23.38.234-0700	Landmarks nearby:none
+13052013_14.23.38.234-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":330.75234956901966,"currentUserCoor":"55.94605800000001,-3.1851460000000316","cf":"null"}
+13052013_14.23.38.234-0700	Setting lastTimeOfUtterance to 1368480218160
+13052013_14.23.38.234-0700	Setting lastTimeOfDiffCoordinates to 1368480218160
+13052013_14.23.38.234-0700	Sys Utterance: 
+13052013_14.23.38.235-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.23.38.709-0700	
+13052013_14.23.38.709-0700	Run: 62
+13052013_14.23.38.709-0700	
+13052013_14.23.38.709-0700	Time: 1368480218709
+13052013_14.23.38.709-0700	Time between updates: 549
+13052013_14.23.38.709-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946144000000004;-3.1852330000000393"}
+13052013_14.23.38.709-0700	User location reported:55.946144000000004;-3.1852330000000393
+13052013_14.23.38.710-0700	User DA: {"cf":"null"}
+13052013_14.23.38.710-0700	User reported position: 55.946144000000004,-3.1852330000000393
+13052013_14.23.38.710-0700	Coordinates used: reported
+13052013_14.23.38.710-0700	User current position: 55.946144000000004,-3.1852330000000393
+13052013_14.23.38.721-0700	Current ways list (possibilities): [230, 229, 222]
+13052013_14.23.38.721-0700	Current way: 230
+13052013_14.23.38.732-0700	User location: [Nicolson Street, Nicolson Square]
+13052013_14.23.38.732-0700	Current Step Distance (in meters): 10.990540329515802
+13052013_14.23.38.732-0700	user walking: true
+13052013_14.23.38.732-0700	Using calculated orientation
+13052013_14.23.38.732-0700	User orientation:330.46918292939336
+13052013_14.23.38.732-0700	User DACF: null
+13052013_14.23.38.732-0700	Destination id: 89
+13052013_14.23.38.732-0700	Expected current way name: Nicolson Street
+13052013_14.23.38.761-0700	Current adjancent ways: [230, 229, 222]
+13052013_14.23.38.761-0700	Expected way on route: 230
+13052013_14.23.38.761-0700	User reported at expected location
+13052013_14.23.38.761-0700	Prev Distance from Next node: 20.854014741544542
+13052013_14.23.38.761-0700	Current Distance from Next node: 9.876398201005376
+13052013_14.23.38.761-0700	User near Next node: true
+13052013_14.23.38.772-0700	Setting nextNode to :89
+13052013_14.23.38.773-0700	Distance to next node:128.92238595907264
+13052013_14.23.38.773-0700	Current Way:222
+13052013_14.23.38.773-0700	Current Way Name: Nicolson Street
+13052013_14.23.38.923-0700	Current Distance from New Next node: 129.09536262281716
+13052013_14.23.38.924-0700	User moving towards Next Node : true
+13052013_14.23.38.924-0700	To reach the next node, user should turn 6.2830674439048835
+13052013_14.23.38.924-0700	Expected user orientation: 336.75225037329824
+13052013_14.23.38.924-0700	User in expected orientation: true
+13052013_14.23.38.924-0700	Expecting user to turn:false
+13052013_14.23.38.924-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.23.38.924-0700	UserWalking: true
+13052013_14.23.38.934-0700	Landmarks within 20m:[]
+13052013_14.23.38.934-0700	Landmarks nearby:none
+13052013_14.23.38.934-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","index":2,"currentUserOrientation":330.46918292939336,"route":hw.macs.gruve.Route@3d642042,"currentUserCoor":"55.946144000000004,-3.1852330000000393","cf":"presentRoute"}
+13052013_14.23.38.935-0700	Setting lastTimeOfUtterance to 1368480218709
+13052013_14.23.38.935-0700	Setting lastTimeOfDiffCoordinates to 1368480218709
+13052013_14.23.38.935-0700	Sys Utterance: Head straight, continue on: Nicolson Street.
+13052013_14.23.38.935-0700	sysResponse: {"utterance":"Head straight, continue on: Nicolson Street.","uttType":"navInstruction"}
+13052013_14.23.39.325-0700	
+13052013_14.23.39.325-0700	Run: 63
+13052013_14.23.39.325-0700	
+13052013_14.23.39.325-0700	Time: 1368480219325
+13052013_14.23.39.325-0700	Time between updates: 616
+13052013_14.23.39.325-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946231;-3.185322000000042"}
+13052013_14.23.39.325-0700	User location reported:55.946231;-3.185322000000042
+13052013_14.23.39.325-0700	User DA: {"cf":"null"}
+13052013_14.23.39.325-0700	User reported position: 55.946231,-3.185322000000042
+13052013_14.23.39.325-0700	Coordinates used: reported
+13052013_14.23.39.325-0700	User current position: 55.946231,-3.185322000000042
+13052013_14.23.39.335-0700	Current ways list (possibilities): [230, 229, 222]
+13052013_14.23.39.335-0700	Current way: 230
+13052013_14.23.39.345-0700	User location: [Nicolson Street, Nicolson Square]
+13052013_14.23.39.346-0700	Current Step Distance (in meters): 11.148793359624172
+13052013_14.23.39.346-0700	user walking: true
+13052013_14.23.39.346-0700	Using calculated orientation
+13052013_14.23.39.346-0700	User orientation:330.1940488896028
+13052013_14.23.39.346-0700	User DACF: null
+13052013_14.23.39.346-0700	Destination id: 89
+13052013_14.23.39.346-0700	Expected current way name: Nicolson Street
+13052013_14.23.39.358-0700	Current adjancent ways: [230, 229, 222]
+13052013_14.23.39.358-0700	Expected way on route: 222
+13052013_14.23.39.358-0700	User reported at expected location
+13052013_14.23.39.358-0700	Prev Distance from Next node: 129.09536262281716
+13052013_14.23.39.358-0700	Current Distance from Next node: 117.8534253594932
+13052013_14.23.39.358-0700	User near Next node: false
+13052013_14.23.39.358-0700	User moving towards Next Node : true
+13052013_14.23.39.358-0700	Expected user orientation: 336.75225037329824
+13052013_14.23.39.358-0700	User in expected orientation: true
+13052013_14.23.39.358-0700	Expecting user to turn:false
+13052013_14.23.39.359-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.23.39.359-0700	UserWalking: true
+13052013_14.23.39.363-0700	Landmarks within 20m:[8976]
+13052013_14.23.39.364-0700	Landmark nearby:8976
+13052013_14.23.39.364-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":330.1940488896028,"currentUserCoor":"55.946231,-3.185322000000042","cf":"null"}
+13052013_14.23.39.364-0700	Setting lastTimeOfUtterance to 1368480219325
+13052013_14.23.39.364-0700	Setting lastTimeOfDiffCoordinates to 1368480219325
+13052013_14.23.39.364-0700	Sys Utterance: 
+13052013_14.23.39.460-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.23.40.470-0700	
+13052013_14.23.40.470-0700	Run: 64
+13052013_14.23.40.470-0700	
+13052013_14.23.40.470-0700	Time: 1368480220470
+13052013_14.23.40.470-0700	Time between updates: 1145
+13052013_14.23.40.470-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946335000000005;-3.1854210000000194"}
+13052013_14.23.40.471-0700	User location reported:55.946335000000005;-3.1854210000000194
+13052013_14.23.40.471-0700	User DA: {"cf":"null"}
+13052013_14.23.40.471-0700	User reported position: 55.946335000000005,-3.1854210000000194
+13052013_14.23.40.471-0700	Coordinates used: reported
+13052013_14.23.40.471-0700	User current position: 55.946335000000005,-3.1854210000000194
+13052013_14.23.40.486-0700	Current ways list (possibilities): [229, 222]
+13052013_14.23.40.486-0700	Current way: 229
+13052013_14.23.40.498-0700	User location: [Nicolson Square, Nicolson Street]
+13052013_14.23.40.498-0700	Current Step Distance (in meters): 13.104624423542285
+13052013_14.23.40.498-0700	user walking: true
+13052013_14.23.40.498-0700	Using calculated orientation
+13052013_14.23.40.498-0700	User orientation:331.94027100667455
+13052013_14.23.40.498-0700	User DACF: null
+13052013_14.23.40.499-0700	Destination id: 89
+13052013_14.23.40.499-0700	Expected current way name: Nicolson Street
+13052013_14.23.40.521-0700	Current adjancent ways: [229, 222]
+13052013_14.23.40.521-0700	Expected way on route: 222
+13052013_14.23.40.521-0700	User reported at expected location
+13052013_14.23.40.521-0700	Prev Distance from Next node: 117.8534253594932
+13052013_14.23.40.521-0700	Current Distance from Next node: 104.81496674721362
+13052013_14.23.40.521-0700	User near Next node: false
+13052013_14.23.40.521-0700	User moving towards Next Node : true
+13052013_14.23.40.521-0700	Expected user orientation: 336.75225037329824
+13052013_14.23.40.521-0700	User in expected orientation: true
+13052013_14.23.40.521-0700	Expecting user to turn:false
+13052013_14.23.40.521-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.23.40.522-0700	UserWalking: true
+13052013_14.23.40.526-0700	Landmarks within 20m:[8976]
+13052013_14.23.40.527-0700	Landmark nearby:8976
+13052013_14.23.40.527-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":331.94027100667455,"currentUserCoor":"55.946335000000005,-3.1854210000000194","cf":"null"}
+13052013_14.23.40.528-0700	Setting lastTimeOfUtterance to 1368480220470
+13052013_14.23.40.528-0700	Setting lastTimeOfDiffCoordinates to 1368480220470
+13052013_14.23.40.528-0700	Sys Utterance: 
+13052013_14.23.40.528-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.23.41.176-0700	
+13052013_14.23.41.176-0700	Run: 65
+13052013_14.23.41.176-0700	
+13052013_14.23.41.176-0700	Time: 1368480221176
+13052013_14.23.41.176-0700	Time between updates: 706
+13052013_14.23.41.176-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94642699999999;-3.1855030000000397"}
+13052013_14.23.41.177-0700	User location reported:55.94642699999999;-3.1855030000000397
+13052013_14.23.41.177-0700	User DA: {"cf":"null"}
+13052013_14.23.41.177-0700	User reported position: 55.94642699999999,-3.1855030000000397
+13052013_14.23.41.177-0700	Coordinates used: reported
+13052013_14.23.41.177-0700	User current position: 55.94642699999999,-3.1855030000000397
+13052013_14.23.41.193-0700	Current ways list (possibilities): [222]
+13052013_14.23.41.194-0700	Current way: 222
+13052013_14.23.41.204-0700	User location: [Nicolson Street]
+13052013_14.23.41.204-0700	Current Step Distance (in meters): 11.433309329550166
+13052013_14.23.41.204-0700	user walking: true
+13052013_14.23.41.204-0700	Using calculated orientation
+13052013_14.23.41.204-0700	User orientation:333.4761425999655
+13052013_14.23.41.233-0700	User DACF: null
+13052013_14.23.41.233-0700	Destination id: 89
+13052013_14.23.41.233-0700	Expected current way name: Nicolson Street
+13052013_14.23.41.249-0700	Current adjancent ways: [222]
+13052013_14.23.41.249-0700	Expected way on route: 222
+13052013_14.23.41.249-0700	User reported at expected location
+13052013_14.23.41.250-0700	Prev Distance from Next node: 104.81496674721362
+13052013_14.23.41.250-0700	Current Distance from Next node: 93.42250244711927
+13052013_14.23.41.250-0700	User near Next node: false
+13052013_14.23.41.250-0700	User moving towards Next Node : true
+13052013_14.23.41.250-0700	Expected user orientation: 336.75225037329824
+13052013_14.23.41.250-0700	User in expected orientation: true
+13052013_14.23.41.250-0700	Expecting user to turn:false
+13052013_14.23.41.250-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.23.41.250-0700	UserWalking: true
+13052013_14.23.41.258-0700	Landmarks within 20m:[8976]
+13052013_14.23.41.258-0700	Landmark nearby:8976
+13052013_14.23.41.258-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":333.4761425999655,"currentUserCoor":"55.94642699999999,-3.1855030000000397","cf":"null"}
+13052013_14.23.41.258-0700	Setting lastTimeOfUtterance to 1368480221176
+13052013_14.23.41.258-0700	Setting lastTimeOfDiffCoordinates to 1368480221176
+13052013_14.23.41.258-0700	Sys Utterance: 
+13052013_14.23.41.258-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.23.42.133-0700	
+13052013_14.23.42.134-0700	Run: 66
+13052013_14.23.42.134-0700	
+13052013_14.23.42.134-0700	Time: 1368480222134
+13052013_14.23.42.134-0700	Time between updates: 958
+13052013_14.23.42.134-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946508;-3.185571999999979"}
+13052013_14.23.42.134-0700	User location reported:55.946508;-3.185571999999979
+13052013_14.23.42.134-0700	User DA: {"cf":"null"}
+13052013_14.23.42.134-0700	User reported position: 55.946508,-3.185571999999979
+13052013_14.23.42.134-0700	Coordinates used: reported
+13052013_14.23.42.134-0700	User current position: 55.946508,-3.185571999999979
+13052013_14.23.42.146-0700	Current ways list (possibilities): [222]
+13052013_14.23.42.146-0700	Current way: 222
+13052013_14.23.42.161-0700	User location: [Nicolson Street]
+13052013_14.23.42.161-0700	Current Step Distance (in meters): 9.979008981131663
+13052013_14.23.42.161-0700	user walking: true
+13052013_14.23.42.161-0700	Using calculated orientation
+13052013_14.23.42.161-0700	User orientation:334.49846022886777
+13052013_14.23.42.161-0700	User DACF: null
+13052013_14.23.42.161-0700	Destination id: 89
+13052013_14.23.42.161-0700	Expected current way name: Nicolson Street
+13052013_14.23.42.171-0700	Current adjancent ways: [222]
+13052013_14.23.42.172-0700	Expected way on route: 222
+13052013_14.23.42.172-0700	User reported at expected location
+13052013_14.23.42.172-0700	Prev Distance from Next node: 93.42250244711927
+13052013_14.23.42.172-0700	Current Distance from Next node: 83.47221663758424
+13052013_14.23.42.172-0700	User near Next node: false
+13052013_14.23.42.172-0700	User moving towards Next Node : true
+13052013_14.23.42.172-0700	Expected user orientation: 336.75225037329824
+13052013_14.23.42.172-0700	User in expected orientation: true
+13052013_14.23.42.172-0700	Expecting user to turn:false
+13052013_14.23.42.172-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.23.42.172-0700	UserWalking: true
+13052013_14.23.42.176-0700	Landmarks within 20m:[]
+13052013_14.23.42.176-0700	Landmarks nearby:none
+13052013_14.23.42.176-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":334.49846022886777,"currentUserCoor":"55.946508,-3.185571999999979","cf":"null"}
+13052013_14.23.42.177-0700	Setting lastTimeOfUtterance to 1368480222134
+13052013_14.23.42.177-0700	Setting lastTimeOfDiffCoordinates to 1368480222134
+13052013_14.23.42.177-0700	Sys Utterance: 
+13052013_14.23.42.177-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.23.42.870-0700	
+13052013_14.23.42.870-0700	Run: 67
+13052013_14.23.42.870-0700	
+13052013_14.23.42.870-0700	Time: 1368480222870
+13052013_14.23.42.870-0700	Time between updates: 736
+13052013_14.23.42.870-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94658900000001;-3.18564200000003"}
+13052013_14.23.42.870-0700	User location reported:55.94658900000001;-3.18564200000003
+13052013_14.23.42.870-0700	User DA: {"cf":"null"}
+13052013_14.23.42.870-0700	User reported position: 55.94658900000001,-3.18564200000003
+13052013_14.23.42.870-0700	Coordinates used: reported
+13052013_14.23.42.871-0700	User current position: 55.94658900000001,-3.18564200000003
+13052013_14.23.42.881-0700	Current ways list (possibilities): [222]
+13052013_14.23.42.882-0700	Current way: 222
+13052013_14.23.42.893-0700	User location: [Nicolson Street]
+13052013_14.23.42.893-0700	Current Step Distance (in meters): 10.005970371561956
+13052013_14.23.42.893-0700	user walking: true
+13052013_14.23.42.893-0700	Using calculated orientation
+13052013_14.23.42.893-0700	User orientation:334.176700436346
+13052013_14.23.42.893-0700	User DACF: null
+13052013_14.23.42.893-0700	Destination id: 89
+13052013_14.23.42.893-0700	Expected current way name: Nicolson Street
+13052013_14.23.42.921-0700	Current adjancent ways: [222]
+13052013_14.23.42.921-0700	Expected way on route: 222
+13052013_14.23.42.921-0700	User reported at expected location
+13052013_14.23.42.921-0700	Prev Distance from Next node: 83.47221663758424
+13052013_14.23.42.921-0700	Current Distance from Next node: 73.50816272145235
+13052013_14.23.42.927-0700	User near Next node: false
+13052013_14.23.42.927-0700	User moving towards Next Node : true
+13052013_14.23.42.927-0700	Expected user orientation: 336.75225037329824
+13052013_14.23.42.927-0700	User in expected orientation: true
+13052013_14.23.42.927-0700	Expecting user to turn:false
+13052013_14.23.42.927-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.23.42.927-0700	UserWalking: true
+13052013_14.23.42.931-0700	Landmarks within 20m:[]
+13052013_14.23.42.931-0700	Landmarks nearby:none
+13052013_14.23.42.931-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":334.176700436346,"currentUserCoor":"55.94658900000001,-3.18564200000003","cf":"null"}
+13052013_14.23.42.931-0700	Setting lastTimeOfUtterance to 1368480222870
+13052013_14.23.42.931-0700	Setting lastTimeOfDiffCoordinates to 1368480222870
+13052013_14.23.42.932-0700	Sys Utterance: 
+13052013_14.23.42.932-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.23.43.671-0700	
+13052013_14.23.43.671-0700	Run: 68
+13052013_14.23.43.671-0700	
+13052013_14.23.43.671-0700	Time: 1368480223671
+13052013_14.23.43.671-0700	Time between updates: 801
+13052013_14.23.43.672-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946662;-3.185703999999987"}
+13052013_14.23.43.672-0700	User location reported:55.946662;-3.185703999999987
+13052013_14.23.43.672-0700	User DA: {"cf":"null"}
+13052013_14.23.43.672-0700	User reported position: 55.946662,-3.185703999999987
+13052013_14.23.43.672-0700	Coordinates used: reported
+13052013_14.23.43.672-0700	User current position: 55.946662,-3.185703999999987
+13052013_14.23.43.681-0700	Current ways list (possibilities): [222]
+13052013_14.23.43.681-0700	Current way: 222
+13052013_14.23.43.694-0700	User location: [Nicolson Street]
+13052013_14.23.43.695-0700	Current Step Distance (in meters): 8.98846274791662
+13052013_14.23.43.695-0700	user walking: true
+13052013_14.23.43.695-0700	Using calculated orientation
+13052013_14.23.43.695-0700	User orientation:334.5648876784079
+13052013_14.23.43.695-0700	User DACF: null
+13052013_14.23.43.695-0700	Destination id: 89
+13052013_14.23.43.695-0700	Expected current way name: Nicolson Street
+13052013_14.23.43.705-0700	Current adjancent ways: [222]
+13052013_14.23.43.705-0700	Expected way on route: 222
+13052013_14.23.43.705-0700	User reported at expected location
+13052013_14.23.43.705-0700	Prev Distance from Next node: 73.50816272145235
+13052013_14.23.43.705-0700	Current Distance from Next node: 64.56188588879142
+13052013_14.23.43.705-0700	User near Next node: false
+13052013_14.23.43.706-0700	User moving towards Next Node : true
+13052013_14.23.43.706-0700	Expected user orientation: 336.75225037329824
+13052013_14.23.43.706-0700	User in expected orientation: true
+13052013_14.23.43.706-0700	Expecting user to turn:false
+13052013_14.23.43.706-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.23.43.706-0700	UserWalking: true
+13052013_14.23.43.710-0700	Landmarks within 20m:[]
+13052013_14.23.43.710-0700	Landmarks nearby:none
+13052013_14.23.43.712-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":334.5648876784079,"currentUserCoor":"55.946662,-3.185703999999987","cf":"null"}
+13052013_14.23.43.712-0700	Setting lastTimeOfUtterance to 1368480223671
+13052013_14.23.43.712-0700	Setting lastTimeOfDiffCoordinates to 1368480223671
+13052013_14.23.43.712-0700	Sys Utterance: 
+13052013_14.23.43.712-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.23.44.518-0700	
+13052013_14.23.44.518-0700	Run: 69
+13052013_14.23.44.518-0700	
+13052013_14.23.44.518-0700	Time: 1368480224518
+13052013_14.23.44.518-0700	Time between updates: 847
+13052013_14.23.44.519-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946736;-3.1857559999999694"}
+13052013_14.23.44.519-0700	User location reported:55.946736;-3.1857559999999694
+13052013_14.23.44.519-0700	User DA: {"cf":"null"}
+13052013_14.23.44.519-0700	User reported position: 55.946736,-3.1857559999999694
+13052013_14.23.44.519-0700	Coordinates used: reported
+13052013_14.23.44.519-0700	User current position: 55.946736,-3.1857559999999694
+13052013_14.23.44.553-0700	Current ways list (possibilities): [222]
+13052013_14.23.44.553-0700	Current way: 222
+13052013_14.23.44.562-0700	User location: [Nicolson Street]
+13052013_14.23.44.563-0700	Current Step Distance (in meters): 8.84252446314855
+13052013_14.23.44.563-0700	user walking: true
+13052013_14.23.44.563-0700	Using calculated orientation
+13052013_14.23.44.563-0700	User orientation:338.5209720708169
+13052013_14.23.44.563-0700	User DACF: null
+13052013_14.23.44.563-0700	Destination id: 89
+13052013_14.23.44.563-0700	Expected current way name: Nicolson Street
+13052013_14.23.44.572-0700	Current adjancent ways: [222]
+13052013_14.23.44.572-0700	Expected way on route: 222
+13052013_14.23.44.572-0700	User reported at expected location
+13052013_14.23.44.573-0700	Prev Distance from Next node: 64.56188588879142
+13052013_14.23.44.573-0700	Current Distance from Next node: 55.72542032692516
+13052013_14.23.44.573-0700	User near Next node: false
+13052013_14.23.44.576-0700	User moving towards Next Node : true
+13052013_14.23.44.576-0700	Expected user orientation: 336.75225037329824
+13052013_14.23.44.576-0700	User in expected orientation: true
+13052013_14.23.44.576-0700	Expecting user to turn:false
+13052013_14.23.44.576-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.23.44.576-0700	UserWalking: true
+13052013_14.23.44.583-0700	Landmarks within 20m:[503816]
+13052013_14.23.44.583-0700	Landmark nearby:503816
+13052013_14.23.44.583-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":338.5209720708169,"currentUserCoor":"55.946736,-3.1857559999999694","cf":"null"}
+13052013_14.23.44.583-0700	Setting lastTimeOfUtterance to 1368480224518
+13052013_14.23.44.584-0700	Setting lastTimeOfDiffCoordinates to 1368480224518
+13052013_14.23.44.584-0700	Sys Utterance: 
+13052013_14.23.44.584-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.23.46.054-0700	
+13052013_14.23.46.054-0700	Run: 70
+13052013_14.23.46.055-0700	
+13052013_14.23.46.055-0700	Time: 1368480226055
+13052013_14.23.46.055-0700	Time between updates: 1537
+13052013_14.23.46.055-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946819;-3.1858139999999366"}
+13052013_14.23.46.055-0700	User location reported:55.946819;-3.1858139999999366
+13052013_14.23.46.055-0700	User DA: {"cf":"null"}
+13052013_14.23.46.055-0700	User reported position: 55.946819,-3.1858139999999366
+13052013_14.23.46.055-0700	Coordinates used: reported
+13052013_14.23.46.055-0700	User current position: 55.946819,-3.1858139999999366
+13052013_14.23.46.065-0700	Current ways list (possibilities): [222]
+13052013_14.23.46.065-0700	Current way: 222
+13052013_14.23.46.075-0700	User location: [Nicolson Street]
+13052013_14.23.46.075-0700	Current Step Distance (in meters): 9.910587483128015
+13052013_14.23.46.075-0700	user walking: true
+13052013_14.23.46.075-0700	Using calculated orientation
+13052013_14.23.46.075-0700	User orientation:338.6296536161816
+13052013_14.23.46.075-0700	User DACF: null
+13052013_14.23.46.075-0700	Destination id: 89
+13052013_14.23.46.075-0700	Expected current way name: Nicolson Street
+13052013_14.23.46.090-0700	Current adjancent ways: [222]
+13052013_14.23.46.091-0700	Expected way on route: 222
+13052013_14.23.46.091-0700	User reported at expected location
+13052013_14.23.46.091-0700	Prev Distance from Next node: 55.72542032692516
+13052013_14.23.46.091-0700	Current Distance from Next node: 45.82351231069955
+13052013_14.23.46.091-0700	User near Next node: false
+13052013_14.23.46.091-0700	User moving towards Next Node : true
+13052013_14.23.46.091-0700	Expected user orientation: 336.75225037329824
+13052013_14.23.46.091-0700	User in expected orientation: true
+13052013_14.23.46.091-0700	Expecting user to turn:false
+13052013_14.23.46.091-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.23.46.091-0700	UserWalking: true
+13052013_14.23.46.095-0700	Landmarks within 20m:[503816]
+13052013_14.23.46.095-0700	Landmark nearby:503816
+13052013_14.23.46.095-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":338.6296536161816,"currentUserCoor":"55.946819,-3.1858139999999366","cf":"null"}
+13052013_14.23.46.095-0700	Setting lastTimeOfUtterance to 1368480226055
+13052013_14.23.46.095-0700	Setting lastTimeOfDiffCoordinates to 1368480226055
+13052013_14.23.46.095-0700	Sys Utterance: 
+13052013_14.23.46.095-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.23.47.179-0700	
+13052013_14.23.47.179-0700	Run: 71
+13052013_14.23.47.179-0700	
+13052013_14.23.47.179-0700	Time: 1368480227179
+13052013_14.23.47.179-0700	Time between updates: 1124
+13052013_14.23.47.180-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94690700000002;-3.1858760000000075"}
+13052013_14.23.47.180-0700	User location reported:55.94690700000002;-3.1858760000000075
+13052013_14.23.47.180-0700	User DA: {"cf":"null"}
+13052013_14.23.47.180-0700	User reported position: 55.94690700000002,-3.1858760000000075
+13052013_14.23.47.180-0700	Coordinates used: reported
+13052013_14.23.47.180-0700	User current position: 55.94690700000002,-3.1858760000000075
+13052013_14.23.47.193-0700	Current ways list (possibilities): [222]
+13052013_14.23.47.193-0700	Current way: 222
+13052013_14.23.47.202-0700	User location: [Nicolson Street]
+13052013_14.23.47.203-0700	Current Step Distance (in meters): 10.519129843239872
+13052013_14.23.47.203-0700	user walking: true
+13052013_14.23.47.203-0700	Using calculated orientation
+13052013_14.23.47.203-0700	User orientation:338.4698817044999
+13052013_14.23.47.203-0700	User DACF: null
+13052013_14.23.47.203-0700	Destination id: 89
+13052013_14.23.47.203-0700	Expected current way name: Nicolson Street
+13052013_14.23.47.212-0700	Current adjancent ways: [222]
+13052013_14.23.47.212-0700	Expected way on route: 222
+13052013_14.23.47.212-0700	User reported at expected location
+13052013_14.23.47.212-0700	Prev Distance from Next node: 45.82351231069955
+13052013_14.23.47.212-0700	Current Distance from Next node: 35.3207301734916
+13052013_14.23.47.212-0700	User near Next node: false
+13052013_14.23.47.212-0700	User moving towards Next Node : true
+13052013_14.23.47.218-0700	Expected user orientation: 336.75225037329824
+13052013_14.23.47.219-0700	User in expected orientation: true
+13052013_14.23.47.219-0700	Expecting user to turn:false
+13052013_14.23.47.219-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.23.47.219-0700	UserWalking: true
+13052013_14.23.47.223-0700	Landmarks within 20m:[503816]
+13052013_14.23.47.223-0700	Landmark nearby:503816
+13052013_14.23.47.223-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":338.4698817044999,"currentUserCoor":"55.94690700000002,-3.1858760000000075","cf":"null"}
+13052013_14.23.47.223-0700	Setting lastTimeOfUtterance to 1368480227179
+13052013_14.23.47.223-0700	Setting lastTimeOfDiffCoordinates to 1368480227179
+13052013_14.23.47.223-0700	Sys Utterance: 
+13052013_14.23.47.224-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.23.48.161-0700	
+13052013_14.23.48.161-0700	Run: 72
+13052013_14.23.48.161-0700	
+13052013_14.23.48.161-0700	Time: 1368480228161
+13052013_14.23.48.161-0700	Time between updates: 982
+13052013_14.23.48.162-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946991;-3.18593199999998"}
+13052013_14.23.48.162-0700	User location reported:55.946991;-3.18593199999998
+13052013_14.23.48.162-0700	User DA: {"cf":"null"}
+13052013_14.23.48.162-0700	User reported position: 55.946991,-3.18593199999998
+13052013_14.23.48.162-0700	Coordinates used: reported
+13052013_14.23.48.162-0700	User current position: 55.946991,-3.18593199999998
+13052013_14.23.48.175-0700	Current ways list (possibilities): [222]
+13052013_14.23.48.175-0700	Current way: 222
+13052013_14.23.48.186-0700	User location: [Nicolson Street]
+13052013_14.23.48.186-0700	Current Step Distance (in meters): 9.969981744499396
+13052013_14.23.48.186-0700	user walking: true
+13052013_14.23.48.186-0700	Using calculated orientation
+13052013_14.23.48.186-0700	User orientation:339.5290752377226
+13052013_14.23.48.186-0700	User DACF: null
+13052013_14.23.48.186-0700	Destination id: 89
+13052013_14.23.48.186-0700	Expected current way name: Nicolson Street
+13052013_14.23.48.204-0700	Current adjancent ways: [222]
+13052013_14.23.48.204-0700	Expected way on route: 222
+13052013_14.23.48.204-0700	User reported at expected location
+13052013_14.23.48.204-0700	Prev Distance from Next node: 35.3207301734916
+13052013_14.23.48.204-0700	Current Distance from Next node: 25.364825756260934
+13052013_14.23.48.204-0700	User near Next node: false
+13052013_14.23.48.204-0700	User moving towards Next Node : true
+13052013_14.23.48.204-0700	Expected user orientation: 336.75225037329824
+13052013_14.23.48.204-0700	User in expected orientation: true
+13052013_14.23.48.204-0700	Expecting user to turn:false
+13052013_14.23.48.205-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.23.48.205-0700	UserWalking: true
+13052013_14.23.48.208-0700	Landmarks within 20m:[503816]
+13052013_14.23.48.208-0700	Landmark nearby:503816
+13052013_14.23.48.208-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":339.5290752377226,"currentUserCoor":"55.946991,-3.18593199999998","cf":"null"}
+13052013_14.23.48.209-0700	Setting lastTimeOfUtterance to 1368480228161
+13052013_14.23.48.209-0700	Setting lastTimeOfDiffCoordinates to 1368480228161
+13052013_14.23.48.209-0700	Sys Utterance: 
+13052013_14.23.48.210-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.23.49.326-0700	
+13052013_14.23.49.326-0700	Run: 73
+13052013_14.23.49.326-0700	
+13052013_14.23.49.326-0700	Time: 1368480229326
+13052013_14.23.49.326-0700	Time between updates: 1165
+13052013_14.23.49.326-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.947084000000004;-3.185993000000053"}
+13052013_14.23.49.326-0700	User location reported:55.947084000000004;-3.185993000000053
+13052013_14.23.49.326-0700	User DA: {"cf":"null"}
+13052013_14.23.49.326-0700	User reported position: 55.947084000000004,-3.185993000000053
+13052013_14.23.49.326-0700	Coordinates used: reported
+13052013_14.23.49.326-0700	User current position: 55.947084000000004,-3.185993000000053
+13052013_14.23.49.339-0700	Current ways list (possibilities): [107, 468, 222]
+13052013_14.23.49.339-0700	Current way: 107
+13052013_14.23.49.349-0700	User location: [South College Street, Drummond Street, Nicolson Street]
+13052013_14.23.49.349-0700	Current Step Distance (in meters): 11.016569526239206
+13052013_14.23.49.349-0700	user walking: true
+13052013_14.23.49.349-0700	Using calculated orientation
+13052013_14.23.49.349-0700	User orientation:339.83250196963706
+13052013_14.23.49.349-0700	User DACF: null
+13052013_14.23.49.349-0700	Destination id: 89
+13052013_14.23.49.349-0700	Expected current way name: Nicolson Street
+13052013_14.23.49.369-0700	Current adjancent ways: [107, 468, 222]
+13052013_14.23.49.369-0700	Expected way on route: 222
+13052013_14.23.49.369-0700	User reported at expected location
+13052013_14.23.49.369-0700	Prev Distance from Next node: 25.364825756260934
+13052013_14.23.49.369-0700	Current Distance from Next node: 14.380326261828012
+13052013_14.23.49.369-0700	User near Next node: false
+13052013_14.23.49.369-0700	User moving towards Next Node : true
+13052013_14.23.49.369-0700	Expected user orientation: 336.75225037329824
+13052013_14.23.49.369-0700	User in expected orientation: true
+13052013_14.23.49.369-0700	Expecting user to turn:false
+13052013_14.23.49.369-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.23.49.369-0700	UserWalking: true
+13052013_14.23.49.375-0700	Landmarks within 20m:[]
+13052013_14.23.49.375-0700	Landmarks nearby:none
+13052013_14.23.49.375-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":339.83250196963706,"currentUserCoor":"55.947084000000004,-3.185993000000053","cf":"null"}
+13052013_14.23.49.375-0700	Setting lastTimeOfUtterance to 1368480229326
+13052013_14.23.49.376-0700	Setting lastTimeOfDiffCoordinates to 1368480229326
+13052013_14.23.49.376-0700	Sys Utterance: 
+13052013_14.23.49.376-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_14.23.51.021-0700	
+13052013_14.23.51.021-0700	Run: 74
+13052013_14.23.51.021-0700	
+13052013_14.23.51.021-0700	Time: 1368480231021
+13052013_14.23.51.021-0700	Time between updates: 1695
+13052013_14.23.51.021-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-21-21-05-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.947215;-3.1860699999999724"}
+13052013_14.23.51.021-0700	User location reported:55.947215;-3.1860699999999724
+13052013_14.23.51.021-0700	User DA: {"cf":"null"}
+13052013_14.23.51.022-0700	User reported position: 55.947215,-3.1860699999999724
+13052013_14.23.51.022-0700	Coordinates used: reported
+13052013_14.23.51.022-0700	User current position: 55.947215,-3.1860699999999724
+13052013_14.23.51.043-0700	Current ways list (possibilities): [486, 107, 468, 222]
+13052013_14.23.51.043-0700	Current way: 486
+13052013_14.23.51.053-0700	User location: [South Bridge, South College Street, Drummond Street, Nicolson Street]
+13052013_14.23.51.053-0700	Current Step Distance (in meters): 15.335248427413019
+13052013_14.23.51.053-0700	user walking: true
+13052013_14.23.51.053-0700	Using calculated orientation
+13052013_14.23.51.053-0700	User orientation:341.7818339804941
+13052013_14.23.51.053-0700	User DACF: null
+13052013_14.23.51.053-0700	Destination id: 89
+13052013_14.23.51.053-0700	Expected current way name: Nicolson Street
+13052013_14.23.51.071-0700	Current adjancent ways: [486, 107, 468, 222]
+13052013_14.23.51.071-0700	Expected way on route: 222
+13052013_14.23.51.071-0700	User reported at expected location
+13052013_14.23.51.071-0700	Prev Distance from Next node: 14.380326261828012
+13052013_14.23.51.071-0700	Current Distance from Next node: 1.3831165589787964
+13052013_14.23.51.071-0700	User near Next node: true
+13052013_14.23.51.071-0700	User moving towards Next Node : true
+13052013_14.23.51.072-0700	Expected user orientation: 336.75225037329824
+13052013_14.23.51.072-0700	User in expected orientation: true
+13052013_14.23.51.072-0700	Expecting user to turn:false
+13052013_14.23.51.072-0700	Next node: 89 at 55.947209286489546,-3.1860502684478433
+13052013_14.23.51.072-0700	UserWalking: true
+13052013_14.23.51.088-0700	Landmarks within 20m:[]
+13052013_14.23.51.089-0700	Landmarks nearby:none
+13052013_14.23.51.089-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":341.7818339804941,"entityId":"89","currentUserCoor":"55.947215,-3.1860699999999724","cf":"destinationReached","entityName":"South College Street"}
+13052013_14.23.51.089-0700	Setting lastTimeOfUtterance to 1368480231021
+13052013_14.23.51.089-0700	Setting lastTimeOfDiffCoordinates to 1368480231021
+13052013_14.23.51.089-0700	Sys Utterance: We have reached South College Street
+13052013_14.23.51.089-0700	sysResponse: {"utterance":"We have reached South College Street","uttType":"navInstruction"}

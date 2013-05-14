@@ -1,0 +1,2 @@
+13052013_02.02.05.231-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-08-59-11-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.946267;-3.18879000000004"}
+13052013_02.02.05.462-0700	{"utterance":"Hi. I am here to help you with directions in this game.","uttType":"setup","userType":"im"}

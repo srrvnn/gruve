@@ -1,0 +1,1 @@
+javac -cp "C:\Program Files\Apache Software Foundation\Tomcat 7.0\lib\servlet-api.jar;../lib/json_simple-1.1.jar;." GruveWizServlet.java

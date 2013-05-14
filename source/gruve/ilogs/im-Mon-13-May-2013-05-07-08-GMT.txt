@@ -1,0 +1,198 @@
+12052013_22.07.08.630-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"NaN;NaN"}
+12052013_22.07.08.658-0700	{"utterance":"Hi. I am your buddy. I can help you with directions.","uttType":"setup","userType":"im"}
+12052013_22.07.08.806-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_22.07.08.828-0700	{"utterance":"I need your orientation. Please start walking.","uttType":"setup","userType":"im"}
+12052013_22.07.18.814-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_22.07.18.903-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.07.28.823-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_22.07.28.848-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.07.38.835-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_22.07.38.864-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.07.48.912-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_22.07.48.934-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.07.58.835-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_22.07.58.857-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.08.08.847-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_22.08.08.871-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.08.19.389-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_22.08.19.412-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.08.28.839-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_22.08.28.867-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.08.38.839-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_22.08.38.862-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.08.48.847-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_22.08.48.869-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.08.58.841-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_22.08.58.863-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.09.08.840-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_22.09.08.884-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.09.18.842-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_22.09.18.897-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.09.25.178-0700	{"userDA":"{\"cf\":\"requestRoute\",\"destination_name\":\"Nicolson Street\",\"destination_type\":\"street\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_22.09.25.201-0700	{"utterance":"Alright. Finding directions to Nicolson Street. One moment please...","uttType":"navInstruction","userType":"im"}
+12052013_22.09.35.223-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_22.09.35.765-0700	{"utterance":"Turn around to your right and walk onto Potterrow","uttType":"navInstruction","userType":"im"}
+12052013_22.09.45.178-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_22.09.45.215-0700	{"utterance":"","uttType":"navInstruction","userType":"im"}
+12052013_22.09.54.099-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_22.09.54.140-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.10.00.792-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945608;-3.1872319999999945"}
+12052013_22.10.00.861-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.10.01.803-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945577;-3.1873820000000705"}
+12052013_22.10.01.869-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.10.02.527-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945543;-3.1875479999999925"}
+12052013_22.10.02.569-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.10.03.653-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945505000000004;-3.1877280000001065"}
+12052013_22.10.03.692-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.10.07.766-0700	{"userDA":"{\"cf\":\"requestDirection\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945505;-3.187727999999993"}
+12052013_22.10.07.807-0700	{"utterance":"Turn left onto Potterrow","uttType":"navInstruction","userType":"im"}
+12052013_22.10.15.641-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945543;-3.1875479999999925"}
+12052013_22.10.15.687-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.10.16.425-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945577;-3.1873820000000705"}
+12052013_22.10.16.472-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.10.17.003-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945608;-3.1872319999999945"}
+12052013_22.10.17.052-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.10.17.680-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_22.10.17.779-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.10.19.423-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945608;-3.1870010000000093"}
+12052013_22.10.19.486-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.10.24.786-0700	{"userDA":"{\"cf\":\"requestDirection\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945608;-3.1870010000000093"}
+12052013_22.10.24.824-0700	{"utterance":"Continue walking onto Potterrow","uttType":"navInstruction","userType":"im"}
+12052013_22.10.26.530-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945511;-3.186924999999974"}
+12052013_22.10.26.579-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.10.27.660-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945414;-3.1868489999999383"}
+12052013_22.10.27.698-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.10.28.149-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94532;-3.1867750000000115"}
+12052013_22.10.28.205-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.10.29.022-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945197;-3.186678000000029"}
+12052013_22.10.29.066-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.10.29.672-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945108000000005;-3.1866059999999834"}
+12052013_22.10.29.712-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.10.30.907-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945018;-3.186533000000054"}
+12052013_22.10.30.951-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.10.31.983-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94492;-3.186452000000031"}
+12052013_22.10.32.110-0700	{"utterance":"Continue walking onto Chapel Street","uttType":"navInstruction","userType":"im"}
+12052013_22.10.33.573-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94483;-3.186378999999988"}
+12052013_22.10.33.618-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.10.34.681-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94474300000001;-3.1863069999999425"}
+12052013_22.10.34.833-0700	{"utterance":"Continue walking onto Chapel Street","uttType":"navInstruction","userType":"im"}
+12052013_22.10.35.619-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94462000000001;-3.186187000000018"}
+12052013_22.10.35.663-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.10.36.586-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.944539999999996;-3.186106000000109"}
+12052013_22.10.36.736-0700	{"utterance":"Continue walking onto Chapel Street","uttType":"navInstruction","userType":"im"}
+12052013_22.10.37.135-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94442300000001;-3.1859890000000632"}
+12052013_22.10.37.196-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.10.38.996-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94427300000001;-3.1858159999999316"}
+12052013_22.10.39.116-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.10.42.382-0700	{"userDA":"{\"cf\":\"requestDirection\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.944273;-3.1858159999999316"}
+12052013_22.10.42.423-0700	{"utterance":"Continue walking onto Chapel Street","uttType":"navInstruction","userType":"im"}
+12052013_22.10.43.836-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.944201;-3.185719000000063"}
+12052013_22.10.43.882-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.10.44.536-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94413000000001;-3.185620999999969"}
+12052013_22.10.44.575-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.10.45.646-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.944058;-3.1855239999999867"}
+12052013_22.10.45.763-0700	{"utterance":"Turn slightly left  onto West Crosscauseway","uttType":"navInstruction","userType":"im"}
+12052013_22.10.47.116-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943982999999996;-3.1854170000000295"}
+12052013_22.10.47.297-0700	{"utterance":"Turn slightly left  onto West Crosscauseway","uttType":"navInstruction","userType":"im"}
+12052013_22.10.50.984-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943898000000004;-3.1852969999999914"}
+12052013_22.10.51.023-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.10.53.239-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943856000000004;-3.1852360000000317"}
+12052013_22.10.53.285-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.10.56.854-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943892999999996;-3.1851749999999583"}
+12052013_22.10.56.901-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.10.58.308-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943924;-3.185012000000029"}
+12052013_22.10.58.603-0700	{"utterance":"Turn slightly right  onto West Crosscauseway","uttType":"navInstruction","userType":"im"}
+12052013_22.10.59.968-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943837;-3.184784000000036"}
+12052013_22.11.00.013-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.11.02.002-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943858;-3.1846689999999853"}
+12052013_22.11.02.051-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.11.03.618-0700	{"userDA":"{\"cf\":\"requestDirection\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943858;-3.1846689999999853"}
+12052013_22.11.03.657-0700	{"utterance":"Turn slightly right  onto West Crosscauseway","uttType":"navInstruction","userType":"im"}
+12052013_22.11.05.786-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943853000000004;-3.184483"}
+12052013_22.11.05.826-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.11.06.870-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94385200000001;-3.184400000000096"}
+12052013_22.11.06.911-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.11.08.108-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943846;-3.1842100000000073"}
+12052013_22.11.08.146-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.11.09.409-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943841;-3.184042999999974"}
+12052013_22.11.09.449-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.11.10.700-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943836;-3.1838760000000548"}
+12052013_22.11.10.742-0700	{"utterance":"We have reached Nicolson Street","uttType":"navInstruction","userType":"im"}
+12052013_22.11.14.748-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943833000000005;-3.1837739999999712"}
+12052013_22.11.14.775-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.11.16.055-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94380500000001;-3.183526000000029"}
+12052013_22.11.16.080-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.11.26.050-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94380500000001;-3.183526000000029"}
+12052013_22.11.26.077-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.11.36.059-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94380500000001;-3.183526000000029"}
+12052013_22.11.36.096-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.11.42.757-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.9437;-3.183483000000024"}
+12052013_22.11.42.787-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.11.43.914-0700	{"userDA":"{\"cf\":\"requestDirection\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.9437;-3.183483000000024"}
+12052013_22.11.43.939-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.11.45.467-0700	{"userDA":"{\"cf\":\"requestDirection\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.9437;-3.183483000000024"}
+12052013_22.11.45.504-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.11.46.104-0700	{"userDA":"{\"cf\":\"requestDirection\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.9437;-3.183483000000024"}
+12052013_22.11.46.129-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.11.46.543-0700	{"userDA":"{\"cf\":\"requestDirection\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.9437;-3.183483000000024"}
+12052013_22.11.46.565-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.11.46.791-0700	{"userDA":"{\"cf\":\"requestDirection\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.9437;-3.183483000000024"}
+12052013_22.11.46.812-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.11.53.313-0700	{"userDA":"{\"cf\":\"requestRoute\",\"destination_name\":\"West Nicolson Street\",\"destination_type\":\"street\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.9437;-3.183483000000024"}
+12052013_22.11.53.334-0700	{"utterance":"Alright. Finding directions to West Nicolson Street. One moment please...","uttType":"navInstruction","userType":"im"}
+12052013_22.12.03.314-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.9437;-3.183483000000024"}
+12052013_22.12.03.640-0700	{"utterance":"Turn around and walk onto Nicolson Street","uttType":"navInstruction","userType":"im"}
+12052013_22.12.11.778-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94380500000001;-3.183526000000029"}
+12052013_22.12.11.822-0700	{"utterance":"","uttType":"navInstruction","userType":"im"}
+12052013_22.12.13.848-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94395800000001;-3.1835849999999937"}
+12052013_22.12.13.891-0700	{"utterance":"Continue walking onto Nicolson Street","uttType":"navInstruction","userType":"im"}
+12052013_22.12.16.076-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.944054;-3.1836230000000114"}
+12052013_22.12.16.153-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.12.17.144-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94414200000001;-3.1836570000000393"}
+12052013_22.12.17.182-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.12.18.512-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.944239;-3.1836949999999433"}
+12052013_22.12.18.554-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.12.19.413-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94433600000001;-3.1837319999999636"}
+12052013_22.12.19.466-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.12.20.776-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.944421000000006;-3.183764999999994"}
+12052013_22.12.20.816-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.12.21.707-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.944525;-3.1838050000000067"}
+12052013_22.12.21.822-0700	{"utterance":"Continue walking onto Nicolson Street","uttType":"navInstruction","userType":"im"}
+12052013_22.12.23.030-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.944633;-3.183848000000012"}
+12052013_22.12.23.072-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.12.23.783-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.944829;-3.1839410000000044"}
+12052013_22.12.23.832-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.12.24.540-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.944861;-3.183960999999954"}
+12052013_22.12.24.578-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.12.25.450-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.944962000000004;-3.1840389999999843"}
+12052013_22.12.25.599-0700	{"utterance":"Turn left onto West Nicolson Street","uttType":"navInstruction","userType":"im"}
+12052013_22.12.27.528-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945043;-3.1841080000000375"}
+12052013_22.12.27.574-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.12.31.533-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945148;-3.1842100000000073"}
+12052013_22.12.31.600-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.12.33.350-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94507899999999;-3.184353999999985"}
+12052013_22.12.33.390-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.12.35.245-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945006;-3.184504000000061"}
+12052013_22.12.35.281-0700	{"utterance":"We have reached West Nicolson Street","uttType":"navInstruction","userType":"im"}
+12052013_22.12.45.233-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945006;-3.184504000000061"}
+12052013_22.12.45.255-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.12.55.231-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945006;-3.184504000000061"}
+12052013_22.12.55.252-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.13.05.241-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945006;-3.184504000000061"}
+12052013_22.13.05.264-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.13.15.234-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945006;-3.184504000000061"}
+12052013_22.13.15.254-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.13.25.237-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945006;-3.184504000000061"}
+12052013_22.13.25.260-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.13.35.239-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945006;-3.184504000000061"}
+12052013_22.13.35.260-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.13.45.235-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945006;-3.184504000000061"}
+12052013_22.13.45.256-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.13.55.237-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945006;-3.184504000000061"}
+12052013_22.13.55.260-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.14.05.237-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945006;-3.184504000000061"}
+12052013_22.14.05.258-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.14.15.244-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945006;-3.184504000000061"}
+12052013_22.14.15.267-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.14.25.238-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-07-08-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945006;-3.184504000000061"}
+12052013_22.14.25.259-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}

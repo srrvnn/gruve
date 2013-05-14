@@ -1,4 +1,5 @@
 package hw.macs.gruve;
+import hw.macs.gruve.Configuration;
 
 import org.json.simple.JSONObject;
 import java.util.Iterator;
@@ -20,11 +21,7 @@ import java.lang.Math;
 public class HWUNLG implements RG{
 
 	HWCityModel cm;
-	UserModel um;
-
-	// set the absolute path for your application here
-	public static final String root = "C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\webapps\\gruve";
-	public static final String fsep = System.getProperty("file.separator");
+	UserModel um;	
 	
 	public HWUNLG(UserModel userModel, HWCityModel cityModel){
 		this.cm = cityModel;

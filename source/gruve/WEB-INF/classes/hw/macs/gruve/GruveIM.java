@@ -1,5 +1,7 @@
 package hw.macs.gruve;
 
+import hw.macs.gruve.Configuration;
+
 import java.io.File;
 import java.util.AbstractQueue;
 import java.util.ArrayList;
@@ -105,7 +107,7 @@ public class GruveIM {
 	NLG nlg;
 		
 	// set the absolute path for your application here : 
-	public static final String root = "C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\webapps\\gruve";
+	// public static final String root = "C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\webapps\\gruve";
 	public static final String fsep = System.getProperty("file.separator");
 	
 	public GruveIM(String sessionId, String userEmail){
@@ -121,7 +123,7 @@ public class GruveIM {
 		gruve = false;
 		// System.out.println("Gruve server:" + gruve);
 
-		String currentDir = root + fsep + "WEB-INF" + fsep;								
+		String currentDir = Configuration.root + fsep + "WEB-INF" + fsep;								
 		
 		String classesDir = currentDir + "classes" + fsep;
 		String userModelsDir = classesDir + "usermodels" + fsep;

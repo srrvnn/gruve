@@ -1,3 +1,5 @@
+import hw.macs.gruve.Configuration;
+
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -20,7 +22,7 @@ public class GruveServlet extends HttpServlet{
 	public static final String fsep = System.getProperty("file.separator");
 
 	// set the absolute path for your application here : 
-	public static final String root = "C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\webapps\\gruve";
+	// public static final String root = "C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\webapps\\gruve";
 	
 	public void init() throws ServletException{
 		allIMs = new Hashtable<String, GruveIM>();
@@ -80,7 +82,7 @@ public class GruveServlet extends HttpServlet{
 		
 		HWCityModel cm;	
 		
-		String currentDir = root + fsep + "WEB-INF" + fsep;				
+		String currentDir = Configuration.root + fsep + "WEB-INF" + fsep;				
 		String classesDir = currentDir + "classes" + fsep;
 
 		cm = new HWCityModel(new File(classesDir + "mymap.osm"));		
@@ -95,7 +97,7 @@ public class GruveServlet extends HttpServlet{
 			System.out.println("Creating new SB for " + currentSessionId);
 			currentIM = new GruveIM(currentSessionId, currentUserEmail);
 			allIMs.put(currentSessionId, currentIM);
-			String iLogsDir = root + fsep + "ilogs" + fsep;
+			String iLogsDir = Configuration.root + fsep + "ilogs" + fsep;
 			currentLW = new LogWriter(iLogsDir + "im-" + currentSessionId);
 			allLWs.put(currentSessionId, currentLW);	
 			currentUM = new UserModel(userModelsDir, currentSessionId, currentUserEmail);

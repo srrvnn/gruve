@@ -13,7 +13,8 @@ setup
 
 3)	Give write permissions inside the ‘gruve’ folder. 
 
-4)	Enter the absolute location of the ‘gruve’ folder: 
+4)	Enter the absolute location of the ‘gruve’ folder here: 
+
 	  a.	source/gruve/WEB-INF/classes/Configuration.java:23
 	
 
@@ -21,6 +22,7 @@ reports
 ----
 
 find project reports at reports/
+
 not for reproduction
 
 bugs 

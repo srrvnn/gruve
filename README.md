@@ -40,14 +40,14 @@ To read instructions, open `source/gruve/gruve-help.jsp` on your localhost.
 reports
 ----
 
-Find project reports at `reports/`  
-Not for reproduction
+Find project reports at `reports/`.  
+Not for reproduction.
 
 bugs and todos
 ----
 
-Find known bugs at `reports/bugs.md`  
-Find todos at `reports/todos.md`
+Find known bugs at `reports/bugs.md`.  
+Find todos at `reports/todos.md`.
 
 updates
 ----

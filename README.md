@@ -17,7 +17,7 @@ setup
 
 	`source/gruve/WEB-INF/classes/hw/macs/gruve/Configuration.java:13`
 	
-5. If on Windows, enter the absolute location of Apache Tomcat in all the .bat files at `source/gruve/WEB-INF/classes`. 
+5. Enter the absolute location of Apache Tomcat in all the .bat files at `source/gruve/WEB-INF/classes`. 
 
 6. On Windows: Run all .bat files at `source/gruve/WEB-INF/classes`
 

@@ -1,7 +1,7 @@
 navi
 =====
 
-A web based game to test systems that give route instruction in uncertain virtual environments. This is a forked version of the game.  game environment, system design and toolkit provided by [Interaction Lab](https://sites.google.com/site/hwinteractionlab/), Heroit Watt University.
+A web based game to test systems that give route instruction in uncertain virtual environments. This is a forked version of the game.  Game environment, system design and toolkit provided by [Interaction Lab](https://sites.google.com/site/hwinteractionlab/), Heroit Watt University.
 
 To play a demo, it is necessary to run the system locally using a server than can run Java Server Pages and Servlets. 
 

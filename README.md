@@ -1,7 +1,9 @@
 navi
 =====
 
-Giving Route Instructions in Uncertain Virtual Environments. 
+A web based game to test systems that give route instruction in uncertain virtual environments. This is a forked version of the game.  game environment, system design and toolkit provided by [Interaction Lab](https://sites.google.com/site/hwinteractionlab/), Heroit Watt University.
+
+To play a demo, it is necessary to run the system locally using a server than can run Java Server Pages and Servlets. 
 
 setup
 ----
@@ -23,28 +25,24 @@ setup
 
    On Unix: Run all commands inside all .bat files at `source/gruve/WEB-INF/classes`
    
-Open source/gruve/game-index.html on your localhost.
+To play the game, open `source/gruve/game-index.html` on your localhost.
 	
 
 reports
 ----
 
-find project reports at reports/
-
-not for reproduction
+Find project reports at `reports/`  
+Not for reproduction
 
 bugs and todos
 ----
 
-find known bugs at reports/bugs.md
-find todos at reports/todos.md
+Find known bugs at `reports/bugs.md`  
+Find todos at `reports/todos.md`
 
 updates
 ----
 
-05.14 - Configuration class added to enter location at one place.
+05.14 - Configuration class added to enter server address at one place.
 
-credits
-----
-this is a forked version of the game  
-game environment, system design and toolkit provided by [Interaction Lab](https://sites.google.com/site/hwinteractionlab/), Heroit Watt University.
+

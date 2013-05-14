@@ -18,8 +18,8 @@ setup
 	  a.	source/gruve/WEB-INF/classes/hw/macs/gruve/Configuration.java:13
 	  b.    all .bat files at source/gruve/WEB-INF/classes 
 
-5) Windows: Run all .bat files at source/gruve/WEB-INF/classes 
-   Unix: Run all commands inside all .bat files at source/gruve/WEB-INF/classes
+5) Windows: Run all .bat files at source/gruve/WEB-INF/classes
+Unix: Run all commands inside all .bat files at source/gruve/WEB-INF/classes
 	
 
 reports

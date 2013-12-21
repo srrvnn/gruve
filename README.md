@@ -49,7 +49,7 @@ bugs and todos
 Find known bugs at `reports/bugs.md`.  
 Find todos at `reports/todos.md`.
 
-updates
+changelog
 ----
 
 05.14 - Configuration class added to enter server address at one place.

@@ -25,22 +25,31 @@ setup
 
    On Unix: Run all commands inside all .bat files at `source/gruve/WEB-INF/classes`
    
-To play the game, open `source/gruve/game-index.html` on your localhost.
+7. Start Apache Tomcat server.
+
+8. To play the game, open `source/gruve/game-index.html` on your localhost.
+   
+
 	
+gameplay
+----
+
+To read instructions, open `source/gruve/gruve-help.jsp` on your localhost.
+
 
 reports
 ----
 
-Find project reports at `reports/`  
-Not for reproduction
+Find project reports at `reports/`.  
+Not for reproduction.
 
 bugs and todos
 ----
 
-Find known bugs at `reports/bugs.md`  
-Find todos at `reports/todos.md`
+Find known bugs at `reports/bugs.md`.  
+Find todos at `reports/todos.md`.
 
-updates
+changelog
 ----
 
 05.14 - Configuration class added to enter server address at one place.

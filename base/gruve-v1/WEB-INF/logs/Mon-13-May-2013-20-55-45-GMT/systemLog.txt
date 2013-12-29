@@ -1,0 +1,88 @@
+13052013_13.55.46.803-0700	
+13052013_13.55.46.804-0700	Run: 2
+13052013_13.55.46.804-0700	
+13052013_13.55.46.804-0700	Time: 1368478546804
+13052013_13.55.46.803-0700	
+13052013_13.55.46.810-0700	Run: 2
+13052013_13.55.46.810-0700	
+13052013_13.55.46.810-0700	Time: 1368478546810
+13052013_13.55.46.818-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-20-55-45-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+13052013_13.55.46.819-0700	User location reported:55.94575;-3.1871019999999817
+13052013_13.55.46.819-0700	User DA: {"cf":"null"}
+13052013_13.55.46.819-0700	User reported position: 55.94575,-3.1871019999999817
+13052013_13.55.46.822-0700	Coordinates used: reported
+13052013_13.55.46.822-0700	User current position: 55.94575,-3.1871019999999817
+13052013_13.55.46.832-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-20-55-45-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"NaN;NaN"}
+13052013_13.55.46.832-0700	User location reported:NaN;NaN
+13052013_13.55.46.832-0700	User DA: {"cf":"null"}
+13052013_13.55.46.833-0700	User reported position: NaN,NaN
+13052013_13.55.46.833-0700	Coordinates used: reported
+13052013_13.55.46.833-0700	User current position: NaN,NaN
+13052013_13.55.46.939-0700	Current ways list (possibilities): []
+13052013_13.55.46.939-0700	Current way: null
+13052013_13.55.46.978-0700	Current ways list (possibilities): [197, 193, 192]
+13052013_13.55.46.978-0700	User location: []
+13052013_13.55.46.978-0700	Current Step Distance: unknown
+13052013_13.55.46.978-0700	user walking: false
+13052013_13.55.46.978-0700	User Orientation: unknown
+13052013_13.55.46.978-0700	Current way: 197
+13052013_13.55.46.978-0700	User DACF: null
+13052013_13.55.46.979-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"NaN,NaN","cf":"greetUser"}
+13052013_13.55.46.979-0700	Setting lastTimeOfUtterance to 1368478546810
+13052013_13.55.46.979-0700	Sys Utterance: Hi. I am here to help you with directions in this game.
+13052013_13.55.46.979-0700	sysResponse: {"utterance":"Hi. I am here to help you with directions in this game.","uttType":"setup"}
+13052013_13.55.46.996-0700	User location: []
+13052013_13.55.46.997-0700	Current Step Distance (in meters): NaN
+13052013_13.55.46.997-0700	user walking: false
+13052013_13.55.46.997-0700	User Orientation: unknown
+13052013_13.55.46.997-0700	User DACF: null
+13052013_13.55.46.997-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"NaN,NaN","cf":"startWalking"}
+13052013_13.55.46.997-0700	Setting lastTimeOfUtterance to 1368478546804
+13052013_13.55.46.997-0700	Setting lastTimeOfDiffCoordinates to 1368478546804
+13052013_13.55.46.997-0700	Sys Utterance: Let's get started. Move ahead, so that I know you are there.
+13052013_13.55.46.998-0700	sysResponse: {"utterance":"Let's get started. Move ahead, so that I know you are there.","uttType":"setup"}
+13052013_13.55.50.041-0700	
+13052013_13.55.50.041-0700	Run: 3
+13052013_13.55.50.041-0700	
+13052013_13.55.50.041-0700	Time: 1368478550041
+13052013_13.55.50.041-0700	Time between updates: 3231
+13052013_13.55.50.041-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-20-55-45-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+13052013_13.55.50.041-0700	User location reported:55.94565;-3.1870340000000397
+13052013_13.55.50.041-0700	User DA: {"cf":"null"}
+13052013_13.55.50.042-0700	User reported position: 55.94565,-3.1870340000000397
+13052013_13.55.50.042-0700	Coordinates used: reported
+13052013_13.55.50.042-0700	User current position: 55.94565,-3.1870340000000397
+13052013_13.55.50.057-0700	Current ways list (possibilities): [197, 194, 193, 192]
+13052013_13.55.50.057-0700	Current way: 197
+13052013_13.55.50.082-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+13052013_13.55.50.082-0700	Current Step Distance (in meters): NaN
+13052013_13.55.50.082-0700	user walking: false
+13052013_13.55.50.083-0700	User Orientation: unknown
+13052013_13.55.50.083-0700	User DACF: null
+13052013_13.55.50.083-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.94565,-3.1870340000000397","cf":"null"}
+13052013_13.55.50.083-0700	Setting lastTimeOfUtterance to 1368478550041
+13052013_13.55.50.083-0700	Setting lastTimeOfDiffCoordinates to 1368478550041
+13052013_13.55.50.083-0700	Sys Utterance: 
+13052013_13.55.50.083-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_13.55.59.979-0700	
+13052013_13.55.59.979-0700	Run: 4
+13052013_13.55.59.979-0700	
+13052013_13.55.59.979-0700	Time: 1368478559979
+13052013_13.55.59.979-0700	Time between updates: 9938
+13052013_13.55.59.979-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-20-55-45-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+13052013_13.55.59.981-0700	User location reported:55.94565;-3.1870340000000397
+13052013_13.55.59.981-0700	User DA: {"cf":"null"}
+13052013_13.55.59.981-0700	User reported position: 55.94565,-3.1870340000000397
+13052013_13.55.59.981-0700	Coordinates used: reported
+13052013_13.55.59.981-0700	User current position: 55.94565,-3.1870340000000397
+13052013_13.56.00.029-0700	Current ways list (possibilities): [197, 194, 193, 192]
+13052013_13.56.00.030-0700	Current way: 197
+13052013_13.56.00.044-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+13052013_13.56.00.044-0700	Current Step Distance (in meters): 0.0
+13052013_13.56.00.045-0700	user walking: false
+13052013_13.56.00.045-0700	User Orientation: unknown
+13052013_13.56.00.045-0700	User DACF: null
+13052013_13.56.00.045-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.94565,-3.1870340000000397","cf":"null"}
+13052013_13.56.00.045-0700	Setting lastTimeOfUtterance to 1368478559979
+13052013_13.56.00.045-0700	Sys Utterance: 
+13052013_13.56.00.045-0700	sysResponse: {"utterance":"","uttType":"dm"}

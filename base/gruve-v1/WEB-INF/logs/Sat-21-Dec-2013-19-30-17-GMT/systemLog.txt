@@ -1,0 +1,142 @@
+21122013_11.30.17.162-0800	
+21122013_11.30.17.162-0800	Run: 1
+21122013_11.30.17.162-0800	
+21122013_11.30.17.162-0800	Time: 1387654217162
+21122013_11.30.17.162-0800	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Sat-21-Dec-2013-19-30-17-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"NaN;NaN"}
+21122013_11.30.17.162-0800	User location reported:NaN;NaN
+21122013_11.30.17.162-0800	User DA: {"cf":"null"}
+21122013_11.30.17.163-0800	User reported position: NaN,NaN
+21122013_11.30.17.163-0800	Coordinates used: reported
+21122013_11.30.17.163-0800	User current position: NaN,NaN
+21122013_11.30.17.168-0800	Current ways list (possibilities): []
+21122013_11.30.17.168-0800	Current way: null
+21122013_11.30.17.175-0800	User location: []
+21122013_11.30.17.175-0800	Current Step Distance: unknown
+21122013_11.30.17.175-0800	user walking: false
+21122013_11.30.17.175-0800	User Orientation: unknown
+21122013_11.30.17.175-0800	User DACF: null
+21122013_11.30.17.175-0800	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"NaN,NaN","cf":"greetUser"}
+21122013_11.30.17.175-0800	Setting lastTimeOfUtterance to 1387654217162
+21122013_11.30.17.175-0800	Sys Utterance: Hi. I am here to help you with directions in this game.
+21122013_11.30.17.175-0800	sysResponse: {"utterance":"Hi. I am here to help you with directions in this game.","uttType":"setup"}
+21122013_11.30.17.438-0800	
+21122013_11.30.17.439-0800	Run: 2
+21122013_11.30.17.439-0800	
+21122013_11.30.17.439-0800	Time: 1387654217439
+21122013_11.30.17.439-0800	Time between updates: 277
+21122013_11.30.17.439-0800	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Sat-21-Dec-2013-19-30-17-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94571700000001;-3.1870790000000397"}
+21122013_11.30.17.439-0800	User location reported:55.94571700000001;-3.1870790000000397
+21122013_11.30.17.439-0800	User DA: {"cf":"null"}
+21122013_11.30.17.439-0800	User reported position: 55.94571700000001,-3.1870790000000397
+21122013_11.30.17.439-0800	Coordinates used: reported
+21122013_11.30.17.439-0800	User current position: 55.94571700000001,-3.1870790000000397
+21122013_11.30.17.446-0800	Current ways list (possibilities): [197, 193, 192]
+21122013_11.30.17.446-0800	Current way: 197
+21122013_11.30.17.452-0800	User location: [Bristo Square, Potterrow, Marshall Street]
+21122013_11.30.17.452-0800	Current Step Distance (in meters): NaN
+21122013_11.30.17.452-0800	user walking: false
+21122013_11.30.17.452-0800	User Orientation: unknown
+21122013_11.30.17.452-0800	User DACF: null
+21122013_11.30.17.452-0800	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.94571700000001,-3.1870790000000397","cf":"startWalking"}
+21122013_11.30.17.452-0800	Setting lastTimeOfUtterance to 1387654217439
+21122013_11.30.17.452-0800	Setting lastTimeOfDiffCoordinates to 1387654217439
+21122013_11.30.17.452-0800	Sys Utterance: Let's get started. Move ahead, so that I know you are there.
+21122013_11.30.17.453-0800	sysResponse: {"utterance":"Let's get started. Move ahead, so that I know you are there.","uttType":"setup"}
+21122013_11.30.21.347-0800	
+21122013_11.30.21.347-0800	Run: 3
+21122013_11.30.21.347-0800	
+21122013_11.30.21.347-0800	Time: 1387654221347
+21122013_11.30.21.347-0800	Time between updates: 3908
+21122013_11.30.21.347-0800	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Sat-21-Dec-2013-19-30-17-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+21122013_11.30.21.347-0800	User location reported:55.94565;-3.1870340000000397
+21122013_11.30.21.347-0800	User DA: {"cf":"null"}
+21122013_11.30.21.347-0800	User reported position: 55.94565,-3.1870340000000397
+21122013_11.30.21.347-0800	Coordinates used: reported
+21122013_11.30.21.347-0800	User current position: 55.94565,-3.1870340000000397
+21122013_11.30.21.353-0800	Current ways list (possibilities): [197, 194, 193, 192]
+21122013_11.30.21.353-0800	Current way: 197
+21122013_11.30.21.359-0800	User location: [Bristo Square, Potterrow, Marshall Street]
+21122013_11.30.21.360-0800	Current Step Distance (in meters): 7.9595619964277775
+21122013_11.30.21.360-0800	user walking: true
+21122013_11.30.21.360-0800	Using calculated orientation
+21122013_11.30.21.360-0800	User orientation:159.38844918401787
+21122013_11.30.21.360-0800	User DACF: null
+21122013_11.30.21.360-0800	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":159.38844918401787,"currentUserCoor":"55.94565,-3.1870340000000397","cf":"null"}
+21122013_11.30.21.360-0800	Setting lastTimeOfUtterance to 1387654221347
+21122013_11.30.21.360-0800	Setting lastTimeOfDiffCoordinates to 1387654221347
+21122013_11.30.21.360-0800	Sys Utterance: 
+21122013_11.30.21.360-0800	sysResponse: {"utterance":"","uttType":"dm"}
+21122013_11.30.26.473-0800	
+21122013_11.30.26.473-0800	Run: 4
+21122013_11.30.26.473-0800	
+21122013_11.30.26.473-0800	Time: 1387654226473
+21122013_11.30.26.473-0800	Time between updates: 5126
+21122013_11.30.26.473-0800	userResponse:{"userDA":"{\"cf\":\"requestRoute\",\"destination_name\":\"Nicolson Street\",\"destination_type\":\"street\"}","sessionId":"Sat-21-Dec-2013-19-30-17-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+21122013_11.30.26.473-0800	User location reported:55.94565;-3.1870340000000397
+21122013_11.30.26.474-0800	User DA: {"destination_name":"Nicolson Street","destination_type":"street","cf":"requestRoute"}
+21122013_11.30.26.474-0800	User reported position: 55.94565,-3.1870340000000397
+21122013_11.30.26.474-0800	Coordinates used: reported
+21122013_11.30.26.474-0800	User current position: 55.94565,-3.1870340000000397
+21122013_11.30.26.480-0800	Current ways list (possibilities): [197, 194, 193, 192]
+21122013_11.30.26.481-0800	Current way: 197
+21122013_11.30.26.487-0800	User location: [Bristo Square, Potterrow, Marshall Street]
+21122013_11.30.26.487-0800	Current Step Distance (in meters): 0.0
+21122013_11.30.26.487-0800	user walking: false
+21122013_11.30.26.487-0800	Using previous orientation
+21122013_11.30.26.487-0800	User orientation:159.38844918401787
+21122013_11.30.26.487-0800	User DACF: requestRoute
+21122013_11.30.26.487-0800	SysDA: {"userDA":"{\"destination_name\":\"Nicolson Street\",\"destination_type\":\"street\",\"cf\":\"requestRoute\"}","currentUserOrientation":159.38844918401787,"entityId":"null","currentUserCoor":"55.94565,-3.1870340000000397","cf":"acknowledgeRouteRequest","entityName":"Nicolson Street"}
+21122013_11.30.26.487-0800	Setting lastTimeOfUtterance to 1387654226473
+21122013_11.30.26.487-0800	Sys Utterance: Alright. Finding directions to Nicolson Street. One moment please...
+21122013_11.30.26.487-0800	sysResponse: {"utterance":"Alright. Finding directions to Nicolson Street. One moment please...","uttType":"navInstruction"}
+21122013_11.30.35.637-0800	
+21122013_11.30.35.638-0800	Run: 5
+21122013_11.30.35.638-0800	
+21122013_11.30.35.638-0800	Time: 1387654235638
+21122013_11.30.35.638-0800	Time between updates: 9165
+21122013_11.30.35.638-0800	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Sat-21-Dec-2013-19-30-17-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945608;-3.1870010000000093"}
+21122013_11.30.35.638-0800	User location reported:55.945608;-3.1870010000000093
+21122013_11.30.35.638-0800	User DA: {"cf":"null"}
+21122013_11.30.35.638-0800	User reported position: 55.945608,-3.1870010000000093
+21122013_11.30.35.638-0800	Coordinates used: reported
+21122013_11.30.35.638-0800	User current position: 55.945608,-3.1870010000000093
+21122013_11.30.35.644-0800	Current ways list (possibilities): [197, 194, 193, 192]
+21122013_11.30.35.644-0800	Current way: 197
+21122013_11.30.35.651-0800	User location: [Bristo Square, Potterrow, Marshall Street]
+21122013_11.30.35.651-0800	Current Step Distance (in meters): 5.102242231524784
+21122013_11.30.35.651-0800	user walking: true
+21122013_11.30.35.652-0800	Using calculated orientation
+21122013_11.30.35.652-0800	User orientation:156.25126994085815
+21122013_11.30.35.652-0800	User DACF: null
+21122013_11.30.35.688-0800	Finding route to 201,Nicolson Street on [Clerk Street, Nicolson Street, West Crosscauseway] at 55.94383282219119,-3.1835182631377847
+21122013_11.30.35.688-0800	Found destination coordinates: 55.94383282219119,-3.1835182631377847
+21122013_11.30.35.865-0800	First node: 154
+21122013_11.30.35.865-0800	Second node: 155
+21122013_11.30.35.865-0800	Current loc is close to second node
+21122013_11.30.35.865-0800	Next node: 155
+21122013_11.30.35.865-0800	Next Next node: 178
+21122013_11.30.35.918-0800	Next Way: 219
+21122013_11.30.35.955-0800	Closest node: 154
+21122013_11.30.35.955-0800	Current Way: 194
+21122013_11.30.35.955-0800	Route ready
+21122013_11.30.35.955-0800	Destination id: 201
+21122013_11.30.35.955-0800	Expected current way name: Potterrow
+21122013_11.30.35.972-0800	Current adjancent ways: [197, 194, 193, 192]
+21122013_11.30.35.972-0800	Expected way on route: 194
+21122013_11.30.35.972-0800	User reported at expected location
+21122013_11.30.35.972-0800	Prev Distance from Next node: 114.10032839257585
+21122013_11.30.35.972-0800	Current Distance from Next node: 106.37209005906635
+21122013_11.30.35.972-0800	User near Next node: false
+21122013_11.30.35.972-0800	User moving towards Next Node : true
+21122013_11.30.35.972-0800	To reach the next node, user should turn 0.19996389782829738
+21122013_11.30.35.972-0800	Expected user orientation: 156.45123383868645
+21122013_11.30.35.972-0800	User in expected orientation: true
+21122013_11.30.35.972-0800	Expecting user to turn:false
+21122013_11.30.35.972-0800	Next node: 155 at 55.944731038498155,-3.1863184893493326
+21122013_11.30.35.972-0800	UserWalking: true
+21122013_11.30.35.983-0800	Landmarks within 20m:[]
+21122013_11.30.35.983-0800	Landmarks nearby:none
+21122013_11.30.35.983-0800	SysDA: {"userDA":"{\"cf\":\"null\"}","index":1,"currentUserOrientation":156.25126994085815,"route":hw.macs.gruve.Route@12b48f3a,"currentUserCoor":"55.945608,-3.1870010000000093","cf":"presentRoute"}
+21122013_11.30.35.984-0800	Setting lastTimeOfUtterance to 1387654235638
+21122013_11.30.35.984-0800	Sys Utterance: We are <b>7 blocks (node) </b> from our destination. <br/>Head straight, continue on: Potterrow.
+21122013_11.30.35.984-0800	sysResponse: {"utterance":"We are <b>7 blocks (node) <\/b> from our destination. <br\/>Head straight, continue on: Potterrow.","uttType":"navInstruction"}

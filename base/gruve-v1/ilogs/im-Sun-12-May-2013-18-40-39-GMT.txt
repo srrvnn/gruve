@@ -1,0 +1,50 @@
+12052013_11.40.39.160-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"NaN;NaN"}
+12052013_11.40.39.183-0700	{"utterance":"Hi. I am your buddy. I can help you with directions.","uttType":"setup","userType":"im"}
+12052013_11.40.39.356-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_11.40.39.376-0700	{"utterance":"I need your orientation. Please start walking.","uttType":"setup","userType":"im"}
+12052013_11.40.42.339-0700	{"userDA":"{\"cf\":\"requestRoute\",\"destination_name\":\"Clerk Street\",\"destination_type\":\"street\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_11.40.42.361-0700	{"utterance":"ok. finding directions to Clerk Street.","uttType":"navInstruction","userType":"im"}
+12052013_11.40.52.344-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_11.40.52.421-0700	{"utterance":"","uttType":"dm","userType":"im"}
+12052013_11.41.02.342-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_11.41.02.363-0700	{"utterance":"","uttType":"dm","userType":"im"}
+12052013_11.41.12.339-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_11.41.12.360-0700	{"utterance":"","uttType":"dm","userType":"im"}
+12052013_11.41.22.340-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_11.41.22.362-0700	{"utterance":"","uttType":"dm","userType":"im"}
+12052013_11.41.32.344-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_11.41.32.365-0700	{"utterance":"","uttType":"dm","userType":"im"}
+12052013_11.41.42.343-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_11.41.42.364-0700	{"utterance":"","uttType":"dm","userType":"im"}
+12052013_11.41.52.343-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_11.41.52.364-0700	{"utterance":"","uttType":"dm","userType":"im"}
+12052013_11.41.54.290-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.41.54.314-0700	{"utterance":"","uttType":"dm","userType":"im"}
+12052013_11.42.04.289-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.42.04.312-0700	{"utterance":"","uttType":"dm","userType":"im"}
+12052013_11.42.14.291-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.42.14.313-0700	{"utterance":"","uttType":"dm","userType":"im"}
+12052013_11.42.24.893-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.42.24.910-0700	{"utterance":"","uttType":"dm","userType":"im"}
+12052013_11.42.32.291-0700	{"userDA":"{\"cf\":\"stopDirections\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.42.32.313-0700	{"utterance":"ok","uttType":"dm","userType":"im"}
+12052013_11.42.42.296-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.42.42.323-0700	{"utterance":"","uttType":"dm","userType":"im"}
+12052013_11.42.52.294-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.42.52.315-0700	{"utterance":"","uttType":"dm","userType":"im"}
+12052013_11.43.02.295-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.43.02.318-0700	{"utterance":"","uttType":"dm","userType":"im"}
+12052013_11.43.12.293-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.43.12.314-0700	{"utterance":"","uttType":"dm","userType":"im"}
+12052013_11.43.22.293-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.43.22.315-0700	{"utterance":"","uttType":"dm","userType":"im"}
+12052013_11.43.32.292-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.43.32.314-0700	{"utterance":"","uttType":"dm","userType":"im"}
+12052013_11.43.42.294-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.43.42.315-0700	{"utterance":"","uttType":"dm","userType":"im"}
+12052013_11.43.52.315-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.43.52.337-0700	{"utterance":"","uttType":"dm","userType":"im"}
+12052013_11.44.02.311-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.44.02.333-0700	{"utterance":"","uttType":"dm","userType":"im"}
+12052013_11.44.12.295-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.44.12.317-0700	{"utterance":"","uttType":"dm","userType":"im"}

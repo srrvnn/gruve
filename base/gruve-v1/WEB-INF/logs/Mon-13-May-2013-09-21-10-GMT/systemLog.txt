@@ -1,0 +1,2595 @@
+13052013_02.26.53.077-0700	
+13052013_02.26.53.077-0700	Run: 1
+13052013_02.26.53.077-0700	
+13052013_02.26.53.077-0700	Time: 1368437213077
+13052013_02.26.53.092-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.26.53.092-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.26.53.092-0700	User DA: {"cf":"null"}
+13052013_02.26.53.093-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.26.53.093-0700	Coordinates used: reported
+13052013_02.26.53.093-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.26.53.163-0700	Current ways list (possibilities): [270, 842]
+13052013_02.26.53.163-0700	Current way: 270
+13052013_02.26.53.252-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.26.53.252-0700	Current Step Distance: unknown
+13052013_02.26.53.252-0700	user walking: false
+13052013_02.26.53.252-0700	User Orientation: unknown
+13052013_02.26.53.252-0700	User DACF: null
+13052013_02.26.53.253-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"greetUser"}
+13052013_02.26.53.253-0700	Setting lastTimeOfUtterance to 1368437213077
+13052013_02.26.53.253-0700	Sys Utterance: Hi. I am here to help you with directions in this game.
+13052013_02.26.53.253-0700	sysResponse: {"utterance":"Hi. I am here to help you with directions in this game.","uttType":"setup"}
+13052013_02.27.01.714-0700	
+13052013_02.27.01.715-0700	Run: 2
+13052013_02.27.01.715-0700	
+13052013_02.27.01.715-0700	Time: 1368437221715
+13052013_02.27.01.715-0700	Time between updates: 8638
+13052013_02.27.01.715-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.27.01.715-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.27.01.716-0700	User DA: {"cf":"null"}
+13052013_02.27.01.716-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.27.01.716-0700	Coordinates used: reported
+13052013_02.27.01.716-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.27.01.731-0700	Current ways list (possibilities): [270, 842]
+13052013_02.27.01.731-0700	Current way: 270
+13052013_02.27.01.743-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.27.01.743-0700	Current Step Distance (in meters): 0.0
+13052013_02.27.01.743-0700	user walking: false
+13052013_02.27.01.743-0700	User Orientation: unknown
+13052013_02.27.01.743-0700	User DACF: null
+13052013_02.27.01.744-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"startWalking"}
+13052013_02.27.01.744-0700	Setting lastTimeOfUtterance to 1368437221715
+13052013_02.27.01.744-0700	Sys Utterance: Let's get started. Move ahead, so that I know you are there.
+13052013_02.27.01.744-0700	sysResponse: {"utterance":"Let's get started. Move ahead, so that I know you are there.","uttType":"setup"}
+13052013_02.27.11.712-0700	
+13052013_02.27.11.712-0700	Run: 3
+13052013_02.27.11.712-0700	
+13052013_02.27.11.712-0700	Time: 1368437231712
+13052013_02.27.11.712-0700	Time between updates: 9997
+13052013_02.27.11.713-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.27.11.713-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.27.11.713-0700	User DA: {"cf":"null"}
+13052013_02.27.11.713-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.27.11.713-0700	Coordinates used: reported
+13052013_02.27.11.713-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.27.11.726-0700	Current ways list (possibilities): [270, 842]
+13052013_02.27.11.726-0700	Current way: 270
+13052013_02.27.11.739-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.27.11.739-0700	Current Step Distance (in meters): 0.0
+13052013_02.27.11.739-0700	user walking: false
+13052013_02.27.11.740-0700	User Orientation: unknown
+13052013_02.27.11.740-0700	User DACF: null
+13052013_02.27.11.740-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.27.11.740-0700	Setting lastTimeOfUtterance to 1368437231712
+13052013_02.27.11.740-0700	Sys Utterance: 
+13052013_02.27.11.740-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.27.21.718-0700	
+13052013_02.27.21.718-0700	Run: 4
+13052013_02.27.21.718-0700	
+13052013_02.27.21.718-0700	Time: 1368437241718
+13052013_02.27.21.718-0700	Time between updates: 10006
+13052013_02.27.21.719-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.27.21.719-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.27.21.719-0700	User DA: {"cf":"null"}
+13052013_02.27.21.719-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.27.21.719-0700	Coordinates used: reported
+13052013_02.27.21.719-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.27.21.729-0700	Current ways list (possibilities): [270, 842]
+13052013_02.27.21.729-0700	Current way: 270
+13052013_02.27.21.739-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.27.21.739-0700	Current Step Distance (in meters): 0.0
+13052013_02.27.21.739-0700	user walking: false
+13052013_02.27.21.739-0700	User Orientation: unknown
+13052013_02.27.21.739-0700	User DACF: null
+13052013_02.27.21.739-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.27.21.739-0700	Setting lastTimeOfUtterance to 1368437241718
+13052013_02.27.21.740-0700	Sys Utterance: 
+13052013_02.27.21.740-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.27.31.712-0700	
+13052013_02.27.31.712-0700	Run: 5
+13052013_02.27.31.712-0700	
+13052013_02.27.31.712-0700	Time: 1368437251712
+13052013_02.27.31.712-0700	Time between updates: 9994
+13052013_02.27.31.713-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.27.31.713-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.27.31.713-0700	User DA: {"cf":"null"}
+13052013_02.27.31.713-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.27.31.713-0700	Coordinates used: reported
+13052013_02.27.31.713-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.27.31.723-0700	Current ways list (possibilities): [270, 842]
+13052013_02.27.31.723-0700	Current way: 270
+13052013_02.27.31.733-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.27.31.733-0700	Current Step Distance (in meters): 0.0
+13052013_02.27.31.733-0700	user walking: false
+13052013_02.27.31.733-0700	User Orientation: unknown
+13052013_02.27.31.733-0700	User DACF: null
+13052013_02.27.31.734-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.27.31.734-0700	Setting lastTimeOfUtterance to 1368437251712
+13052013_02.27.31.734-0700	Sys Utterance: 
+13052013_02.27.31.734-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.27.41.714-0700	
+13052013_02.27.41.714-0700	Run: 6
+13052013_02.27.41.714-0700	
+13052013_02.27.41.714-0700	Time: 1368437261714
+13052013_02.27.41.714-0700	Time between updates: 10002
+13052013_02.27.41.715-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.27.41.715-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.27.41.715-0700	User DA: {"cf":"null"}
+13052013_02.27.41.715-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.27.41.715-0700	Coordinates used: reported
+13052013_02.27.41.715-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.27.41.725-0700	Current ways list (possibilities): [270, 842]
+13052013_02.27.41.725-0700	Current way: 270
+13052013_02.27.41.735-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.27.41.735-0700	Current Step Distance (in meters): 0.0
+13052013_02.27.41.735-0700	user walking: false
+13052013_02.27.41.735-0700	User Orientation: unknown
+13052013_02.27.41.735-0700	User DACF: null
+13052013_02.27.41.735-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.27.41.735-0700	Setting lastTimeOfUtterance to 1368437261714
+13052013_02.27.41.735-0700	Sys Utterance: 
+13052013_02.27.41.736-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.27.51.715-0700	
+13052013_02.27.51.715-0700	Run: 7
+13052013_02.27.51.715-0700	
+13052013_02.27.51.715-0700	Time: 1368437271715
+13052013_02.27.51.716-0700	Time between updates: 10001
+13052013_02.27.51.716-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.27.51.716-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.27.51.716-0700	User DA: {"cf":"null"}
+13052013_02.27.51.716-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.27.51.716-0700	Coordinates used: reported
+13052013_02.27.51.716-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.27.51.728-0700	Current ways list (possibilities): [270, 842]
+13052013_02.27.51.728-0700	Current way: 270
+13052013_02.27.51.739-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.27.51.739-0700	Current Step Distance (in meters): 0.0
+13052013_02.27.51.739-0700	user walking: false
+13052013_02.27.51.739-0700	User Orientation: unknown
+13052013_02.27.51.739-0700	User DACF: null
+13052013_02.27.51.739-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.27.51.740-0700	Setting lastTimeOfUtterance to 1368437271715
+13052013_02.27.51.740-0700	Sys Utterance: 
+13052013_02.27.51.740-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.28.01.711-0700	
+13052013_02.28.01.712-0700	Run: 8
+13052013_02.28.01.712-0700	
+13052013_02.28.01.712-0700	Time: 1368437281712
+13052013_02.28.01.712-0700	Time between updates: 9997
+13052013_02.28.01.712-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.28.01.712-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.28.01.712-0700	User DA: {"cf":"null"}
+13052013_02.28.01.713-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.28.01.713-0700	Coordinates used: reported
+13052013_02.28.01.713-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.28.01.723-0700	Current ways list (possibilities): [270, 842]
+13052013_02.28.01.723-0700	Current way: 270
+13052013_02.28.01.732-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.28.01.733-0700	Current Step Distance (in meters): 0.0
+13052013_02.28.01.733-0700	user walking: false
+13052013_02.28.01.733-0700	User Orientation: unknown
+13052013_02.28.01.733-0700	User DACF: null
+13052013_02.28.01.733-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.28.01.733-0700	Setting lastTimeOfUtterance to 1368437281712
+13052013_02.28.01.733-0700	Sys Utterance: 
+13052013_02.28.01.733-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.28.11.712-0700	
+13052013_02.28.11.712-0700	Run: 9
+13052013_02.28.11.712-0700	
+13052013_02.28.11.712-0700	Time: 1368437291712
+13052013_02.28.11.712-0700	Time between updates: 10000
+13052013_02.28.11.712-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.28.11.713-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.28.11.713-0700	User DA: {"cf":"null"}
+13052013_02.28.11.713-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.28.11.713-0700	Coordinates used: reported
+13052013_02.28.11.713-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.28.11.722-0700	Current ways list (possibilities): [270, 842]
+13052013_02.28.11.722-0700	Current way: 270
+13052013_02.28.11.732-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.28.11.732-0700	Current Step Distance (in meters): 0.0
+13052013_02.28.11.732-0700	user walking: false
+13052013_02.28.11.732-0700	User Orientation: unknown
+13052013_02.28.11.732-0700	User DACF: null
+13052013_02.28.11.732-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.28.11.733-0700	Setting lastTimeOfUtterance to 1368437291712
+13052013_02.28.11.733-0700	Sys Utterance: 
+13052013_02.28.11.733-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.28.21.715-0700	
+13052013_02.28.21.715-0700	Run: 10
+13052013_02.28.21.715-0700	
+13052013_02.28.21.715-0700	Time: 1368437301715
+13052013_02.28.21.715-0700	Time between updates: 10003
+13052013_02.28.21.716-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.28.21.716-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.28.21.716-0700	User DA: {"cf":"null"}
+13052013_02.28.21.716-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.28.21.716-0700	Coordinates used: reported
+13052013_02.28.21.716-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.28.21.726-0700	Current ways list (possibilities): [270, 842]
+13052013_02.28.21.727-0700	Current way: 270
+13052013_02.28.21.736-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.28.21.736-0700	Current Step Distance (in meters): 0.0
+13052013_02.28.21.736-0700	user walking: false
+13052013_02.28.21.737-0700	User Orientation: unknown
+13052013_02.28.21.737-0700	User DACF: null
+13052013_02.28.21.737-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.28.21.737-0700	Setting lastTimeOfUtterance to 1368437301715
+13052013_02.28.21.737-0700	Sys Utterance: 
+13052013_02.28.21.737-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.28.31.714-0700	
+13052013_02.28.31.714-0700	Run: 11
+13052013_02.28.31.714-0700	
+13052013_02.28.31.714-0700	Time: 1368437311714
+13052013_02.28.31.714-0700	Time between updates: 9999
+13052013_02.28.31.714-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.28.31.715-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.28.31.715-0700	User DA: {"cf":"null"}
+13052013_02.28.31.715-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.28.31.715-0700	Coordinates used: reported
+13052013_02.28.31.715-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.28.31.724-0700	Current ways list (possibilities): [270, 842]
+13052013_02.28.31.725-0700	Current way: 270
+13052013_02.28.31.734-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.28.31.734-0700	Current Step Distance (in meters): 0.0
+13052013_02.28.31.734-0700	user walking: false
+13052013_02.28.31.734-0700	User Orientation: unknown
+13052013_02.28.31.734-0700	User DACF: null
+13052013_02.28.31.735-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.28.31.735-0700	Setting lastTimeOfUtterance to 1368437311714
+13052013_02.28.31.735-0700	Sys Utterance: 
+13052013_02.28.31.735-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.28.41.717-0700	
+13052013_02.28.41.717-0700	Run: 12
+13052013_02.28.41.717-0700	
+13052013_02.28.41.717-0700	Time: 1368437321717
+13052013_02.28.41.717-0700	Time between updates: 10003
+13052013_02.28.41.717-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.28.41.718-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.28.41.718-0700	User DA: {"cf":"null"}
+13052013_02.28.41.718-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.28.41.718-0700	Coordinates used: reported
+13052013_02.28.41.718-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.28.41.727-0700	Current ways list (possibilities): [270, 842]
+13052013_02.28.41.728-0700	Current way: 270
+13052013_02.28.41.737-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.28.41.738-0700	Current Step Distance (in meters): 0.0
+13052013_02.28.41.738-0700	user walking: false
+13052013_02.28.41.738-0700	User Orientation: unknown
+13052013_02.28.41.738-0700	User DACF: null
+13052013_02.28.41.738-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.28.41.738-0700	Setting lastTimeOfUtterance to 1368437321717
+13052013_02.28.41.738-0700	Sys Utterance: 
+13052013_02.28.41.738-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.28.51.717-0700	
+13052013_02.28.51.717-0700	Run: 13
+13052013_02.28.51.717-0700	
+13052013_02.28.51.718-0700	Time: 1368437331718
+13052013_02.28.51.718-0700	Time between updates: 10001
+13052013_02.28.51.718-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.28.51.718-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.28.51.718-0700	User DA: {"cf":"null"}
+13052013_02.28.51.718-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.28.51.719-0700	Coordinates used: reported
+13052013_02.28.51.719-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.28.51.728-0700	Current ways list (possibilities): [270, 842]
+13052013_02.28.51.728-0700	Current way: 270
+13052013_02.28.51.738-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.28.51.738-0700	Current Step Distance (in meters): 0.0
+13052013_02.28.51.738-0700	user walking: false
+13052013_02.28.51.739-0700	User Orientation: unknown
+13052013_02.28.51.739-0700	User DACF: null
+13052013_02.28.51.739-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.28.51.739-0700	Setting lastTimeOfUtterance to 1368437331718
+13052013_02.28.51.739-0700	Sys Utterance: 
+13052013_02.28.51.739-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.29.01.720-0700	
+13052013_02.29.01.720-0700	Run: 14
+13052013_02.29.01.720-0700	
+13052013_02.29.01.720-0700	Time: 1368437341720
+13052013_02.29.01.720-0700	Time between updates: 10002
+13052013_02.29.01.720-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.29.01.721-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.29.01.721-0700	User DA: {"cf":"null"}
+13052013_02.29.01.721-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.29.01.721-0700	Coordinates used: reported
+13052013_02.29.01.721-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.29.01.731-0700	Current ways list (possibilities): [270, 842]
+13052013_02.29.01.731-0700	Current way: 270
+13052013_02.29.01.741-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.29.01.753-0700	Current Step Distance (in meters): 0.0
+13052013_02.29.01.753-0700	user walking: false
+13052013_02.29.01.753-0700	User Orientation: unknown
+13052013_02.29.01.753-0700	User DACF: null
+13052013_02.29.01.754-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.29.01.754-0700	Setting lastTimeOfUtterance to 1368437341720
+13052013_02.29.01.754-0700	Sys Utterance: 
+13052013_02.29.01.754-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.29.11.720-0700	
+13052013_02.29.11.720-0700	Run: 15
+13052013_02.29.11.720-0700	
+13052013_02.29.11.720-0700	Time: 1368437351720
+13052013_02.29.11.720-0700	Time between updates: 10000
+13052013_02.29.11.720-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.29.11.720-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.29.11.720-0700	User DA: {"cf":"null"}
+13052013_02.29.11.720-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.29.11.721-0700	Coordinates used: reported
+13052013_02.29.11.721-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.29.11.730-0700	Current ways list (possibilities): [270, 842]
+13052013_02.29.11.730-0700	Current way: 270
+13052013_02.29.11.740-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.29.11.740-0700	Current Step Distance (in meters): 0.0
+13052013_02.29.11.740-0700	user walking: false
+13052013_02.29.11.740-0700	User Orientation: unknown
+13052013_02.29.11.740-0700	User DACF: null
+13052013_02.29.11.740-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.29.11.740-0700	Setting lastTimeOfUtterance to 1368437351720
+13052013_02.29.11.740-0700	Sys Utterance: 
+13052013_02.29.11.741-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.29.21.718-0700	
+13052013_02.29.21.718-0700	Run: 16
+13052013_02.29.21.718-0700	
+13052013_02.29.21.718-0700	Time: 1368437361718
+13052013_02.29.21.718-0700	Time between updates: 9998
+13052013_02.29.21.718-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.29.21.718-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.29.21.718-0700	User DA: {"cf":"null"}
+13052013_02.29.21.719-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.29.21.719-0700	Coordinates used: reported
+13052013_02.29.21.719-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.29.21.728-0700	Current ways list (possibilities): [270, 842]
+13052013_02.29.21.728-0700	Current way: 270
+13052013_02.29.21.738-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.29.21.738-0700	Current Step Distance (in meters): 0.0
+13052013_02.29.21.738-0700	user walking: false
+13052013_02.29.21.738-0700	User Orientation: unknown
+13052013_02.29.21.738-0700	User DACF: null
+13052013_02.29.21.738-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.29.21.738-0700	Setting lastTimeOfUtterance to 1368437361718
+13052013_02.29.21.738-0700	Sys Utterance: 
+13052013_02.29.21.738-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.29.31.719-0700	
+13052013_02.29.31.719-0700	Run: 17
+13052013_02.29.31.719-0700	
+13052013_02.29.31.719-0700	Time: 1368437371719
+13052013_02.29.31.719-0700	Time between updates: 10001
+13052013_02.29.31.719-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.29.31.719-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.29.31.719-0700	User DA: {"cf":"null"}
+13052013_02.29.31.720-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.29.31.720-0700	Coordinates used: reported
+13052013_02.29.31.720-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.29.31.729-0700	Current ways list (possibilities): [270, 842]
+13052013_02.29.31.729-0700	Current way: 270
+13052013_02.29.31.739-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.29.31.739-0700	Current Step Distance (in meters): 0.0
+13052013_02.29.31.739-0700	user walking: false
+13052013_02.29.31.740-0700	User Orientation: unknown
+13052013_02.29.31.740-0700	User DACF: null
+13052013_02.29.31.740-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.29.31.740-0700	Setting lastTimeOfUtterance to 1368437371719
+13052013_02.29.31.740-0700	Sys Utterance: 
+13052013_02.29.31.740-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.29.41.721-0700	
+13052013_02.29.41.721-0700	Run: 18
+13052013_02.29.41.721-0700	
+13052013_02.29.41.723-0700	Time: 1368437381723
+13052013_02.29.41.723-0700	Time between updates: 10004
+13052013_02.29.41.723-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.29.41.723-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.29.41.723-0700	User DA: {"cf":"null"}
+13052013_02.29.41.723-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.29.41.723-0700	Coordinates used: reported
+13052013_02.29.41.723-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.29.41.733-0700	Current ways list (possibilities): [270, 842]
+13052013_02.29.41.733-0700	Current way: 270
+13052013_02.29.41.742-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.29.41.742-0700	Current Step Distance (in meters): 0.0
+13052013_02.29.41.743-0700	user walking: false
+13052013_02.29.41.743-0700	User Orientation: unknown
+13052013_02.29.41.743-0700	User DACF: null
+13052013_02.29.41.743-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.29.41.743-0700	Setting lastTimeOfUtterance to 1368437381723
+13052013_02.29.41.743-0700	Sys Utterance: 
+13052013_02.29.41.743-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.29.51.720-0700	
+13052013_02.29.51.720-0700	Run: 19
+13052013_02.29.51.720-0700	
+13052013_02.29.51.720-0700	Time: 1368437391720
+13052013_02.29.51.721-0700	Time between updates: 9997
+13052013_02.29.51.721-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.29.51.721-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.29.51.721-0700	User DA: {"cf":"null"}
+13052013_02.29.51.721-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.29.51.721-0700	Coordinates used: reported
+13052013_02.29.51.721-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.29.51.731-0700	Current ways list (possibilities): [270, 842]
+13052013_02.29.51.731-0700	Current way: 270
+13052013_02.29.51.740-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.29.51.741-0700	Current Step Distance (in meters): 0.0
+13052013_02.29.51.741-0700	user walking: false
+13052013_02.29.51.741-0700	User Orientation: unknown
+13052013_02.29.51.741-0700	User DACF: null
+13052013_02.29.51.741-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.29.51.741-0700	Setting lastTimeOfUtterance to 1368437391720
+13052013_02.29.51.741-0700	Sys Utterance: 
+13052013_02.29.51.741-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.30.01.721-0700	
+13052013_02.30.01.722-0700	Run: 20
+13052013_02.30.01.722-0700	
+13052013_02.30.01.722-0700	Time: 1368437401722
+13052013_02.30.01.722-0700	Time between updates: 10002
+13052013_02.30.01.722-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.30.01.722-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.30.01.722-0700	User DA: {"cf":"null"}
+13052013_02.30.01.722-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.30.01.722-0700	Coordinates used: reported
+13052013_02.30.01.722-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.30.01.732-0700	Current ways list (possibilities): [270, 842]
+13052013_02.30.01.732-0700	Current way: 270
+13052013_02.30.01.742-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.30.01.742-0700	Current Step Distance (in meters): 0.0
+13052013_02.30.01.742-0700	user walking: false
+13052013_02.30.01.742-0700	User Orientation: unknown
+13052013_02.30.01.742-0700	User DACF: null
+13052013_02.30.01.743-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.30.01.743-0700	Setting lastTimeOfUtterance to 1368437401722
+13052013_02.30.01.743-0700	Sys Utterance: 
+13052013_02.30.01.743-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.30.11.722-0700	
+13052013_02.30.11.722-0700	Run: 21
+13052013_02.30.11.722-0700	
+13052013_02.30.11.722-0700	Time: 1368437411722
+13052013_02.30.11.722-0700	Time between updates: 10000
+13052013_02.30.11.723-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.30.11.723-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.30.11.723-0700	User DA: {"cf":"null"}
+13052013_02.30.11.723-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.30.11.723-0700	Coordinates used: reported
+13052013_02.30.11.723-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.30.11.733-0700	Current ways list (possibilities): [270, 842]
+13052013_02.30.11.733-0700	Current way: 270
+13052013_02.30.11.742-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.30.11.743-0700	Current Step Distance (in meters): 0.0
+13052013_02.30.11.743-0700	user walking: false
+13052013_02.30.11.743-0700	User Orientation: unknown
+13052013_02.30.11.743-0700	User DACF: null
+13052013_02.30.11.743-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.30.11.743-0700	Setting lastTimeOfUtterance to 1368437411722
+13052013_02.30.11.743-0700	Sys Utterance: 
+13052013_02.30.11.743-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.30.21.723-0700	
+13052013_02.30.21.723-0700	Run: 22
+13052013_02.30.21.723-0700	
+13052013_02.30.21.723-0700	Time: 1368437421723
+13052013_02.30.21.723-0700	Time between updates: 10001
+13052013_02.30.21.723-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.30.21.723-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.30.21.723-0700	User DA: {"cf":"null"}
+13052013_02.30.21.723-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.30.21.723-0700	Coordinates used: reported
+13052013_02.30.21.724-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.30.21.733-0700	Current ways list (possibilities): [270, 842]
+13052013_02.30.21.733-0700	Current way: 270
+13052013_02.30.21.742-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.30.21.742-0700	Current Step Distance (in meters): 0.0
+13052013_02.30.21.742-0700	user walking: false
+13052013_02.30.21.743-0700	User Orientation: unknown
+13052013_02.30.21.743-0700	User DACF: null
+13052013_02.30.21.743-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.30.21.743-0700	Setting lastTimeOfUtterance to 1368437421723
+13052013_02.30.21.743-0700	Sys Utterance: 
+13052013_02.30.21.743-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.30.31.726-0700	
+13052013_02.30.31.726-0700	Run: 23
+13052013_02.30.31.726-0700	
+13052013_02.30.31.726-0700	Time: 1368437431726
+13052013_02.30.31.726-0700	Time between updates: 10003
+13052013_02.30.31.726-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.30.31.726-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.30.31.726-0700	User DA: {"cf":"null"}
+13052013_02.30.31.727-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.30.31.727-0700	Coordinates used: reported
+13052013_02.30.31.727-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.30.31.736-0700	Current ways list (possibilities): [270, 842]
+13052013_02.30.31.736-0700	Current way: 270
+13052013_02.30.31.746-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.30.31.746-0700	Current Step Distance (in meters): 0.0
+13052013_02.30.31.746-0700	user walking: false
+13052013_02.30.31.746-0700	User Orientation: unknown
+13052013_02.30.31.746-0700	User DACF: null
+13052013_02.30.31.746-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.30.31.746-0700	Setting lastTimeOfUtterance to 1368437431726
+13052013_02.30.31.746-0700	Sys Utterance: 
+13052013_02.30.31.746-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.30.41.726-0700	
+13052013_02.30.41.726-0700	Run: 24
+13052013_02.30.41.726-0700	
+13052013_02.30.41.726-0700	Time: 1368437441726
+13052013_02.30.41.727-0700	Time between updates: 10000
+13052013_02.30.41.727-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.30.41.727-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.30.41.727-0700	User DA: {"cf":"null"}
+13052013_02.30.41.727-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.30.41.727-0700	Coordinates used: reported
+13052013_02.30.41.727-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.30.41.737-0700	Current ways list (possibilities): [270, 842]
+13052013_02.30.41.737-0700	Current way: 270
+13052013_02.30.41.747-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.30.41.747-0700	Current Step Distance (in meters): 0.0
+13052013_02.30.41.747-0700	user walking: false
+13052013_02.30.41.747-0700	User Orientation: unknown
+13052013_02.30.41.747-0700	User DACF: null
+13052013_02.30.41.747-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.30.41.747-0700	Setting lastTimeOfUtterance to 1368437441726
+13052013_02.30.41.747-0700	Sys Utterance: 
+13052013_02.30.41.747-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.30.51.726-0700	
+13052013_02.30.51.727-0700	Run: 25
+13052013_02.30.51.727-0700	
+13052013_02.30.51.727-0700	Time: 1368437451727
+13052013_02.30.51.727-0700	Time between updates: 10001
+13052013_02.30.51.727-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.30.51.727-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.30.51.727-0700	User DA: {"cf":"null"}
+13052013_02.30.51.727-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.30.51.727-0700	Coordinates used: reported
+13052013_02.30.51.727-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.30.51.737-0700	Current ways list (possibilities): [270, 842]
+13052013_02.30.51.737-0700	Current way: 270
+13052013_02.30.51.746-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.30.51.746-0700	Current Step Distance (in meters): 0.0
+13052013_02.30.51.746-0700	user walking: false
+13052013_02.30.51.747-0700	User Orientation: unknown
+13052013_02.30.51.747-0700	User DACF: null
+13052013_02.30.51.747-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.30.51.747-0700	Setting lastTimeOfUtterance to 1368437451727
+13052013_02.30.51.747-0700	Sys Utterance: 
+13052013_02.30.51.747-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.31.01.726-0700	
+13052013_02.31.01.726-0700	Run: 26
+13052013_02.31.01.726-0700	
+13052013_02.31.01.726-0700	Time: 1368437461726
+13052013_02.31.01.726-0700	Time between updates: 9999
+13052013_02.31.01.727-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.31.01.727-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.31.01.727-0700	User DA: {"cf":"null"}
+13052013_02.31.01.727-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.31.01.727-0700	Coordinates used: reported
+13052013_02.31.01.727-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.31.01.736-0700	Current ways list (possibilities): [270, 842]
+13052013_02.31.01.737-0700	Current way: 270
+13052013_02.31.01.746-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.31.01.746-0700	Current Step Distance (in meters): 0.0
+13052013_02.31.01.746-0700	user walking: false
+13052013_02.31.01.746-0700	User Orientation: unknown
+13052013_02.31.01.746-0700	User DACF: null
+13052013_02.31.01.747-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.31.01.747-0700	Setting lastTimeOfUtterance to 1368437461726
+13052013_02.31.01.747-0700	Sys Utterance: 
+13052013_02.31.01.747-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.31.11.730-0700	
+13052013_02.31.11.730-0700	Run: 27
+13052013_02.31.11.730-0700	
+13052013_02.31.11.730-0700	Time: 1368437471730
+13052013_02.31.11.730-0700	Time between updates: 10004
+13052013_02.31.11.730-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.31.11.731-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.31.11.731-0700	User DA: {"cf":"null"}
+13052013_02.31.11.731-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.31.11.731-0700	Coordinates used: reported
+13052013_02.31.11.731-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.31.11.741-0700	Current ways list (possibilities): [270, 842]
+13052013_02.31.11.741-0700	Current way: 270
+13052013_02.31.11.751-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.31.11.752-0700	Current Step Distance (in meters): 0.0
+13052013_02.31.11.752-0700	user walking: false
+13052013_02.31.11.752-0700	User Orientation: unknown
+13052013_02.31.11.752-0700	User DACF: null
+13052013_02.31.11.752-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.31.11.752-0700	Setting lastTimeOfUtterance to 1368437471730
+13052013_02.31.11.752-0700	Sys Utterance: 
+13052013_02.31.11.753-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.31.21.731-0700	
+13052013_02.31.21.731-0700	Run: 28
+13052013_02.31.21.731-0700	
+13052013_02.31.21.731-0700	Time: 1368437481731
+13052013_02.31.21.731-0700	Time between updates: 10001
+13052013_02.31.21.731-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.31.21.731-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.31.21.731-0700	User DA: {"cf":"null"}
+13052013_02.31.21.731-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.31.21.731-0700	Coordinates used: reported
+13052013_02.31.21.732-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.31.21.742-0700	Current ways list (possibilities): [270, 842]
+13052013_02.31.21.742-0700	Current way: 270
+13052013_02.31.21.751-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.31.21.752-0700	Current Step Distance (in meters): 0.0
+13052013_02.31.21.752-0700	user walking: false
+13052013_02.31.21.752-0700	User Orientation: unknown
+13052013_02.31.21.752-0700	User DACF: null
+13052013_02.31.21.752-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.31.21.752-0700	Setting lastTimeOfUtterance to 1368437481731
+13052013_02.31.21.752-0700	Sys Utterance: 
+13052013_02.31.21.752-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.31.31.728-0700	
+13052013_02.31.31.728-0700	Run: 29
+13052013_02.31.31.728-0700	
+13052013_02.31.31.729-0700	Time: 1368437491728
+13052013_02.31.31.729-0700	Time between updates: 9997
+13052013_02.31.31.729-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.31.31.729-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.31.31.729-0700	User DA: {"cf":"null"}
+13052013_02.31.31.729-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.31.31.729-0700	Coordinates used: reported
+13052013_02.31.31.729-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.31.31.739-0700	Current ways list (possibilities): [270, 842]
+13052013_02.31.31.739-0700	Current way: 270
+13052013_02.31.31.749-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.31.31.749-0700	Current Step Distance (in meters): 0.0
+13052013_02.31.31.749-0700	user walking: false
+13052013_02.31.31.749-0700	User Orientation: unknown
+13052013_02.31.31.749-0700	User DACF: null
+13052013_02.31.31.749-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.31.31.749-0700	Setting lastTimeOfUtterance to 1368437491728
+13052013_02.31.31.749-0700	Sys Utterance: 
+13052013_02.31.31.750-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.31.41.745-0700	
+13052013_02.31.41.745-0700	Run: 30
+13052013_02.31.41.745-0700	
+13052013_02.31.41.745-0700	Time: 1368437501745
+13052013_02.31.41.745-0700	Time between updates: 10017
+13052013_02.31.41.745-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.31.41.745-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.31.41.745-0700	User DA: {"cf":"null"}
+13052013_02.31.41.745-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.31.41.746-0700	Coordinates used: reported
+13052013_02.31.41.746-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.31.41.755-0700	Current ways list (possibilities): [270, 842]
+13052013_02.31.41.755-0700	Current way: 270
+13052013_02.31.41.764-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.31.41.765-0700	Current Step Distance (in meters): 0.0
+13052013_02.31.41.765-0700	user walking: false
+13052013_02.31.41.765-0700	User Orientation: unknown
+13052013_02.31.41.765-0700	User DACF: null
+13052013_02.31.41.765-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.31.41.765-0700	Setting lastTimeOfUtterance to 1368437501745
+13052013_02.31.41.765-0700	Sys Utterance: 
+13052013_02.31.41.765-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.31.51.731-0700	
+13052013_02.31.51.731-0700	Run: 31
+13052013_02.31.51.731-0700	
+13052013_02.31.51.731-0700	Time: 1368437511731
+13052013_02.31.51.732-0700	Time between updates: 9986
+13052013_02.31.51.732-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.31.51.732-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.31.51.732-0700	User DA: {"cf":"null"}
+13052013_02.31.51.732-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.31.51.732-0700	Coordinates used: reported
+13052013_02.31.51.732-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.31.51.742-0700	Current ways list (possibilities): [270, 842]
+13052013_02.31.51.742-0700	Current way: 270
+13052013_02.31.51.751-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.31.51.751-0700	Current Step Distance (in meters): 0.0
+13052013_02.31.51.751-0700	user walking: false
+13052013_02.31.51.751-0700	User Orientation: unknown
+13052013_02.31.51.752-0700	User DACF: null
+13052013_02.31.51.752-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.31.51.752-0700	Setting lastTimeOfUtterance to 1368437511731
+13052013_02.31.51.752-0700	Sys Utterance: 
+13052013_02.31.51.752-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.32.01.730-0700	
+13052013_02.32.01.730-0700	Run: 32
+13052013_02.32.01.730-0700	
+13052013_02.32.01.730-0700	Time: 1368437521730
+13052013_02.32.01.730-0700	Time between updates: 9999
+13052013_02.32.01.731-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.32.01.731-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.32.01.731-0700	User DA: {"cf":"null"}
+13052013_02.32.01.731-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.32.01.731-0700	Coordinates used: reported
+13052013_02.32.01.731-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.32.01.740-0700	Current ways list (possibilities): [270, 842]
+13052013_02.32.01.741-0700	Current way: 270
+13052013_02.32.01.750-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.32.01.750-0700	Current Step Distance (in meters): 0.0
+13052013_02.32.01.750-0700	user walking: false
+13052013_02.32.01.750-0700	User Orientation: unknown
+13052013_02.32.01.750-0700	User DACF: null
+13052013_02.32.01.750-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.32.01.750-0700	Setting lastTimeOfUtterance to 1368437521730
+13052013_02.32.01.750-0700	Sys Utterance: 
+13052013_02.32.01.751-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.32.11.738-0700	
+13052013_02.32.11.738-0700	Run: 33
+13052013_02.32.11.738-0700	
+13052013_02.32.11.738-0700	Time: 1368437531738
+13052013_02.32.11.738-0700	Time between updates: 10008
+13052013_02.32.11.738-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.32.11.738-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.32.11.738-0700	User DA: {"cf":"null"}
+13052013_02.32.11.739-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.32.11.739-0700	Coordinates used: reported
+13052013_02.32.11.739-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.32.11.750-0700	Current ways list (possibilities): [270, 842]
+13052013_02.32.11.750-0700	Current way: 270
+13052013_02.32.11.765-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.32.11.765-0700	Current Step Distance (in meters): 0.0
+13052013_02.32.11.765-0700	user walking: false
+13052013_02.32.11.766-0700	User Orientation: unknown
+13052013_02.32.11.766-0700	User DACF: null
+13052013_02.32.11.766-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.32.11.766-0700	Setting lastTimeOfUtterance to 1368437531738
+13052013_02.32.11.766-0700	Sys Utterance: 
+13052013_02.32.11.766-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.32.21.732-0700	
+13052013_02.32.21.732-0700	Run: 34
+13052013_02.32.21.732-0700	
+13052013_02.32.21.732-0700	Time: 1368437541732
+13052013_02.32.21.732-0700	Time between updates: 9994
+13052013_02.32.21.732-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.32.21.733-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.32.21.733-0700	User DA: {"cf":"null"}
+13052013_02.32.21.733-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.32.21.733-0700	Coordinates used: reported
+13052013_02.32.21.733-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.32.21.742-0700	Current ways list (possibilities): [270, 842]
+13052013_02.32.21.742-0700	Current way: 270
+13052013_02.32.21.752-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.32.21.752-0700	Current Step Distance (in meters): 0.0
+13052013_02.32.21.752-0700	user walking: false
+13052013_02.32.21.752-0700	User Orientation: unknown
+13052013_02.32.21.752-0700	User DACF: null
+13052013_02.32.21.752-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.32.21.752-0700	Setting lastTimeOfUtterance to 1368437541732
+13052013_02.32.21.752-0700	Sys Utterance: 
+13052013_02.32.21.752-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.32.31.730-0700	
+13052013_02.32.31.730-0700	Run: 35
+13052013_02.32.31.730-0700	
+13052013_02.32.31.730-0700	Time: 1368437551730
+13052013_02.32.31.730-0700	Time between updates: 9998
+13052013_02.32.31.730-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.32.31.730-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.32.31.730-0700	User DA: {"cf":"null"}
+13052013_02.32.31.731-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.32.31.731-0700	Coordinates used: reported
+13052013_02.32.31.731-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.32.31.761-0700	Current ways list (possibilities): [270, 842]
+13052013_02.32.31.762-0700	Current way: 270
+13052013_02.32.31.772-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.32.31.773-0700	Current Step Distance (in meters): 0.0
+13052013_02.32.31.773-0700	user walking: false
+13052013_02.32.31.773-0700	User Orientation: unknown
+13052013_02.32.31.773-0700	User DACF: null
+13052013_02.32.31.773-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.32.31.773-0700	Setting lastTimeOfUtterance to 1368437551730
+13052013_02.32.31.773-0700	Sys Utterance: 
+13052013_02.32.31.773-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.32.41.730-0700	
+13052013_02.32.41.730-0700	Run: 36
+13052013_02.32.41.730-0700	
+13052013_02.32.41.731-0700	Time: 1368437561731
+13052013_02.32.41.731-0700	Time between updates: 10001
+13052013_02.32.41.731-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.32.41.731-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.32.41.731-0700	User DA: {"cf":"null"}
+13052013_02.32.41.731-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.32.41.731-0700	Coordinates used: reported
+13052013_02.32.41.731-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.32.41.741-0700	Current ways list (possibilities): [270, 842]
+13052013_02.32.41.741-0700	Current way: 270
+13052013_02.32.41.752-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.32.41.752-0700	Current Step Distance (in meters): 0.0
+13052013_02.32.41.752-0700	user walking: false
+13052013_02.32.41.752-0700	User Orientation: unknown
+13052013_02.32.41.752-0700	User DACF: null
+13052013_02.32.41.752-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.32.41.752-0700	Setting lastTimeOfUtterance to 1368437561731
+13052013_02.32.41.752-0700	Sys Utterance: 
+13052013_02.32.41.752-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.32.51.732-0700	
+13052013_02.32.51.732-0700	Run: 37
+13052013_02.32.51.732-0700	
+13052013_02.32.51.732-0700	Time: 1368437571732
+13052013_02.32.51.732-0700	Time between updates: 10001
+13052013_02.32.51.732-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.32.51.732-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.32.51.732-0700	User DA: {"cf":"null"}
+13052013_02.32.51.733-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.32.51.733-0700	Coordinates used: reported
+13052013_02.32.51.733-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.32.51.742-0700	Current ways list (possibilities): [270, 842]
+13052013_02.32.51.743-0700	Current way: 270
+13052013_02.32.51.752-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.32.51.752-0700	Current Step Distance (in meters): 0.0
+13052013_02.32.51.752-0700	user walking: false
+13052013_02.32.51.753-0700	User Orientation: unknown
+13052013_02.32.51.753-0700	User DACF: null
+13052013_02.32.51.753-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.32.51.753-0700	Setting lastTimeOfUtterance to 1368437571732
+13052013_02.32.51.753-0700	Sys Utterance: 
+13052013_02.32.51.753-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.33.01.730-0700	
+13052013_02.33.01.730-0700	Run: 38
+13052013_02.33.01.730-0700	
+13052013_02.33.01.730-0700	Time: 1368437581730
+13052013_02.33.01.730-0700	Time between updates: 9998
+13052013_02.33.01.730-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.33.01.730-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.33.01.730-0700	User DA: {"cf":"null"}
+13052013_02.33.01.731-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.33.01.731-0700	Coordinates used: reported
+13052013_02.33.01.731-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.33.01.740-0700	Current ways list (possibilities): [270, 842]
+13052013_02.33.01.740-0700	Current way: 270
+13052013_02.33.01.750-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.33.01.750-0700	Current Step Distance (in meters): 0.0
+13052013_02.33.01.750-0700	user walking: false
+13052013_02.33.01.750-0700	User Orientation: unknown
+13052013_02.33.01.750-0700	User DACF: null
+13052013_02.33.01.750-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.33.01.750-0700	Setting lastTimeOfUtterance to 1368437581730
+13052013_02.33.01.751-0700	Sys Utterance: 
+13052013_02.33.01.751-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.33.11.735-0700	
+13052013_02.33.11.735-0700	Run: 39
+13052013_02.33.11.735-0700	
+13052013_02.33.11.735-0700	Time: 1368437591735
+13052013_02.33.11.735-0700	Time between updates: 10005
+13052013_02.33.11.735-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.33.11.735-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.33.11.735-0700	User DA: {"cf":"null"}
+13052013_02.33.11.735-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.33.11.736-0700	Coordinates used: reported
+13052013_02.33.11.736-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.33.11.745-0700	Current ways list (possibilities): [270, 842]
+13052013_02.33.11.745-0700	Current way: 270
+13052013_02.33.11.755-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.33.11.755-0700	Current Step Distance (in meters): 0.0
+13052013_02.33.11.755-0700	user walking: false
+13052013_02.33.11.755-0700	User Orientation: unknown
+13052013_02.33.11.755-0700	User DACF: null
+13052013_02.33.11.755-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.33.11.755-0700	Setting lastTimeOfUtterance to 1368437591735
+13052013_02.33.11.755-0700	Sys Utterance: 
+13052013_02.33.11.755-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.33.21.731-0700	
+13052013_02.33.21.731-0700	Run: 40
+13052013_02.33.21.731-0700	
+13052013_02.33.21.731-0700	Time: 1368437601731
+13052013_02.33.21.731-0700	Time between updates: 9996
+13052013_02.33.21.732-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.33.21.732-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.33.21.732-0700	User DA: {"cf":"null"}
+13052013_02.33.21.732-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.33.21.732-0700	Coordinates used: reported
+13052013_02.33.21.732-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.33.21.741-0700	Current ways list (possibilities): [270, 842]
+13052013_02.33.21.742-0700	Current way: 270
+13052013_02.33.21.751-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.33.21.751-0700	Current Step Distance (in meters): 0.0
+13052013_02.33.21.751-0700	user walking: false
+13052013_02.33.21.751-0700	User Orientation: unknown
+13052013_02.33.21.751-0700	User DACF: null
+13052013_02.33.21.751-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.33.21.751-0700	Setting lastTimeOfUtterance to 1368437601731
+13052013_02.33.21.751-0700	Sys Utterance: 
+13052013_02.33.21.752-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.33.31.732-0700	
+13052013_02.33.31.732-0700	Run: 41
+13052013_02.33.31.732-0700	
+13052013_02.33.31.732-0700	Time: 1368437611732
+13052013_02.33.31.732-0700	Time between updates: 10001
+13052013_02.33.31.732-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.33.31.732-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.33.31.732-0700	User DA: {"cf":"null"}
+13052013_02.33.31.732-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.33.31.732-0700	Coordinates used: reported
+13052013_02.33.31.732-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.33.31.742-0700	Current ways list (possibilities): [270, 842]
+13052013_02.33.31.742-0700	Current way: 270
+13052013_02.33.31.751-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.33.31.751-0700	Current Step Distance (in meters): 0.0
+13052013_02.33.31.751-0700	user walking: false
+13052013_02.33.31.751-0700	User Orientation: unknown
+13052013_02.33.31.751-0700	User DACF: null
+13052013_02.33.31.752-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.33.31.752-0700	Setting lastTimeOfUtterance to 1368437611732
+13052013_02.33.31.752-0700	Sys Utterance: 
+13052013_02.33.31.752-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.33.41.735-0700	
+13052013_02.33.41.735-0700	Run: 42
+13052013_02.33.41.735-0700	
+13052013_02.33.41.735-0700	Time: 1368437621735
+13052013_02.33.41.735-0700	Time between updates: 10003
+13052013_02.33.41.735-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.33.41.735-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.33.41.735-0700	User DA: {"cf":"null"}
+13052013_02.33.41.735-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.33.41.735-0700	Coordinates used: reported
+13052013_02.33.41.735-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.33.41.745-0700	Current ways list (possibilities): [270, 842]
+13052013_02.33.41.745-0700	Current way: 270
+13052013_02.33.41.754-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.33.41.754-0700	Current Step Distance (in meters): 0.0
+13052013_02.33.41.755-0700	user walking: false
+13052013_02.33.41.755-0700	User Orientation: unknown
+13052013_02.33.41.755-0700	User DACF: null
+13052013_02.33.41.755-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.33.41.755-0700	Setting lastTimeOfUtterance to 1368437621735
+13052013_02.33.41.755-0700	Sys Utterance: 
+13052013_02.33.41.755-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.33.51.738-0700	
+13052013_02.33.51.738-0700	Run: 43
+13052013_02.33.51.738-0700	
+13052013_02.33.51.738-0700	Time: 1368437631738
+13052013_02.33.51.738-0700	Time between updates: 10003
+13052013_02.33.51.738-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.33.51.738-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.33.51.738-0700	User DA: {"cf":"null"}
+13052013_02.33.51.739-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.33.51.739-0700	Coordinates used: reported
+13052013_02.33.51.739-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.33.51.748-0700	Current ways list (possibilities): [270, 842]
+13052013_02.33.51.748-0700	Current way: 270
+13052013_02.33.51.758-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.33.51.758-0700	Current Step Distance (in meters): 0.0
+13052013_02.33.51.758-0700	user walking: false
+13052013_02.33.51.758-0700	User Orientation: unknown
+13052013_02.33.51.758-0700	User DACF: null
+13052013_02.33.51.758-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.33.51.758-0700	Setting lastTimeOfUtterance to 1368437631738
+13052013_02.33.51.758-0700	Sys Utterance: 
+13052013_02.33.51.758-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.34.01.735-0700	
+13052013_02.34.01.735-0700	Run: 44
+13052013_02.34.01.735-0700	
+13052013_02.34.01.735-0700	Time: 1368437641735
+13052013_02.34.01.735-0700	Time between updates: 9997
+13052013_02.34.01.735-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.34.01.735-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.34.01.735-0700	User DA: {"cf":"null"}
+13052013_02.34.01.736-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.34.01.736-0700	Coordinates used: reported
+13052013_02.34.01.736-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.34.01.746-0700	Current ways list (possibilities): [270, 842]
+13052013_02.34.01.746-0700	Current way: 270
+13052013_02.34.01.756-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.34.01.756-0700	Current Step Distance (in meters): 0.0
+13052013_02.34.01.756-0700	user walking: false
+13052013_02.34.01.756-0700	User Orientation: unknown
+13052013_02.34.01.756-0700	User DACF: null
+13052013_02.34.01.756-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.34.01.756-0700	Setting lastTimeOfUtterance to 1368437641735
+13052013_02.34.01.756-0700	Sys Utterance: 
+13052013_02.34.01.756-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.34.11.736-0700	
+13052013_02.34.11.736-0700	Run: 45
+13052013_02.34.11.736-0700	
+13052013_02.34.11.736-0700	Time: 1368437651736
+13052013_02.34.11.736-0700	Time between updates: 10001
+13052013_02.34.11.736-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.34.11.736-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.34.11.736-0700	User DA: {"cf":"null"}
+13052013_02.34.11.736-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.34.11.736-0700	Coordinates used: reported
+13052013_02.34.11.736-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.34.11.746-0700	Current ways list (possibilities): [270, 842]
+13052013_02.34.11.746-0700	Current way: 270
+13052013_02.34.11.755-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.34.11.755-0700	Current Step Distance (in meters): 0.0
+13052013_02.34.11.755-0700	user walking: false
+13052013_02.34.11.755-0700	User Orientation: unknown
+13052013_02.34.11.755-0700	User DACF: null
+13052013_02.34.11.756-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.34.11.756-0700	Setting lastTimeOfUtterance to 1368437651736
+13052013_02.34.11.756-0700	Sys Utterance: 
+13052013_02.34.11.756-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.34.21.738-0700	
+13052013_02.34.21.738-0700	Run: 46
+13052013_02.34.21.738-0700	
+13052013_02.34.21.739-0700	Time: 1368437661739
+13052013_02.34.21.739-0700	Time between updates: 10003
+13052013_02.34.21.739-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.34.21.739-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.34.21.739-0700	User DA: {"cf":"null"}
+13052013_02.34.21.739-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.34.21.739-0700	Coordinates used: reported
+13052013_02.34.21.739-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.34.21.750-0700	Current ways list (possibilities): [270, 842]
+13052013_02.34.21.750-0700	Current way: 270
+13052013_02.34.21.793-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.34.21.793-0700	Current Step Distance (in meters): 0.0
+13052013_02.34.21.793-0700	user walking: false
+13052013_02.34.21.793-0700	User Orientation: unknown
+13052013_02.34.21.793-0700	User DACF: null
+13052013_02.34.21.793-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.34.21.793-0700	Setting lastTimeOfUtterance to 1368437661739
+13052013_02.34.21.793-0700	Sys Utterance: 
+13052013_02.34.21.793-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.34.31.737-0700	
+13052013_02.34.31.737-0700	Run: 47
+13052013_02.34.31.737-0700	
+13052013_02.34.31.737-0700	Time: 1368437671737
+13052013_02.34.31.737-0700	Time between updates: 9998
+13052013_02.34.31.737-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.34.31.737-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.34.31.737-0700	User DA: {"cf":"null"}
+13052013_02.34.31.737-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.34.31.737-0700	Coordinates used: reported
+13052013_02.34.31.738-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.34.31.748-0700	Current ways list (possibilities): [270, 842]
+13052013_02.34.31.748-0700	Current way: 270
+13052013_02.34.31.758-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.34.31.758-0700	Current Step Distance (in meters): 0.0
+13052013_02.34.31.758-0700	user walking: false
+13052013_02.34.31.758-0700	User Orientation: unknown
+13052013_02.34.31.758-0700	User DACF: null
+13052013_02.34.31.758-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.34.31.758-0700	Setting lastTimeOfUtterance to 1368437671737
+13052013_02.34.31.758-0700	Sys Utterance: 
+13052013_02.34.31.758-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.34.41.737-0700	
+13052013_02.34.41.737-0700	Run: 48
+13052013_02.34.41.737-0700	
+13052013_02.34.41.737-0700	Time: 1368437681737
+13052013_02.34.41.737-0700	Time between updates: 10000
+13052013_02.34.41.737-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.34.41.737-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.34.41.737-0700	User DA: {"cf":"null"}
+13052013_02.34.41.737-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.34.41.737-0700	Coordinates used: reported
+13052013_02.34.41.737-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.34.41.747-0700	Current ways list (possibilities): [270, 842]
+13052013_02.34.41.747-0700	Current way: 270
+13052013_02.34.41.756-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.34.41.756-0700	Current Step Distance (in meters): 0.0
+13052013_02.34.41.756-0700	user walking: false
+13052013_02.34.41.756-0700	User Orientation: unknown
+13052013_02.34.41.756-0700	User DACF: null
+13052013_02.34.41.757-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.34.41.757-0700	Setting lastTimeOfUtterance to 1368437681737
+13052013_02.34.41.757-0700	Sys Utterance: 
+13052013_02.34.41.757-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.34.51.745-0700	
+13052013_02.34.51.745-0700	Run: 49
+13052013_02.34.51.745-0700	
+13052013_02.34.51.745-0700	Time: 1368437691745
+13052013_02.34.51.745-0700	Time between updates: 10008
+13052013_02.34.51.745-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.34.51.745-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.34.51.745-0700	User DA: {"cf":"null"}
+13052013_02.34.51.745-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.34.51.745-0700	Coordinates used: reported
+13052013_02.34.51.745-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.34.51.755-0700	Current ways list (possibilities): [270, 842]
+13052013_02.34.51.755-0700	Current way: 270
+13052013_02.34.51.765-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.34.51.765-0700	Current Step Distance (in meters): 0.0
+13052013_02.34.51.765-0700	user walking: false
+13052013_02.34.51.765-0700	User Orientation: unknown
+13052013_02.34.51.765-0700	User DACF: null
+13052013_02.34.51.765-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.34.51.765-0700	Setting lastTimeOfUtterance to 1368437691745
+13052013_02.34.51.765-0700	Sys Utterance: 
+13052013_02.34.51.766-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.35.01.738-0700	
+13052013_02.35.01.738-0700	Run: 50
+13052013_02.35.01.738-0700	
+13052013_02.35.01.738-0700	Time: 1368437701738
+13052013_02.35.01.738-0700	Time between updates: 9993
+13052013_02.35.01.738-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.35.01.738-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.35.01.738-0700	User DA: {"cf":"null"}
+13052013_02.35.01.739-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.35.01.739-0700	Coordinates used: reported
+13052013_02.35.01.739-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.35.01.748-0700	Current ways list (possibilities): [270, 842]
+13052013_02.35.01.748-0700	Current way: 270
+13052013_02.35.01.758-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.35.01.758-0700	Current Step Distance (in meters): 0.0
+13052013_02.35.01.758-0700	user walking: false
+13052013_02.35.01.758-0700	User Orientation: unknown
+13052013_02.35.01.758-0700	User DACF: null
+13052013_02.35.01.758-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.35.01.758-0700	Setting lastTimeOfUtterance to 1368437701738
+13052013_02.35.01.758-0700	Sys Utterance: 
+13052013_02.35.01.758-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.35.11.738-0700	
+13052013_02.35.11.738-0700	Run: 51
+13052013_02.35.11.738-0700	
+13052013_02.35.11.739-0700	Time: 1368437711739
+13052013_02.35.11.739-0700	Time between updates: 10001
+13052013_02.35.11.739-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.35.11.739-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.35.11.739-0700	User DA: {"cf":"null"}
+13052013_02.35.11.739-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.35.11.739-0700	Coordinates used: reported
+13052013_02.35.11.739-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.35.11.748-0700	Current ways list (possibilities): [270, 842]
+13052013_02.35.11.748-0700	Current way: 270
+13052013_02.35.11.758-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.35.11.758-0700	Current Step Distance (in meters): 0.0
+13052013_02.35.11.758-0700	user walking: false
+13052013_02.35.11.758-0700	User Orientation: unknown
+13052013_02.35.11.758-0700	User DACF: null
+13052013_02.35.11.759-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.35.11.759-0700	Setting lastTimeOfUtterance to 1368437711739
+13052013_02.35.11.759-0700	Sys Utterance: 
+13052013_02.35.11.759-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.35.21.741-0700	
+13052013_02.35.21.741-0700	Run: 52
+13052013_02.35.21.741-0700	
+13052013_02.35.21.741-0700	Time: 1368437721741
+13052013_02.35.21.741-0700	Time between updates: 10002
+13052013_02.35.21.741-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.35.21.741-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.35.21.741-0700	User DA: {"cf":"null"}
+13052013_02.35.21.741-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.35.21.741-0700	Coordinates used: reported
+13052013_02.35.21.742-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.35.21.751-0700	Current ways list (possibilities): [270, 842]
+13052013_02.35.21.751-0700	Current way: 270
+13052013_02.35.21.760-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.35.21.760-0700	Current Step Distance (in meters): 0.0
+13052013_02.35.21.760-0700	user walking: false
+13052013_02.35.21.760-0700	User Orientation: unknown
+13052013_02.35.21.760-0700	User DACF: null
+13052013_02.35.21.761-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.35.21.761-0700	Setting lastTimeOfUtterance to 1368437721741
+13052013_02.35.21.761-0700	Sys Utterance: 
+13052013_02.35.21.761-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.35.31.742-0700	
+13052013_02.35.31.742-0700	Run: 53
+13052013_02.35.31.742-0700	
+13052013_02.35.31.742-0700	Time: 1368437731742
+13052013_02.35.31.742-0700	Time between updates: 10001
+13052013_02.35.31.742-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.35.31.742-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.35.31.742-0700	User DA: {"cf":"null"}
+13052013_02.35.31.742-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.35.31.742-0700	Coordinates used: reported
+13052013_02.35.31.742-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.35.31.752-0700	Current ways list (possibilities): [270, 842]
+13052013_02.35.31.752-0700	Current way: 270
+13052013_02.35.31.762-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.35.31.762-0700	Current Step Distance (in meters): 0.0
+13052013_02.35.31.762-0700	user walking: false
+13052013_02.35.31.762-0700	User Orientation: unknown
+13052013_02.35.31.762-0700	User DACF: null
+13052013_02.35.31.762-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.35.31.762-0700	Setting lastTimeOfUtterance to 1368437731742
+13052013_02.35.31.762-0700	Sys Utterance: 
+13052013_02.35.31.762-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.35.41.747-0700	
+13052013_02.35.41.747-0700	Run: 54
+13052013_02.35.41.747-0700	
+13052013_02.35.41.747-0700	Time: 1368437741747
+13052013_02.35.41.747-0700	Time between updates: 10005
+13052013_02.35.41.748-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.35.41.748-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.35.41.748-0700	User DA: {"cf":"null"}
+13052013_02.35.41.748-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.35.41.748-0700	Coordinates used: reported
+13052013_02.35.41.748-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.35.41.758-0700	Current ways list (possibilities): [270, 842]
+13052013_02.35.41.758-0700	Current way: 270
+13052013_02.35.41.768-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.35.41.768-0700	Current Step Distance (in meters): 0.0
+13052013_02.35.41.768-0700	user walking: false
+13052013_02.35.41.768-0700	User Orientation: unknown
+13052013_02.35.41.768-0700	User DACF: null
+13052013_02.35.41.768-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.35.41.768-0700	Setting lastTimeOfUtterance to 1368437741747
+13052013_02.35.41.768-0700	Sys Utterance: 
+13052013_02.35.41.768-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.35.51.744-0700	
+13052013_02.35.51.744-0700	Run: 55
+13052013_02.35.51.745-0700	
+13052013_02.35.51.745-0700	Time: 1368437751745
+13052013_02.35.51.745-0700	Time between updates: 9998
+13052013_02.35.51.745-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.35.51.745-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.35.51.745-0700	User DA: {"cf":"null"}
+13052013_02.35.51.745-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.35.51.745-0700	Coordinates used: reported
+13052013_02.35.51.745-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.35.51.755-0700	Current ways list (possibilities): [270, 842]
+13052013_02.35.51.755-0700	Current way: 270
+13052013_02.35.51.765-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.35.51.765-0700	Current Step Distance (in meters): 0.0
+13052013_02.35.51.765-0700	user walking: false
+13052013_02.35.51.765-0700	User Orientation: unknown
+13052013_02.35.51.765-0700	User DACF: null
+13052013_02.35.51.765-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.35.51.765-0700	Setting lastTimeOfUtterance to 1368437751745
+13052013_02.35.51.765-0700	Sys Utterance: 
+13052013_02.35.51.765-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.36.01.744-0700	
+13052013_02.36.01.744-0700	Run: 56
+13052013_02.36.01.744-0700	
+13052013_02.36.01.744-0700	Time: 1368437761744
+13052013_02.36.01.744-0700	Time between updates: 9999
+13052013_02.36.01.744-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.36.01.744-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.36.01.744-0700	User DA: {"cf":"null"}
+13052013_02.36.01.744-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.36.01.744-0700	Coordinates used: reported
+13052013_02.36.01.744-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.36.01.754-0700	Current ways list (possibilities): [270, 842]
+13052013_02.36.01.754-0700	Current way: 270
+13052013_02.36.01.764-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.36.01.764-0700	Current Step Distance (in meters): 0.0
+13052013_02.36.01.764-0700	user walking: false
+13052013_02.36.01.764-0700	User Orientation: unknown
+13052013_02.36.01.764-0700	User DACF: null
+13052013_02.36.01.764-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.36.01.764-0700	Setting lastTimeOfUtterance to 1368437761744
+13052013_02.36.01.764-0700	Sys Utterance: 
+13052013_02.36.01.764-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.36.11.747-0700	
+13052013_02.36.11.747-0700	Run: 57
+13052013_02.36.11.747-0700	
+13052013_02.36.11.747-0700	Time: 1368437771747
+13052013_02.36.11.747-0700	Time between updates: 10003
+13052013_02.36.11.747-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.36.11.747-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.36.11.748-0700	User DA: {"cf":"null"}
+13052013_02.36.11.748-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.36.11.748-0700	Coordinates used: reported
+13052013_02.36.11.748-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.36.11.758-0700	Current ways list (possibilities): [270, 842]
+13052013_02.36.11.758-0700	Current way: 270
+13052013_02.36.11.792-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.36.11.792-0700	Current Step Distance (in meters): 0.0
+13052013_02.36.11.792-0700	user walking: false
+13052013_02.36.11.792-0700	User Orientation: unknown
+13052013_02.36.11.792-0700	User DACF: null
+13052013_02.36.11.792-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.36.11.792-0700	Setting lastTimeOfUtterance to 1368437771747
+13052013_02.36.11.792-0700	Sys Utterance: 
+13052013_02.36.11.792-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.36.21.750-0700	
+13052013_02.36.21.750-0700	Run: 58
+13052013_02.36.21.750-0700	
+13052013_02.36.21.750-0700	Time: 1368437781750
+13052013_02.36.21.750-0700	Time between updates: 10003
+13052013_02.36.21.750-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.36.21.750-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.36.21.750-0700	User DA: {"cf":"null"}
+13052013_02.36.21.750-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.36.21.750-0700	Coordinates used: reported
+13052013_02.36.21.750-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.36.21.760-0700	Current ways list (possibilities): [270, 842]
+13052013_02.36.21.760-0700	Current way: 270
+13052013_02.36.21.769-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.36.21.769-0700	Current Step Distance (in meters): 0.0
+13052013_02.36.21.769-0700	user walking: false
+13052013_02.36.21.769-0700	User Orientation: unknown
+13052013_02.36.21.769-0700	User DACF: null
+13052013_02.36.21.769-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.36.21.770-0700	Setting lastTimeOfUtterance to 1368437781750
+13052013_02.36.21.770-0700	Sys Utterance: 
+13052013_02.36.21.770-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.36.31.751-0700	
+13052013_02.36.31.751-0700	Run: 59
+13052013_02.36.31.751-0700	
+13052013_02.36.31.751-0700	Time: 1368437791751
+13052013_02.36.31.751-0700	Time between updates: 10001
+13052013_02.36.31.751-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.36.31.751-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.36.31.751-0700	User DA: {"cf":"null"}
+13052013_02.36.31.751-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.36.31.751-0700	Coordinates used: reported
+13052013_02.36.31.751-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.36.31.761-0700	Current ways list (possibilities): [270, 842]
+13052013_02.36.31.761-0700	Current way: 270
+13052013_02.36.31.770-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.36.31.770-0700	Current Step Distance (in meters): 0.0
+13052013_02.36.31.771-0700	user walking: false
+13052013_02.36.31.771-0700	User Orientation: unknown
+13052013_02.36.31.771-0700	User DACF: null
+13052013_02.36.31.771-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.36.31.771-0700	Setting lastTimeOfUtterance to 1368437791751
+13052013_02.36.31.771-0700	Sys Utterance: 
+13052013_02.36.31.771-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.36.41.748-0700	
+13052013_02.36.41.748-0700	Run: 60
+13052013_02.36.41.748-0700	
+13052013_02.36.41.748-0700	Time: 1368437801748
+13052013_02.36.41.748-0700	Time between updates: 9997
+13052013_02.36.41.748-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.36.41.749-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.36.41.749-0700	User DA: {"cf":"null"}
+13052013_02.36.41.749-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.36.41.749-0700	Coordinates used: reported
+13052013_02.36.41.749-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.36.41.758-0700	Current ways list (possibilities): [270, 842]
+13052013_02.36.41.758-0700	Current way: 270
+13052013_02.36.41.768-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.36.41.768-0700	Current Step Distance (in meters): 0.0
+13052013_02.36.41.768-0700	user walking: false
+13052013_02.36.41.768-0700	User Orientation: unknown
+13052013_02.36.41.768-0700	User DACF: null
+13052013_02.36.41.768-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.36.41.768-0700	Setting lastTimeOfUtterance to 1368437801748
+13052013_02.36.41.768-0700	Sys Utterance: 
+13052013_02.36.41.768-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.36.51.749-0700	
+13052013_02.36.51.749-0700	Run: 61
+13052013_02.36.51.749-0700	
+13052013_02.36.51.749-0700	Time: 1368437811749
+13052013_02.36.51.749-0700	Time between updates: 10001
+13052013_02.36.51.749-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.36.51.749-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.36.51.750-0700	User DA: {"cf":"null"}
+13052013_02.36.51.750-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.36.51.750-0700	Coordinates used: reported
+13052013_02.36.51.750-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.36.51.759-0700	Current ways list (possibilities): [270, 842]
+13052013_02.36.51.759-0700	Current way: 270
+13052013_02.36.51.768-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.36.51.769-0700	Current Step Distance (in meters): 0.0
+13052013_02.36.51.769-0700	user walking: false
+13052013_02.36.51.769-0700	User Orientation: unknown
+13052013_02.36.51.769-0700	User DACF: null
+13052013_02.36.51.769-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.36.51.769-0700	Setting lastTimeOfUtterance to 1368437811749
+13052013_02.36.51.769-0700	Sys Utterance: 
+13052013_02.36.51.769-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.37.01.751-0700	
+13052013_02.37.01.751-0700	Run: 62
+13052013_02.37.01.751-0700	
+13052013_02.37.01.751-0700	Time: 1368437821751
+13052013_02.37.01.751-0700	Time between updates: 10002
+13052013_02.37.01.751-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.37.01.751-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.37.01.751-0700	User DA: {"cf":"null"}
+13052013_02.37.01.751-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.37.01.751-0700	Coordinates used: reported
+13052013_02.37.01.751-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.37.01.761-0700	Current ways list (possibilities): [270, 842]
+13052013_02.37.01.761-0700	Current way: 270
+13052013_02.37.01.770-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.37.01.770-0700	Current Step Distance (in meters): 0.0
+13052013_02.37.01.771-0700	user walking: false
+13052013_02.37.01.771-0700	User Orientation: unknown
+13052013_02.37.01.771-0700	User DACF: null
+13052013_02.37.01.771-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.37.01.771-0700	Setting lastTimeOfUtterance to 1368437821751
+13052013_02.37.01.771-0700	Sys Utterance: 
+13052013_02.37.01.771-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.37.11.751-0700	
+13052013_02.37.11.751-0700	Run: 63
+13052013_02.37.11.751-0700	
+13052013_02.37.11.751-0700	Time: 1368437831751
+13052013_02.37.11.751-0700	Time between updates: 10000
+13052013_02.37.11.751-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.37.11.751-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.37.11.751-0700	User DA: {"cf":"null"}
+13052013_02.37.11.751-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.37.11.751-0700	Coordinates used: reported
+13052013_02.37.11.751-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.37.11.761-0700	Current ways list (possibilities): [270, 842]
+13052013_02.37.11.761-0700	Current way: 270
+13052013_02.37.11.771-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.37.11.771-0700	Current Step Distance (in meters): 0.0
+13052013_02.37.11.771-0700	user walking: false
+13052013_02.37.11.771-0700	User Orientation: unknown
+13052013_02.37.11.771-0700	User DACF: null
+13052013_02.37.11.771-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.37.11.771-0700	Setting lastTimeOfUtterance to 1368437831751
+13052013_02.37.11.771-0700	Sys Utterance: 
+13052013_02.37.11.771-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.37.21.752-0700	
+13052013_02.37.21.752-0700	Run: 64
+13052013_02.37.21.752-0700	
+13052013_02.37.21.752-0700	Time: 1368437841752
+13052013_02.37.21.752-0700	Time between updates: 10001
+13052013_02.37.21.752-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.37.21.752-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.37.21.752-0700	User DA: {"cf":"null"}
+13052013_02.37.21.752-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.37.21.752-0700	Coordinates used: reported
+13052013_02.37.21.752-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.37.21.762-0700	Current ways list (possibilities): [270, 842]
+13052013_02.37.21.762-0700	Current way: 270
+13052013_02.37.21.771-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.37.21.772-0700	Current Step Distance (in meters): 0.0
+13052013_02.37.21.772-0700	user walking: false
+13052013_02.37.21.772-0700	User Orientation: unknown
+13052013_02.37.21.772-0700	User DACF: null
+13052013_02.37.21.772-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.37.21.772-0700	Setting lastTimeOfUtterance to 1368437841752
+13052013_02.37.21.772-0700	Sys Utterance: 
+13052013_02.37.21.772-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.37.31.754-0700	
+13052013_02.37.31.755-0700	Run: 65
+13052013_02.37.31.755-0700	
+13052013_02.37.31.755-0700	Time: 1368437851755
+13052013_02.37.31.755-0700	Time between updates: 10003
+13052013_02.37.31.755-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.37.31.755-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.37.31.755-0700	User DA: {"cf":"null"}
+13052013_02.37.31.755-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.37.31.755-0700	Coordinates used: reported
+13052013_02.37.31.755-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.37.31.765-0700	Current ways list (possibilities): [270, 842]
+13052013_02.37.31.765-0700	Current way: 270
+13052013_02.37.31.775-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.37.31.775-0700	Current Step Distance (in meters): 0.0
+13052013_02.37.31.775-0700	user walking: false
+13052013_02.37.31.775-0700	User Orientation: unknown
+13052013_02.37.31.775-0700	User DACF: null
+13052013_02.37.31.775-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.37.31.775-0700	Setting lastTimeOfUtterance to 1368437851755
+13052013_02.37.31.775-0700	Sys Utterance: 
+13052013_02.37.31.775-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.37.41.755-0700	
+13052013_02.37.41.755-0700	Run: 66
+13052013_02.37.41.755-0700	
+13052013_02.37.41.755-0700	Time: 1368437861755
+13052013_02.37.41.755-0700	Time between updates: 10000
+13052013_02.37.41.756-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.37.41.756-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.37.41.756-0700	User DA: {"cf":"null"}
+13052013_02.37.41.756-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.37.41.756-0700	Coordinates used: reported
+13052013_02.37.41.756-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.37.41.766-0700	Current ways list (possibilities): [270, 842]
+13052013_02.37.41.766-0700	Current way: 270
+13052013_02.37.41.776-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.37.41.776-0700	Current Step Distance (in meters): 0.0
+13052013_02.37.41.776-0700	user walking: false
+13052013_02.37.41.776-0700	User Orientation: unknown
+13052013_02.37.41.776-0700	User DACF: null
+13052013_02.37.41.776-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.37.41.776-0700	Setting lastTimeOfUtterance to 1368437861755
+13052013_02.37.41.776-0700	Sys Utterance: 
+13052013_02.37.41.776-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.37.51.757-0700	
+13052013_02.37.51.757-0700	Run: 67
+13052013_02.37.51.757-0700	
+13052013_02.37.51.757-0700	Time: 1368437871757
+13052013_02.37.51.757-0700	Time between updates: 10002
+13052013_02.37.51.758-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.37.51.758-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.37.51.758-0700	User DA: {"cf":"null"}
+13052013_02.37.51.758-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.37.51.758-0700	Coordinates used: reported
+13052013_02.37.51.758-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.37.51.769-0700	Current ways list (possibilities): [270, 842]
+13052013_02.37.51.769-0700	Current way: 270
+13052013_02.37.51.779-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.37.51.779-0700	Current Step Distance (in meters): 0.0
+13052013_02.37.51.779-0700	user walking: false
+13052013_02.37.51.779-0700	User Orientation: unknown
+13052013_02.37.51.779-0700	User DACF: null
+13052013_02.37.51.779-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.37.51.779-0700	Setting lastTimeOfUtterance to 1368437871757
+13052013_02.37.51.779-0700	Sys Utterance: 
+13052013_02.37.51.779-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.38.01.768-0700	
+13052013_02.38.01.768-0700	Run: 68
+13052013_02.38.01.768-0700	
+13052013_02.38.01.768-0700	Time: 1368437881768
+13052013_02.38.01.768-0700	Time between updates: 10011
+13052013_02.38.01.768-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.38.01.768-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.38.01.768-0700	User DA: {"cf":"null"}
+13052013_02.38.01.768-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.38.01.768-0700	Coordinates used: reported
+13052013_02.38.01.768-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.38.01.782-0700	Current ways list (possibilities): [270, 842]
+13052013_02.38.01.782-0700	Current way: 270
+13052013_02.38.01.800-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.38.01.800-0700	Current Step Distance (in meters): 0.0
+13052013_02.38.01.800-0700	user walking: false
+13052013_02.38.01.800-0700	User Orientation: unknown
+13052013_02.38.01.800-0700	User DACF: null
+13052013_02.38.01.800-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.38.01.801-0700	Setting lastTimeOfUtterance to 1368437881768
+13052013_02.38.01.801-0700	Sys Utterance: 
+13052013_02.38.01.801-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.38.11.759-0700	
+13052013_02.38.11.759-0700	Run: 69
+13052013_02.38.11.759-0700	
+13052013_02.38.11.759-0700	Time: 1368437891759
+13052013_02.38.11.759-0700	Time between updates: 9991
+13052013_02.38.11.759-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.38.11.759-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.38.11.759-0700	User DA: {"cf":"null"}
+13052013_02.38.11.759-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.38.11.760-0700	Coordinates used: reported
+13052013_02.38.11.760-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.38.11.769-0700	Current ways list (possibilities): [270, 842]
+13052013_02.38.11.769-0700	Current way: 270
+13052013_02.38.11.778-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.38.11.779-0700	Current Step Distance (in meters): 0.0
+13052013_02.38.11.779-0700	user walking: false
+13052013_02.38.11.779-0700	User Orientation: unknown
+13052013_02.38.11.779-0700	User DACF: null
+13052013_02.38.11.779-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.38.11.779-0700	Setting lastTimeOfUtterance to 1368437891759
+13052013_02.38.11.779-0700	Sys Utterance: 
+13052013_02.38.11.779-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.38.21.758-0700	
+13052013_02.38.21.758-0700	Run: 70
+13052013_02.38.21.758-0700	
+13052013_02.38.21.758-0700	Time: 1368437901758
+13052013_02.38.21.758-0700	Time between updates: 9999
+13052013_02.38.21.759-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.38.21.759-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.38.21.759-0700	User DA: {"cf":"null"}
+13052013_02.38.21.759-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.38.21.759-0700	Coordinates used: reported
+13052013_02.38.21.759-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.38.21.768-0700	Current ways list (possibilities): [270, 842]
+13052013_02.38.21.768-0700	Current way: 270
+13052013_02.38.21.778-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.38.21.778-0700	Current Step Distance (in meters): 0.0
+13052013_02.38.21.778-0700	user walking: false
+13052013_02.38.21.778-0700	User Orientation: unknown
+13052013_02.38.21.778-0700	User DACF: null
+13052013_02.38.21.778-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.38.21.778-0700	Setting lastTimeOfUtterance to 1368437901758
+13052013_02.38.21.778-0700	Sys Utterance: 
+13052013_02.38.21.778-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.38.31.759-0700	
+13052013_02.38.31.759-0700	Run: 71
+13052013_02.38.31.759-0700	
+13052013_02.38.31.760-0700	Time: 1368437911760
+13052013_02.38.31.760-0700	Time between updates: 10002
+13052013_02.38.31.760-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.38.31.760-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.38.31.760-0700	User DA: {"cf":"null"}
+13052013_02.38.31.760-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.38.31.760-0700	Coordinates used: reported
+13052013_02.38.31.760-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.38.31.769-0700	Current ways list (possibilities): [270, 842]
+13052013_02.38.31.769-0700	Current way: 270
+13052013_02.38.31.779-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.38.31.779-0700	Current Step Distance (in meters): 0.0
+13052013_02.38.31.779-0700	user walking: false
+13052013_02.38.31.779-0700	User Orientation: unknown
+13052013_02.38.31.779-0700	User DACF: null
+13052013_02.38.31.779-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.38.31.780-0700	Setting lastTimeOfUtterance to 1368437911760
+13052013_02.38.31.780-0700	Sys Utterance: 
+13052013_02.38.31.780-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.38.41.764-0700	
+13052013_02.38.41.765-0700	Run: 72
+13052013_02.38.41.765-0700	
+13052013_02.38.41.765-0700	Time: 1368437921765
+13052013_02.38.41.765-0700	Time between updates: 10005
+13052013_02.38.41.765-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.38.41.765-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.38.41.765-0700	User DA: {"cf":"null"}
+13052013_02.38.41.765-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.38.41.765-0700	Coordinates used: reported
+13052013_02.38.41.765-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.38.41.775-0700	Current ways list (possibilities): [270, 842]
+13052013_02.38.41.775-0700	Current way: 270
+13052013_02.38.41.784-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.38.41.785-0700	Current Step Distance (in meters): 0.0
+13052013_02.38.41.785-0700	user walking: false
+13052013_02.38.41.785-0700	User Orientation: unknown
+13052013_02.38.41.785-0700	User DACF: null
+13052013_02.38.41.785-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.38.41.785-0700	Setting lastTimeOfUtterance to 1368437921765
+13052013_02.38.41.785-0700	Sys Utterance: 
+13052013_02.38.41.785-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.38.51.761-0700	
+13052013_02.38.51.761-0700	Run: 73
+13052013_02.38.51.761-0700	
+13052013_02.38.51.761-0700	Time: 1368437931761
+13052013_02.38.51.761-0700	Time between updates: 9996
+13052013_02.38.51.761-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.38.51.761-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.38.51.761-0700	User DA: {"cf":"null"}
+13052013_02.38.51.761-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.38.51.761-0700	Coordinates used: reported
+13052013_02.38.51.761-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.38.51.771-0700	Current ways list (possibilities): [270, 842]
+13052013_02.38.51.771-0700	Current way: 270
+13052013_02.38.51.781-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.38.51.781-0700	Current Step Distance (in meters): 0.0
+13052013_02.38.51.781-0700	user walking: false
+13052013_02.38.51.781-0700	User Orientation: unknown
+13052013_02.38.51.781-0700	User DACF: null
+13052013_02.38.51.781-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.38.51.781-0700	Setting lastTimeOfUtterance to 1368437931761
+13052013_02.38.51.781-0700	Sys Utterance: 
+13052013_02.38.51.781-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.39.01.761-0700	
+13052013_02.39.01.761-0700	Run: 74
+13052013_02.39.01.761-0700	
+13052013_02.39.01.761-0700	Time: 1368437941761
+13052013_02.39.01.761-0700	Time between updates: 10000
+13052013_02.39.01.762-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.39.01.762-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.39.01.762-0700	User DA: {"cf":"null"}
+13052013_02.39.01.762-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.39.01.762-0700	Coordinates used: reported
+13052013_02.39.01.762-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.39.01.771-0700	Current ways list (possibilities): [270, 842]
+13052013_02.39.01.771-0700	Current way: 270
+13052013_02.39.01.781-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.39.01.781-0700	Current Step Distance (in meters): 0.0
+13052013_02.39.01.781-0700	user walking: false
+13052013_02.39.01.781-0700	User Orientation: unknown
+13052013_02.39.01.781-0700	User DACF: null
+13052013_02.39.01.781-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.39.01.781-0700	Setting lastTimeOfUtterance to 1368437941761
+13052013_02.39.01.781-0700	Sys Utterance: 
+13052013_02.39.01.781-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.39.11.763-0700	
+13052013_02.39.11.763-0700	Run: 75
+13052013_02.39.11.763-0700	
+13052013_02.39.11.763-0700	Time: 1368437951763
+13052013_02.39.11.763-0700	Time between updates: 10002
+13052013_02.39.11.763-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.39.11.763-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.39.11.763-0700	User DA: {"cf":"null"}
+13052013_02.39.11.763-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.39.11.763-0700	Coordinates used: reported
+13052013_02.39.11.763-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.39.11.773-0700	Current ways list (possibilities): [270, 842]
+13052013_02.39.11.773-0700	Current way: 270
+13052013_02.39.11.782-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.39.11.782-0700	Current Step Distance (in meters): 0.0
+13052013_02.39.11.782-0700	user walking: false
+13052013_02.39.11.783-0700	User Orientation: unknown
+13052013_02.39.11.783-0700	User DACF: null
+13052013_02.39.11.783-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.39.11.783-0700	Setting lastTimeOfUtterance to 1368437951763
+13052013_02.39.11.783-0700	Sys Utterance: 
+13052013_02.39.11.783-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.39.21.765-0700	
+13052013_02.39.21.765-0700	Run: 76
+13052013_02.39.21.765-0700	
+13052013_02.39.21.765-0700	Time: 1368437961765
+13052013_02.39.21.765-0700	Time between updates: 10002
+13052013_02.39.21.765-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.39.21.765-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.39.21.765-0700	User DA: {"cf":"null"}
+13052013_02.39.21.765-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.39.21.765-0700	Coordinates used: reported
+13052013_02.39.21.765-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.39.21.775-0700	Current ways list (possibilities): [270, 842]
+13052013_02.39.21.775-0700	Current way: 270
+13052013_02.39.21.784-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.39.21.784-0700	Current Step Distance (in meters): 0.0
+13052013_02.39.21.784-0700	user walking: false
+13052013_02.39.21.784-0700	User Orientation: unknown
+13052013_02.39.21.784-0700	User DACF: null
+13052013_02.39.21.784-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.39.21.785-0700	Setting lastTimeOfUtterance to 1368437961765
+13052013_02.39.21.785-0700	Sys Utterance: 
+13052013_02.39.21.785-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.39.31.777-0700	
+13052013_02.39.31.777-0700	Run: 77
+13052013_02.39.31.777-0700	
+13052013_02.39.31.777-0700	Time: 1368437971777
+13052013_02.39.31.777-0700	Time between updates: 10012
+13052013_02.39.31.777-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.39.31.777-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.39.31.777-0700	User DA: {"cf":"null"}
+13052013_02.39.31.777-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.39.31.778-0700	Coordinates used: reported
+13052013_02.39.31.778-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.39.31.787-0700	Current ways list (possibilities): [270, 842]
+13052013_02.39.31.787-0700	Current way: 270
+13052013_02.39.31.797-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.39.31.797-0700	Current Step Distance (in meters): 0.0
+13052013_02.39.31.798-0700	user walking: false
+13052013_02.39.31.798-0700	User Orientation: unknown
+13052013_02.39.31.798-0700	User DACF: null
+13052013_02.39.31.798-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.39.31.798-0700	Setting lastTimeOfUtterance to 1368437971777
+13052013_02.39.31.798-0700	Sys Utterance: 
+13052013_02.39.31.798-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.39.41.767-0700	
+13052013_02.39.41.767-0700	Run: 78
+13052013_02.39.41.767-0700	
+13052013_02.39.41.767-0700	Time: 1368437981767
+13052013_02.39.41.767-0700	Time between updates: 9990
+13052013_02.39.41.767-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.39.41.767-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.39.41.767-0700	User DA: {"cf":"null"}
+13052013_02.39.41.767-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.39.41.767-0700	Coordinates used: reported
+13052013_02.39.41.767-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.39.41.777-0700	Current ways list (possibilities): [270, 842]
+13052013_02.39.41.777-0700	Current way: 270
+13052013_02.39.41.787-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.39.41.787-0700	Current Step Distance (in meters): 0.0
+13052013_02.39.41.787-0700	user walking: false
+13052013_02.39.41.787-0700	User Orientation: unknown
+13052013_02.39.41.787-0700	User DACF: null
+13052013_02.39.41.787-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.39.41.788-0700	Setting lastTimeOfUtterance to 1368437981767
+13052013_02.39.41.788-0700	Sys Utterance: 
+13052013_02.39.41.788-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.39.51.770-0700	
+13052013_02.39.51.770-0700	Run: 79
+13052013_02.39.51.770-0700	
+13052013_02.39.51.770-0700	Time: 1368437991770
+13052013_02.39.51.770-0700	Time between updates: 10003
+13052013_02.39.51.771-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.39.51.771-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.39.51.771-0700	User DA: {"cf":"null"}
+13052013_02.39.51.771-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.39.51.771-0700	Coordinates used: reported
+13052013_02.39.51.771-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.39.51.781-0700	Current ways list (possibilities): [270, 842]
+13052013_02.39.51.781-0700	Current way: 270
+13052013_02.39.51.791-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.39.51.791-0700	Current Step Distance (in meters): 0.0
+13052013_02.39.51.791-0700	user walking: false
+13052013_02.39.51.792-0700	User Orientation: unknown
+13052013_02.39.51.792-0700	User DACF: null
+13052013_02.39.51.792-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.39.51.792-0700	Setting lastTimeOfUtterance to 1368437991770
+13052013_02.39.51.792-0700	Sys Utterance: 
+13052013_02.39.51.792-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.40.01.769-0700	
+13052013_02.40.01.769-0700	Run: 80
+13052013_02.40.01.769-0700	
+13052013_02.40.01.769-0700	Time: 1368438001769
+13052013_02.40.01.769-0700	Time between updates: 9999
+13052013_02.40.01.769-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.40.01.769-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.40.01.769-0700	User DA: {"cf":"null"}
+13052013_02.40.01.769-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.40.01.769-0700	Coordinates used: reported
+13052013_02.40.01.769-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.40.01.779-0700	Current ways list (possibilities): [270, 842]
+13052013_02.40.01.779-0700	Current way: 270
+13052013_02.40.01.789-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.40.01.789-0700	Current Step Distance (in meters): 0.0
+13052013_02.40.01.789-0700	user walking: false
+13052013_02.40.01.789-0700	User Orientation: unknown
+13052013_02.40.01.789-0700	User DACF: null
+13052013_02.40.01.789-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.40.01.789-0700	Setting lastTimeOfUtterance to 1368438001769
+13052013_02.40.01.789-0700	Sys Utterance: 
+13052013_02.40.01.789-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.40.11.767-0700	
+13052013_02.40.11.767-0700	Run: 81
+13052013_02.40.11.768-0700	
+13052013_02.40.11.768-0700	Time: 1368438011768
+13052013_02.40.11.768-0700	Time between updates: 9999
+13052013_02.40.11.768-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.40.11.768-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.40.11.768-0700	User DA: {"cf":"null"}
+13052013_02.40.11.768-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.40.11.768-0700	Coordinates used: reported
+13052013_02.40.11.768-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.40.11.778-0700	Current ways list (possibilities): [270, 842]
+13052013_02.40.11.778-0700	Current way: 270
+13052013_02.40.11.787-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.40.11.788-0700	Current Step Distance (in meters): 0.0
+13052013_02.40.11.788-0700	user walking: false
+13052013_02.40.11.788-0700	User Orientation: unknown
+13052013_02.40.11.788-0700	User DACF: null
+13052013_02.40.11.788-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.40.11.788-0700	Setting lastTimeOfUtterance to 1368438011768
+13052013_02.40.11.788-0700	Sys Utterance: 
+13052013_02.40.11.788-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.40.21.766-0700	
+13052013_02.40.21.766-0700	Run: 82
+13052013_02.40.21.766-0700	
+13052013_02.40.21.766-0700	Time: 1368438021766
+13052013_02.40.21.766-0700	Time between updates: 9998
+13052013_02.40.21.766-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.40.21.766-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.40.21.767-0700	User DA: {"cf":"null"}
+13052013_02.40.21.767-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.40.21.767-0700	Coordinates used: reported
+13052013_02.40.21.767-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.40.21.776-0700	Current ways list (possibilities): [270, 842]
+13052013_02.40.21.776-0700	Current way: 270
+13052013_02.40.21.785-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.40.21.785-0700	Current Step Distance (in meters): 0.0
+13052013_02.40.21.785-0700	user walking: false
+13052013_02.40.21.785-0700	User Orientation: unknown
+13052013_02.40.21.786-0700	User DACF: null
+13052013_02.40.21.786-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.40.21.786-0700	Setting lastTimeOfUtterance to 1368438021766
+13052013_02.40.21.786-0700	Sys Utterance: 
+13052013_02.40.21.786-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.40.31.766-0700	
+13052013_02.40.31.766-0700	Run: 83
+13052013_02.40.31.766-0700	
+13052013_02.40.31.766-0700	Time: 1368438031766
+13052013_02.40.31.766-0700	Time between updates: 10000
+13052013_02.40.31.766-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.40.31.767-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.40.31.767-0700	User DA: {"cf":"null"}
+13052013_02.40.31.767-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.40.31.767-0700	Coordinates used: reported
+13052013_02.40.31.767-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.40.31.776-0700	Current ways list (possibilities): [270, 842]
+13052013_02.40.31.776-0700	Current way: 270
+13052013_02.40.31.785-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.40.31.786-0700	Current Step Distance (in meters): 0.0
+13052013_02.40.31.786-0700	user walking: false
+13052013_02.40.31.786-0700	User Orientation: unknown
+13052013_02.40.31.786-0700	User DACF: null
+13052013_02.40.31.786-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.40.31.786-0700	Setting lastTimeOfUtterance to 1368438031766
+13052013_02.40.31.786-0700	Sys Utterance: 
+13052013_02.40.31.786-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.40.41.769-0700	
+13052013_02.40.41.769-0700	Run: 84
+13052013_02.40.41.769-0700	
+13052013_02.40.41.769-0700	Time: 1368438041769
+13052013_02.40.41.769-0700	Time between updates: 10003
+13052013_02.40.41.770-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.40.41.770-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.40.41.770-0700	User DA: {"cf":"null"}
+13052013_02.40.41.770-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.40.41.770-0700	Coordinates used: reported
+13052013_02.40.41.770-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.40.41.779-0700	Current ways list (possibilities): [270, 842]
+13052013_02.40.41.780-0700	Current way: 270
+13052013_02.40.41.789-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.40.41.789-0700	Current Step Distance (in meters): 0.0
+13052013_02.40.41.789-0700	user walking: false
+13052013_02.40.41.789-0700	User Orientation: unknown
+13052013_02.40.41.789-0700	User DACF: null
+13052013_02.40.41.789-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.40.41.789-0700	Setting lastTimeOfUtterance to 1368438041769
+13052013_02.40.41.789-0700	Sys Utterance: 
+13052013_02.40.41.789-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.40.51.767-0700	
+13052013_02.40.51.767-0700	Run: 85
+13052013_02.40.51.767-0700	
+13052013_02.40.51.767-0700	Time: 1368438051767
+13052013_02.40.51.767-0700	Time between updates: 9998
+13052013_02.40.51.767-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.40.51.767-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.40.51.767-0700	User DA: {"cf":"null"}
+13052013_02.40.51.767-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.40.51.767-0700	Coordinates used: reported
+13052013_02.40.51.767-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.40.51.777-0700	Current ways list (possibilities): [270, 842]
+13052013_02.40.51.777-0700	Current way: 270
+13052013_02.40.51.786-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.40.51.786-0700	Current Step Distance (in meters): 0.0
+13052013_02.40.51.786-0700	user walking: false
+13052013_02.40.51.786-0700	User Orientation: unknown
+13052013_02.40.51.786-0700	User DACF: null
+13052013_02.40.51.787-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.40.51.787-0700	Setting lastTimeOfUtterance to 1368438051767
+13052013_02.40.51.787-0700	Sys Utterance: 
+13052013_02.40.51.787-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.41.01.768-0700	
+13052013_02.41.01.768-0700	Run: 86
+13052013_02.41.01.768-0700	
+13052013_02.41.01.768-0700	Time: 1368438061768
+13052013_02.41.01.768-0700	Time between updates: 10001
+13052013_02.41.01.768-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.41.01.768-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.41.01.768-0700	User DA: {"cf":"null"}
+13052013_02.41.01.768-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.41.01.768-0700	Coordinates used: reported
+13052013_02.41.01.768-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.41.01.778-0700	Current ways list (possibilities): [270, 842]
+13052013_02.41.01.778-0700	Current way: 270
+13052013_02.41.01.787-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.41.01.788-0700	Current Step Distance (in meters): 0.0
+13052013_02.41.01.788-0700	user walking: false
+13052013_02.41.01.788-0700	User Orientation: unknown
+13052013_02.41.01.788-0700	User DACF: null
+13052013_02.41.01.788-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.41.01.788-0700	Setting lastTimeOfUtterance to 1368438061768
+13052013_02.41.01.788-0700	Sys Utterance: 
+13052013_02.41.01.788-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.41.11.769-0700	
+13052013_02.41.11.770-0700	Run: 87
+13052013_02.41.11.770-0700	
+13052013_02.41.11.770-0700	Time: 1368438071770
+13052013_02.41.11.770-0700	Time between updates: 10002
+13052013_02.41.11.770-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.41.11.770-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.41.11.770-0700	User DA: {"cf":"null"}
+13052013_02.41.11.770-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.41.11.770-0700	Coordinates used: reported
+13052013_02.41.11.770-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.41.11.780-0700	Current ways list (possibilities): [270, 842]
+13052013_02.41.11.780-0700	Current way: 270
+13052013_02.41.11.789-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.41.11.789-0700	Current Step Distance (in meters): 0.0
+13052013_02.41.11.790-0700	user walking: false
+13052013_02.41.11.790-0700	User Orientation: unknown
+13052013_02.41.11.790-0700	User DACF: null
+13052013_02.41.11.790-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.41.11.790-0700	Setting lastTimeOfUtterance to 1368438071770
+13052013_02.41.11.790-0700	Sys Utterance: 
+13052013_02.41.11.790-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.41.21.767-0700	
+13052013_02.41.21.767-0700	Run: 88
+13052013_02.41.21.767-0700	
+13052013_02.41.21.767-0700	Time: 1368438081767
+13052013_02.41.21.767-0700	Time between updates: 9997
+13052013_02.41.21.767-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.41.21.767-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.41.21.767-0700	User DA: {"cf":"null"}
+13052013_02.41.21.767-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.41.21.768-0700	Coordinates used: reported
+13052013_02.41.21.768-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.41.21.777-0700	Current ways list (possibilities): [270, 842]
+13052013_02.41.21.777-0700	Current way: 270
+13052013_02.41.21.786-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.41.21.786-0700	Current Step Distance (in meters): 0.0
+13052013_02.41.21.786-0700	user walking: false
+13052013_02.41.21.787-0700	User Orientation: unknown
+13052013_02.41.21.787-0700	User DACF: null
+13052013_02.41.21.787-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.41.21.787-0700	Setting lastTimeOfUtterance to 1368438081767
+13052013_02.41.21.787-0700	Sys Utterance: 
+13052013_02.41.21.787-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.41.31.768-0700	
+13052013_02.41.31.768-0700	Run: 89
+13052013_02.41.31.768-0700	
+13052013_02.41.31.768-0700	Time: 1368438091768
+13052013_02.41.31.768-0700	Time between updates: 10001
+13052013_02.41.31.768-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.41.31.769-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.41.31.769-0700	User DA: {"cf":"null"}
+13052013_02.41.31.769-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.41.31.769-0700	Coordinates used: reported
+13052013_02.41.31.769-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.41.31.777-0700	Current ways list (possibilities): [270, 842]
+13052013_02.41.31.778-0700	Current way: 270
+13052013_02.41.31.785-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.41.31.786-0700	Current Step Distance (in meters): 0.0
+13052013_02.41.31.786-0700	user walking: false
+13052013_02.41.31.786-0700	User Orientation: unknown
+13052013_02.41.31.786-0700	User DACF: null
+13052013_02.41.31.786-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.41.31.786-0700	Setting lastTimeOfUtterance to 1368438091768
+13052013_02.41.31.786-0700	Sys Utterance: 
+13052013_02.41.31.786-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.41.41.770-0700	
+13052013_02.41.41.770-0700	Run: 90
+13052013_02.41.41.770-0700	
+13052013_02.41.41.770-0700	Time: 1368438101770
+13052013_02.41.41.770-0700	Time between updates: 10002
+13052013_02.41.41.770-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.41.41.770-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.41.41.770-0700	User DA: {"cf":"null"}
+13052013_02.41.41.770-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.41.41.770-0700	Coordinates used: reported
+13052013_02.41.41.770-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.41.41.779-0700	Current ways list (possibilities): [270, 842]
+13052013_02.41.41.780-0700	Current way: 270
+13052013_02.41.41.789-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.41.41.789-0700	Current Step Distance (in meters): 0.0
+13052013_02.41.41.789-0700	user walking: false
+13052013_02.41.41.789-0700	User Orientation: unknown
+13052013_02.41.41.789-0700	User DACF: null
+13052013_02.41.41.789-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.41.41.789-0700	Setting lastTimeOfUtterance to 1368438101770
+13052013_02.41.41.789-0700	Sys Utterance: 
+13052013_02.41.41.790-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.41.51.769-0700	
+13052013_02.41.51.770-0700	Run: 91
+13052013_02.41.51.770-0700	
+13052013_02.41.51.770-0700	Time: 1368438111770
+13052013_02.41.51.770-0700	Time between updates: 10000
+13052013_02.41.51.770-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.41.51.770-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.41.51.770-0700	User DA: {"cf":"null"}
+13052013_02.41.51.770-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.41.51.770-0700	Coordinates used: reported
+13052013_02.41.51.770-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.41.51.779-0700	Current ways list (possibilities): [270, 842]
+13052013_02.41.51.780-0700	Current way: 270
+13052013_02.41.51.789-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.41.51.789-0700	Current Step Distance (in meters): 0.0
+13052013_02.41.51.789-0700	user walking: false
+13052013_02.41.51.789-0700	User Orientation: unknown
+13052013_02.41.51.789-0700	User DACF: null
+13052013_02.41.51.789-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.41.51.789-0700	Setting lastTimeOfUtterance to 1368438111770
+13052013_02.41.51.789-0700	Sys Utterance: 
+13052013_02.41.51.789-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.42.01.772-0700	
+13052013_02.42.01.772-0700	Run: 92
+13052013_02.42.01.772-0700	
+13052013_02.42.01.772-0700	Time: 1368438121772
+13052013_02.42.01.772-0700	Time between updates: 10002
+13052013_02.42.01.773-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.42.01.773-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.42.01.773-0700	User DA: {"cf":"null"}
+13052013_02.42.01.773-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.42.01.773-0700	Coordinates used: reported
+13052013_02.42.01.773-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.42.01.783-0700	Current ways list (possibilities): [270, 842]
+13052013_02.42.01.783-0700	Current way: 270
+13052013_02.42.01.793-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.42.01.793-0700	Current Step Distance (in meters): 0.0
+13052013_02.42.01.793-0700	user walking: false
+13052013_02.42.01.793-0700	User Orientation: unknown
+13052013_02.42.01.793-0700	User DACF: null
+13052013_02.42.01.793-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.42.01.793-0700	Setting lastTimeOfUtterance to 1368438121772
+13052013_02.42.01.793-0700	Sys Utterance: 
+13052013_02.42.01.793-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.42.11.772-0700	
+13052013_02.42.11.772-0700	Run: 93
+13052013_02.42.11.772-0700	
+13052013_02.42.11.772-0700	Time: 1368438131772
+13052013_02.42.11.772-0700	Time between updates: 10000
+13052013_02.42.11.772-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.42.11.772-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.42.11.772-0700	User DA: {"cf":"null"}
+13052013_02.42.11.772-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.42.11.773-0700	Coordinates used: reported
+13052013_02.42.11.773-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.42.11.782-0700	Current ways list (possibilities): [270, 842]
+13052013_02.42.11.782-0700	Current way: 270
+13052013_02.42.11.792-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.42.11.792-0700	Current Step Distance (in meters): 0.0
+13052013_02.42.11.792-0700	user walking: false
+13052013_02.42.11.792-0700	User Orientation: unknown
+13052013_02.42.11.792-0700	User DACF: null
+13052013_02.42.11.792-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.42.11.792-0700	Setting lastTimeOfUtterance to 1368438131772
+13052013_02.42.11.792-0700	Sys Utterance: 
+13052013_02.42.11.793-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.42.21.771-0700	
+13052013_02.42.21.771-0700	Run: 94
+13052013_02.42.21.771-0700	
+13052013_02.42.21.771-0700	Time: 1368438141771
+13052013_02.42.21.771-0700	Time between updates: 9999
+13052013_02.42.21.771-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.42.21.771-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.42.21.771-0700	User DA: {"cf":"null"}
+13052013_02.42.21.772-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.42.21.772-0700	Coordinates used: reported
+13052013_02.42.21.772-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.42.21.781-0700	Current ways list (possibilities): [270, 842]
+13052013_02.42.21.781-0700	Current way: 270
+13052013_02.42.21.790-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.42.21.790-0700	Current Step Distance (in meters): 0.0
+13052013_02.42.21.790-0700	user walking: false
+13052013_02.42.21.790-0700	User Orientation: unknown
+13052013_02.42.21.790-0700	User DACF: null
+13052013_02.42.21.791-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.42.21.791-0700	Setting lastTimeOfUtterance to 1368438141771
+13052013_02.42.21.791-0700	Sys Utterance: 
+13052013_02.42.21.791-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.42.31.774-0700	
+13052013_02.42.31.774-0700	Run: 95
+13052013_02.42.31.774-0700	
+13052013_02.42.31.774-0700	Time: 1368438151774
+13052013_02.42.31.774-0700	Time between updates: 10003
+13052013_02.42.31.774-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.42.31.774-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.42.31.774-0700	User DA: {"cf":"null"}
+13052013_02.42.31.774-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.42.31.774-0700	Coordinates used: reported
+13052013_02.42.31.774-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.42.31.784-0700	Current ways list (possibilities): [270, 842]
+13052013_02.42.31.784-0700	Current way: 270
+13052013_02.42.31.794-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.42.31.794-0700	Current Step Distance (in meters): 0.0
+13052013_02.42.31.794-0700	user walking: false
+13052013_02.42.31.794-0700	User Orientation: unknown
+13052013_02.42.31.794-0700	User DACF: null
+13052013_02.42.31.795-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.42.31.795-0700	Setting lastTimeOfUtterance to 1368438151774
+13052013_02.42.31.795-0700	Sys Utterance: 
+13052013_02.42.31.795-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.42.41.778-0700	
+13052013_02.42.41.778-0700	Run: 96
+13052013_02.42.41.778-0700	
+13052013_02.42.41.778-0700	Time: 1368438161778
+13052013_02.42.41.778-0700	Time between updates: 10004
+13052013_02.42.41.778-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.42.41.778-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.42.41.778-0700	User DA: {"cf":"null"}
+13052013_02.42.41.778-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.42.41.779-0700	Coordinates used: reported
+13052013_02.42.41.779-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.42.41.788-0700	Current ways list (possibilities): [270, 842]
+13052013_02.42.41.788-0700	Current way: 270
+13052013_02.42.41.799-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.42.41.799-0700	Current Step Distance (in meters): 0.0
+13052013_02.42.41.799-0700	user walking: false
+13052013_02.42.41.799-0700	User Orientation: unknown
+13052013_02.42.41.799-0700	User DACF: null
+13052013_02.42.41.799-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.42.41.799-0700	Setting lastTimeOfUtterance to 1368438161778
+13052013_02.42.41.799-0700	Sys Utterance: 
+13052013_02.42.41.799-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.42.51.774-0700	
+13052013_02.42.51.774-0700	Run: 97
+13052013_02.42.51.774-0700	
+13052013_02.42.51.774-0700	Time: 1368438171774
+13052013_02.42.51.774-0700	Time between updates: 9996
+13052013_02.42.51.774-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.42.51.774-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.42.51.774-0700	User DA: {"cf":"null"}
+13052013_02.42.51.774-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.42.51.774-0700	Coordinates used: reported
+13052013_02.42.51.774-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.42.51.784-0700	Current ways list (possibilities): [270, 842]
+13052013_02.42.51.784-0700	Current way: 270
+13052013_02.42.51.820-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.42.51.820-0700	Current Step Distance (in meters): 0.0
+13052013_02.42.51.820-0700	user walking: false
+13052013_02.42.51.820-0700	User Orientation: unknown
+13052013_02.42.51.820-0700	User DACF: null
+13052013_02.42.51.820-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.42.51.821-0700	Setting lastTimeOfUtterance to 1368438171774
+13052013_02.42.51.821-0700	Sys Utterance: 
+13052013_02.42.51.821-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.43.01.774-0700	
+13052013_02.43.01.774-0700	Run: 98
+13052013_02.43.01.774-0700	
+13052013_02.43.01.774-0700	Time: 1368438181774
+13052013_02.43.01.774-0700	Time between updates: 10000
+13052013_02.43.01.774-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.43.01.774-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.43.01.774-0700	User DA: {"cf":"null"}
+13052013_02.43.01.774-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.43.01.774-0700	Coordinates used: reported
+13052013_02.43.01.775-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.43.01.784-0700	Current ways list (possibilities): [270, 842]
+13052013_02.43.01.784-0700	Current way: 270
+13052013_02.43.01.794-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.43.01.794-0700	Current Step Distance (in meters): 0.0
+13052013_02.43.01.794-0700	user walking: false
+13052013_02.43.01.794-0700	User Orientation: unknown
+13052013_02.43.01.794-0700	User DACF: null
+13052013_02.43.01.794-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.43.01.794-0700	Setting lastTimeOfUtterance to 1368438181774
+13052013_02.43.01.794-0700	Sys Utterance: 
+13052013_02.43.01.794-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.43.11.777-0700	
+13052013_02.43.11.778-0700	Run: 99
+13052013_02.43.11.778-0700	
+13052013_02.43.11.778-0700	Time: 1368438191778
+13052013_02.43.11.778-0700	Time between updates: 10004
+13052013_02.43.11.778-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.43.11.778-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.43.11.778-0700	User DA: {"cf":"null"}
+13052013_02.43.11.778-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.43.11.778-0700	Coordinates used: reported
+13052013_02.43.11.778-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.43.11.788-0700	Current ways list (possibilities): [270, 842]
+13052013_02.43.11.788-0700	Current way: 270
+13052013_02.43.11.797-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.43.11.797-0700	Current Step Distance (in meters): 0.0
+13052013_02.43.11.797-0700	user walking: false
+13052013_02.43.11.797-0700	User Orientation: unknown
+13052013_02.43.11.797-0700	User DACF: null
+13052013_02.43.11.798-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.43.11.798-0700	Setting lastTimeOfUtterance to 1368438191778
+13052013_02.43.11.798-0700	Sys Utterance: 
+13052013_02.43.11.798-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.43.21.775-0700	
+13052013_02.43.21.775-0700	Run: 100
+13052013_02.43.21.775-0700	
+13052013_02.43.21.775-0700	Time: 1368438201775
+13052013_02.43.21.775-0700	Time between updates: 9997
+13052013_02.43.21.775-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.43.21.776-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.43.21.776-0700	User DA: {"cf":"null"}
+13052013_02.43.21.776-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.43.21.776-0700	Coordinates used: reported
+13052013_02.43.21.776-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.43.21.785-0700	Current ways list (possibilities): [270, 842]
+13052013_02.43.21.785-0700	Current way: 270
+13052013_02.43.21.794-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.43.21.795-0700	Current Step Distance (in meters): 0.0
+13052013_02.43.21.795-0700	user walking: false
+13052013_02.43.21.795-0700	User Orientation: unknown
+13052013_02.43.21.795-0700	User DACF: null
+13052013_02.43.21.795-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.43.21.795-0700	Setting lastTimeOfUtterance to 1368438201775
+13052013_02.43.21.795-0700	Sys Utterance: 
+13052013_02.43.21.795-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.43.31.776-0700	
+13052013_02.43.31.776-0700	Run: 101
+13052013_02.43.31.776-0700	
+13052013_02.43.31.776-0700	Time: 1368438211776
+13052013_02.43.31.776-0700	Time between updates: 10001
+13052013_02.43.31.776-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.43.31.776-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.43.31.776-0700	User DA: {"cf":"null"}
+13052013_02.43.31.776-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.43.31.776-0700	Coordinates used: reported
+13052013_02.43.31.776-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.43.31.786-0700	Current ways list (possibilities): [270, 842]
+13052013_02.43.31.786-0700	Current way: 270
+13052013_02.43.31.795-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.43.31.795-0700	Current Step Distance (in meters): 0.0
+13052013_02.43.31.795-0700	user walking: false
+13052013_02.43.31.795-0700	User Orientation: unknown
+13052013_02.43.31.795-0700	User DACF: null
+13052013_02.43.31.796-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.43.31.796-0700	Setting lastTimeOfUtterance to 1368438211776
+13052013_02.43.31.796-0700	Sys Utterance: 
+13052013_02.43.31.796-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.43.41.776-0700	
+13052013_02.43.41.776-0700	Run: 102
+13052013_02.43.41.776-0700	
+13052013_02.43.41.776-0700	Time: 1368438221776
+13052013_02.43.41.777-0700	Time between updates: 10000
+13052013_02.43.41.777-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.43.41.777-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.43.41.777-0700	User DA: {"cf":"null"}
+13052013_02.43.41.777-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.43.41.777-0700	Coordinates used: reported
+13052013_02.43.41.777-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.43.41.787-0700	Current ways list (possibilities): [270, 842]
+13052013_02.43.41.787-0700	Current way: 270
+13052013_02.43.41.796-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.43.41.796-0700	Current Step Distance (in meters): 0.0
+13052013_02.43.41.797-0700	user walking: false
+13052013_02.43.41.797-0700	User Orientation: unknown
+13052013_02.43.41.797-0700	User DACF: null
+13052013_02.43.41.797-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.43.41.797-0700	Setting lastTimeOfUtterance to 1368438221776
+13052013_02.43.41.797-0700	Sys Utterance: 
+13052013_02.43.41.797-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.43.51.777-0700	
+13052013_02.43.51.777-0700	Run: 103
+13052013_02.43.51.777-0700	
+13052013_02.43.51.777-0700	Time: 1368438231777
+13052013_02.43.51.777-0700	Time between updates: 10001
+13052013_02.43.51.777-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.43.51.777-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.43.51.777-0700	User DA: {"cf":"null"}
+13052013_02.43.51.777-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.43.51.777-0700	Coordinates used: reported
+13052013_02.43.51.777-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.43.51.787-0700	Current ways list (possibilities): [270, 842]
+13052013_02.43.51.787-0700	Current way: 270
+13052013_02.43.51.797-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.43.51.797-0700	Current Step Distance (in meters): 0.0
+13052013_02.43.51.797-0700	user walking: false
+13052013_02.43.51.797-0700	User Orientation: unknown
+13052013_02.43.51.797-0700	User DACF: null
+13052013_02.43.51.797-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.43.51.797-0700	Setting lastTimeOfUtterance to 1368438231777
+13052013_02.43.51.797-0700	Sys Utterance: 
+13052013_02.43.51.797-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.44.01.777-0700	
+13052013_02.44.01.777-0700	Run: 104
+13052013_02.44.01.777-0700	
+13052013_02.44.01.777-0700	Time: 1368438241777
+13052013_02.44.01.777-0700	Time between updates: 10000
+13052013_02.44.01.777-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.44.01.777-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.44.01.777-0700	User DA: {"cf":"null"}
+13052013_02.44.01.777-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.44.01.777-0700	Coordinates used: reported
+13052013_02.44.01.777-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.44.01.787-0700	Current ways list (possibilities): [270, 842]
+13052013_02.44.01.788-0700	Current way: 270
+13052013_02.44.01.797-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.44.01.797-0700	Current Step Distance (in meters): 0.0
+13052013_02.44.01.797-0700	user walking: false
+13052013_02.44.01.797-0700	User Orientation: unknown
+13052013_02.44.01.798-0700	User DACF: null
+13052013_02.44.01.798-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.44.01.798-0700	Setting lastTimeOfUtterance to 1368438241777
+13052013_02.44.01.798-0700	Sys Utterance: 
+13052013_02.44.01.798-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.44.11.778-0700	
+13052013_02.44.11.778-0700	Run: 105
+13052013_02.44.11.778-0700	
+13052013_02.44.11.778-0700	Time: 1368438251778
+13052013_02.44.11.778-0700	Time between updates: 10001
+13052013_02.44.11.778-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.44.11.778-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.44.11.778-0700	User DA: {"cf":"null"}
+13052013_02.44.11.778-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.44.11.778-0700	Coordinates used: reported
+13052013_02.44.11.778-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.44.11.788-0700	Current ways list (possibilities): [270, 842]
+13052013_02.44.11.788-0700	Current way: 270
+13052013_02.44.11.797-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.44.11.797-0700	Current Step Distance (in meters): 0.0
+13052013_02.44.11.797-0700	user walking: false
+13052013_02.44.11.797-0700	User Orientation: unknown
+13052013_02.44.11.797-0700	User DACF: null
+13052013_02.44.11.797-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.44.11.798-0700	Setting lastTimeOfUtterance to 1368438251778
+13052013_02.44.11.798-0700	Sys Utterance: 
+13052013_02.44.11.798-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.44.21.778-0700	
+13052013_02.44.21.778-0700	Run: 106
+13052013_02.44.21.778-0700	
+13052013_02.44.21.778-0700	Time: 1368438261778
+13052013_02.44.21.778-0700	Time between updates: 10000
+13052013_02.44.21.778-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.44.21.779-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.44.21.779-0700	User DA: {"cf":"null"}
+13052013_02.44.21.779-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.44.21.779-0700	Coordinates used: reported
+13052013_02.44.21.779-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.44.21.788-0700	Current ways list (possibilities): [270, 842]
+13052013_02.44.21.788-0700	Current way: 270
+13052013_02.44.21.798-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.44.21.798-0700	Current Step Distance (in meters): 0.0
+13052013_02.44.21.798-0700	user walking: false
+13052013_02.44.21.798-0700	User Orientation: unknown
+13052013_02.44.21.798-0700	User DACF: null
+13052013_02.44.21.798-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.44.21.798-0700	Setting lastTimeOfUtterance to 1368438261778
+13052013_02.44.21.798-0700	Sys Utterance: 
+13052013_02.44.21.798-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.44.31.780-0700	
+13052013_02.44.31.781-0700	Run: 107
+13052013_02.44.31.781-0700	
+13052013_02.44.31.781-0700	Time: 1368438271781
+13052013_02.44.31.781-0700	Time between updates: 10003
+13052013_02.44.31.781-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.44.31.781-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.44.31.781-0700	User DA: {"cf":"null"}
+13052013_02.44.31.781-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.44.31.781-0700	Coordinates used: reported
+13052013_02.44.31.781-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.44.31.791-0700	Current ways list (possibilities): [270, 842]
+13052013_02.44.31.791-0700	Current way: 270
+13052013_02.44.31.800-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.44.31.800-0700	Current Step Distance (in meters): 0.0
+13052013_02.44.31.800-0700	user walking: false
+13052013_02.44.31.801-0700	User Orientation: unknown
+13052013_02.44.31.801-0700	User DACF: null
+13052013_02.44.31.801-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.44.31.801-0700	Setting lastTimeOfUtterance to 1368438271781
+13052013_02.44.31.801-0700	Sys Utterance: 
+13052013_02.44.31.801-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.44.41.780-0700	
+13052013_02.44.41.780-0700	Run: 108
+13052013_02.44.41.780-0700	
+13052013_02.44.41.780-0700	Time: 1368438281780
+13052013_02.44.41.780-0700	Time between updates: 9999
+13052013_02.44.41.781-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.44.41.781-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.44.41.781-0700	User DA: {"cf":"null"}
+13052013_02.44.41.781-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.44.41.781-0700	Coordinates used: reported
+13052013_02.44.41.781-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.44.41.790-0700	Current ways list (possibilities): [270, 842]
+13052013_02.44.41.790-0700	Current way: 270
+13052013_02.44.41.800-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.44.41.800-0700	Current Step Distance (in meters): 0.0
+13052013_02.44.41.800-0700	user walking: false
+13052013_02.44.41.800-0700	User Orientation: unknown
+13052013_02.44.41.800-0700	User DACF: null
+13052013_02.44.41.800-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.44.41.800-0700	Setting lastTimeOfUtterance to 1368438281780
+13052013_02.44.41.800-0700	Sys Utterance: 
+13052013_02.44.41.800-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.44.51.785-0700	
+13052013_02.44.51.785-0700	Run: 109
+13052013_02.44.51.785-0700	
+13052013_02.44.51.786-0700	Time: 1368438291786
+13052013_02.44.51.786-0700	Time between updates: 10006
+13052013_02.44.51.786-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.44.51.786-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.44.51.786-0700	User DA: {"cf":"null"}
+13052013_02.44.51.786-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.44.51.786-0700	Coordinates used: reported
+13052013_02.44.51.786-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.44.51.796-0700	Current ways list (possibilities): [270, 842]
+13052013_02.44.51.796-0700	Current way: 270
+13052013_02.44.51.810-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.44.51.811-0700	Current Step Distance (in meters): 0.0
+13052013_02.44.51.811-0700	user walking: false
+13052013_02.44.51.811-0700	User Orientation: unknown
+13052013_02.44.51.811-0700	User DACF: null
+13052013_02.44.51.811-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.44.51.811-0700	Setting lastTimeOfUtterance to 1368438291786
+13052013_02.44.51.811-0700	Sys Utterance: 
+13052013_02.44.51.811-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.45.01.778-0700	
+13052013_02.45.01.778-0700	Run: 110
+13052013_02.45.01.778-0700	
+13052013_02.45.01.778-0700	Time: 1368438301778
+13052013_02.45.01.778-0700	Time between updates: 9992
+13052013_02.45.01.778-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.45.01.778-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.45.01.778-0700	User DA: {"cf":"null"}
+13052013_02.45.01.778-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.45.01.778-0700	Coordinates used: reported
+13052013_02.45.01.778-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.45.01.788-0700	Current ways list (possibilities): [270, 842]
+13052013_02.45.01.788-0700	Current way: 270
+13052013_02.45.01.797-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.45.01.797-0700	Current Step Distance (in meters): 0.0
+13052013_02.45.01.797-0700	user walking: false
+13052013_02.45.01.797-0700	User Orientation: unknown
+13052013_02.45.01.797-0700	User DACF: null
+13052013_02.45.01.798-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.45.01.798-0700	Setting lastTimeOfUtterance to 1368438301778
+13052013_02.45.01.798-0700	Sys Utterance: 
+13052013_02.45.01.798-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.45.11.778-0700	
+13052013_02.45.11.778-0700	Run: 111
+13052013_02.45.11.778-0700	
+13052013_02.45.11.778-0700	Time: 1368438311778
+13052013_02.45.11.778-0700	Time between updates: 10000
+13052013_02.45.11.778-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.45.11.778-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.45.11.778-0700	User DA: {"cf":"null"}
+13052013_02.45.11.778-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.45.11.778-0700	Coordinates used: reported
+13052013_02.45.11.778-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.45.11.788-0700	Current ways list (possibilities): [270, 842]
+13052013_02.45.11.788-0700	Current way: 270
+13052013_02.45.11.797-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.45.11.798-0700	Current Step Distance (in meters): 0.0
+13052013_02.45.11.798-0700	user walking: false
+13052013_02.45.11.798-0700	User Orientation: unknown
+13052013_02.45.11.798-0700	User DACF: null
+13052013_02.45.11.798-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.45.11.798-0700	Setting lastTimeOfUtterance to 1368438311778
+13052013_02.45.11.798-0700	Sys Utterance: 
+13052013_02.45.11.798-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.45.21.781-0700	
+13052013_02.45.21.781-0700	Run: 112
+13052013_02.45.21.781-0700	
+13052013_02.45.21.781-0700	Time: 1368438321781
+13052013_02.45.21.781-0700	Time between updates: 10003
+13052013_02.45.21.781-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.45.21.781-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.45.21.781-0700	User DA: {"cf":"null"}
+13052013_02.45.21.781-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.45.21.781-0700	Coordinates used: reported
+13052013_02.45.21.781-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.45.21.791-0700	Current ways list (possibilities): [270, 842]
+13052013_02.45.21.792-0700	Current way: 270
+13052013_02.45.21.801-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.45.21.801-0700	Current Step Distance (in meters): 0.0
+13052013_02.45.21.801-0700	user walking: false
+13052013_02.45.21.801-0700	User Orientation: unknown
+13052013_02.45.21.801-0700	User DACF: null
+13052013_02.45.21.802-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.45.21.802-0700	Setting lastTimeOfUtterance to 1368438321781
+13052013_02.45.21.802-0700	Sys Utterance: 
+13052013_02.45.21.802-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.45.31.780-0700	
+13052013_02.45.31.780-0700	Run: 113
+13052013_02.45.31.780-0700	
+13052013_02.45.31.780-0700	Time: 1368438331780
+13052013_02.45.31.780-0700	Time between updates: 9999
+13052013_02.45.31.780-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.45.31.780-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.45.31.780-0700	User DA: {"cf":"null"}
+13052013_02.45.31.780-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.45.31.780-0700	Coordinates used: reported
+13052013_02.45.31.780-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.45.31.789-0700	Current ways list (possibilities): [270, 842]
+13052013_02.45.31.790-0700	Current way: 270
+13052013_02.45.31.799-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.45.31.799-0700	Current Step Distance (in meters): 0.0
+13052013_02.45.31.799-0700	user walking: false
+13052013_02.45.31.799-0700	User Orientation: unknown
+13052013_02.45.31.799-0700	User DACF: null
+13052013_02.45.31.799-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.45.31.799-0700	Setting lastTimeOfUtterance to 1368438331780
+13052013_02.45.31.799-0700	Sys Utterance: 
+13052013_02.45.31.799-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.45.41.791-0700	
+13052013_02.45.41.791-0700	Run: 114
+13052013_02.45.41.791-0700	
+13052013_02.45.41.791-0700	Time: 1368438341791
+13052013_02.45.41.791-0700	Time between updates: 10011
+13052013_02.45.41.791-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.45.41.791-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.45.41.791-0700	User DA: {"cf":"null"}
+13052013_02.45.41.792-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.45.41.792-0700	Coordinates used: reported
+13052013_02.45.41.792-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.45.41.801-0700	Current ways list (possibilities): [270, 842]
+13052013_02.45.41.801-0700	Current way: 270
+13052013_02.45.41.810-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.45.41.811-0700	Current Step Distance (in meters): 0.0
+13052013_02.45.41.811-0700	user walking: false
+13052013_02.45.41.811-0700	User Orientation: unknown
+13052013_02.45.41.811-0700	User DACF: null
+13052013_02.45.41.811-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.45.41.811-0700	Setting lastTimeOfUtterance to 1368438341791
+13052013_02.45.41.811-0700	Sys Utterance: 
+13052013_02.45.41.811-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.45.51.783-0700	
+13052013_02.45.51.783-0700	Run: 115
+13052013_02.45.51.783-0700	
+13052013_02.45.51.783-0700	Time: 1368438351783
+13052013_02.45.51.783-0700	Time between updates: 9992
+13052013_02.45.51.783-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.45.51.783-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.45.51.783-0700	User DA: {"cf":"null"}
+13052013_02.45.51.783-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.45.51.783-0700	Coordinates used: reported
+13052013_02.45.51.783-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.45.51.793-0700	Current ways list (possibilities): [270, 842]
+13052013_02.45.51.793-0700	Current way: 270
+13052013_02.45.51.802-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.45.51.802-0700	Current Step Distance (in meters): 0.0
+13052013_02.45.51.802-0700	user walking: false
+13052013_02.45.51.802-0700	User Orientation: unknown
+13052013_02.45.51.802-0700	User DACF: null
+13052013_02.45.51.803-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.45.51.803-0700	Setting lastTimeOfUtterance to 1368438351783
+13052013_02.45.51.803-0700	Sys Utterance: 
+13052013_02.45.51.803-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.46.01.785-0700	
+13052013_02.46.01.785-0700	Run: 116
+13052013_02.46.01.785-0700	
+13052013_02.46.01.785-0700	Time: 1368438361785
+13052013_02.46.01.785-0700	Time between updates: 10002
+13052013_02.46.01.785-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.46.01.785-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.46.01.785-0700	User DA: {"cf":"null"}
+13052013_02.46.01.785-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.46.01.785-0700	Coordinates used: reported
+13052013_02.46.01.785-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.46.01.795-0700	Current ways list (possibilities): [270, 842]
+13052013_02.46.01.795-0700	Current way: 270
+13052013_02.46.01.805-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.46.01.805-0700	Current Step Distance (in meters): 0.0
+13052013_02.46.01.805-0700	user walking: false
+13052013_02.46.01.805-0700	User Orientation: unknown
+13052013_02.46.01.805-0700	User DACF: null
+13052013_02.46.01.805-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.46.01.805-0700	Setting lastTimeOfUtterance to 1368438361785
+13052013_02.46.01.805-0700	Sys Utterance: 
+13052013_02.46.01.805-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.46.11.796-0700	
+13052013_02.46.11.796-0700	Run: 117
+13052013_02.46.11.796-0700	
+13052013_02.46.11.796-0700	Time: 1368438371796
+13052013_02.46.11.796-0700	Time between updates: 10011
+13052013_02.46.11.796-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.46.11.796-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.46.11.796-0700	User DA: {"cf":"null"}
+13052013_02.46.11.796-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.46.11.797-0700	Coordinates used: reported
+13052013_02.46.11.797-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.46.11.806-0700	Current ways list (possibilities): [270, 842]
+13052013_02.46.11.806-0700	Current way: 270
+13052013_02.46.11.816-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.46.11.816-0700	Current Step Distance (in meters): 0.0
+13052013_02.46.11.816-0700	user walking: false
+13052013_02.46.11.816-0700	User Orientation: unknown
+13052013_02.46.11.816-0700	User DACF: null
+13052013_02.46.11.816-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.46.11.816-0700	Setting lastTimeOfUtterance to 1368438371796
+13052013_02.46.11.816-0700	Sys Utterance: 
+13052013_02.46.11.816-0700	sysResponse: {"utterance":"","uttType":"dm"}
+13052013_02.46.21.785-0700	
+13052013_02.46.21.785-0700	Run: 118
+13052013_02.46.21.785-0700	
+13052013_02.46.21.785-0700	Time: 1368438381785
+13052013_02.46.21.785-0700	Time between updates: 9989
+13052013_02.46.21.785-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-09-21-10-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943829;-3.1831869999999753"}
+13052013_02.46.21.785-0700	User location reported:55.943829;-3.1831869999999753
+13052013_02.46.21.785-0700	User DA: {"cf":"null"}
+13052013_02.46.21.786-0700	User reported position: 55.943829,-3.1831869999999753
+13052013_02.46.21.786-0700	Coordinates used: reported
+13052013_02.46.21.786-0700	User current position: 55.943829,-3.1831869999999753
+13052013_02.46.21.795-0700	Current ways list (possibilities): [270, 842]
+13052013_02.46.21.795-0700	Current way: 270
+13052013_02.46.21.805-0700	User location: [Clerk Street, East Crosscauseway]
+13052013_02.46.21.805-0700	Current Step Distance (in meters): 0.0
+13052013_02.46.21.805-0700	user walking: false
+13052013_02.46.21.805-0700	User Orientation: unknown
+13052013_02.46.21.805-0700	User DACF: null
+13052013_02.46.21.805-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.943829,-3.1831869999999753","cf":"null"}
+13052013_02.46.21.805-0700	Setting lastTimeOfUtterance to 1368438381785
+13052013_02.46.21.805-0700	Sys Utterance: 
+13052013_02.46.21.805-0700	sysResponse: {"utterance":"","uttType":"dm"}

@@ -1,0 +1,8 @@
+21122013_12.15.54.183-0800	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sat-21-Dec-2013-20-15-53-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"NaN;NaN"}
+21122013_12.15.54.252-0800	{"utterance":"Hi. I am your buddy. I can help you with directions.","uttType":"setup","userType":"im"}
+21122013_12.15.54.799-0800	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sat-21-Dec-2013-20-15-53-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94571700000001;-3.1870790000000397"}
+21122013_12.15.54.846-0800	{"utterance":"I need your orientation. Please start walking.","uttType":"setup","userType":"im"}
+21122013_12.16.05.748-0800	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sat-21-Dec-2013-20-15-53-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94571700000001;-3.1870790000000397"}
+21122013_12.16.05.766-0800	{"utterance":"","uttType":"dm","userType":"im"}
+21122013_12.16.16.489-0800	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sat-21-Dec-2013-20-15-53-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94571700000001;-3.1870790000000397"}
+21122013_12.16.16.507-0800	{"utterance":"","uttType":"dm","userType":"im"}

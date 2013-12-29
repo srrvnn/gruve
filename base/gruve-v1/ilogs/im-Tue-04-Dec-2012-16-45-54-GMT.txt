@@ -1,0 +1,6 @@
+04122012_16.45.54.523+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Tue-04-Dec-2012-16-45-54-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"NaN;NaN"}
+04122012_16.45.54.535+0000	{"utterance":"Hi. I am your buddy. I can help you with directions.","uttType":"setup","userType":"im"}
+04122012_16.45.54.572+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Tue-04-Dec-2012-16-45-54-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945719;-3.1870810000000347"}
+04122012_16.45.54.587+0000	{"utterance":"I need your orientation. Please start walking.","uttType":"setup","userType":"im"}
+04122012_16.46.07.577+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Tue-04-Dec-2012-16-45-54-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945719;-3.1870810000000347"}
+04122012_16.46.07.610+0000	{"utterance":"","uttType":"dm","userType":"im"}

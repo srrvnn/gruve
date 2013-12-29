@@ -1,0 +1,1 @@
+javac -cp "D:\Programs\apache-tomcat-7.0.23\lib\servlet-api.jar;." WoZLogListServlet.java

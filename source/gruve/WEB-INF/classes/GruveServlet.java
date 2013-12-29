@@ -30,6 +30,7 @@ public class GruveServlet extends HttpServlet{
 		allUMs = new Hashtable<String, UserModel>();
 	}
 	
+	@SuppressWarnings("unchecked")
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException{ 	
 
 		DateFormat timeStamp = new SimpleDateFormat("yyyy.MM.dd G 'at' HH:mm:ss z");

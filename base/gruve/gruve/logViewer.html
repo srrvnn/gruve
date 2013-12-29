@@ -1,0 +1,232 @@
+<html>
+<head>
+<title>WoZ Log Viewer</title>
+<style type="text/css">
+  html { height: 100% }
+  body { background-color:#b0c4de;}
+  
+ 
+</style>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript">
+	var currentFileName;
+	var roadmap, mapoptions;
+	var timer,setTimer;
+	var state;
+	var lastSB, lastM, lastPos, userSpoke;
+	var allMarkers, allSBs, mIndex, sIndex;
+	var posMarkerTable, markerSBTable;
+	
+	function initialize(){
+		
+		initializeMap();
+		setTimer = true;
+		getList();
+		currentFileName = "null";
+		state = "new";
+		
+	}
+	
+	function initializeMap(){
+		mapOptions = {
+			center: new google.maps.LatLng(55.945722,-3.1870830000000296),
+			mapTypeId: google.maps.MapTypeId.ROADMAP,
+			zoom: 15
+		};
+		  
+		roadmap = new google.maps.Map(document.getElementById("map"), mapOptions);
+		allMarkers = new Array();
+		allSBs = new Array();
+		mIndex = 0;
+		sIndex = 0;
+		posMarkerTable = new Object();
+		markerSBTable = new Object();
+	}
+	
+	function setUserInfo(pos, info){
+		roadmap.setCenter(pos);
+		var m, cmIndex;
+		if (posMarkerTable[pos.toString()] != null){
+			//alert("Marker");
+			cmIndex = posMarkerTable[pos.toString()];
+			m = allMarkers[cmIndex];
+		} else {
+			m = new google.maps.Marker({map: roadmap, position: pos}); 
+			allMarkers[mIndex] = m;
+			posMarkerTable[pos.toString()] = mIndex;
+			cmIndex = mIndex;
+			mIndex++;
+		}
+		
+		if (info != "null"){
+			
+			m.setIcon('images/greenmarker.png');
+			allMarkers[cmIndex] = m;
+			
+			var sb, csIndex;
+			if (markerSBTable[cmIndex] != null){
+				csIndex = markerSBTable[cmIndex];
+				sb = allSBs[csIndex];
+				sb.close();
+			} else {
+				sb = new google.maps.InfoWindow();				
+				allSBs[sIndex] = sb;
+				markerSBTable[cmIndex] = sIndex;
+				csIndex = sIndex;
+				sIndex++;
+			}	
+			sb.setContent("Usr:" + info);
+			sb.open(roadmap,m);
+			allSBs[csIndex] = sb;
+		} 
+		lastPos = pos;
+	}
+	
+	function setWizInfo(info){
+		var sb, csIndex;
+		var cmIndex = posMarkerTable[lastPos.toString()];
+		var cMarker = allMarkers[cmIndex];
+		
+		var temp;
+		if (markerSBTable[cmIndex] != null){
+			cMarker.setIcon('images/bluemarker.png');
+			csIndex = markerSBTable[cmIndex];
+			sb = allSBs[csIndex];
+			sb.close();
+			temp = sb.getContent();
+			temp = temp + "|||Wiz: " + info;
+		} else {
+			cMarker.setIcon('images/greymarker.png');
+			sb = new google.maps.InfoWindow();				
+			allSBs[sIndex] = sb;
+			markerSBTable[cmIndex] = sIndex;
+			csIndex = sIndex;
+			sIndex++;
+			temp = "Wiz: " + info;
+		}
+		sb.setContent(temp);
+		sb.open(roadmap, cMarker);
+		allSBs[csIndex] = sb;
+		
+	}
+	
+	function start(){	
+		askServlet();
+		timer = setTimeout("start()",1000);
+	}
+	
+	function stop(){	
+		clearTimeout(timer);
+		document.getElementById("startBt").innerHTML = "Continue";
+	}
+	
+	function displayAll(){
+		askServlet();
+		timer = setTimeout("displayAll()",10);
+	}
+	
+	function closeAllSBs(){
+		var l = allSBs.length;
+		for (var i=0; i< l; i++){
+			allSBs[i].close();
+		}
+	}
+	
+	function openAllSBs(){
+		var l = allMarkers.length;
+		for (var i=0; i< l; i++){
+			var si = markerSBTable[i];
+			if (si != null){
+				allSBs[si].open(roadmap,allMarkers[i]);
+			}
+		}
+	}
+	
+	function loadSelectedFile(){
+		var fileIndex = document.getElementById("fileList").selectedIndex;
+		var fileName = document.getElementById("fileList").options[fileIndex].text;
+		currentFileName = fileName;
+		document.getElementById("fileLoaded").innerHTML = "Selected file: " + currentFileName;			
+		initializeMap();
+		state = "new";
+		document.getElementById("startBt").innerHTML = "Start";
+	}
+	
+	function askServlet(){
+		var fileName = currentFileName;
+		if (fileName == "null") { return null;}
+		var xhr = new XMLHttpRequest();
+		xhr.onreadystatechange = function() {
+			if (xhr.readyState == 4) {
+				var data = xhr.responseText;
+				document.getElementById("debug").innerHTML = data;				
+				if (data.indexOf("null") != 0){
+					var wozUserInput = JSON.parse(data);
+					var userType = wozUserInput.userType;
+					if (userType == "user"){
+						var userPos = wozUserInput.userPosition;
+						var userPosCoor = userPos.split(';');
+						currentUserCoor = new google.maps.LatLng(parseFloat(userPosCoor[0]),parseFloat(userPosCoor[1]));
+						var userDA = wozUserInput.userDA;
+						if (userDA == "{%22cf%22:%22null%22}"){ userDA = "null"; }
+						if (userDA == "{\"cf\":\"null\"}"){ userDA = "null"; }
+						userDA = userDA.replace(/%22/g, "\"");
+						userDA = userDA.replace(/%20/g, " ");
+						setUserInfo(currentUserCoor, userDA);									
+					} else {
+						var wizUtt = wozUserInput.utterance;
+						if (wizUtt != "null" && wizUtt != ""){
+							setWizInfo(wizUtt);
+						}
+					}
+				} else {
+					setTimer = false;
+					clearTimeout(timer);
+				}
+			}
+		}
+		xhr.open('GET', 'WoZLogServlet?state='+state+'&fileName='+fileName, true);
+		xhr.send(null);
+		state = "continue";
+    }
+	
+	function getList(){
+		var xhr = new XMLHttpRequest();
+		xhr.onreadystatechange = function() {
+			if (xhr.readyState == 4) {
+				var data = xhr.responseText;
+				var files = data.split("\n");
+				var x=document.getElementById("fileList");
+				for (i = 0; i< files.length; i++){
+					var op = document.createElement("option");
+					var fname = files[i];
+					fname = fname.replace(/\r/g, "");
+					op.text = fname;
+					try{
+						x.add(op, null);
+					} catch (e) {
+					}
+				}
+				//document.getElementById("debug").innerHTML = files;				
+			}
+		}
+		xhr.open('GET', 'WoZLogListServlet', true);
+		xhr.send(null);
+  }
+	
+</script>
+</head>
+<body onload="initialize()">
+	<div><select id="fileList"></select><button onclick="loadSelectedFile()">Load</button></div>
+	<div id="fileLoaded"> No File Selected! </div>
+	<div>
+		<button id="startBt" onclick="start()">Start plotting</button><button onclick="stop()">Pause plotting</button>|||
+		<button onclick="displayAll()">Plot all now</button>|||
+		<button onclick="closeAllSBs()">Hide Utterances</button><button onclick="openAllSBs()">Show Utterances</button>|||
+		
+	</div>
+	<div id="map" style="width: 100%; height: 80%;">ddd</div>	
+	<div id="debug">hello</div>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+04122012_17.32.02.191+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Tue-04-Dec-2012-17-32-01-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945719;04122012_17.32.02.403+04122012_17.32.02.404+0000	{"utterance":"Hi. I am your buddy. I can help you with directions.","uttType":"setup","userType":"im"}
+04122012_17.32.11.508+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Tue-04-Dec-2012-17-32-01-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945719;-3.1870810000000347"}
+04122012_17.32.11.545+0000	{"utterance":"I need your orientation. Please start walking.","uttType":"setup","userType":"im"}
+04122012_17.32.21.508+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Tue-04-Dec-2012-17-32-01-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945719;-3.1870810000000347"}
+04122012_17.32.21.532+0000	{"utterance":"","uttType":"dm","userType":"im"}
+04122012_17.32.36.290+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Tue-04-Dec-2012-17-32-01-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945719;-3.1870810000000347"}
+04122012_17.32.36.316+0000	{"utterance":"","uttType":"dm","userType":"im"}
+04122012_17.32.40.082+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Tue-04-Dec-2012-17-32-01-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945645;-3.1870300000000498"}
+04122012_17.32.40.092+0000	{"utterance":"","uttType":"dm","userType":"im"}
+04122012_17.32.42.099+0000	{"userDA":"{\"cf\":\"requestHelp\"}","sessionId":"Tue-04-Dec-2012-17-32-01-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945645;-3.1870300000000498"}
+04122012_17.32.42.117+0000	{"utterance":"I can help you with directions. Just use the buttons and drop boxes in the input panel to talk to me. You might find clues that you are looking for when you reach these places.","uttType":"dm","userType":"im"}
+04122012_17.32.52.097+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Tue-04-Dec-2012-17-32-01-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945645;-3.1870300000000498"}
+04122012_17.32.52.109+0000	{"utterance":"","uttType":"dm","userType":"im"}
+04122012_17.33.02.112+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Tue-04-Dec-2012-17-32-01-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945645;-3.1870300000000498"}
+04122012_17.33.02.124+0000	{"utterance":"","uttType":"dm","userType":"im"}
+04122012_17.33.02.230+0000	{"userDA":"{\"cf\":\"requestRoute\",\"destination_name\":\"Crichton Street\",\"destination_type\":\"street\"}","sessionId":"Tue-04-Dec-2012-17-32-01-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945645;-3.1870300000000498"}
+04122012_17.33.02.243+0000	{"utterance":"ok. finding directions to Crichton Street","uttType":"navInstruction","userType":"im"}
+04122012_17.33.12.228+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Tue-04-Dec-2012-17-32-01-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945645;-3.1870300000000498"}
+04122012_17.33.12.397+0000	{"utterance":"Continue walking onto Potterrow","uttType":"navInstruction","userType":"im"}
+04122012_17.33.16.677+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Tue-04-Dec-2012-17-32-01-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945572000000006;-3.186971999999969"}
+04122012_17.33.16.709+0000	{"utterance":"","uttType":"navInstruction","userType":"im"}
+04122012_17.33.18.677+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Tue-04-Dec-2012-17-32-01-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.94550000000001;-3.1869159999999965"}
+04122012_17.33.18.693+0000	{"utterance":"","uttType":"dm","userType":"im"}
+04122012_17.33.19.706+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Tue-04-Dec-2012-17-32-01-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945395000000005;-3.186833999999976"}
+04122012_17.33.19.721+0000	{"utterance":"","uttType":"dm","userType":"im"}
+04122012_17.33.21.143+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Tue-04-Dec-2012-17-32-01-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.94530300000001;-3.186760999999933"}
+04122012_17.33.21.163+0000	{"utterance":"","uttType":"dm","userType":"im"}
+04122012_17.33.22.670+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Tue-04-Dec-2012-17-32-01-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945201000000004;-3.186681000000135"}
+04122012_17.33.22.686+0000	{"utterance":"","uttType":"dm","userType":"im"}
+04122012_17.33.32.672+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Tue-04-Dec-2012-17-32-01-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945201000000004;-3.186681000000135"}
+04122012_17.33.32.693+0000	{"utterance":"","uttType":"dm","userType":"im"}
+04122012_17.33.42.676+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Tue-04-Dec-2012-17-32-01-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945201000000004;-3.186681000000135"}
+04122012_17.33.42.696+0000	{"utterance":"","uttType":"dm","userType":"im"}
+04122012_17.33.52.678+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Tue-04-Dec-2012-17-32-01-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945201000000004;-3.186681000000135"}
+04122012_17.33.52.703+0000	{"utterance":"","uttType":"dm","userType":"im"}
+04122012_17.34.02.677+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Tue-04-Dec-2012-17-32-01-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945201000000004;-3.186681000000135"}
+04122012_17.34.02.697+0000	{"utterance":"","uttType":"dm","userType":"im"}
+04122012_17.34.12.680+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Tue-04-Dec-2012-17-32-01-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945201000000004;-3.186681000000135"}
+04122012_17.34.12.700+0000	{"utterance":"","uttType":"dm","userType":"im"}
+04122012_17.34.22.682+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Tue-04-Dec-2012-17-32-01-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945201000000004;-3.186681000000135"}
+04122012_17.34.22.727+0000	{"utterance":"","uttType":"dm","userType":"im"}
+04122012_17.34.32.680+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Tue-04-Dec-2012-17-32-01-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945201000000004;-3.186681000000135"}
+04122012_17.34.32.708+0000	{"utterance":"","uttType":"dm","userType":"im"}
+04122012_17.34.42.684+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Tue-04-Dec-2012-17-32-01-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945201000000004;-3.186681000000135"}
+04122012_17.34.42.702+0000	{"utterance":"","uttType":"dm","userType":"im"}
+04122012_17.34.52.683+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Tue-04-Dec-2012-17-32-01-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945201000000004;-3.186681000000135"}
+04122012_17.34.52.711+0000	{"utterance":"","uttType":"dm","userType":"im"}
+04122012_17.35.02.684+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Tue-04-Dec-2012-17-32-01-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945201000000004;-3.186681000000135"}
+04122012_17.35.02.707+0000	{"utterance":"","uttType":"dm","userType":"im"}

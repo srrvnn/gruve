@@ -1,0 +1,46 @@
+29112012_17.03.49.812+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Thu-29-Nov-2012-17-03-49-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"NaN;NaN"}
+29112012_17.03.49.964+0000	{"utterance":"Hi. I am your buddy. I can help you with directions.","uttType":"setup","userType":"im"}
+29112012_17.03.59.434+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Thu-29-Nov-2012-17-03-49-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945719;-3.1870810000000347"}
+29112012_17.03.59.455+0000	{"utterance":"","uttType":"dm","userType":"im"}
+29112012_17.04.09.424+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Thu-29-Nov-2012-17-03-49-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945719;-3.1870810000000347"}
+29112012_17.04.09.440+0000	{"utterance":"","uttType":"dm","userType":"im"}
+29112012_17.04.11.275+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Thu-29-Nov-2012-17-03-49-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945645;-3.1870300000000498"}
+29112012_17.04.11.288+0000	{"utterance":"","uttType":"dm","userType":"im"}
+29112012_17.04.13.622+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Thu-29-Nov-2012-17-03-49-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945572000000006;-3.186971999999969"}
+29112012_17.04.13.634+0000	{"utterance":"","uttType":"dm","userType":"im"}
+29112012_17.04.15.695+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Thu-29-Nov-2012-17-03-49-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.94550000000001;-3.1869159999999965"}
+29112012_17.04.15.713+0000	{"utterance":"","uttType":"dm","userType":"im"}
+29112012_17.04.16.989+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Thu-29-Nov-2012-17-03-49-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945395000000005;-3.186833999999976"}
+29112012_17.04.17.006+0000	{"utterance":"","uttType":"dm","userType":"im"}
+29112012_17.04.21.787+0000	{"userDA":"{\"cf\":\"requestRoute\",\"destination_name\":\"Windmill Street\",\"destination_type\":\"street\"}","sessionId":"Thu-29-Nov-2012-17-03-49-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945395;-3.186833999999976"}
+29112012_17.04.21.806+0000	{"utterance":"ok. finding directions to Windmill Street","uttType":"navInstruction","userType":"im"}
+29112012_17.04.30.213+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Thu-29-Nov-2012-17-03-49-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.94530300000001;-3.186760999999933"}
+29112012_17.04.30.345+0000	{"utterance":"Continue walking onto Potterrow","uttType":"navInstruction","userType":"im"}
+29112012_17.04.33.864+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Thu-29-Nov-2012-17-03-49-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945201000000004;-3.186681000000135"}
+29112012_17.04.33.879+0000	{"utterance":"","uttType":"navInstruction","userType":"im"}
+29112012_17.04.36.701+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Thu-29-Nov-2012-17-03-49-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.945093;-3.1865940000000137"}
+29112012_17.04.36.719+0000	{"utterance":"","uttType":"dm","userType":"im"}
+29112012_17.04.41.510+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Thu-29-Nov-2012-17-03-49-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.94502;-3.186533999999938"}
+29112012_17.04.41.526+0000	{"utterance":"","uttType":"dm","userType":"im"}
+29112012_17.04.43.462+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Thu-29-Nov-2012-17-03-49-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.94492999999999;-3.186460000000011"}
+29112012_17.04.43.513+0000	{"utterance":"Continue walking onto Chapel Street","uttType":"navInstruction","userType":"im"}
+29112012_17.04.46.815+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Thu-29-Nov-2012-17-03-49-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.94483199999999;-3.1863799999999856"}
+29112012_17.04.46.836+0000	{"utterance":"","uttType":"dm","userType":"im"}
+29112012_17.04.49.542+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Thu-29-Nov-2012-17-03-49-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.944725;-3.186292999999978"}
+29112012_17.04.49.605+0000	{"utterance":"Continue walking onto Chapel Street","uttType":"navInstruction","userType":"im"}
+29112012_17.04.53.391+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Thu-29-Nov-2012-17-03-49-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.944623;-3.1861900000000105"}
+29112012_17.04.53.408+0000	{"utterance":"","uttType":"dm","userType":"im"}
+29112012_17.04.56.191+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Thu-29-Nov-2012-17-03-49-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.944529;-3.1860960000000205"}
+29112012_17.04.56.248+0000	{"utterance":"Turn slightly right  onto Windmill Street","uttType":"navInstruction","userType":"im"}
+29112012_17.04.58.280+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Thu-29-Nov-2012-17-03-49-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.94445100000001;-3.1860169999999925"}
+29112012_17.04.58.298+0000	{"utterance":"","uttType":"dm","userType":"im"}
+29112012_17.04.59.782+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Thu-29-Nov-2012-17-03-49-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.944412;-3.18597699999998"}
+29112012_17.04.59.805+0000	{"utterance":"","uttType":"dm","userType":"im"}
+29112012_17.05.02.707+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Thu-29-Nov-2012-17-03-49-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.944357000000004;-3.1858499999999594"}
+29112012_17.05.02.723+0000	{"utterance":"","uttType":"dm","userType":"im"}
+29112012_17.05.04.475+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Thu-29-Nov-2012-17-03-49-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.94428700000001;-3.185989999999947"}
+29112012_17.05.04.499+0000	{"utterance":"This is Windmill Street","uttType":"navInstruction","userType":"im"}
+29112012_17.05.09.783+0000	{"userDA":"{\"cf\":\"null\"}","sessionId":"Thu-29-Nov-2012-17-03-49-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.944235000000006;-3.186091000000033"}
+29112012_17.05.09.795+0000	{"utterance":"","uttType":"dm","userType":"im"}
+29112012_17.05.13.422+0000	{"userDA":"{\"cf\":\"requestRepeat\"}","sessionId":"Thu-29-Nov-2012-17-03-49-GMT","userUtterance":"","userEmail":"srini@gmail.com","userType":"user","userPosition":"55.944235;-3.186091000000033"}
+29112012_17.05.13.440+0000	{"utterance":"I repeat, This is Windmill Street","uttType":"navInstruction","userType":"im"}

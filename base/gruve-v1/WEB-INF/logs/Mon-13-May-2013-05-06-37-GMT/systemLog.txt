@@ -1,0 +1,66 @@
+12052013_22.06.38.900-0700	
+12052013_22.06.38.900-0700	Run: 1
+12052013_22.06.38.901-0700	
+12052013_22.06.38.901-0700	Time: 1368421598901
+12052013_22.06.38.902-0700	
+12052013_22.06.38.902-0700	Run: 2
+12052013_22.06.38.902-0700	
+12052013_22.06.38.902-0700	Time: 1368421598902
+12052013_22.06.38.914-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-06-37-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_22.06.38.914-0700	User location reported:55.94575;-3.1871019999999817
+12052013_22.06.38.914-0700	User DA: {"cf":"null"}
+12052013_22.06.38.915-0700	User reported position: 55.94575,-3.1871019999999817
+12052013_22.06.38.915-0700	Coordinates used: reported
+12052013_22.06.38.915-0700	User current position: 55.94575,-3.1871019999999817
+12052013_22.06.38.920-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-06-37-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"NaN;NaN"}
+12052013_22.06.38.934-0700	User location reported:NaN;NaN
+12052013_22.06.38.934-0700	User DA: {"cf":"null"}
+12052013_22.06.38.934-0700	User reported position: NaN,NaN
+12052013_22.06.38.934-0700	Coordinates used: reported
+12052013_22.06.38.934-0700	User current position: NaN,NaN
+12052013_22.06.39.020-0700	Current ways list (possibilities): []
+12052013_22.06.39.020-0700	Current way: null
+12052013_22.06.39.072-0700	User location: []
+12052013_22.06.39.072-0700	Current Step Distance: unknown
+12052013_22.06.39.072-0700	user walking: false
+12052013_22.06.39.073-0700	User Orientation: unknown
+12052013_22.06.39.073-0700	User DACF: null
+12052013_22.06.39.073-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"NaN,NaN","cf":"greetUser"}
+12052013_22.06.39.073-0700	Setting lastTimeOfUtterance to 1368421598902
+12052013_22.06.39.073-0700	Sys Utterance: Hi. I am your buddy. I can help you with directions.
+12052013_22.06.39.073-0700	sysResponse: {"utterance":"Hi. I am your buddy. I can help you with directions.","uttType":"setup"}
+12052013_22.06.39.078-0700	Current ways list (possibilities): [197, 193, 192]
+12052013_22.06.39.078-0700	Current way: 197
+12052013_22.06.39.104-0700	User location: []
+12052013_22.06.39.104-0700	Current Step Distance (in meters): NaN
+12052013_22.06.39.104-0700	user walking: false
+12052013_22.06.39.104-0700	User Orientation: unknown
+12052013_22.06.39.104-0700	User DACF: null
+12052013_22.06.39.104-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"NaN,NaN","cf":"startWalking"}
+12052013_22.06.39.104-0700	Setting lastTimeOfUtterance to 1368421598901
+12052013_22.06.39.104-0700	Setting lastTimeOfDiffCoordinates to 1368421598901
+12052013_22.06.39.105-0700	Sys Utterance: I need your orientation. Please start walking.
+12052013_22.06.39.105-0700	sysResponse: {"utterance":"I need your orientation. Please start walking.","uttType":"setup"}
+12052013_22.06.42.744-0700	
+12052013_22.06.42.744-0700	Run: 3
+12052013_22.06.42.744-0700	
+12052013_22.06.42.744-0700	Time: 1368421602744
+12052013_22.06.42.745-0700	Time between updates: 3842
+12052013_22.06.42.745-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-06-37-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_22.06.42.745-0700	User location reported:55.94565;-3.1870340000000397
+12052013_22.06.42.746-0700	User DA: {"cf":"null"}
+12052013_22.06.42.746-0700	User reported position: 55.94565,-3.1870340000000397
+12052013_22.06.42.746-0700	Coordinates used: reported
+12052013_22.06.42.746-0700	User current position: 55.94565,-3.1870340000000397
+12052013_22.06.42.774-0700	Current ways list (possibilities): [197, 194, 193, 192]
+12052013_22.06.42.775-0700	Current way: 197
+12052013_22.06.42.817-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+12052013_22.06.42.817-0700	Current Step Distance (in meters): NaN
+12052013_22.06.42.818-0700	user walking: false
+12052013_22.06.42.818-0700	User Orientation: unknown
+12052013_22.06.42.818-0700	User DACF: null
+12052013_22.06.42.818-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.94565,-3.1870340000000397","cf":"null"}
+12052013_22.06.42.819-0700	Setting lastTimeOfUtterance to 1368421602744
+12052013_22.06.42.819-0700	Setting lastTimeOfDiffCoordinates to 1368421602744
+12052013_22.06.42.819-0700	Sys Utterance: I don't have anything to say
+12052013_22.06.42.819-0700	sysResponse: {"utterance":"I don't have anything to say","uttType":"dm"}

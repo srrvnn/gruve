@@ -1,0 +1,568 @@
+12052013_11.40.39.161-0700	
+12052013_11.40.39.161-0700	Run: 1
+12052013_11.40.39.161-0700	
+12052013_11.40.39.161-0700	Time: 1368384039161
+12052013_11.40.39.161-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"NaN;NaN"}
+12052013_11.40.39.161-0700	User location reported:NaN;NaN
+12052013_11.40.39.162-0700	User DA: {"cf":"null"}
+12052013_11.40.39.162-0700	User reported position: NaN,NaN
+12052013_11.40.39.162-0700	Coordinates used: reported
+12052013_11.40.39.162-0700	User current position: NaN,NaN
+12052013_11.40.39.172-0700	Current ways list (possibilities): []
+12052013_11.40.39.172-0700	Current way: null
+12052013_11.40.39.182-0700	User location: []
+12052013_11.40.39.182-0700	Current Step Distance: unknown
+12052013_11.40.39.182-0700	user walking: false
+12052013_11.40.39.182-0700	User Orientation: unknown
+12052013_11.40.39.182-0700	User DACF: null
+12052013_11.40.39.182-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"NaN,NaN","cf":"greetUser"}
+12052013_11.40.39.182-0700	Setting lastTimeOfUtterance to 1368384039161
+12052013_11.40.39.183-0700	Sys Utterance: Hi. I am your buddy. I can help you with directions.
+12052013_11.40.39.183-0700	sysResponse: {"utterance":"Hi. I am your buddy. I can help you with directions.","uttType":"setup"}
+12052013_11.40.39.356-0700	
+12052013_11.40.39.358-0700	Run: 2
+12052013_11.40.39.358-0700	
+12052013_11.40.39.358-0700	Time: 1368384039358
+12052013_11.40.39.358-0700	Time between updates: 197
+12052013_11.40.39.358-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_11.40.39.358-0700	User location reported:55.94575;-3.1871019999999817
+12052013_11.40.39.359-0700	User DA: {"cf":"null"}
+12052013_11.40.39.359-0700	User reported position: 55.94575,-3.1871019999999817
+12052013_11.40.39.359-0700	Coordinates used: reported
+12052013_11.40.39.359-0700	User current position: 55.94575,-3.1871019999999817
+12052013_11.40.39.368-0700	Current ways list (possibilities): [197, 193, 192]
+12052013_11.40.39.368-0700	Current way: 197
+12052013_11.40.39.375-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+12052013_11.40.39.375-0700	Current Step Distance (in meters): NaN
+12052013_11.40.39.375-0700	user walking: false
+12052013_11.40.39.375-0700	User Orientation: unknown
+12052013_11.40.39.375-0700	User DACF: null
+12052013_11.40.39.376-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.94575,-3.1871019999999817","cf":"startWalking"}
+12052013_11.40.39.376-0700	Setting lastTimeOfUtterance to 1368384039358
+12052013_11.40.39.376-0700	Setting lastTimeOfDiffCoordinates to 1368384039358
+12052013_11.40.39.376-0700	Sys Utterance: I need your orientation. Please start walking.
+12052013_11.40.39.376-0700	sysResponse: {"utterance":"I need your orientation. Please start walking.","uttType":"setup"}
+12052013_11.40.42.339-0700	
+12052013_11.40.42.339-0700	Run: 3
+12052013_11.40.42.339-0700	
+12052013_11.40.42.339-0700	Time: 1368384042339
+12052013_11.40.42.339-0700	Time between updates: 2981
+12052013_11.40.42.339-0700	userResponse:{"userDA":"{\"cf\":\"requestRoute\",\"destination_name\":\"Clerk Street\",\"destination_type\":\"street\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_11.40.42.340-0700	User location reported:55.94575;-3.1871019999999817
+12052013_11.40.42.340-0700	User DA: {"destination_name":"Clerk Street","destination_type":"street","cf":"requestRoute"}
+12052013_11.40.42.340-0700	User reported position: 55.94575,-3.1871019999999817
+12052013_11.40.42.340-0700	Coordinates used: reported
+12052013_11.40.42.340-0700	User current position: 55.94575,-3.1871019999999817
+12052013_11.40.42.350-0700	Current ways list (possibilities): [197, 193, 192]
+12052013_11.40.42.350-0700	Current way: 197
+12052013_11.40.42.359-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+12052013_11.40.42.359-0700	Current Step Distance (in meters): 0.0
+12052013_11.40.42.360-0700	user walking: false
+12052013_11.40.42.360-0700	User Orientation: unknown
+12052013_11.40.42.360-0700	User DACF: requestRoute
+12052013_11.40.42.360-0700	SysDA: {"userDA":"{\"destination_name\":\"Clerk Street\",\"destination_type\":\"street\",\"cf\":\"requestRoute\"}","currentUserOrientation":0.0,"entityId":"null","currentUserCoor":"55.94575,-3.1871019999999817","cf":"acknowledgeRouteRequest","entityName":"Clerk Street"}
+12052013_11.40.42.360-0700	Setting lastTimeOfUtterance to 1368384042339
+12052013_11.40.42.360-0700	Sys Utterance: ok. finding directions to Clerk Street.
+12052013_11.40.42.360-0700	sysResponse: {"utterance":"ok. finding directions to Clerk Street.","uttType":"navInstruction"}
+12052013_11.40.52.344-0700	
+12052013_11.40.52.344-0700	Run: 4
+12052013_11.40.52.344-0700	
+12052013_11.40.52.345-0700	Time: 1368384052345
+12052013_11.40.52.345-0700	Time between updates: 10006
+12052013_11.40.52.345-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_11.40.52.345-0700	User location reported:55.94575;-3.1871019999999817
+12052013_11.40.52.345-0700	User DA: {"cf":"null"}
+12052013_11.40.52.345-0700	User reported position: 55.94575,-3.1871019999999817
+12052013_11.40.52.345-0700	Coordinates used: reported
+12052013_11.40.52.345-0700	User current position: 55.94575,-3.1871019999999817
+12052013_11.40.52.355-0700	Current ways list (possibilities): [197, 193, 192]
+12052013_11.40.52.355-0700	Current way: 197
+12052013_11.40.52.365-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+12052013_11.40.52.365-0700	Current Step Distance (in meters): 0.0
+12052013_11.40.52.365-0700	user walking: false
+12052013_11.40.52.365-0700	User Orientation: unknown
+12052013_11.40.52.365-0700	User DACF: null
+12052013_11.40.52.420-0700	Finding route to null,Clerk Street on [] at 0.0,0.0
+12052013_11.40.52.420-0700	Destination not available
+12052013_11.40.52.420-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.94575,-3.1871019999999817","cf":"null"}
+12052013_11.40.52.420-0700	Setting lastTimeOfUtterance to 1368384052345
+12052013_11.40.52.420-0700	Sys Utterance: 
+12052013_11.40.52.420-0700	sysResponse: {"utterance":"","uttType":"dm"}
+12052013_11.41.02.342-0700	
+12052013_11.41.02.342-0700	Run: 5
+12052013_11.41.02.342-0700	
+12052013_11.41.02.342-0700	Time: 1368384062342
+12052013_11.41.02.342-0700	Time between updates: 9997
+12052013_11.41.02.343-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_11.41.02.343-0700	User location reported:55.94575;-3.1871019999999817
+12052013_11.41.02.343-0700	User DA: {"cf":"null"}
+12052013_11.41.02.343-0700	User reported position: 55.94575,-3.1871019999999817
+12052013_11.41.02.343-0700	Coordinates used: reported
+12052013_11.41.02.343-0700	User current position: 55.94575,-3.1871019999999817
+12052013_11.41.02.353-0700	Current ways list (possibilities): [197, 193, 192]
+12052013_11.41.02.353-0700	Current way: 197
+12052013_11.41.02.362-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+12052013_11.41.02.362-0700	Current Step Distance (in meters): 0.0
+12052013_11.41.02.362-0700	user walking: false
+12052013_11.41.02.362-0700	User Orientation: unknown
+12052013_11.41.02.362-0700	User DACF: null
+12052013_11.41.02.363-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.94575,-3.1871019999999817","cf":"null"}
+12052013_11.41.02.363-0700	Setting lastTimeOfUtterance to 1368384062342
+12052013_11.41.02.363-0700	Sys Utterance: 
+12052013_11.41.02.363-0700	sysResponse: {"utterance":"","uttType":"dm"}
+12052013_11.41.12.339-0700	
+12052013_11.41.12.339-0700	Run: 6
+12052013_11.41.12.339-0700	
+12052013_11.41.12.340-0700	Time: 1368384072340
+12052013_11.41.12.340-0700	Time between updates: 9998
+12052013_11.41.12.340-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_11.41.12.340-0700	User location reported:55.94575;-3.1871019999999817
+12052013_11.41.12.340-0700	User DA: {"cf":"null"}
+12052013_11.41.12.340-0700	User reported position: 55.94575,-3.1871019999999817
+12052013_11.41.12.340-0700	Coordinates used: reported
+12052013_11.41.12.340-0700	User current position: 55.94575,-3.1871019999999817
+12052013_11.41.12.350-0700	Current ways list (possibilities): [197, 193, 192]
+12052013_11.41.12.350-0700	Current way: 197
+12052013_11.41.12.359-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+12052013_11.41.12.359-0700	Current Step Distance (in meters): 0.0
+12052013_11.41.12.359-0700	user walking: false
+12052013_11.41.12.359-0700	User Orientation: unknown
+12052013_11.41.12.359-0700	User DACF: null
+12052013_11.41.12.360-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.94575,-3.1871019999999817","cf":"null"}
+12052013_11.41.12.360-0700	Setting lastTimeOfUtterance to 1368384072340
+12052013_11.41.12.360-0700	Sys Utterance: 
+12052013_11.41.12.360-0700	sysResponse: {"utterance":"","uttType":"dm"}
+12052013_11.41.22.341-0700	
+12052013_11.41.22.341-0700	Run: 7
+12052013_11.41.22.341-0700	
+12052013_11.41.22.341-0700	Time: 1368384082341
+12052013_11.41.22.341-0700	Time between updates: 10001
+12052013_11.41.22.341-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_11.41.22.341-0700	User location reported:55.94575;-3.1871019999999817
+12052013_11.41.22.341-0700	User DA: {"cf":"null"}
+12052013_11.41.22.342-0700	User reported position: 55.94575,-3.1871019999999817
+12052013_11.41.22.342-0700	Coordinates used: reported
+12052013_11.41.22.342-0700	User current position: 55.94575,-3.1871019999999817
+12052013_11.41.22.351-0700	Current ways list (possibilities): [197, 193, 192]
+12052013_11.41.22.351-0700	Current way: 197
+12052013_11.41.22.360-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+12052013_11.41.22.361-0700	Current Step Distance (in meters): 0.0
+12052013_11.41.22.361-0700	user walking: false
+12052013_11.41.22.361-0700	User Orientation: unknown
+12052013_11.41.22.361-0700	User DACF: null
+12052013_11.41.22.361-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.94575,-3.1871019999999817","cf":"null"}
+12052013_11.41.22.361-0700	Setting lastTimeOfUtterance to 1368384082341
+12052013_11.41.22.361-0700	Sys Utterance: 
+12052013_11.41.22.361-0700	sysResponse: {"utterance":"","uttType":"dm"}
+12052013_11.41.32.344-0700	
+12052013_11.41.32.344-0700	Run: 8
+12052013_11.41.32.344-0700	
+12052013_11.41.32.344-0700	Time: 1368384092344
+12052013_11.41.32.344-0700	Time between updates: 10003
+12052013_11.41.32.344-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_11.41.32.345-0700	User location reported:55.94575;-3.1871019999999817
+12052013_11.41.32.345-0700	User DA: {"cf":"null"}
+12052013_11.41.32.345-0700	User reported position: 55.94575,-3.1871019999999817
+12052013_11.41.32.345-0700	Coordinates used: reported
+12052013_11.41.32.345-0700	User current position: 55.94575,-3.1871019999999817
+12052013_11.41.32.354-0700	Current ways list (possibilities): [197, 193, 192]
+12052013_11.41.32.354-0700	Current way: 197
+12052013_11.41.32.364-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+12052013_11.41.32.364-0700	Current Step Distance (in meters): 0.0
+12052013_11.41.32.364-0700	user walking: false
+12052013_11.41.32.364-0700	User Orientation: unknown
+12052013_11.41.32.364-0700	User DACF: null
+12052013_11.41.32.364-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.94575,-3.1871019999999817","cf":"null"}
+12052013_11.41.32.364-0700	Setting lastTimeOfUtterance to 1368384092344
+12052013_11.41.32.365-0700	Sys Utterance: 
+12052013_11.41.32.365-0700	sysResponse: {"utterance":"","uttType":"dm"}
+12052013_11.41.42.343-0700	
+12052013_11.41.42.343-0700	Run: 9
+12052013_11.41.42.343-0700	
+12052013_11.41.42.343-0700	Time: 1368384102343
+12052013_11.41.42.344-0700	Time between updates: 9999
+12052013_11.41.42.344-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_11.41.42.344-0700	User location reported:55.94575;-3.1871019999999817
+12052013_11.41.42.344-0700	User DA: {"cf":"null"}
+12052013_11.41.42.344-0700	User reported position: 55.94575,-3.1871019999999817
+12052013_11.41.42.344-0700	Coordinates used: reported
+12052013_11.41.42.344-0700	User current position: 55.94575,-3.1871019999999817
+12052013_11.41.42.353-0700	Current ways list (possibilities): [197, 193, 192]
+12052013_11.41.42.354-0700	Current way: 197
+12052013_11.41.42.363-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+12052013_11.41.42.363-0700	Current Step Distance (in meters): 0.0
+12052013_11.41.42.363-0700	user walking: false
+12052013_11.41.42.363-0700	User Orientation: unknown
+12052013_11.41.42.363-0700	User DACF: null
+12052013_11.41.42.364-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.94575,-3.1871019999999817","cf":"null"}
+12052013_11.41.42.364-0700	Setting lastTimeOfUtterance to 1368384102343
+12052013_11.41.42.364-0700	Sys Utterance: 
+12052013_11.41.42.364-0700	sysResponse: {"utterance":"","uttType":"dm"}
+12052013_11.41.52.343-0700	
+12052013_11.41.52.343-0700	Run: 10
+12052013_11.41.52.343-0700	
+12052013_11.41.52.343-0700	Time: 1368384112343
+12052013_11.41.52.344-0700	Time between updates: 10000
+12052013_11.41.52.344-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_11.41.52.344-0700	User location reported:55.94575;-3.1871019999999817
+12052013_11.41.52.344-0700	User DA: {"cf":"null"}
+12052013_11.41.52.344-0700	User reported position: 55.94575,-3.1871019999999817
+12052013_11.41.52.344-0700	Coordinates used: reported
+12052013_11.41.52.344-0700	User current position: 55.94575,-3.1871019999999817
+12052013_11.41.52.354-0700	Current ways list (possibilities): [197, 193, 192]
+12052013_11.41.52.354-0700	Current way: 197
+12052013_11.41.52.363-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+12052013_11.41.52.363-0700	Current Step Distance (in meters): 0.0
+12052013_11.41.52.363-0700	user walking: false
+12052013_11.41.52.363-0700	User Orientation: unknown
+12052013_11.41.52.363-0700	User DACF: null
+12052013_11.41.52.364-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.94575,-3.1871019999999817","cf":"null"}
+12052013_11.41.52.364-0700	Setting lastTimeOfUtterance to 1368384112343
+12052013_11.41.52.364-0700	Sys Utterance: 
+12052013_11.41.52.364-0700	sysResponse: {"utterance":"","uttType":"dm"}
+12052013_11.41.54.290-0700	
+12052013_11.41.54.290-0700	Run: 11
+12052013_11.41.54.290-0700	
+12052013_11.41.54.290-0700	Time: 1368384114290
+12052013_11.41.54.290-0700	Time between updates: 1947
+12052013_11.41.54.291-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.41.54.291-0700	User location reported:55.94565;-3.1870340000000397
+12052013_11.41.54.291-0700	User DA: {"cf":"null"}
+12052013_11.41.54.291-0700	User reported position: 55.94565,-3.1870340000000397
+12052013_11.41.54.291-0700	Coordinates used: reported
+12052013_11.41.54.291-0700	User current position: 55.94565,-3.1870340000000397
+12052013_11.41.54.302-0700	Current ways list (possibilities): [197, 194, 193, 192]
+12052013_11.41.54.302-0700	Current way: 197
+12052013_11.41.54.312-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+12052013_11.41.54.313-0700	Current Step Distance (in meters): 11.898363356495217
+12052013_11.41.54.313-0700	user walking: true
+12052013_11.41.54.313-0700	Using calculated orientation
+12052013_11.41.54.313-0700	User orientation:159.15387544107944
+12052013_11.41.54.313-0700	User DACF: null
+12052013_11.41.54.313-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":159.15387544107944,"currentUserCoor":"55.94565,-3.1870340000000397","cf":"null"}
+12052013_11.41.54.314-0700	Setting lastTimeOfUtterance to 1368384114290
+12052013_11.41.54.314-0700	Setting lastTimeOfDiffCoordinates to 1368384114290
+12052013_11.41.54.314-0700	Sys Utterance: 
+12052013_11.41.54.314-0700	sysResponse: {"utterance":"","uttType":"dm"}
+12052013_11.42.04.290-0700	
+12052013_11.42.04.290-0700	Run: 12
+12052013_11.42.04.290-0700	
+12052013_11.42.04.290-0700	Time: 1368384124290
+12052013_11.42.04.290-0700	Time between updates: 10000
+12052013_11.42.04.290-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.42.04.290-0700	User location reported:55.94565;-3.1870340000000397
+12052013_11.42.04.290-0700	User DA: {"cf":"null"}
+12052013_11.42.04.291-0700	User reported position: 55.94565,-3.1870340000000397
+12052013_11.42.04.291-0700	Coordinates used: reported
+12052013_11.42.04.291-0700	User current position: 55.94565,-3.1870340000000397
+12052013_11.42.04.301-0700	Current ways list (possibilities): [197, 194, 193, 192]
+12052013_11.42.04.301-0700	Current way: 197
+12052013_11.42.04.310-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+12052013_11.42.04.310-0700	Current Step Distance (in meters): 0.0
+12052013_11.42.04.311-0700	user walking: false
+12052013_11.42.04.311-0700	Using previous orientation
+12052013_11.42.04.311-0700	User orientation:159.15387544107944
+12052013_11.42.04.311-0700	User DACF: null
+12052013_11.42.04.311-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":159.15387544107944,"currentUserCoor":"55.94565,-3.1870340000000397","cf":"null"}
+12052013_11.42.04.311-0700	Setting lastTimeOfUtterance to 1368384124290
+12052013_11.42.04.311-0700	Sys Utterance: 
+12052013_11.42.04.311-0700	sysResponse: {"utterance":"","uttType":"dm"}
+12052013_11.42.14.291-0700	
+12052013_11.42.14.292-0700	Run: 13
+12052013_11.42.14.292-0700	
+12052013_11.42.14.292-0700	Time: 1368384134292
+12052013_11.42.14.292-0700	Time between updates: 10002
+12052013_11.42.14.292-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.42.14.292-0700	User location reported:55.94565;-3.1870340000000397
+12052013_11.42.14.292-0700	User DA: {"cf":"null"}
+12052013_11.42.14.292-0700	User reported position: 55.94565,-3.1870340000000397
+12052013_11.42.14.293-0700	Coordinates used: reported
+12052013_11.42.14.293-0700	User current position: 55.94565,-3.1870340000000397
+12052013_11.42.14.302-0700	Current ways list (possibilities): [197, 194, 193, 192]
+12052013_11.42.14.302-0700	Current way: 197
+12052013_11.42.14.312-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+12052013_11.42.14.312-0700	Current Step Distance (in meters): 0.0
+12052013_11.42.14.312-0700	user walking: false
+12052013_11.42.14.312-0700	Using previous orientation
+12052013_11.42.14.312-0700	User orientation:159.15387544107944
+12052013_11.42.14.312-0700	User DACF: null
+12052013_11.42.14.313-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":159.15387544107944,"currentUserCoor":"55.94565,-3.1870340000000397","cf":"null"}
+12052013_11.42.14.313-0700	Setting lastTimeOfUtterance to 1368384134292
+12052013_11.42.14.313-0700	Sys Utterance: 
+12052013_11.42.14.313-0700	sysResponse: {"utterance":"","uttType":"dm"}
+12052013_11.42.24.893-0700	
+12052013_11.42.24.893-0700	Run: 14
+12052013_11.42.24.893-0700	
+12052013_11.42.24.893-0700	Time: 1368384144893
+12052013_11.42.24.893-0700	Time between updates: 10601
+12052013_11.42.24.893-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.42.24.894-0700	User location reported:55.94565;-3.1870340000000397
+12052013_11.42.24.894-0700	User DA: {"cf":"null"}
+12052013_11.42.24.894-0700	User reported position: 55.94565,-3.1870340000000397
+12052013_11.42.24.894-0700	Coordinates used: reported
+12052013_11.42.24.894-0700	User current position: 55.94565,-3.1870340000000397
+12052013_11.42.24.902-0700	Current ways list (possibilities): [197, 194, 193, 192]
+12052013_11.42.24.902-0700	Current way: 197
+12052013_11.42.24.909-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+12052013_11.42.24.909-0700	Current Step Distance (in meters): 0.0
+12052013_11.42.24.909-0700	user walking: false
+12052013_11.42.24.909-0700	Using previous orientation
+12052013_11.42.24.909-0700	User orientation:159.15387544107944
+12052013_11.42.24.909-0700	User DACF: null
+12052013_11.42.24.910-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":159.15387544107944,"currentUserCoor":"55.94565,-3.1870340000000397","cf":"null"}
+12052013_11.42.24.910-0700	Setting lastTimeOfUtterance to 1368384144893
+12052013_11.42.24.910-0700	Sys Utterance: 
+12052013_11.42.24.910-0700	sysResponse: {"utterance":"","uttType":"dm"}
+12052013_11.42.32.292-0700	
+12052013_11.42.32.292-0700	Run: 15
+12052013_11.42.32.292-0700	
+12052013_11.42.32.292-0700	Time: 1368384152292
+12052013_11.42.32.292-0700	Time between updates: 7399
+12052013_11.42.32.292-0700	userResponse:{"userDA":"{\"cf\":\"stopDirections\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.42.32.292-0700	User location reported:55.94565;-3.1870340000000397
+12052013_11.42.32.292-0700	User DA: {"cf":"stopDirections"}
+12052013_11.42.32.293-0700	User reported position: 55.94565,-3.1870340000000397
+12052013_11.42.32.293-0700	Coordinates used: reported
+12052013_11.42.32.293-0700	User current position: 55.94565,-3.1870340000000397
+12052013_11.42.32.302-0700	Current ways list (possibilities): [197, 194, 193, 192]
+12052013_11.42.32.302-0700	Current way: 197
+12052013_11.42.32.311-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+12052013_11.42.32.312-0700	Current Step Distance (in meters): 0.0
+12052013_11.42.32.312-0700	user walking: false
+12052013_11.42.32.312-0700	Using previous orientation
+12052013_11.42.32.312-0700	User orientation:159.15387544107944
+12052013_11.42.32.312-0700	User DACF: stopDirections
+12052013_11.42.32.312-0700	SysDA: {"userDA":"{\"cf\":\"stopDirections\"}","currentUserOrientation":159.15387544107944,"currentUserCoor":"55.94565,-3.1870340000000397","cf":"acknowledge"}
+12052013_11.42.32.312-0700	Setting lastTimeOfUtterance to 1368384152292
+12052013_11.42.32.312-0700	Sys Utterance: ok
+12052013_11.42.32.313-0700	sysResponse: {"utterance":"ok","uttType":"dm"}
+12052013_11.42.42.296-0700	
+12052013_11.42.42.296-0700	Run: 16
+12052013_11.42.42.296-0700	
+12052013_11.42.42.296-0700	Time: 1368384162296
+12052013_11.42.42.296-0700	Time between updates: 10004
+12052013_11.42.42.296-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.42.42.297-0700	User location reported:55.94565;-3.1870340000000397
+12052013_11.42.42.297-0700	User DA: {"cf":"null"}
+12052013_11.42.42.297-0700	User reported position: 55.94565,-3.1870340000000397
+12052013_11.42.42.297-0700	Coordinates used: reported
+12052013_11.42.42.297-0700	User current position: 55.94565,-3.1870340000000397
+12052013_11.42.42.307-0700	Current ways list (possibilities): [197, 194, 193, 192]
+12052013_11.42.42.307-0700	Current way: 197
+12052013_11.42.42.322-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+12052013_11.42.42.322-0700	Current Step Distance (in meters): 0.0
+12052013_11.42.42.322-0700	user walking: false
+12052013_11.42.42.322-0700	Using previous orientation
+12052013_11.42.42.322-0700	User orientation:159.15387544107944
+12052013_11.42.42.323-0700	User DACF: null
+12052013_11.42.42.323-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":159.15387544107944,"currentUserCoor":"55.94565,-3.1870340000000397","cf":"null"}
+12052013_11.42.42.323-0700	Setting lastTimeOfUtterance to 1368384162296
+12052013_11.42.42.323-0700	Sys Utterance: 
+12052013_11.42.42.323-0700	sysResponse: {"utterance":"","uttType":"dm"}
+12052013_11.42.52.294-0700	
+12052013_11.42.52.294-0700	Run: 17
+12052013_11.42.52.294-0700	
+12052013_11.42.52.294-0700	Time: 1368384172294
+12052013_11.42.52.295-0700	Time between updates: 9998
+12052013_11.42.52.295-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.42.52.295-0700	User location reported:55.94565;-3.1870340000000397
+12052013_11.42.52.295-0700	User DA: {"cf":"null"}
+12052013_11.42.52.295-0700	User reported position: 55.94565,-3.1870340000000397
+12052013_11.42.52.295-0700	Coordinates used: reported
+12052013_11.42.52.295-0700	User current position: 55.94565,-3.1870340000000397
+12052013_11.42.52.304-0700	Current ways list (possibilities): [197, 194, 193, 192]
+12052013_11.42.52.305-0700	Current way: 197
+12052013_11.42.52.314-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+12052013_11.42.52.314-0700	Current Step Distance (in meters): 0.0
+12052013_11.42.52.314-0700	user walking: false
+12052013_11.42.52.314-0700	Using previous orientation
+12052013_11.42.52.314-0700	User orientation:159.15387544107944
+12052013_11.42.52.314-0700	User DACF: null
+12052013_11.42.52.315-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":159.15387544107944,"currentUserCoor":"55.94565,-3.1870340000000397","cf":"null"}
+12052013_11.42.52.315-0700	Setting lastTimeOfUtterance to 1368384172294
+12052013_11.42.52.315-0700	Sys Utterance: 
+12052013_11.42.52.315-0700	sysResponse: {"utterance":"","uttType":"dm"}
+12052013_11.43.02.296-0700	
+12052013_11.43.02.297-0700	Run: 18
+12052013_11.43.02.297-0700	
+12052013_11.43.02.297-0700	Time: 1368384182297
+12052013_11.43.02.297-0700	Time between updates: 10003
+12052013_11.43.02.297-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.43.02.297-0700	User location reported:55.94565;-3.1870340000000397
+12052013_11.43.02.297-0700	User DA: {"cf":"null"}
+12052013_11.43.02.298-0700	User reported position: 55.94565,-3.1870340000000397
+12052013_11.43.02.298-0700	Coordinates used: reported
+12052013_11.43.02.298-0700	User current position: 55.94565,-3.1870340000000397
+12052013_11.43.02.307-0700	Current ways list (possibilities): [197, 194, 193, 192]
+12052013_11.43.02.307-0700	Current way: 197
+12052013_11.43.02.316-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+12052013_11.43.02.316-0700	Current Step Distance (in meters): 0.0
+12052013_11.43.02.316-0700	user walking: false
+12052013_11.43.02.317-0700	Using previous orientation
+12052013_11.43.02.317-0700	User orientation:159.15387544107944
+12052013_11.43.02.317-0700	User DACF: null
+12052013_11.43.02.317-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":159.15387544107944,"currentUserCoor":"55.94565,-3.1870340000000397","cf":"null"}
+12052013_11.43.02.317-0700	Setting lastTimeOfUtterance to 1368384182297
+12052013_11.43.02.317-0700	Sys Utterance: 
+12052013_11.43.02.317-0700	sysResponse: {"utterance":"","uttType":"dm"}
+12052013_11.43.12.294-0700	
+12052013_11.43.12.294-0700	Run: 19
+12052013_11.43.12.294-0700	
+12052013_11.43.12.294-0700	Time: 1368384192294
+12052013_11.43.12.294-0700	Time between updates: 9997
+12052013_11.43.12.294-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.43.12.294-0700	User location reported:55.94565;-3.1870340000000397
+12052013_11.43.12.294-0700	User DA: {"cf":"null"}
+12052013_11.43.12.295-0700	User reported position: 55.94565,-3.1870340000000397
+12052013_11.43.12.295-0700	Coordinates used: reported
+12052013_11.43.12.295-0700	User current position: 55.94565,-3.1870340000000397
+12052013_11.43.12.304-0700	Current ways list (possibilities): [197, 194, 193, 192]
+12052013_11.43.12.304-0700	Current way: 197
+12052013_11.43.12.313-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+12052013_11.43.12.313-0700	Current Step Distance (in meters): 0.0
+12052013_11.43.12.313-0700	user walking: false
+12052013_11.43.12.313-0700	Using previous orientation
+12052013_11.43.12.313-0700	User orientation:159.15387544107944
+12052013_11.43.12.314-0700	User DACF: null
+12052013_11.43.12.314-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":159.15387544107944,"currentUserCoor":"55.94565,-3.1870340000000397","cf":"null"}
+12052013_11.43.12.314-0700	Setting lastTimeOfUtterance to 1368384192294
+12052013_11.43.12.314-0700	Sys Utterance: 
+12052013_11.43.12.314-0700	sysResponse: {"utterance":"","uttType":"dm"}
+12052013_11.43.22.294-0700	
+12052013_11.43.22.294-0700	Run: 20
+12052013_11.43.22.294-0700	
+12052013_11.43.22.294-0700	Time: 1368384202294
+12052013_11.43.22.294-0700	Time between updates: 10000
+12052013_11.43.22.294-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.43.22.294-0700	User location reported:55.94565;-3.1870340000000397
+12052013_11.43.22.295-0700	User DA: {"cf":"null"}
+12052013_11.43.22.295-0700	User reported position: 55.94565,-3.1870340000000397
+12052013_11.43.22.295-0700	Coordinates used: reported
+12052013_11.43.22.295-0700	User current position: 55.94565,-3.1870340000000397
+12052013_11.43.22.304-0700	Current ways list (possibilities): [197, 194, 193, 192]
+12052013_11.43.22.304-0700	Current way: 197
+12052013_11.43.22.313-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+12052013_11.43.22.313-0700	Current Step Distance (in meters): 0.0
+12052013_11.43.22.314-0700	user walking: false
+12052013_11.43.22.314-0700	Using previous orientation
+12052013_11.43.22.314-0700	User orientation:159.15387544107944
+12052013_11.43.22.314-0700	User DACF: null
+12052013_11.43.22.314-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":159.15387544107944,"currentUserCoor":"55.94565,-3.1870340000000397","cf":"null"}
+12052013_11.43.22.314-0700	Setting lastTimeOfUtterance to 1368384202294
+12052013_11.43.22.314-0700	Sys Utterance: 
+12052013_11.43.22.315-0700	sysResponse: {"utterance":"","uttType":"dm"}
+12052013_11.43.32.292-0700	
+12052013_11.43.32.292-0700	Run: 21
+12052013_11.43.32.292-0700	
+12052013_11.43.32.292-0700	Time: 1368384212292
+12052013_11.43.32.293-0700	Time between updates: 9998
+12052013_11.43.32.293-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.43.32.293-0700	User location reported:55.94565;-3.1870340000000397
+12052013_11.43.32.293-0700	User DA: {"cf":"null"}
+12052013_11.43.32.293-0700	User reported position: 55.94565,-3.1870340000000397
+12052013_11.43.32.293-0700	Coordinates used: reported
+12052013_11.43.32.293-0700	User current position: 55.94565,-3.1870340000000397
+12052013_11.43.32.303-0700	Current ways list (possibilities): [197, 194, 193, 192]
+12052013_11.43.32.303-0700	Current way: 197
+12052013_11.43.32.312-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+12052013_11.43.32.312-0700	Current Step Distance (in meters): 0.0
+12052013_11.43.32.313-0700	user walking: false
+12052013_11.43.32.313-0700	Using previous orientation
+12052013_11.43.32.313-0700	User orientation:159.15387544107944
+12052013_11.43.32.313-0700	User DACF: null
+12052013_11.43.32.313-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":159.15387544107944,"currentUserCoor":"55.94565,-3.1870340000000397","cf":"null"}
+12052013_11.43.32.313-0700	Setting lastTimeOfUtterance to 1368384212292
+12052013_11.43.32.313-0700	Sys Utterance: 
+12052013_11.43.32.313-0700	sysResponse: {"utterance":"","uttType":"dm"}
+12052013_11.43.42.294-0700	
+12052013_11.43.42.294-0700	Run: 22
+12052013_11.43.42.295-0700	
+12052013_11.43.42.295-0700	Time: 1368384222295
+12052013_11.43.42.295-0700	Time between updates: 10003
+12052013_11.43.42.295-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.43.42.295-0700	User location reported:55.94565;-3.1870340000000397
+12052013_11.43.42.295-0700	User DA: {"cf":"null"}
+12052013_11.43.42.295-0700	User reported position: 55.94565,-3.1870340000000397
+12052013_11.43.42.295-0700	Coordinates used: reported
+12052013_11.43.42.296-0700	User current position: 55.94565,-3.1870340000000397
+12052013_11.43.42.305-0700	Current ways list (possibilities): [197, 194, 193, 192]
+12052013_11.43.42.305-0700	Current way: 197
+12052013_11.43.42.314-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+12052013_11.43.42.314-0700	Current Step Distance (in meters): 0.0
+12052013_11.43.42.314-0700	user walking: false
+12052013_11.43.42.314-0700	Using previous orientation
+12052013_11.43.42.314-0700	User orientation:159.15387544107944
+12052013_11.43.42.314-0700	User DACF: null
+12052013_11.43.42.315-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":159.15387544107944,"currentUserCoor":"55.94565,-3.1870340000000397","cf":"null"}
+12052013_11.43.42.315-0700	Setting lastTimeOfUtterance to 1368384222295
+12052013_11.43.42.315-0700	Sys Utterance: 
+12052013_11.43.42.315-0700	sysResponse: {"utterance":"","uttType":"dm"}
+12052013_11.43.52.315-0700	
+12052013_11.43.52.315-0700	Run: 23
+12052013_11.43.52.315-0700	
+12052013_11.43.52.315-0700	Time: 1368384232315
+12052013_11.43.52.315-0700	Time between updates: 10020
+12052013_11.43.52.316-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.43.52.316-0700	User location reported:55.94565;-3.1870340000000397
+12052013_11.43.52.316-0700	User DA: {"cf":"null"}
+12052013_11.43.52.316-0700	User reported position: 55.94565,-3.1870340000000397
+12052013_11.43.52.316-0700	Coordinates used: reported
+12052013_11.43.52.316-0700	User current position: 55.94565,-3.1870340000000397
+12052013_11.43.52.326-0700	Current ways list (possibilities): [197, 194, 193, 192]
+12052013_11.43.52.326-0700	Current way: 197
+12052013_11.43.52.335-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+12052013_11.43.52.335-0700	Current Step Distance (in meters): 0.0
+12052013_11.43.52.335-0700	user walking: false
+12052013_11.43.52.336-0700	Using previous orientation
+12052013_11.43.52.336-0700	User orientation:159.15387544107944
+12052013_11.43.52.336-0700	User DACF: null
+12052013_11.43.52.336-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":159.15387544107944,"currentUserCoor":"55.94565,-3.1870340000000397","cf":"null"}
+12052013_11.43.52.336-0700	Setting lastTimeOfUtterance to 1368384232315
+12052013_11.43.52.336-0700	Sys Utterance: 
+12052013_11.43.52.336-0700	sysResponse: {"utterance":"","uttType":"dm"}
+12052013_11.44.02.312-0700	
+12052013_11.44.02.312-0700	Run: 24
+12052013_11.44.02.312-0700	
+12052013_11.44.02.312-0700	Time: 1368384242312
+12052013_11.44.02.312-0700	Time between updates: 9997
+12052013_11.44.02.312-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.44.02.312-0700	User location reported:55.94565;-3.1870340000000397
+12052013_11.44.02.312-0700	User DA: {"cf":"null"}
+12052013_11.44.02.313-0700	User reported position: 55.94565,-3.1870340000000397
+12052013_11.44.02.313-0700	Coordinates used: reported
+12052013_11.44.02.313-0700	User current position: 55.94565,-3.1870340000000397
+12052013_11.44.02.322-0700	Current ways list (possibilities): [197, 194, 193, 192]
+12052013_11.44.02.322-0700	Current way: 197
+12052013_11.44.02.331-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+12052013_11.44.02.332-0700	Current Step Distance (in meters): 0.0
+12052013_11.44.02.332-0700	user walking: false
+12052013_11.44.02.332-0700	Using previous orientation
+12052013_11.44.02.332-0700	User orientation:159.15387544107944
+12052013_11.44.02.332-0700	User DACF: null
+12052013_11.44.02.332-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":159.15387544107944,"currentUserCoor":"55.94565,-3.1870340000000397","cf":"null"}
+12052013_11.44.02.332-0700	Setting lastTimeOfUtterance to 1368384242312
+12052013_11.44.02.332-0700	Sys Utterance: 
+12052013_11.44.02.333-0700	sysResponse: {"utterance":"","uttType":"dm"}
+12052013_11.44.12.295-0700	
+12052013_11.44.12.295-0700	Run: 25
+12052013_11.44.12.295-0700	
+12052013_11.44.12.295-0700	Time: 1368384252295
+12052013_11.44.12.295-0700	Time between updates: 9983
+12052013_11.44.12.296-0700	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-18-40-39-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_11.44.12.296-0700	User location reported:55.94565;-3.1870340000000397
+12052013_11.44.12.296-0700	User DA: {"cf":"null"}
+12052013_11.44.12.296-0700	User reported position: 55.94565,-3.1870340000000397
+12052013_11.44.12.296-0700	Coordinates used: reported
+12052013_11.44.12.296-0700	User current position: 55.94565,-3.1870340000000397
+12052013_11.44.12.306-0700	Current ways list (possibilities): [197, 194, 193, 192]
+12052013_11.44.12.306-0700	Current way: 197
+12052013_11.44.12.315-0700	User location: [Bristo Square, Potterrow, Marshall Street]
+12052013_11.44.12.316-0700	Current Step Distance (in meters): 0.0
+12052013_11.44.12.316-0700	user walking: false
+12052013_11.44.12.316-0700	Using previous orientation
+12052013_11.44.12.316-0700	User orientation:159.15387544107944
+12052013_11.44.12.316-0700	User DACF: null
+12052013_11.44.12.316-0700	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":159.15387544107944,"currentUserCoor":"55.94565,-3.1870340000000397","cf":"null"}
+12052013_11.44.12.317-0700	Setting lastTimeOfUtterance to 1368384252295
+12052013_11.44.12.317-0700	Sys Utterance: 
+12052013_11.44.12.317-0700	sysResponse: {"utterance":"","uttType":"dm"}

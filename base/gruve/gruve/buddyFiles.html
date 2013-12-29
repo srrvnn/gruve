@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Buddy Dialogue System - Implementation </title>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<!-- Author: Srini Janarthanam -->
+<!-- Date: 23 Nov 2012 -->
+
+<style type="text/css">
+  html { height: 100% }
+  body { height: 100%; margin: 0; padding: 0; background-color:#b0c4de; }
+  #index { font-size:20px;}
+</style>
+
+<script type="text/javascript"> 
+	
+</script>
+</head>
+
+
+<body>
+	<div id="index">
+	<h1> Buddy - the dialogue system </h1>
+	Buddy is a dialogue system implemented in Java. All the files can be found at "\gruve\WEB-INF\classes\hw\macs\gruve" directory. It consists of the following modules. 
+	<h3>Dialogue management - GruveIM.java</h3>
+	Dialogue management module (DM) is the central module that manages the conversation between the system and the user. It receives as input the user's location information and communicative actions from the user interface. DM generates dialogue actions that are sent to the natural language generation (NLG) module where the semantics of the dialogue action are translated into utterances. These utterances are sent back to the user interface. <br/>
+	<br/>
+	<h3>Language Generation - NLG.java</h3>
+	The language generation module (NLG) receives dialogue actions (DA) from the dialogue management module (DM). Dialogue Actions are semantic representations of what the system wants to communicate to the user. They are translated into utterances by the NLG module. <br/><br/>
+	<h3>Route Instruction Generation - HWUNLG.java</h3>
+	The route instruction generation module is the part of the language generation process which generates the instruction for a given route plan. The HWUNLG.java is our sample implementation that generates route instruction for the next part of the route (i.e. generates turning instruction to get to the next node). Your task is to replace this with your own implementation which generates a route instruction for the given route plan. Please note that there are several decisions for you to make such as the following.<br/>
+	<ol>
+	<li>Selecting the part of the route to present (e.g. until the next node, until the next next node or the rest of the route, etc)</li>
+	<li>Choosing landmarks on the route - which ones to choose, how to refer to them, etc</li>
+	<li>Adapting to user's knowledge of the neighbourhood</li>
+	<li>Generation of instructions that are robust enough to handle possibly incorrect user location information</li>
+	</ol>
+	<h3>User Modelling - UserModel.java</h3>
+	User modelling module (UM) models the user's knowledge of the street layout by accessing a dataset of GPS traces of the user. The GPS traces of every user is recorded in "\gruve\WEB-INF\classes\um" directory identified by the user's email id which is obtained when the user visits the "game-index.html" page. These traces are accessed when the same user logs into the system to play the game again. Using this dataset, the UM module can answer queries concerning the user's knowledge of the neighbourhood (such as how many times has the user visited node X).<br/>
+	<br/>
+	<h3>City Model - HWCityModel.java</h3>
+	The city model accesses the GRUVE map file ("mymap.osm") and answer queries concerning entities in the city and street network. It can generate routes from A to B, identify entities near a latLong coordinate, and other methods that may be of use for DM and NLG tasks.<br/><br/>
+	<h3>Toolbox - Tools.java</h3>
+	Toolbox contains methods that are generally useful for the tasks at hand. E.g. finding the distance between two latLong coordinates.<br/><br/>
+	
+	<h3>Documentation</h3>
+	Documentation for all the above and other associated classes are available in the "\gruve\WEB-INF\classes\doc" directory. 
+	
+	</div>
+</body>
+</html>

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>  GRUVE client prototype - version 4</title>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<!-- Author: Srini Janarthanam -->
+<!-- Date: 11 Jan 2012 -->
+<!-- Gruve 4 + log -->
+
+<style type="text/css">
+  html { height: 100% }
+  body { height: 80%; margin: 0; padding: 0; background-color:#b0c4de;}
+  #panel { font-size:30px;}
+  #howto {position:fixed; font-size:30px; top:0px; right:5px;}
+  #map_canvas { height: 50% }
+  #instruction { font-size:large; }	
+  #map { position:absolute; height: 50%; top:0; right:0; }
+</style>
+<link href="jplayer_skin/blue.monday/jplayer.blue.monday.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+<script type="text/javascript" src="jplayer_js/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="js/tools.js"></script> 
+<script type="text/javascript" src="js/tts.js"></script>
+
+
+<script type="text/javascript">
+  var map;
+  var roadmap;
+  var lastPosition;
+  var currentUserPosition;	
+  var lastPos;
+  var nCurrentLinks;
+  var lat, lng;
+  var marker;
+  var buddyId;
+  var currentPano;
+  var currentHeading;
+  var service;
+  var lastSpoken;
+  var soundFilePlaying;
+  var instruction;
+  var sessionId;
+  var userPosition;
+  var userDA;
+  var userResponse;
+  
+  // following are variable concerning jplayer
+  var stillPlaying = false;
+  var moreToPlay = new Array();
+  
+  var showText, showDebugPanel, logAll;
+  var lastRequestTimeStamp, setTimer, t;
+
+  
+  function initialize() {
+
+	sessionId = (new Date()).toUTCString();
+	sessionId = sessionId.replace(/,/g,"");
+	sessionId = sessionId.replace(/ /g,"-");
+	sessionId = sessionId.replace(/:/g,"-");
+	
+	userType = "wizard";
+	
+	//createLogFile();
+	showText = true;
+	showDebugPanel = false;
+  	logAll = true;
+	
+	setTimer = true;
+	//setTimer = false;
+	
+	var mapOptions = {
+        center: new google.maps.LatLng(37.09024, -95.712891),
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        zoom: 15
+      };
+      
+    roadmap = new google.maps.Map(document.getElementById("map"), mapOptions);
+	
+	myStreetViewOptions = {
+		// disableDoubleClickZoom: true disables zooming using double click
+		disableDoubleClickZoom: true,
+		// addressControl: false disables address being displayed on the top left cornet of streetview
+		addressControl: false,  
+		//scrollwheel: false disables zooming using the mouse scrollwheel
+		scrollwheel: false,
+		zoomControl: false,
+		//panControl: false disables pan control on the top left corner.. this will stop users from looking up or down.. 
+		panControl: false,
+		//linksControl: false disables the street/road labels and arrows in the streetview. it also disables navigation using arrow keys in the streetview.
+		linksControl: false,
+		position: currentUserPosition,
+		visible: true	
+	}
+	map = new google.maps.StreetViewPanorama(document.getElementById("map_canvas"), myStreetViewOptions);
+	
+	//service = new google.maps.StreetViewService();
+	
+	google.maps.event.addListener(map, 'links_changed', function() {
+		//linksChanged();
+  	});
+	
+	google.maps.event.addListener(map, 'position_changed', function() {
+		//positionChanged();
+  	});
+
+	google.maps.event.addListener(map, 'pano_changed', function() {
+		//panoChanged();
+  	});	
+
+	google.maps.event.addListener(map, 'pov_changed', function() {
+		povChanged();
+  	});	
+	directionService = new google.maps.DirectionsService();
+    directionsRenderer = new google.maps.DirectionsRenderer({ map: roadmap });     
+	
+	currentHeading = map.getPov().heading;
+	
+	userDA = {"cf": "null"};
+	userUtterance = "null";
+	lastPos = null;
+	sendDefaultInfo();
+  }
+
+  function setUserPosition(pos){
+	map.setPosition(pos);
+	roadmap.setCenter(pos);
+	var m = new google.maps.Marker({map: roadmap, position: pos}); 
+	//roadmap.set
+	setHeading(pos);
+	currentUserPosition = pos;
+	lastPos = pos;
+  }
+
+  function setHeading(pos){
+	//heading will be set based on the user's coordinates..
+	if (lastPos != null && lastPos.lng() != pos.lng()) {
+		var heading = getBearing(lastPos,pos);
+		map.setPov({heading: heading, zoom:1, pitch:0});	
+	}
+  }
+  
+  function povChanged(){
+	currentHeading = map.getPov().heading % 360;
+	//log('pov changed:' + currentHeading);
+  }
+
+  function getDirections(){
+	var index = document.getElementById("destinations").selectedIndex;
+	var destination = document.getElementById("destinations").options[index].value;
+	
+	var request = {
+        origin: currentUserPosition,
+        destination: destination,
+        travelMode: google.maps.DirectionsTravelMode.DRIVING
+    }
+	directionService.route(request, function(result, status) {
+		if (status == google.maps.DirectionsStatus.OK) {
+		  
+		  directionsRenderer.setDirections(result);
+		} else {
+		  alert("Directions service error:" + status);
+		}
+	});
+  }
+  
+  
+  function sendUtteranceInfo(){
+	clearTimeout(t);
+	userUtterance = document.getElementById("wizUtt").value;
+	tellSBServlet(userUtterance);
+	userUtterance = "null";	
+	//if setTimer == true, every two seconds the client sends a message to the server.. 
+	//whether or not the user has spoken or moved.. 
+	if (setTimer == true){
+		//alert("setting timer u");
+		t = setTimeout("sendDefaultInfo()",5000);
+	} else {
+		clearTimeout(t);
+	} 
+	
+  }
+  
+  function sendDefaultInfo(){
+	clearTimeout(t);
+	tellSBServlet("null");
+	userUtterance = "null";	
+	//if setTimer == true, every two seconds the client sends a message to the server.. 
+	//whether or not the user has spoken or moved.. 
+	if (setTimer == true){
+		//alert("setting timer l");
+		t = setTimeout("sendDefaultInfo()",5000);
+	} else {
+		clearTimeout(t);
+	} 
+  }
+
+  
+  function tellSBServlet(utt){
+		var xhr = new XMLHttpRequest();
+		xhr.onreadystatechange = function() {
+			if (xhr.readyState == 4) {
+				var data = xhr.responseText;
+				wozUserInput = JSON.parse(data);
+				
+				var userPos = wozUserInput.userPosition;
+				var userPosCoor = userPos.split(';');
+				//new google.maps.LatLng(55.945722,-3.1870830000000296); /
+				setUserPosition(new google.maps.LatLng(parseFloat(userPosCoor[0]),parseFloat(userPosCoor[1])));				
+				var userDA = wozUserInput.userDA;
+				userDA = userDA.replace(/%22/g, "\"");
+				userDA = userDA.replace(/%20/g, " ");
+				document.getElementById("userDA").innerHTML = "USER : " + userDA;
+			}
+		}
+		xhr.open('GET', 'GruveWizServlet?sessionId='+sessionId+'&userType='+userType+'&wizUtterance='+utt, true);
+		xhr.send(null);
+  }
+  
+</script>
+</head>
+
+
+<body onload="initialize()" onunload="alert('closing')">
+	<div id="panel"></div>
+	<div id="map_canvas" style="width:50%; height:100%"></div>
+	<div>&nbsp;</div>
+	<div id="map" style="width: 50%; height: 80%;">ddd</div>
+	<div id="userDA"></div>
+	<div id="controls">
+	<input type="text" id="wizUtt" size="150" style="height: 35px"></input>
+	<button id="send" onClick="sendUtteranceInfo()" style="height: 35px; width: 100px">Send</button>
+	</div>
+	<div>
+	Select a destination: 
+	<select id="destinations"> 
+		<option value="South College Street Edinburgh">South College Street</option>
+		<option value="Chambers Street Edinburgh">Chambers Street</option>
+		<option value="South Clerk Street Edinburgh">South Clerk Street</option>
+		<option value="Lothian Road Edinburgh">Lothian Road</option>
+		<option value="Windmill Street Edinburgh">Windmill Street</option>
+		
+	</select>
+	<button id="getDir" onClick="getDirections()" style="height: 35px; width: 100px"> Get Directions </button>
+	</div>
+	
+	
+	<div id="debug"></div>	
+	
+ </div>
+</body>
+</html>

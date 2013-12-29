@@ -1,0 +1,25 @@
+12052013_22.01.26.207-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-01-24-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"NaN;NaN"}
+12052013_22.01.26.266-0700	{"utterance":"Hi. I am your buddy. I can help you with directions.","uttType":"setup","userType":"im"}
+12052013_22.01.35.201-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-01-24-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_22.01.35.272-0700	{"utterance":"I need your orientation. Please start walking.","uttType":"setup","userType":"im"}
+12052013_22.01.45.202-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-01-24-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_22.01.45.230-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.01.55.200-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-01-24-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_22.01.55.236-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.02.05.206-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-01-24-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_22.02.05.280-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.02.15.200-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-01-24-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
+12052013_22.02.15.227-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.02.24.246-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-01-24-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
+12052013_22.02.24.288-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.02.25.208-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-01-24-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945608;-3.1870010000000093"}
+12052013_22.02.25.266-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.02.26.765-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-01-24-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945511;-3.186924999999974"}
+12052013_22.02.26.796-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.02.36.767-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-01-24-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945511;-3.186924999999974"}
+12052013_22.02.36.790-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}
+12052013_22.02.37.947-0700	{"userDA":"{\"cf\":\"requestRoute\",\"destination_name\":\"Nicolson Street\",\"destination_type\":\"street\"}","sessionId":"Mon-13-May-2013-05-01-24-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945511;-3.186924999999974"}
+12052013_22.02.37.994-0700	{"utterance":"Alright. Finding directions to Nicolson Street. One moment please...","uttType":"navInstruction","userType":"im"}
+12052013_22.02.47.950-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-01-24-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945511;-3.186924999999974"}
+12052013_22.02.58.009-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-01-24-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.945511;-3.186924999999974"}
+12052013_22.02.58.093-0700	{"utterance":"","uttType":"navInstruction","userType":"im"}

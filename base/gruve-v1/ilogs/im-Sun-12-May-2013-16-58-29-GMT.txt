@@ -1,0 +1,2 @@
+12052013_11.30.52.628-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-16-58-29-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.943718;-3.2015649999999596"}
+12052013_11.30.53.026-0700	{"utterance":"Hi. I am your buddy. I can help you with directions.","uttType":"setup","userType":"im"}

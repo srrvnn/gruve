@@ -1,4 +1,4 @@
-navi
+gruve
 =====
 
 A web based game to test systems that give route instruction in uncertain virtual environments. This is a forked version of the game.  Game environment, system design and toolkit provided by [Interaction Lab](https://sites.google.com/site/hwinteractionlab/), Heroit Watt University.
@@ -10,7 +10,6 @@ setup
 
 1. Install [Apache Tomcat](http://tomcat.apache.org/download-70.cgi), the server to run JSP files and Servlets. 
   	
-
 2. Place the folder titled 'gruve' inside source at the webapps folder of Apache Tomcat. 
 
 3. Give write permissions inside the ‘gruve’ folder. 
@@ -28,14 +27,11 @@ setup
 7. Start Apache Tomcat server.
 
 8. To play the game, open `source/gruve/game-index.html` on your localhost.
-   
-
-	
+   	
 gameplay
 ----
 
 To read instructions, open `source/gruve/gruve-help.jsp` on your localhost.
-
 
 reports
 ----

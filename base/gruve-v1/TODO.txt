@@ -1,9 +1,0 @@
-
-
-TO DO 
-
-
-1. Fill in more street names in Wizards-desk.html
-2. Another GRUVE game
-3. remove pedestrian routes on the map (done arond the game area but more needs to be done)
-4. debug logViewer. Looked like it had issues..

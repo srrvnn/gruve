@@ -1,5 +1,3 @@
-import hw.macs.gruve.Configuration;
-
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -9,20 +7,11 @@ import org.json.simple.JSONObject;
 import org.json.simple.JSONValue;
 import org.json.simple.parser.JSONParser;
 
-import java.util.Date;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-
-import java.lang.Exception;
-
 public class GruveServlet extends HttpServlet{
 	Hashtable<String, GruveIM> allIMs;
 	Hashtable<String, LogWriter> allLWs;
 	Hashtable<String, UserModel> allUMs;
 	public static final String fsep = System.getProperty("file.separator");
-
-	// set the absolute path for your application here : 
-	// public static final String root = "C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\webapps\\gruve";
 	
 	public void init() throws ServletException{
 		allIMs = new Hashtable<String, GruveIM>();
@@ -31,13 +20,7 @@ public class GruveServlet extends HttpServlet{
 	}
 	
 	@SuppressWarnings("unchecked")
-	public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException{ 	
-
-		DateFormat timeStamp = new SimpleDateFormat("yyyy.MM.dd G 'at' HH:mm:ss z");
-
-		System.out.println("-------------------------");		
-		System.out.println("Request to GruveServlet received, at " + timeStamp.format(new Date()));
-
+	public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException{ 
 		String sResponse = "null";
 		Hashtable<String,String> param = new Hashtable<String,String>();
 		String in = req.getQueryString();
@@ -78,18 +61,23 @@ public class GruveServlet extends HttpServlet{
 			currentUserDA = currentUserDA.replaceAll("%20", " ");
 			uResponse.put("userDA", currentUserDA);
 		}
-
-		uResponse.put("userType", "user");		
+		uResponse.put("userType", "user");
 		
-		HWCityModel cm;	
 		
-		String currentDir = Configuration.root + fsep + "WEB-INF" + fsep;				
+		HWCityModel cm;
+		
+		String currentDir = "C:\\Program Files\\Apache Software Foundation\\Tomcat 8.0" + fsep + "webapps" + fsep + "gruve" + fsep + "WEB-INF" + fsep;
+		// String currentDir = ".."+ fsep + "webapps" + fsep + "gruve" + fsep + "WEB-INF" + fsep;
+		
+		//String currentDir = "..\\webapps\\gruve\\WEB-INF\\";
 		String classesDir = currentDir + "classes" + fsep;
-
-		cm = new HWCityModel(new File(classesDir + "mymap.osm"));		
+		
+		cm = new HWCityModel(new File(classesDir + "mymap.osm"));
+		
 		
 		String userModelsDir = classesDir + "usermodels" + fsep;
 		UserModel currentUM;
+		
 		
 		GruveIM currentIM;
 		LogWriter currentLW;
@@ -98,7 +86,7 @@ public class GruveServlet extends HttpServlet{
 			System.out.println("Creating new SB for " + currentSessionId);
 			currentIM = new GruveIM(currentSessionId, currentUserEmail);
 			allIMs.put(currentSessionId, currentIM);
-			String iLogsDir = Configuration.root + fsep + "ilogs" + fsep;
+			String iLogsDir = "C:\\Program Files\\Apache Software Foundation\\Tomcat 8.0" + fsep + "webapps" + fsep + "gruve" + fsep + "ilogs" + fsep;
 			currentLW = new LogWriter(iLogsDir + "im-" + currentSessionId);
 			allLWs.put(currentSessionId, currentLW);	
 			currentUM = new UserModel(userModelsDir, currentSessionId, currentUserEmail);
@@ -125,12 +113,13 @@ public class GruveServlet extends HttpServlet{
 			sysUtterance = (String) sysResponse.get("utterance");	
 		}
 		currentLW.log(sysResponse.toString());
-		// System.out.println("SysUtt (from servlet):" + sysUtterance);
+		System.out.println("SysUtt (from servlet):" + sysUtterance);
 		res.setContentType("text/html");
 		PrintWriter out = res.getWriter();
 		out.println(sysUtterance);
-
-		System.out.println();
+		
+		
+		
 		
 	}
 

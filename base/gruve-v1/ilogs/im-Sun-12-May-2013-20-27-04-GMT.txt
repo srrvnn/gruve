@@ -1,4 +1,0 @@
-12052013_13.56.53.404-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-20-27-04-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
-12052013_13.56.53.551-0700	{"utterance":"Hi. I am your buddy. I can help you with directions.","uttType":"setup","userType":"im"}
-12052013_13.57.01.388-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sun-12-May-2013-20-27-04-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
-12052013_13.57.01.490-0700	{"utterance":"I need your orientation. Please start walking.","uttType":"setup","userType":"im"}

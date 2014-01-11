@@ -1,6 +1,0 @@
-12052013_22.06.38.899-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-06-37-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
-12052013_22.06.38.901-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-06-37-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"NaN;NaN"}
-12052013_22.06.39.073-0700	{"utterance":"Hi. I am your buddy. I can help you with directions.","uttType":"setup","userType":"im"}
-12052013_22.06.39.105-0700	{"utterance":"I need your orientation. Please start walking.","uttType":"setup","userType":"im"}
-12052013_22.06.42.743-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-13-May-2013-05-06-37-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94565;-3.1870340000000397"}
-12052013_22.06.42.819-0700	{"utterance":"I don't have anything to say","uttType":"dm","userType":"im"}

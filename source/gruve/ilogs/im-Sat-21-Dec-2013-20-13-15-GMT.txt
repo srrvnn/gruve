@@ -1,0 +1,4 @@
+21122013_12.15.39.878-0800	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sat-21-Dec-2013-20-13-15-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94571700000001;-3.1870790000000397"}
+21122013_12.15.40.133-0800	{"utterance":"Hi. I am your buddy. I can help you with directions.","uttType":"setup","userType":"im"}
+21122013_12.15.48.342-0800	{"userDA":"{\"cf\":\"null\"}","sessionId":"Sat-21-Dec-2013-20-13-15-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94571700000001;-3.1870790000000397"}
+21122013_12.15.48.376-0800	{"utterance":"I need your orientation. Please start walking.","uttType":"setup","userType":"im"}

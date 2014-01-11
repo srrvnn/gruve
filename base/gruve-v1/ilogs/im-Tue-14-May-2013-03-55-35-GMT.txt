@@ -1,4 +1,0 @@
-13052013_20.55.35.173-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Tue-14-May-2013-03-55-35-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"NaN;NaN"}
-13052013_20.55.35.462-0700	{"utterance":"Hi. I am here to help you with directions in this game.","uttType":"setup","userType":"im"}
-13052013_20.55.35.682-0700	{"userDA":"{\"cf\":\"null\"}","sessionId":"Tue-14-May-2013-03-55-35-GMT","userUtterance":"","userEmail":"srrvnn@live.com","userType":"user","userPosition":"55.94575;-3.1871019999999817"}
-13052013_20.55.35.697-0700	{"utterance":"Let's get started. Move ahead, so that I know you are there.","uttType":"setup","userType":"im"}

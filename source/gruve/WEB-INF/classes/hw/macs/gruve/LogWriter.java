@@ -22,6 +22,9 @@ public class LogWriter{
                 timeStampFormat = new SimpleDateFormat("ddMMyyyy_HH.mm.ss.SSSZ");
                 //timeStampFormat = new SimpleDateFormat("ddMMyyyy_HH.mm.ss.SSS");                
 	}
+
+
+	
 	
 	public void log(String message){
                //XKL 
@@ -29,7 +32,7 @@ public class LogWriter{
 		try{						
 			out.write(crntTimeStamp + "\t" + message + "\n");
                         out.flush(); // XKL added.
-			// System.out.println(message);
+			System.out.println(message);
 		} 	
 		catch (IOException e){
 			System.out.println(e.getMessage());

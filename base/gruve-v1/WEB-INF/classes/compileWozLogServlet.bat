@@ -1,1 +1,0 @@
-javac -Xlint:unchecked -cp "C:\Program Files\Apache Software Foundation\Tomcat 8.0\lib\servlet-api.jar;C:\Program Files\Apache Software Foundation\Tomcat 8.0\lib\json-simple-1.1.1.jar;." WoZLogServlet.java

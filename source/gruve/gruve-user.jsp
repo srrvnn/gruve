@@ -164,7 +164,6 @@
 	currentUserPosition = player_position;
 	lastPosition = currentUserPosition;
 	
-	
 	google.maps.event.addListener(map, 'position_changed', function() {
 		positionChanged();
   	});
@@ -190,10 +189,14 @@
   }
 
   function povChanged(){
+
+  	alert("povChanged function called");
 	currentHeading = map.getPov().heading % 360;
   }
 
   function positionChanged(){
+
+  	alert("positionChanged function called");
 	if (game_over == true) {
 		map.setPosition(currentUserPosition);	
 	} else {

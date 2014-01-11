@@ -1,0 +1,166 @@
+10122012_13.53.00.512+0000	
+10122012_13.53.00.516+0000	Run: 1
+10122012_13.53.00.516+0000	
+10122012_13.53.00.516+0000	Time: 1355147580516
+10122012_13.53.00.544+0000	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-10-Dec-2012-13-52-59-GMT","userUtterance":"","userEmail":"srinivasancj@gmail.com","userType":"user","userPosition":"55.945719;10122012_13.53.00.544+10122012_13.53.00.549+0000	User location reported:55.945719;-3.1870810000000347
+10122012_13.53.00.549+0000	User DA: {"cf":"null"}
+10122012_13.53.00.550+0000	User reported position: 55.945719,-3.1870810000000347
+10122012_13.53.00.550+0000	Coordinates used: r10122012_13.53.00.646+0000	Current ways list (possibilities): []
+10122012_13.53.00.647+010122012_13.53.00.649+10122012_13.53.00.698+0000	User location: []
+10122012_13.53.00.698+0000	Current Step Distance: unkno10122012_13.53.00.699+0000	User location: [Bristo Square, Potterrow, Marshall Street]
+10122012_13.53.00.700+0000	Current Step Distance: unknown
+10122012_13.53.00.700+0000	user walking: false
+10122012_13.53.00.701+0000	User Orientation: unknown
+10122012_13.53.00.701+0000	User DACF: null
+10122012_13.53.00.701+0000	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.945719,-3.1870810000000347","cf":"greetUser"}
+10122012_13.53.00.702+0000	Setting lastTimeOfUtterance to 1355147580516
+10122012_13.53.00.702+0000	Sys Utterance: Hi. I am your buddy. I can help you with directions.
+10122012_13.53.00.702+0000	sysResponse: {"utterance":"Hi. I am your buddy. I can help you with directions.","uttType":"setup"}
+10122012_13.53.10.213+0000	
+10122012_13.53.10.213+0000	Run: 2
+10122012_13.53.10.214+0000	
+10122012_13.53.10.214+0000	Time: 1355147590214
+10122012_13.53.10.215+0000	Time between updates: 9698
+10122012_13.53.10.215+0000	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-10-Dec-2012-13-52-59-GMT","userUtterance":"","userEmail":"srinivasancj@gmail.com","userType":"user","userPosition":"55.945719;-3.1870810000000347"}
+10122012_13.53.10.216+0000	User location reported:55.945719;-3.1870810000000347
+10122012_13.53.10.217+0000	User DA: {"cf":"null"}
+10122012_13.53.10.217+0000	User reported position: 55.945719,-3.1870810000000347
+10122012_13.53.10.218+0000	Coordinates used: reported
+10122012_13.53.10.218+0000	User current position: 55.945719,-3.1870810000000347
+10122012_13.53.10.237+0000	Current ways list (possibilities): [197, 193, 192]
+10122012_13.53.10.238+0000	Current way: 197
+10122012_13.53.10.243+0000	User location: [Bristo Square, Potterrow, Marshall Street]
+10122012_13.53.10.243+0000	Current Step Distance (in meters): 0.0
+10122012_13.53.10.243+0000	user walking: false
+10122012_13.53.10.244+0000	User Orientation: unknown
+10122012_13.53.10.244+0000	User DACF: null
+10122012_13.53.10.244+0000	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.945719,-3.1870810000000347","cf":"startWalking"}
+10122012_13.53.10.245+0000	Setting lastTimeOfUtterance to 1355147590214
+10122012_13.53.10.245+0000	Sys Utterance: I need your orientation. Please start walking.
+10122012_13.53.10.245+0000	sysResponse: {"utterance":"I need your orientation. Please start walking.","uttType":"setup"}
+10122012_13.53.20.211+0000	
+10122012_13.53.20.212+0000	Run: 3
+10122012_13.53.20.212+0000	
+10122012_13.53.20.213+0000	Time: 1355147600213
+10122012_13.53.20.213+0000	Time between updates: 9999
+10122012_13.53.20.214+0000	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-10-Dec-2012-13-52-59-GMT","userUtterance":"","userEmail":"srinivasancj@gmail.com","userType":"user","userPosition":"55.945719;-3.1870810000000347"}
+10122012_13.53.20.214+0000	User location reported:55.945719;-3.1870810000000347
+10122012_13.53.20.215+0000	User DA: {"cf":"null"}
+10122012_13.53.20.215+0000	User reported position: 55.945719,-3.1870810000000347
+10122012_13.53.20.215+0000	Coordinates used: reported
+10122012_13.53.20.216+0000	User current position: 55.945719,-3.1870810000000347
+10122012_13.53.20.223+0000	Current ways list (possibilities): [197, 193, 192]
+10122012_13.53.20.223+0000	Current way: 197
+10122012_13.53.20.230+0000	User location: [Bristo Square, Potterrow, Marshall Street]
+10122012_13.53.20.231+0000	Current Step Distance (in meters): 0.0
+10122012_13.53.20.231+0000	user walking: false
+10122012_13.53.20.232+0000	User Orientation: unknown
+10122012_13.53.20.232+0000	User DACF: null
+10122012_13.53.20.233+0000	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":0.0,"currentUserCoor":"55.945719,-3.1870810000000347","cf":"null"}
+10122012_13.53.20.233+0000	Setting lastTimeOfUtterance to 1355147600213
+10122012_13.53.20.234+0000	Sys Utterance: 
+10122012_13.53.20.234+0000	sysResponse: {"utterance":"","uttType":"dm"}
+10122012_13.53.24.818+0000	
+10122012_13.53.24.819+0000	Run: 4
+10122012_13.53.24.819+0000	
+10122012_13.53.24.819+0000	Time: 1355147604819
+10122012_13.53.24.819+0000	Time between updates: 4606
+10122012_13.53.24.820+0000	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-10-Dec-2012-13-52-59-GMT","userUtterance":"","userEmail":"srinivasancj@gmail.com","userType":"user","userPosition":"55.945645;-3.1870300000000498"}
+10122012_13.53.24.820+0000	User location reported:55.945645;-3.1870300000000498
+10122012_13.53.24.821+0000	User DA: {"cf":"null"}
+10122012_13.53.24.821+0000	User reported position: 55.945645,-3.1870300000000498
+10122012_13.53.24.821+0000	Coordinates used: reported
+10122012_13.53.24.821+0000	User current position: 55.945645,-3.1870300000000498
+10122012_13.53.24.825+0000	Current ways list (possibilities): [197, 194, 193, 192]
+10122012_13.53.24.825+0000	Current way: 197
+10122012_13.53.24.829+0000	User location: [Bristo Square, Potterrow, Marshall Street]
+10122012_13.53.24.829+0000	Current Step Distance (in meters): 8.819945741566583
+10122012_13.53.24.830+0000	user walking: true
+10122012_13.53.24.830+0000	Using calculated orientation
+10122012_13.53.24.830+0000	User orientation:158.89682148514362
+10122012_13.53.24.830+0000	User DACF: null
+10122012_13.53.24.831+0000	SysDA: {"userDA":"{\"cf\":\"null\"}","currentUserOrientation":158.89682148514362,"currentUserCoor":"55.945645,-3.1870300000000498","cf":"null"}
+10122012_13.53.24.831+0000	Setting lastTimeOfUtterance to 1355147604819
+10122012_13.53.24.831+0000	Setting lastTimeOfDiffCoordinates to 1355147604819
+10122012_13.53.24.831+0000	Sys Utterance: 
+10122012_13.53.24.832+0000	sysResponse: {"utterance":"","uttType":"dm"}
+10122012_13.53.29.221+0000	
+10122012_13.53.29.222+0000	Run: 5
+10122012_13.53.29.222+0000	
+10122012_13.53.29.222+0000	Time: 1355147609222
+10122012_13.53.29.222+0000	Time between updates: 4403
+10122012_13.53.29.222+0000	userResponse:{"userDA":"{\"cf\":\"requestRoute\",\"destination_name\":\"Crichton Street\",\"destination_type\":\"street\"}","sessionId":"Mon-10-Dec-2012-13-52-59-GMT","userUtterance":"","userEmail":"srinivasancj@gmail.com","userType":"user","userPosition":"55.945645;-3.1870300000000498"}
+10122012_13.53.29.223+0000	User location reported:55.945645;-3.1870300000000498
+10122012_13.53.29.223+0000	User DA: {"destination_name":"Crichton Street","destination_type":"street","cf":"requestRoute"}
+10122012_13.53.29.223+0000	User reported position: 55.945645,-3.1870300000000498
+10122012_13.53.29.223+0000	Coordinates used: reported
+10122012_13.53.29.224+0000	User current position: 55.945645,-3.1870300000000498
+10122012_13.53.29.227+0000	Current ways list (possibilities): [197, 194, 193, 192]
+10122012_13.53.29.227+0000	Current way: 197
+10122012_13.53.29.231+0000	User location: [Bristo Square, Potterrow, Marshall Street]
+10122012_13.53.29.231+0000	Current Step Distance (in meters): 0.0
+10122012_13.53.29.232+0000	user walking: false
+10122012_13.53.29.232+0000	Using previous orientation
+10122012_13.53.29.232+0000	User orientation:158.89682148514362
+10122012_13.53.29.232+0000	User DACF: requestRoute
+10122012_13.53.29.233+0000	SysDA: {"userDA":"{\"destination_name\":\"Crichton Street\",\"destination_type\":\"street\",\"cf\":\"requestRoute\"}","currentUserOrientation":158.89682148514362,"entityId":"null","currentUserCoor":"55.945645,-3.1870300000000498","cf":"acknowledgeRouteRequest","entityName":"Crichton Street"}
+10122012_13.53.29.233+0000	Setting lastTimeOfUtterance to 1355147609222
+10122012_13.53.29.233+0000	Sys Utterance: ok. finding directions to Crichton Street
+10122012_13.53.29.233+0000	sysResponse: {"utterance":"ok. finding directions to Crichton Street","uttType":"navInstruction"}
+10122012_13.53.39.231+0000	
+10122012_13.53.39.231+0000	Run: 6
+10122012_13.53.39.232+0000	
+10122012_13.53.39.232+0000	Time: 1355147619232
+10122012_13.53.39.232+0000	Time between updates: 10010
+10122012_13.53.39.232+0000	userResponse:{"userDA":"{\"cf\":\"null\"}","sessionId":"Mon-10-Dec-2012-13-52-59-GMT","userUtterance":"","userEmail":"srinivasancj@gmail.com","userType":"user","userPosition":"55.945645;-3.1870300000000498"}
+10122012_13.53.39.233+0000	User location reported:55.945645;-3.1870300000000498
+10122012_13.53.39.233+0000	User DA: {"cf":"null"}
+10122012_13.53.39.233+0000	User reported position: 55.945645,-3.1870300000000498
+10122012_13.53.39.233+0000	Coordinates used: reported
+10122012_13.53.39.234+0000	User current position: 55.945645,-3.1870300000000498
+10122012_13.53.39.239+0000	Current ways list (possibilities): [197, 194, 193, 192]
+10122012_13.53.39.240+0000	Current way: 197
+10122012_13.53.39.244+0000	User location: [Bristo Square, Potterrow, Marshall Street]
+10122012_13.53.39.244+0000	Current Step Distance (in meters): 0.0
+10122012_13.53.39.244+0000	user walking: false
+10122012_13.53.39.245+0000	Using previous orientation
+10122012_13.53.39.245+0000	User orientation:158.89682148514362
+10122012_13.53.39.245+0000	User DACF: null
+10122012_13.53.39.267+0000	Finding route to 155,Crichton Street on [Crichton Street, Potterrow, Chapel Street] at 55.944731038498155,-3.1863184893493326
+10122012_13.53.39.268+0000	Found destination coordinates: 55.944731038498155,-3.1863184893493326
+10122012_13.53.39.298+0000	First node: 154
+10122012_13.53.39.298+0000	Second node: 155
+10122012_13.53.39.298+0000	First node is close to second node
+10122012_13.53.39.306+0000	Next node: 154
+10122012_13.53.39.306+0000	Next Next node: 155
+10122012_13.53.39.319+0000	Next Way: 194
+10122012_13.53.39.320+0000	Closest node: 154
+10122012_13.53.39.323+0000	Choosing randomly
+10122012_13.53.39.323+0000	Current Way: 192
+10122012_13.53.39.324+0000	Route ready
+10122012_13.53.39.324+0000	Destination id: 155
+10122012_13.53.39.324+0000	Expected current way name: Marshall Street
+10122012_13.53.39.327+0000	Current adjancent ways: [197, 194, 193, 192]
+10122012_13.53.39.327+0000	Expected way on route: 192
+10122012_13.53.39.327+0000	User reported at expected location
+10122012_13.53.39.327+0000	Prev Distance from Next node: 6.607103133435596
+10122012_13.53.39.327+0000	Current Distance from Next node: 5.607103133435596
+10122012_13.53.39.328+0000	User near Next node: true
+10122012_13.53.39.330+0000	Setting nextNode to :155
+10122012_13.53.39.331+0000	Distance to next node:110.86511882707885
+10122012_13.53.39.331+0000	Current Way:194
+10122012_13.53.39.331+0000	Current Way Name: Potterrow
+10122012_13.53.39.353+0000	Current Distance from New Next node: 113.66959094997854
+10122012_13.53.39.354+0000	User moving towards Next Node : true
+10122012_13.53.39.354+0000	To reach the next node, user should turn -2.4516107171814383
+10122012_13.53.39.354+0000	Expected user orientation: 156.44521076796218
+10122012_13.53.39.354+0000	User in expected orientation: true
+10122012_13.53.39.354+0000	Expecting user to turn:false
+10122012_13.53.39.354+0000	Next node: 155 at 55.944731038498155,-3.1863184893493326
+10122012_13.53.39.355+0000	UserWalking: false
+10122012_13.53.39.356+0000	Landmarks within 20m:[]
+10122012_13.53.39.356+0000	Landmarks nearby:none
+10122012_13.53.39.356+0000	SysDA: {"userDA":"{\"cf\":\"null\"}","index":1,"currentUserOrientation":158.89682148514362,"route":hw.macs.gruve.Route@4abfa6aa,"currentUserCoor":"55.945645,-3.1870300000000498","cf":"presentRoute"}
+10122012_13.53.39.357+0000	Setting lastTimeOfUtterance to 1355147619232
+10122012_13.53.39.357+0000	Sys Utterance: Continue walking onto Potterrow
+10122012_13.53.39.357+0000	sysResponse: {"utterance":"Continue walking onto Potterrow","uttType":"navInstruction"}

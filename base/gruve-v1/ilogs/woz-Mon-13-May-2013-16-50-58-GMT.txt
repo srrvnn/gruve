@@ -1,5 +1,0 @@
-13052013_09.51.00.265-0700	{"userDA":"{%22cf%22:%22null%22}","userId":null,"userPosition":"55.94575;-3.1871019999999817","userType":"user"}
-13052013_09.51.00.329-0700	{"userDA":"{%22cf%22:%22null%22}","userId":null,"userPosition":"NaN;NaN","userType":"user"}
-13052013_09.51.09.530-0700	{"userDA":"{%22cf%22:%22null%22}","userId":null,"userPosition":"55.94575;-3.1871019999999817","userType":"user"}
-13052013_09.51.11.756-0700	{"userDA":"{%22cf%22:%22requestRoute%22,%22destination_name%22:%22West%20Nicolson%20Street%22,%22destination_type%22:%22street%22}","userId":null,"userPosition":"55.94575;-3.1871019999999817","userType":"user"}
-13052013_09.51.13.753-0700	{"userDA":"{%22cf%22:%22null%22}","userId":null,"userPosition":"55.94575;-3.1871019999999817","userType":"user"}

@@ -1,1 +1,0 @@
-{"userDA":"{\"cf\":\"null\"}","index":1,"currentUserOrientation":322.23635607559544,"route":hw.macs.gruve.Route@43840b20,"currentUserCoor":"55.94433300000001,-3.185899000000063","cf":"presentRoute"}

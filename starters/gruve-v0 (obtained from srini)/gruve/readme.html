@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>  Index </title>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<!-- Author: Srini Janarthanam -->
+<!-- Date: 23 Nov 2012 -->
+
+<style type="text/css">
+  html { height: 100% }
+  body { height: 100%; margin: 0; padding: 0; background-color:#b0c4de; }
+  #index { font-size:20px;}
+</style>
+
+<script type="text/javascript"> 
+	
+</script>
+</head>
+
+
+<body>
+	<div id="index">
+	<h1> Welcome to the GRUVE challenge! </h1>
+	GRUVE stands for "Giving Route instructions in Uncertain Virtual Environments". We see this challenge as a successor to the GIVE (Giving Instructions in Virtual Environments) challenge, where the objective was for you, as a participating team, to build an NLG system that generates instructions for a user to navigate inside a virtual building, and manipulate buttons in order to obtain a hidden trophy. In this challenge (GRUVE), you will be building an NLG module which will assist a user navigating through the streets of a city on Google Streetview. The challenge here is to generate instructions in the context of uncertain user positioning information and to adapt them to a user's experience in
+    the neighborhood. <br/>
+	
+	<h2> Challenge task </h2>
+	The challenge task is to build an NLG module that operates as a part of the dialogue system, referred to as the user's buddy. The dialogue system will receive navigation requests from the user, calculate the shortest path to the destination and present navigation instructions as the user walks around. An implementation of the module ("HWUNLG.java") can be found in the dialogue system directory (i.e. "gruve/WEB-INF/classes/hw/macs/gruve"). 
+	
+	Your task is to replace HWUNLG.java with your own. This module is presented with a route plan and generates a route instruction. The route plan is basically a set of nodes (i.e. street intersections) that the user has to pass in order to reach his destination. The module will be called by the dialogue manager via NLG.java everytime the user is near a node on the route plan. You can use methods in HWCityModel.java, UserModel.java to access information about the street layout, entities on the streets and user's experience in the neighbourhood. Tools.java has some general purpose methods such as distance between two latLong coordinates, etc. <br/>
+	<br/>
+	Challenge 1. <br/>
+	The challenge is to design and implement an algorithm to convert the route plan in to verbal instructions. The route plan is a set of edges and nodes in the street network. The current implementation (HWUNLG) presents the instruction to reach the next node in the plan. But it is up to you to decide how many nodes you want to present to the user. For e.g your NLG module can decide to present the rest of the route in one NLG move.<br/>
+	<br/>
+	Challenge 2. <br/>
+	Uncertainty in user location: User location reported in terms of his/her latitude and longitude may be erroneous. The uncertainty will be passed to the NLG module by the dialog manager module in terms of an accuracy metric (with range of 1 to 75 meters). For example, an accuracy of 50 meters means that the user is within 50 meters of the given coordinate. In the face of uncertainty, the challenge for the NLG module is to generate more robust instructions that users can use even if their locations are uncertain.<br/>
+	<br/>
+	Challenge 3. <br />
+	Modelling user's spatial knowledge: If users return to play the same game or some other game in the same geographic region, NLG modules could take that into account and generate instructions that are adapted to the user's knowledge of the neighbourhood. Each user will be uniquely identified using his email id, and  the NLG module will be able to query the user's past navigation experience in the neighbourhood from the user model as recorded by the dialogue manager. This information can be used by the NLG module to adapt the instruction generated to the user's navigation traces. <br/>
+	<br/>
+	
+	<h2> Toolkit </h2>
+	The following are the components of this toolkit.
+	
+	<h3> 1. GRUVE User interface  </h3>
+	The game is presented to the user on the GRUVE user interface. The user interface ("gruve-user.jsp") consists of two panels: the gameworld panel (using Google Streetview) and the interaction panel. The game characters are overlaid on top of the real world simulation in the gameworld panel. Users can walk through the streets by clicking on the arrow heads shown on the simulation or using the arrow keys on their keyboard. Users' location (i.e. latitude and longitude) information is sent to the dialogue system as they move around. Using the buttons and dropdown lists, users can interact with the dialogue system to communicate their navigation goals, etc. <br/>
+    <br/>
+	Users will ideally start at game index page ("game-index.html"), navigate to "gruve-help.jsp" page where they are given instructions on the game and finally navigate to "gruve-user.jsp" page to play the game. Following this, they could navigate to "gruve-questions.jsp" to leave their feedback.<br/>
+	<br/> 
+	Users' location can be manipulated to be erroneous by modifying the "maxDistError" variable. It is currently set to 0 and therefore informs the dialogue system of the true location of the user. However during evaluation, this will be set to as high as 0.075 (75 meters) to test the NLG module's output under uncertain user location information.  
+	
+	<h3> 2. Wizard's desk </h3>
+	The wizard's desk is a Wizard-of-Oz tool to simulate the dialogue system's behaviour. This connects to the GRUVE user interface via a Java servlet ("GruveWizServlet.java"). Users' communication via the interaction panel are sent to the wizard's desk for which the human wizard can respond. The response is delivered to the user playing the game the same way the responses of the dialogue system are delivered. The wizard can see the user's location on a 2D map. In addition, the user's field of view (in their walking direction) is shown on Google Streetview. In short, the wizard sees what the user sees and knows where he/she is. Wizards can request for directions from user's current location to user's requested destination, which gets plotted on the 2D map, which can be used by the wizard to provide users with directions. This tool supports interaction between one wizard and one user only. See <a href="gruve-wizard-help.html">help</a> for more.
+	
+	
+	<h3> 3. Map viewer </h3>
+	The Map viewer tool (<a href="mapViewer.html">mapViewer.html</a>) can be used to visualize the underlying street network overlaid on the map of Edinburgh. The network is displayed as a graph with nodes (red marker <img src="images/redmarker.png">) representing street junctions and black lines representing streets. The map also presents the amenities such as shops, traffic_lights, etc that can be used by the NLG system as landmarks (using a grey marker <img src="images/greymarker.png"/>) on the map. Amenity information was harvested from OpenStreetMaps. You can click on the grey markers to get more information on each amenity.
+	
+	<h3> 4. Log viewer </h3>
+	The interaction between the user and the buddy system or the wizard are logged in "gruve/ilogs" directory. These logs can be visualised using the Log Viewer tool (<a href="logViewer.html">logViewer.html</a>).
+	
+	<h3> 5. Buddy dialogue system </h3>
+	The buddy dialogue system is implemented as a set of Java files. You can find all these files in the "gruve/WEB-INF/classes/hw/macs/gruve" directory. The dialogue system and the user interface interact using a java servlet ("GruveServlet.java"). See <a href="buddyFiles.html"> here </a> for more information on the different modules that make up the dialogue system.<br/>
+	
+	<h2> Installation </h2>
+	<h3> Requirements </h3>
+	GRUVE toolkit requires a webserver (such as Apache Tomcat server). Please install Apache Tomcat server if you don't have one. You can get one <a href="http://tomcat.apache.org/download-70.cgi">here</a>. <br/>
+	<br/>
+	Step 1. Unzip gruve2012.zip <br/>
+	Step 2. Place the "gruve" folder into the "webapps" directory of the Apache Tomcat server installation. <br/>
+	Step 3. Restart the Tomcat server. <br/>
+	<br/>
+	You should be able to access the GRUVE files locally (for e.g. you can access this file using http://localhost:8080/gruve/readme.html) in your web browser. You can access the files over the network, using your IP address instead. We have developed and tested all the tools using the Google Chrome web browser. <br/>
+	<br/>
+		
+	<h2> Related publications </h2>
+	Srini Janarthanam, Oliver Lemon and Xingkun Liu, 2012, "A Web-based Evaluation Framework for Spatial Instruction-Giving Systems", In proceedings of ACL 2012. <a href="http://aclweb.org/anthology-new/P/P12/P12-3009.pdf">paper</a>
+	
+	<h2>Issues</h2>
+	Our toolkit is fairly complete. But there are some issues that we have identified and are working to resolve asap. Please see the list of issues <a href="known-issues.html">here</a>.
+	
+	
+	</div>
+	
+	
+</body>
+</html>

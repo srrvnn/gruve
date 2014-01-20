@@ -20,6 +20,7 @@ import org.json.simple.parser.JSONParser;
 import java.lang.Exception;
 
 public class GruveIM {
+
 	//DefaultMap map;
 
    	String sessionId, userEmail;
@@ -104,23 +105,22 @@ public class GruveIM {
 	UserModel um;
 	//LocationLog ll;
 	
-	NLG nlg;
-		
-	// set the absolute path for your application here : 
-	// public static final String root = "C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\webapps\\gruve";
+	NLG nlg;	
+
 	public static final String fsep = System.getProperty("file.separator");
 	
-	public GruveIM(String sessionId, String userEmail){
+	public GruveIM(String sessionId, String userEmail) {
 
 		// One initial run..
 		
-		//set to true if the webclient interacts with the IM over a servlet.. 
-		//set to false if the webclient interacts with the IM over ICE..
-		streetviewServlet = true;
+		// set to true if the webclient interacts with the IM over a servlet.. 
+		// set to false if the webclient interacts with the IM over ICE..
+		streetviewServlet = true; // or "false"
 		
 		//set to true if the webclient is playing the GRUVE game
-		//gruve = true;
-		gruve = false;
+
+		gruve = false; // or "true"
+
 		// System.out.println("Gruve server:" + gruve);
 
 		String currentDir = Configuration.root + fsep + "WEB-INF" + fsep;								
@@ -131,8 +131,7 @@ public class GruveIM {
 		(new File(currentDir + "logs" + fsep + sessionId)).mkdir();
 		
 		logName = currentDir + "logs" + fsep + sessionId + fsep;
-		systemLog = logName + "systemLog";
-		
+		systemLog = logName + "systemLog";	
 		
 		um = new UserModel(userModelsDir, sessionId, userEmail);
 		
@@ -147,15 +146,404 @@ public class GruveIM {
 		bsv.put("cmReady", true);
 		
 		resetEpisode();
+
 		// System.out.println("New Gruve IM created for " + sessionId);
 	}
 	
-	public void close(){
+	public void close() {
+
 		l.close();
+	}	
+	
+	private void resetEpisode() {
+
+		lastUpdate = 0;
+		run = 0;
+		nUserOffCourse = 0;
+		randomAction = 0;
+		maxAction = 0;
+		l = new LogWriter(systemLog);	
+		
+		
+		bsv.put("userGreeted", false);
+		
+		//user position specific variables
+		currentUserOrientation = 0;
+		bsv.put("userInitialOrientationAvailable", false);
+		pastOrientations = new LinkedList<Double>();
+		last10PaceRates = new LinkedList<Double>();
+		last10GPSTimestamps = new LinkedList<Long>();
+		prevCoordinates = new ArrayList<Position>();
+		userPA = "still";
+		bsv.put("userIsWalking", false);
+		prevUserPA = "still";
+		nextUserOrientDel = 0;
+		expectedOrientation = 0;
+		
+		if (streetview){
+			close2NodeDistance  = 10;
+			interNodeDistance = 10;
+		} else {
+			close2NodeDistance = 25; //25meters
+			interNodeDistance = 15;
+		}
+		
+		readyForASR = "false";
+		
+		userDA = null;
+		lastRDUserDA = null;
+		prevUserDA = null;
+		prevSysUtt = "";
+		prevSysUttType = "";
+		
+		lastStepSize = 0;
+		
+		
+		destinationsRejected = new ArrayList<String>();
+		destinationId = "null";
+		destinationName = "null";
+		destinationLoc = new ArrayList<String>();
+		bsv.put("destinationSuggested", false);
+		
+		currentUserLocation = new ArrayList<String>();
+		bsv.put("routeRequested", false);
+		bsv.put("userOnRoute", false);
+		bsv.put("navigatingUser", false);
+		bsv.put("routeNotFound", false);
+		bsv.put("destinationReached", false);
+		bsv.put("destinationVisibleToUser", false);
+		convEnded = false;
+		destinationCoor = null;
+		nextNodeCoor = null;
+		nextNextNodeCoor = null;
+		prevUserCoor = null;
+		
+		
+		distanceToGoal = 0;
+		bsv.put("distanceToGoalLT5", false);
+		bsv.put("distanceToGoalLT10", false);
+		
+		bsv.put("distanceToNNLT10", false);
+		bsv.put("distanceToNNGT10", false);
+		
+		
+		//POI task specific variables
+		landmarkInformed = new ArrayList<String>();
+		landmarksCloseToNextNode = new ArrayList<String>();
+		
+		//max speed per sec
+		expectedSpeed = 50;
+		//expectedSpeed = walkingSpeed;
+					
+		//resolving anaphora
+		lastMentionedEntityId = "null";
+		entitiesInContext = new Hashtable<String,String>(); 
+		lastMentionedEntityType = "null";
+		
+		//RL specific variables
+		totalReward = 0;
+		
+		bsv.put("userRequestedRoute", false);
+		bsv.put("userGreets", false);
+		bsv.put("userRequestsHelp", false);
+		bsv.put("userRequestedRepeat", false);
+		
+		bsv.put("userSaysThanks", false);
+		bsv.put("userAsksForDirection", false);
+		bsv.put("userAsksUserLocation", false);
+		bsv.put("userAcknowledgedSystem", false);
+		bsv.put("userAsksWhereAmI", false);
+		bsv.put("userRequestsLocInfo", false);
+		bsv.put("userRequestsDistanceInfo", false);
+		bsv.put("userRequestsMoreInfo", false);
+		bsv.put("userRequestsDescription", false);
+		bsv.put("userRequestsDestination", false);	
+		bsv.put("needToAcknowledgeUser", false);
+		bsv.put("userRequestsNameOfEntity", false);
+		bsv.put("userRequestStopTalking", false);
+		
+		bsv.put("destinationAccepted", false);
+		bsv.put("entityClarificationSought", false);
+		bsv.put("waitingForClarification", false);
+		bsv.put("suggestionFound", false);
+		bsv.put("entityUnderspecified", false);
+		bsv.put("requestedEntityFound", false);
+		bsv.put("declareReady", false);
+		bsv.put("confirmationRequested", false);
+		bsv.put("userInformedOrientationUnavailable", false);
+		bsv.put("userToldWhereHeIsOneTime", false);
+		bsv.put("navigationHelpPromptToBeGiven", false);
+		resetRoute();
+		userUtteranceWaitingEC = "null";
+		runsWithoutOrientation = 0;
+		
+		long now = (new Date()).getTime();
+		lastTimeOfUtterance = now;
+		lastTimeOfDiffCoor = now;
+		elapsedTimeWithoutUtterances = 0;
+		elapsedTimeWithSameCoordinates = 0;
+		
+		bsv.put("expectingResponseFromUser", false);
+		//ll = new LocationLog("coord");
 	}
 	
+	private void resetTurn() {
+
+		bsv.put("userCoordinatesAvailable", false);
+		bsv.put("userCoordinatesReported", false);
+		bsv.put("reportedCoordinatesAvailable", false);
+		bsv.put("userOrientationAvailable", false);
+		bsv.put("userPaceRateAvailable", false);
+		bsv.put("userStepSizeAvailable", false);
+		bsv.put("userOrientationFromPT", false);
+		bsv.put("timestampNotIncreasing", false);
+		bsv.put("userSpeechConfidenceLT2", false);
+		bsv.put("userRequestedHelp", false);
+		reportedUserCoor = null;
+		reportedUserCoorAcc = 0;
+		
+		currentUserCoor = null;
+		currentUserOrientation = 0;
+		currentUserCoorAcc = 0;
+		currentUserLocation  = new ArrayList<String>();
+		currentStepSize = 0;
+		bsv.put("userIsWalking", false);
+		userPA = "null";
+		bsv.put("wayNameChanged", false); 
+		chooseCoordinate = "null";
+		sysDA = new JSONObject();
+		sysUttType = "null";
+		
+		bsv.put("userMovingTowardsNextNode", false);
+		bsv.put("userNearNextNode", false);
+		bsv.put("nextNodeChanged", false);
+		bsv.put("userAtExpectedLocation", false);
+		bsv.put("userInExpectedOrientation", false); 
+		bsv.put("userMayHaveTurned", false);
+		bsv.put("userUtteranceParsed", true);
+		bsv.put("qaQuestion", false);
+		bsv.put("poiNearUser", false);
+		bsv.put("landmarkNearUser", false);
+		bsv.put("repeatingSysUtterance", false);
+		bsv.put("qaSegmentAvailable", false);
+		bsv.put("moreInfoRequested", false);
+
+		bsv.put("requireExplicitConfirmation", false);
+	}
+	
+	private void resetRoute() {
+
+		bsv.put("destinationReached", false);
+		
+		prevNode = "null";
+		nextNode = "null";
+		nextNextNode = "null";
+		prevWayOnRoute = "null";
+		expectedWayOnRoute = "null";
+		expectedWayName = "null";
+		prevWayName = "null";
+		nextWayOnRoute = "null";
+		
+		currentSlope = "null";
+		distanceToNextMajorTurnNode = 0.0;
+		nextNodeLocation = new ArrayList<String>();
+		lastTimeOfNoDeviation = 0;
+		
+		majorTurnNodes = null;
+		nextMajorTurnNode = "null";
+		bsv.put("userMayBeDeviatingFromRoute", false);
+		bsv.put("expectingUserTurn", false);
+		bsv.put("landmarksNearNextNode", false);
+		bsv.put("turnInstructionAtNextNodeGiven", false);
+		bsv.put("turnInstructionAtLastNextNodeGiven", false);		
+		bsv.put("destinationReached", false);
+		bsv.put("userClaimsDestinationReached", false);
+		bsv.put("userClaimsDestinationVisible", false);
+		bsv.put("destinationVisible", false);
+		bsv.put("destinationVisibilityInformed", false);
+		bsv.put("userNearDestination", false);
+		bsv.put("veryFirstInstruction", true);
+		bsv.put("expectedOrientationAvailable", false);
+	}
+	
+	private void getRouteAndInitialize(Position d) {
+
+		resetRoute();		
+		
+		//ArrayList<String> positions = new ArrayList<String>();
+		ArrayList<RouteElement> positions = new ArrayList<RouteElement>();
+		
+		if (d != null && d.getLat() != 0.0 && d.getLon() != 0.0) {
+
+			l.log("Found destination coordinates: " + d.getLat() + "," + d.getLon());
+			
+			// now lets find a route..
+			
+			// adding destination
+			//positions = cm.getRoute(currentUserCoor, d);
+			currentRoute = cm.getRoute(currentUserCoor, d);
+			currentRoute.displayRoute();
+			positions = currentRoute.getNodes();
+			
+			//if (positions.isEmpty()){
+			if (positions.isEmpty()) {
+
+				Double distance = Tools.distance(currentUserCoor, d) * 1000;
+
+				if (distance < 200) {
+
+					l.log("Destination seems to be nearby.. No nodes in between the user and the destination..");
+					bsv.put("userNearDestination", true);
+					bsv.put("navigatingUser", false);
+					bsv.put("userOnRoute", false);					
+
+				} else {
+
+					bsv.put("userNearDestination", false);
+					bsv.put("userOnRoute", false);
+					bsv.put("navigatingUser", false);
+					bsv.put("routeNotFound", true);
+					l.log("Route not available");
+				}
+
+			} else {
+
+				//l.log("Route: " + positions.toString());
+				bsv.put("userOnRoute", true);
+				bsv.put("navigatingUser", true);
+				bsv.put("userNearDestination", false);
+				bsv.put("routeNotFound", false);
+
+				routeNodes = positions.iterator();
+				
+				// the next node to go is the where he is now..
+				// nextNodeLat = currentUserLat; 
+				// nextNodeLon = currentUserLon;
+
+				expectedWayOnRoute = "null";
+				ArrayList<String> currentLoc = cm.getAdjacentStreetNames(currentUserCoor);
+				if (currentLoc.size() == 1) {
+
+					expectedWayName = currentLoc.get(0);
+
+				} else {
+
+					expectedWayName = "null"; 
+				}
+				
+				RouteElement firstRE = routeNodes.next();
+				String firstNode = (String) firstRE.getNodeId();
+				l.log("First node: " + firstNode);
+				Position fnodeCoor = cm.getCoordinates(firstNode);
+				
+				if (!routeNodes.hasNext()) {
+
+					l.log("There is only one node!");
+					bsv.put("noMoreNodes",true);
+					nextNode = firstNode;
+					nextNodeCoor = fnodeCoor;
+					nextNextNode = "null";
+
+				} else {
+
+					bsv.put("noMoreNodes", false);
+					RouteElement secondRE = routeNodes.next();
+					String secondNode = secondRE.getNodeId();
+					l.log("Second node: " + secondNode);
+					Position snodeCoor = cm.getCoordinates(secondNode);
+
+					double currentPosDistance = Tools.distance(currentUserCoor, snodeCoor) * 1000;
+					double fnodeDistance = Tools.distance(fnodeCoor, snodeCoor) * 1000;
+					
+					if (currentPosDistance < fnodeDistance) {
+
+						l.log("Current loc is close to second node");
+						nextRE = secondRE;
+						nextNode = secondNode;
+						nextNodeCoor = snodeCoor;
+
+						if (routeNodes.hasNext()) { 
+
+							nextNextRE = routeNodes.next();
+							nextNextNode = nextNextRE.getNodeId();
+							nextWayOnRoute = cm.getWayId(nextNode, nextNextNode);
+							nextNextNodeCoor = cm.getCoordinates(nextNextNode);
+
+						} else {
+
+							bsv.put("noMoreNodes",true);
+							nextNextNode = "null";
+						}
+
+					} else {
+
+						l.log("First node is close to second node");
+						nextRE = firstRE;
+						nextNode = firstNode;
+						nextNodeCoor = fnodeCoor;
+						nextNodeLocation = cm.getAdjacentStreetNames(nextNodeCoor);
+						nextNextRE = secondRE;
+						nextNextNode = secondNode;
+						nextNextNodeCoor = snodeCoor;
+						nextWayOnRoute = cm.getWayId(nextNode, nextNextNode); 
+					}
+				}
+
+				l.log("Next node: " + nextNode);
+				l.log("Next Next node: " + nextNextNode);
+	
+				prevDistanceFromNextNode = cm.getNetworkDistance(currentUserCoor,nextNodeCoor) + 1.0;
+				
+				//nextWayOnRoute = cm.getWayId(nextNode, nextNextNode);
+				l.log("Next Way: " + nextWayOnRoute);
+
+				String closestNode = cm.getClosestNode(currentUserCoor);
+				l.log("Closest node: " + closestNode);
+				
+				if (!closestNode.equals(nextNode)) {
+
+					expectedWayOnRoute = cm.getWayId(closestNode, nextNode);
+
+				} else { 
+
+					ArrayList<String> adjWays = cm.getAdjacentWays(currentUserCoor);
+					if (adjWays.size() == 1){
+						expectedWayOnRoute = (String) adjWays.get(0);
+					} else {
+						if (adjWays.contains(nextWayOnRoute)){
+							adjWays.remove(nextWayOnRoute);
+							l.log("Choosing randomly");
+							expectedWayOnRoute = (String) adjWays.get((new Random()).nextInt(adjWays.size()));
+						}
+					}
+				}
+
+				l.log("Current Way: " + expectedWayOnRoute);
+				expectedWayName = cm.getWayName(expectedWayOnRoute);
+				currentSlope = "null";
+				prevUserCoor = currentUserCoor;
+				bsv.put("nextNodeChanged", true);
+				
+				bsv.put("navigationHelpPromptToBeGiven", true);
+				l.log("Route ready");
+
+				//KMLwriter.printRoute(positions, "systemTrack");
+				//userDeviatingFromRoute = false;
+			}
+
+		} else {
+
+			bsv.put("userOnRoute", false);
+			bsv.put("navigatingUser", false);
+			bsv.put("userNearDestination", false);
+			bsv.put("routeNotFound", true);
+			destinationCoor = null;
+			l.log("Destination not available");
+		}
+	}
+
 	@SuppressWarnings("unchecked")
-	public String run(String userResponse){
+	public String run(String userResponse) {
 
 		resetTurn();
 		
@@ -199,16 +587,20 @@ public class GruveIM {
 			bsv.put("userDAavailable", false);
 		}
 		
-		if (uResponse.containsKey("userPosition")){
+		if (uResponse.containsKey("userPosition")) {
+
 			userPosition = (String) uResponse.get("userPosition");
 			lastUpdate = now;
 			l.log("User location reported:" + userPosition.toString());
+
 		} else {
+
 			l.log("User location not reported");
 			userPosition = "null";			
 		}
 	   
-		if (uResponse.containsKey("userOrientation")){
+		if (uResponse.containsKey("userOrientation")) {
+
              //XKL
              //currentUserOrientation = (Double) uResponse.get("userOrientation");
              String orient = uResponse.get("userOrientation").toString();
@@ -229,7 +621,8 @@ public class GruveIM {
 	    l.log("User DA: " + userDA);
 				
 		
-		if (!userPosition.equals("null")){
+		if (!userPosition.equals("null")) {
+
 			//temp[2] is user location "lat;lon;accuracy"
 			String[] temp2 = userPosition.split(";");
 			double lat, lng;
@@ -663,64 +1056,72 @@ public class GruveIM {
 			sysDACF = "null";
 			sysUttType = "dm";
 		}	
-		
+			
+		if (!bsv.get("repeatingSysUtterance")){
 
-		
-			if (!bsv.get("repeatingSysUtterance")){
-					sysDA.put("cf", sysDACF);
-						
-				//Adding the obvious parameters to the sysDAs
-				//and other post processing..
-				if (sysDACF.equals("presentRoute")){
-					sysDA.put("route", currentRoute);
-					sysDA.put("index", nextRE.getIndex());
-				}
-				else if (sysDACF.equals("destinationReached")){
-					sysDA.put("entityId", destinationId);
-					sysDA.put("entityName", destinationName);		
-				}
-				else if (sysDACF.equals("acknowledgeRouteRequest")){
-					sysDA.put("entityId", destinationId);
-					sysDA.put("entityName", destinationName);		
-				}
-				
-				
-				if (bsv.get("userDAavailable")){
-					sysDA.put("userDA", userDA.toString());
-				}
-				
-				if(bsv.get("userCoordinatesAvailable")) { 
-					sysDA.put("currentUserCoor", currentUserCoor.toString());
-					sysDA.put("currentUserOrientation", currentUserOrientation);
-				}
-				
-				
-				l.log("SysDA: " + sysDA);
+			sysDA.put("cf", sysDACF);
+					
+			// Adding the obvious parameters to the sysDAs			
+			// and other post processing..
 
-				// call to NLG
-				sysUtt = nlg.realize(sysDA); //call to NLG
-		}
-		
+			if (sysDACF.equals("presentRoute")) {				
+
+				sysDA.put("route", currentRoute);
+				sysDA.put("index", nextRE.getIndex());
+
+			} else if (sysDACF.equals("destinationReached")) {
+
+				sysDA.put("entityId", destinationId);
+				sysDA.put("entityName", destinationName);		
+
+			} else if (sysDACF.equals("acknowledgeRouteRequest")) {
+
+				sysDA.put("entityId", destinationId);
+				sysDA.put("entityName", destinationName);		
+
+			} 
+
+			if (bsv.get("userDAavailable")) {
+
+				sysDA.put("userDA", userDA.toString());
+			}
+			
+			if (bsv.get("userCoordinatesAvailable")) {
+
+				sysDA.put("currentUserCoor", currentUserCoor.toString());
+				sysDA.put("currentUserOrientation", currentUserOrientation);
+			}			
+			
+			l.log("SysDA: " + sysDA);
+
+			// call the NLG module
+			
+			sysUtt = nlg.realize(sysDA); 
+		}		
 		
 		if (!sysUtt.equals("") && !bsv.get("repeatingSysUtterance")) {
+
 			prevSysUtt = sysUtt;
 			prevSysDA = sysDA;
 			prevSysUttType = sysUttType;
 		}
 		
-		if (bsv.get("repeatingSysUtterance")){
+		if (bsv.get("repeatingSysUtterance")) {
+
 			sysUtt = "I repeat, " + sysUtt;
 			bsv.put("repeatingSysUtterance", false);
 		}
-	
 		
-		//if either the sys or the user say something.. lastTimeOfUtterance is set to now..
-		if (!sysUtt.equals("") || userDA != null){
+		// if either the sys or the user say something.. lastTimeOfUtterance is set to now..
+
+		if (!sysUtt.equals("") || userDA != null) {
+
 			l.log("Setting lastTimeOfUtterance to " + now);
 			lastTimeOfUtterance = now;
 		}
 		
-		if (prevUserCoor != null && !prevUserCoor.equals(currentUserCoor)){
+		if (prevUserCoor != null && !prevUserCoor.equals(currentUserCoor)) {
+
 			l.log("Setting lastTimeOfDiffCoordinates to " + now);
 			lastTimeOfDiffCoor = now;
 		}
@@ -734,377 +1135,13 @@ public class GruveIM {
 		prevDistanceFromNextNode = currentDistanceFromNextNode;
 		l.log("Sys Utterance: " + sysUtt);
 
-		
 		JSONObject sResponse = new JSONObject();
 		//sResponse.put("sysDA", sysDA);
 		sResponse.put("utterance", sysUtt);
-		sResponse.put("uttType", sysUttType);
-		
+		sResponse.put("uttType", sysUttType);	
 		
 		String sysResponse = sResponse.toString(); 
 		l.log("sysResponse: " + sysResponse);
 		return sysResponse;
 	}
-	
-	
-	
-	
-	private void resetEpisode(){
-		lastUpdate = 0;
-		run = 0;
-		nUserOffCourse = 0;
-		randomAction = 0;
-		maxAction = 0;
-		l = new LogWriter(systemLog);	
-		
-		
-		bsv.put("userGreeted", false);
-		
-		//user position specific variables
-		currentUserOrientation = 0;
-		bsv.put("userInitialOrientationAvailable", false);
-		pastOrientations = new LinkedList<Double>();
-		last10PaceRates = new LinkedList<Double>();
-		last10GPSTimestamps = new LinkedList<Long>();
-		prevCoordinates = new ArrayList<Position>();
-		userPA = "still";
-		bsv.put("userIsWalking", false);
-		prevUserPA = "still";
-		nextUserOrientDel = 0;
-		expectedOrientation = 0;
-		
-		if (streetview){
-			close2NodeDistance  = 10;
-			interNodeDistance = 10;
-		} else {
-			close2NodeDistance = 25; //25meters
-			interNodeDistance = 15;
-		}
-		
-		readyForASR = "false";
-		
-		userDA = null;
-		lastRDUserDA = null;
-		prevUserDA = null;
-		prevSysUtt = "";
-		prevSysUttType = "";
-		
-		lastStepSize = 0;
-		
-		
-		destinationsRejected = new ArrayList<String>();
-		destinationId = "null";
-		destinationName = "null";
-		destinationLoc = new ArrayList<String>();
-		bsv.put("destinationSuggested", false);
-		
-		currentUserLocation = new ArrayList<String>();
-		bsv.put("routeRequested", false);
-		bsv.put("userOnRoute", false);
-		bsv.put("navigatingUser", false);
-		bsv.put("routeNotFound", false);
-		bsv.put("destinationReached", false);
-		bsv.put("destinationVisibleToUser", false);
-		convEnded = false;
-		destinationCoor = null;
-		nextNodeCoor = null;
-		nextNextNodeCoor = null;
-		prevUserCoor = null;
-		
-		
-		distanceToGoal = 0;
-		bsv.put("distanceToGoalLT5", false);
-		bsv.put("distanceToGoalLT10", false);
-		
-		bsv.put("distanceToNNLT10", false);
-		bsv.put("distanceToNNGT10", false);
-		
-		
-		//POI task specific variables
-		landmarkInformed = new ArrayList<String>();
-		landmarksCloseToNextNode = new ArrayList<String>();
-		
-		//max speed per sec
-		expectedSpeed = 50;
-		//expectedSpeed = walkingSpeed;
-					
-		//resolving anaphora
-		lastMentionedEntityId = "null";
-		entitiesInContext = new Hashtable<String,String>(); 
-		lastMentionedEntityType = "null";
-		
-		//RL specific variables
-		totalReward = 0;
-		
-		bsv.put("userRequestedRoute", false);
-		bsv.put("userGreets", false);
-		bsv.put("userRequestsHelp", false);
-		bsv.put("userRequestedRepeat", false);
-		
-		bsv.put("userSaysThanks", false);
-		bsv.put("userAsksForDirection", false);
-		bsv.put("userAsksUserLocation", false);
-		bsv.put("userAcknowledgedSystem", false);
-		bsv.put("userAsksWhereAmI", false);
-		bsv.put("userRequestsLocInfo", false);
-		bsv.put("userRequestsDistanceInfo", false);
-		bsv.put("userRequestsMoreInfo", false);
-		bsv.put("userRequestsDescription", false);
-		bsv.put("userRequestsDestination", false);	
-		bsv.put("needToAcknowledgeUser", false);
-		bsv.put("userRequestsNameOfEntity", false);
-		bsv.put("userRequestStopTalking", false);
-		
-		bsv.put("destinationAccepted", false);
-		bsv.put("entityClarificationSought", false);
-		bsv.put("waitingForClarification", false);
-		bsv.put("suggestionFound", false);
-		bsv.put("entityUnderspecified", false);
-		bsv.put("requestedEntityFound", false);
-		bsv.put("declareReady", false);
-		bsv.put("confirmationRequested", false);
-		bsv.put("userInformedOrientationUnavailable", false);
-		bsv.put("userToldWhereHeIsOneTime", false);
-		bsv.put("navigationHelpPromptToBeGiven", false);
-		resetRoute();
-		userUtteranceWaitingEC = "null";
-		runsWithoutOrientation = 0;
-		
-		long now = (new Date()).getTime();
-		lastTimeOfUtterance = now;
-		lastTimeOfDiffCoor = now;
-		elapsedTimeWithoutUtterances = 0;
-		elapsedTimeWithSameCoordinates = 0;
-		
-		bsv.put("expectingResponseFromUser", false);
-		//ll = new LocationLog("coord");
-	}
-	
-	private void resetTurn(){
-		bsv.put("userCoordinatesAvailable", false);
-		bsv.put("userCoordinatesReported", false);
-		bsv.put("reportedCoordinatesAvailable", false);
-		bsv.put("userOrientationAvailable", false);
-		bsv.put("userPaceRateAvailable", false);
-		bsv.put("userStepSizeAvailable", false);
-		bsv.put("userOrientationFromPT", false);
-		bsv.put("timestampNotIncreasing", false);
-		bsv.put("userSpeechConfidenceLT2", false);
-		bsv.put("userRequestedHelp", false);
-		reportedUserCoor = null;
-		reportedUserCoorAcc = 0;
-		
-		currentUserCoor = null;
-		currentUserOrientation = 0;
-		currentUserCoorAcc = 0;
-		currentUserLocation  = new ArrayList<String>();
-		currentStepSize = 0;
-		bsv.put("userIsWalking", false);
-		userPA = "null";
-		bsv.put("wayNameChanged", false); 
-		chooseCoordinate = "null";
-		sysDA = new JSONObject();
-		sysUttType = "null";
-		
-		bsv.put("userMovingTowardsNextNode", false);
-		bsv.put("userNearNextNode", false);
-		bsv.put("nextNodeChanged", false);
-		bsv.put("userAtExpectedLocation", false);
-		bsv.put("userInExpectedOrientation", false); 
-		bsv.put("userMayHaveTurned", false);
-		bsv.put("userUtteranceParsed", true);
-		bsv.put("qaQuestion", false);
-		bsv.put("poiNearUser", false);
-		bsv.put("landmarkNearUser", false);
-		bsv.put("repeatingSysUtterance", false);
-		bsv.put("qaSegmentAvailable", false);
-		bsv.put("moreInfoRequested", false);
-
-		bsv.put("requireExplicitConfirmation", false);
-	}
-	
-	private void resetRoute(){
-		bsv.put("destinationReached", false);
-		
-		prevNode = "null";
-		nextNode = "null";
-		nextNextNode = "null";
-		prevWayOnRoute = "null";
-		expectedWayOnRoute = "null";
-		expectedWayName = "null";
-		prevWayName = "null";
-		nextWayOnRoute = "null";
-		
-		currentSlope = "null";
-		distanceToNextMajorTurnNode = 0.0;
-		nextNodeLocation = new ArrayList<String>();
-		lastTimeOfNoDeviation = 0;
-		
-		majorTurnNodes = null;
-		nextMajorTurnNode = "null";
-		bsv.put("userMayBeDeviatingFromRoute", false);
-		bsv.put("expectingUserTurn", false);
-		bsv.put("landmarksNearNextNode", false);
-		bsv.put("turnInstructionAtNextNodeGiven", false);
-		bsv.put("turnInstructionAtLastNextNodeGiven", false);		
-		bsv.put("destinationReached", false);
-		bsv.put("userClaimsDestinationReached", false);
-		bsv.put("userClaimsDestinationVisible", false);
-		bsv.put("destinationVisible", false);
-		bsv.put("destinationVisibilityInformed", false);
-		bsv.put("userNearDestination", false);
-		bsv.put("veryFirstInstruction", true);
-		bsv.put("expectedOrientationAvailable", false);
-
-	}
-	
-	
-
-	private void getRouteAndInitialize(Position d){
-		resetRoute();		
-		
-		//ArrayList<String> positions = new ArrayList<String>();
-		ArrayList<RouteElement> positions = new ArrayList<RouteElement>();
-		
-		if (d != null && d.getLat() != 0.0 && d.getLon() != 0.0){
-			l.log("Found destination coordinates: " + d.getLat() + "," + d.getLon());
-			
-			// now lets find a route..
-			
-			// adding destination
-			//positions = cm.getRoute(currentUserCoor, d);
-			currentRoute = cm.getRoute(currentUserCoor, d);
-			currentRoute.displayRoute();
-			positions = currentRoute.getNodes();
-			
-			//if (positions.isEmpty()){
-			if (positions.isEmpty()){
-				Double distance = Tools.distance(currentUserCoor, d) * 1000;
-				if (distance < 200){
-					l.log("Destination seems to be nearby.. No nodes in between the user and the destination..");
-					bsv.put("userNearDestination", true);
-					bsv.put("navigatingUser", false);
-					bsv.put("userOnRoute", false);					
-				} else {
-					bsv.put("userNearDestination", false);
-					bsv.put("userOnRoute", false);
-					bsv.put("navigatingUser", false);
-					bsv.put("routeNotFound", true);
-					l.log("Route not available");
-				}
-			} else {
-				//l.log("Route: " + positions.toString());
-				bsv.put("userOnRoute", true);
-				bsv.put("navigatingUser", true);
-				bsv.put("userNearDestination", false);
-				bsv.put("routeNotFound", false);
-
-				routeNodes = positions.iterator();
-				
-				// the next node to go is the where he is now..
-				//nextNodeLat = currentUserLat; 
-				//nextNodeLon = currentUserLon;
-				expectedWayOnRoute = "null";
-				ArrayList<String> currentLoc = cm.getAdjacentStreetNames(currentUserCoor);
-				if (currentLoc.size() == 1){
-					expectedWayName = currentLoc.get(0);
-				} else {
-					expectedWayName = "null"; 
-				}
-				
-				RouteElement firstRE = routeNodes.next();
-				String firstNode = (String) firstRE.getNodeId();
-				l.log("First node: " + firstNode);
-				Position fnodeCoor = cm.getCoordinates(firstNode);
-				
-				if (!routeNodes.hasNext()){
-					l.log("There is only one node!");
-					bsv.put("noMoreNodes",true);
-					nextNode = firstNode;
-					nextNodeCoor = fnodeCoor;
-					nextNextNode = "null";
-				} else {
-					bsv.put("noMoreNodes", false);
-					RouteElement secondRE = routeNodes.next();
-					String secondNode = secondRE.getNodeId();
-					l.log("Second node: " + secondNode);
-					Position snodeCoor = cm.getCoordinates(secondNode);
-
-					double currentPosDistance = Tools.distance(currentUserCoor, snodeCoor) * 1000;
-					double fnodeDistance = Tools.distance(fnodeCoor, snodeCoor) * 1000;
-					
-					if (currentPosDistance < fnodeDistance){
-						l.log("Current loc is close to second node");
-						nextRE = secondRE;
-						nextNode = secondNode;
-						nextNodeCoor = snodeCoor;
-						if (routeNodes.hasNext()){
-								nextNextRE = routeNodes.next();
-								nextNextNode = nextNextRE.getNodeId();
-								nextWayOnRoute = cm.getWayId(nextNode, nextNextNode);
-								nextNextNodeCoor = cm.getCoordinates(nextNextNode);
-						} else {
-							bsv.put("noMoreNodes",true);
-							nextNextNode = "null";
-						}
-					} else {
-						l.log("First node is close to second node");
-						nextRE = firstRE;
-						nextNode = firstNode;
-						nextNodeCoor = fnodeCoor;
-						nextNodeLocation = cm.getAdjacentStreetNames(nextNodeCoor);
-						nextNextRE = secondRE;
-						nextNextNode = secondNode;
-						nextNextNodeCoor = snodeCoor;
-						nextWayOnRoute = cm.getWayId(nextNode, nextNextNode); 
-					}
-				}
-				l.log("Next node: " + nextNode);
-				l.log("Next Next node: " + nextNextNode);
-	
-				prevDistanceFromNextNode = cm.getNetworkDistance(currentUserCoor,nextNodeCoor) + 1.0;
-				
-				//nextWayOnRoute = cm.getWayId(nextNode, nextNextNode);
-				l.log("Next Way: " + nextWayOnRoute);
-
-				String closestNode = cm.getClosestNode(currentUserCoor);
-				l.log("Closest node: " + closestNode);
-				
-				if (!closestNode.equals(nextNode)){
-					expectedWayOnRoute = cm.getWayId(closestNode, nextNode);
-				} else { 
-					ArrayList<String> adjWays = cm.getAdjacentWays(currentUserCoor);
-					if (adjWays.size() == 1){
-						expectedWayOnRoute = (String) adjWays.get(0);
-					} else {
-						if (adjWays.contains(nextWayOnRoute)){
-							adjWays.remove(nextWayOnRoute);
-							l.log("Choosing randomly");
-							expectedWayOnRoute = (String) adjWays.get((new Random()).nextInt(adjWays.size()));
-						}
-					}
-				}
-				l.log("Current Way: " + expectedWayOnRoute);
-				expectedWayName = cm.getWayName(expectedWayOnRoute);
-				currentSlope = "null";
-				prevUserCoor = currentUserCoor;
-				bsv.put("nextNodeChanged", true);
-				
-				bsv.put("navigationHelpPromptToBeGiven", true);
-				l.log("Route ready");
-				//KMLwriter.printRoute(positions, "systemTrack");
-				//userDeviatingFromRoute = false;
-			}
-		} else {
-			bsv.put("userOnRoute", false);
-			bsv.put("navigatingUser", false);
-			bsv.put("userNearDestination", false);
-			bsv.put("routeNotFound", true);
-			destinationCoor = null;
-			l.log("Destination not available");
-		}
-	}
-
-	
-	
 }

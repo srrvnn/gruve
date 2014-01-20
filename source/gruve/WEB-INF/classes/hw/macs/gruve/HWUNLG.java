@@ -23,12 +23,13 @@ public class HWUNLG implements RG{
 	HWCityModel cm;
 	UserModel um;	
 	
-	public HWUNLG(UserModel userModel, HWCityModel cityModel){
+	public HWUNLG(UserModel userModel, HWCityModel cityModel) {
+
 		this.cm = cityModel;
 		this.um = userModel;
 	}
 	
-	public String presentRoute(JSONObject da){
+	public String presentRoute(JSONObject da) {
 
 		System.out.println("     ---------------");
 		System.out.println("Presenting Route Instructions");
@@ -82,11 +83,12 @@ public class HWUNLG implements RG{
 	}
 
 
-	private String tellDirection(Double turnAngle){
+	private String tellDirection(Double turnAngle) {
 
 		if(turnAngle < 0.00) turnAngle += 360.00;
 
 		ArrayList<String> directions =  new ArrayList<String>();
+		
 		directions.add("Head straight");
 		directions.add("Head right"); directions.add("Head right");
 		directions.add("Turn right"); directions.add("Turn right"); directions.add("Turn right");
@@ -99,7 +101,7 @@ public class HWUNLG implements RG{
 		return directions.get((int)(turnAngle/20)) + ", ";		
 	}
 
-	private String tellAction(Double turnAngle){
+	private String tellAction(Double turnAngle) {
 
 		
 		if(turnAngle < 0.00) turnAngle += 360.00;

@@ -21,34 +21,45 @@ import java.lang.Exception;
 
 public class GruveIM {
 
-	//DefaultMap map;
+	// DefaultMap map;
 
    	String sessionId, userEmail;
+
 	ArrayList<Position> prevCoordinates;
 	Position reportedUserCoor, currentUserCoor, prevUserCoor;
 	Position prevReportedUserCoor;
-	double inferredUserOrient, reportedUserCoorAcc, inferredUserCoorAcc, predictedUserCoorAcc, currentUserCoorAcc;
+
+	double inferredUserOrient, reportedUserCoorAcc, inferredUserCoorAcc, predictedUserCoorAcc, currentUserCoorAcc;	
 	LinkedList<Double> pastOrientations, last10PaceRates;
+
 	LinkedList<Long> last10GPSTimestamps;
+
 	String userPA, prevUserPA;
 	String userUtterance;
 	String userUtteranceWaitingEC;
+
 	String userPosition, userPosType;
+
 	ArrayList<String> currentUserLocation, nextNodeLocation, currentWays;
+
 	String currentWay;
 	String sysDACF, prevSysDACF;
 	String userDACF;
+
 	String prevSysUtt;
 	String sysUttType, prevSysUttType;
 	String readyForASR;
+
 	JSONObject sysDA, prevSysDA;
 	JSONObject userDA, prevUserDA;
 	JSONObject lastRDUserDA;
+
 	String chooseCoordinate, prevChooseCoordinate;
 	Double userPaceRate;
 	int runsWithoutOrientation;
 	
-	//Iterator<String> route;
+	// Iterator<String> route;
+
 	Position destinationCoor, nextNodeCoor, nextNextNodeCoor;
 	String resolvedEntityName, resolvedEntityId, resolvedEntityType, resolvedEntityDesc;  
 	String lastResolvedEntityName, lastResolvedEntityId, lastResolvedEntityType, lastResolvedEntityDesc;  
@@ -92,8 +103,7 @@ public class GruveIM {
 	
 	Hashtable<String,String> entitiesInContext;
 	String lastMentionedEntityId;
-	String lastMentionedEntityType;
-	
+	String lastMentionedEntityType;	
 	
 	int run;
 	
@@ -103,7 +113,8 @@ public class GruveIM {
 	String cityModel;
 	HWCityModel cm;
 	UserModel um;
-	//LocationLog ll;
+
+	// LocationLog ll;
 	
 	NLG nlg;	
 
@@ -233,9 +244,6 @@ public class GruveIM {
 	   
 		if (uResponse.containsKey("userOrientation")) {
 
-			//XKL
-			//currentUserOrientation = (Double) uResponse.get("userOrientation");
-
 			String orient = uResponse.get("userOrientation").toString();
 			currentUserOrientation  = new Double(Double.parseDouble(orient));
 			l.log("User orientation from PT:" + currentUserOrientation);
@@ -245,7 +253,7 @@ public class GruveIM {
 				bsv.put("userOrientationFromPT", true);
 				bsv.put("userOrientationAvailable", true);
 
-				//storing past orientations.. 
+				// storing past orientations.. 
 
 				if (pastOrientations.size() > 10){
 					pastOrientations.removeFirst();
@@ -267,12 +275,13 @@ public class GruveIM {
 			double lat, lng;
 			lat = Double.valueOf(temp2[0]);
 			lng = Double.valueOf(temp2[1]);
+
 			reportedUserCoor = new Position(lat,lng);
 			
 			bsv.put("reportedCoordinatesAvailable", true);
 			l.log("User reported position: " + reportedUserCoor.toString());
 			
-			//assign the chosen coordinate as CurrentUserCoordinate
+			// assign the chosen coordinate as CurrentUserCoordinate
 			currentUserCoor = reportedUserCoor;
 			bsv.put("userCoordinatesAvailable", true);
 			bsv.put("userCoordinatesReported", true);
@@ -297,10 +306,11 @@ public class GruveIM {
 				currentWay = currentWays.get(0);
 
 			} else {
+
 				currentWay = "null";
 			}
 
-			l.log("Current way: " + currentWay);
+			l.log("Current way: " + currentWay);			
 			currentUserLocation = cm.getAdjacentStreetNames(currentUserCoor);
 			l.log("User location: " + currentUserLocation);
 		}
@@ -316,8 +326,8 @@ public class GruveIM {
 					currentStepSize = Tools.distance(currentUserCoor, prevUserCoor) * 1000;
 					l.log("Current Step Distance (in meters): " + currentStepSize);
 
-					// when the GPS report average around the same coordinate.. the user may not be walking...
-					// yet to implement that.. so here is a simple rule..
+					// when the GPS report average around the same coordinate, the user may not be walking
+					// yet to implement that.. so here is a simple rule
 
 					if (!Double.isNaN(currentStepSize) && currentStepSize > 2) {
 
@@ -334,7 +344,7 @@ public class GruveIM {
 
 					l.log("Current Step Distance: unknown");
 
-					//assuming that the user is still
+					// assuming that the user is still
 
 					bsv.put("userIsWalking", false);
 					userPA = "still";
@@ -342,7 +352,7 @@ public class GruveIM {
 
 				l.log("user walking: " + bsv.get("userIsWalking"));
 				
-				// if the user is not at the same spot...
+				// if the user is not at the same spot
 
 				if (prevUserCoor != null && bsv.get("userIsWalking") && !prevUserCoor.equals(currentUserCoor)) {
 
@@ -361,13 +371,14 @@ public class GruveIM {
 			} else {
 
 				l.log("Using PT orientation");
-			}
-			
+			}			
 						
 			if (bsv.get("userOrientationAvailable")) {
 
 				l.log("User orientation:" + currentUserOrientation);
-				if (bsv.get("userInitialOrientationAvailable") == false){
+
+				if (bsv.get("userInitialOrientationAvailable") == false) {
+
 					bsv.put("userInitialOrientationAvailable", true);
 				}
 
@@ -378,7 +389,8 @@ public class GruveIM {
 		}
 		
 		l.log("User DACF: " + userDACF);
-		//setting internal variables based on user DACF.	
+
+		// setting internal variables based on user DACF:	
 		
 		// processing user responses to system questions/requests
 
@@ -401,9 +413,11 @@ public class GruveIM {
 		} else if (userDACF.equals("requestRoute")) {
 
 			destinationName = (String) userDA.get("destination_name");
+
 			if (bsv.get("navigatingUser")) {
 				bsv.put("navigatingUser", false);
 			}
+
 			bsv.put("userRequestedRoute", true); //userRequestedRoute will be true until it is acknowledged
 			bsv.put("routeNotFound", false);
 			bsv.put("routeRequested", false);
@@ -421,8 +435,7 @@ public class GruveIM {
 
 		} else if (userDACF.equals("quitGame")) {
 			
-		}
-		
+		}		
 		
 		// get a route if requested
 
@@ -435,10 +448,11 @@ public class GruveIM {
 				destinationId = cm.getClosestEntityIdByName(destinationName, currentUserCoor);
 				destinationCoor = cm.getCoordinates(destinationId);
 				destinationLoc = cm.getAdjacentStreetNames(destinationCoor);
+
 				l.log("Finding route to " + destinationId + "," + destinationName + " on " + destinationLoc + " at " + destinationCoor);
 				getRouteAndInitialize(destinationCoor);
-				bsv.put("routeRequested", false);
 
+				bsv.put("routeRequested", false);
 			} 
 		}
 		
@@ -447,13 +461,14 @@ public class GruveIM {
 		if (bsv.get("navigatingUser") && bsv.get("userCoordinatesAvailable") && bsv.get("cmReady")) {
 
 			l.log("Destination id: " + destinationId);
-			//l.log("Expected current way id: " + expectedWayOnRoute);
+			// l.log("Expected current way id: " + expectedWayOnRoute);
 			
-			// is the user at the expected location.. i.e. at street X or junction Y
+			// is the user at the expected location i.e. at street X or junction Y
 
 			if(!expectedWayOnRoute.equals("null")) {
 
 				l.log("Expected current way name: " + expectedWayName);
+
 				ArrayList<String> currentAdjacentWays = cm.getAdjacentWays(currentUserCoor);
 				l.log("Current adjancent ways: " + currentAdjacentWays.toString());
 				l.log("Expected way on route: " + expectedWayOnRoute);
@@ -469,18 +484,21 @@ public class GruveIM {
 				}
 
 			} else {
+
 				l.log("ExpectedWayOnRoute is unknown, user assumed to be at expected location");
 				expectedWayOnRoute = currentWay;
 				bsv.put("userAtExpectedLocation", true);
 			}
 			
 			// what is the distance between the current position and the next supposed node?
+
 			currentDistanceFromNextNode = Tools.distance(currentUserCoor,nextNodeCoor) * 1000;
+
 			l.log("Prev Distance from Next node: " + prevDistanceFromNextNode);
-			l.log("Current Distance from Next node: " + currentDistanceFromNextNode);
+			l.log("Current Distance from Next node: " + currentDistanceFromNextNode);			
 			
-			
-			// if the current distance from the next node is less than 10 meters..
+			// if the current distance from the next node is less than 10 meters:
+
 			if (currentDistanceFromNextNode < close2NodeDistance) {
 
 				bsv.put("userNearNextNode", true);
@@ -488,7 +506,8 @@ public class GruveIM {
 
 			l.log("User near Next node: " + bsv.get("userNearNextNode"));
 			
-			// finding the next node to go..
+			// finding the next node to go:
+
 			if (bsv.get("userNearNextNode")) {
 
 				prevWayName = expectedWayName;
@@ -517,14 +536,18 @@ public class GruveIM {
 						distanceToNextMajorTurnNode = d2; 
 						l.log("Distance to next node:" + distanceToNextMajorTurnNode);
 
-						// Ignoring all nodes within 10 m distance..
+						// Ignoring all nodes within 10 m distance
 
 						if (d2 > interNodeDistance) {
+
 							bsv.put("userNearNextNode", false);
+
 						} else {
+
 							l.log("Ignoring this node.." + nextNode);
 							bsv.put("userNearNextNode", true);
 						}
+
 						if (routeNodes.hasNext()) {
 
 							nextNextRE = routeNodes.next();
@@ -549,15 +572,16 @@ public class GruveIM {
 
 					} while (routeNodes.hasNext() && bsv.get("userNearNextNode"));
 
-					//nextWayOnRoute = cm.getWayId(nextNode,nextNextNode);
+					// nextWayOnRoute = cm.getWayId(nextNode,nextNextNode);
 
 					l.log("Current Way:" + expectedWayOnRoute);
 					l.log("Current Way Name: " + expectedWayName);
 
-					//resetting prevDistanceFromNextNode when the nextNode changes.. because we are at a New Node
+					// resetting prevDistanceFromNextNode when the nextNode changes.. because we are at a New Node
 
 					currentDistanceFromNextNode = cm.getNetworkDistance(currentUserCoor,nextNodeCoor);
-					prevDistanceFromNextNode = currentDistanceFromNextNode + 1; //setting it as more so that user may be seen as moving towards the next node.
+					prevDistanceFromNextNode = currentDistanceFromNextNode + 1; 
+					// setting it as more so that user may be seen as moving towards the next node.
 
 					if (!expectedWayName.equals(prevWayName) && !expectedWayName.equals("null")) {  
 
@@ -582,7 +606,8 @@ public class GruveIM {
 			} else if (currentDistanceFromNextNode >= prevDistanceFromNextNode) {
 
 				bsv.put("userMovingTowardsNextNode", false);
-			} 
+			}
+
 			// if they are equal.. user is staying still so it will be the same as last step
 			
 			l.log("User moving towards Next Node : " + bsv.get("userMovingTowardsNextNode"));
@@ -593,6 +618,7 @@ public class GruveIM {
 				l.log("To reach the next node, user should turn " + nextUserOrientDel);
 				expectedOrientation = Tools.orientRoundup(currentUserOrientation + nextUserOrientDel);
 				bsv.put("expectedOrientationAvailable", true);
+
 				if (nextUserOrientDel > -30 && nextUserOrientDel < 30 && !bsv.get("veryFirstInstruction")) {
 
 					l.log("Don't need a turn instruction here..");
@@ -607,6 +633,7 @@ public class GruveIM {
 			l.log("Expected user orientation: " + expectedOrientation);
 			
 			double currentDeviation = Tools.getOrientDel(currentUserOrientation, expectedOrientation);
+
 			if(Math.abs(currentDeviation) > 90) {
 
 				bsv.put("userInExpectedOrientation", false);
@@ -624,29 +651,39 @@ public class GruveIM {
 				l.log("User asked for directions. He needs to turn " + nextUserOrientDel);
 			} 
 			
-			// is the current distance greater than the previous distance from the next node..?? user may be deviating if it is..
-			// however in GPS error condition, it is possible that this a falsr positive .i.e. its not true in reality but reported to be so..
+			// is the current distance greater than the previous distance from the next node? 
+			// if it is, the user may be deviating.
+
+			// however in GPS error condition, it is possible that this a false positive .i.e. it is not true in reality but reported to be so..
+
 			// so, we add extra conditions that user should not be at expected location and the system not be expecting a user turn
 
 			l.log("Expecting user to turn:" + bsv.get("expectingUserTurn"));
+
 			//l.log("Deviation state: CD<PD:" + bsv.get("userMovingTowardsNextNode") + ",NNChanged:" + bsv.get("nextNodeChanged") + ",UEL:" + bsv.get("userAtExpectedLocation") + ",EUT:" +	bsv.get("expectingUserTurn"));
+
 			if (bsv.get("userMovingTowardsNextNode") == false && bsv.get("userAtExpectedLocation") == false) {  
 
 				//if (bsv.get("userMayBeDeviatingFromRoute") && now - timeDeviationStarts > 30000){
+
 				if ((now - lastTimeOfNoDeviation) > 30000) {
 
 					l.log("User deviating from route. Finding new route.");
 					getRouteAndInitialize(destinationCoor);
 					lastTimeOfNoDeviation = now;
+
 					//bsv.put("userMayBeDeviatingFromRoute", false);
+
 					nextUserOrientDel = Tools.getRelativeOrient(currentUserCoor, nextNodeCoor, currentUserOrientation);
 					l.log("To reach the next node, user should turn " + nextUserOrientDel);					
 					expectedOrientation = Tools.orientRoundup(currentUserOrientation + nextUserOrientDel);
 					l.log("Expected user orientation: " + expectedOrientation);
+
 				} /*else {
 					//bsv.put("userMayBeDeviatingFromRoute", true);
 					l.log("User MAY be deviating: " + bsv.get("userMayBeDeviatingFromRoute"));
 				}*/
+
 				nUserOffCourse++;
 
 			} else {
@@ -693,6 +730,7 @@ public class GruveIM {
 					bsv.put("landmarkNearUser", true);
 				}
 			}
+
 		} //end of navigation...
 	
 		// system state update
@@ -704,9 +742,12 @@ public class GruveIM {
 		elapsedTimeWithoutUtterances = now - lastTimeOfUtterance;
 
 		if (elapsedTimeWithoutUtterances > 50000) {
+
 			l.log("No utterances for 50000 ms");
 			bsv.put("fillInSilence", true);
+
 		} else {
+
 			bsv.put("fillInSilence", false);
 		}
 		
@@ -714,14 +755,15 @@ public class GruveIM {
 		if (bsv.get("userGreeted") == false) {
 
 			sysDACF = "greetUser";
-			bsv.put("userGreeted", true);
 			sysUttType = "setup";
+			bsv.put("userGreeted", true);
+			
 
 		} else if (bsv.get("userIsWalking") ==  false && bsv.get("userInitialOrientationAvailable") == false && bsv.get("userInformedOrientationUnavailable") == false) {
 
 			sysDACF = "startWalking";
-			bsv.put("userInformedOrientationUnavailable", true);
 			sysUttType = "setup";
+			bsv.put("userInformedOrientationUnavailable", true);			
 
 		} else if (bsv.get("userRequestedHelp")) {
 
@@ -736,47 +778,53 @@ public class GruveIM {
 		} else if (bsv.get("navigationHelpPromptToBeGiven")) {
 
 			sysDACF = "navigationHelpPrompt";
-			bsv.put("navigationHelpPromptToBeGiven", false);
 			sysUttType = "navInstruction";
+			bsv.put("navigationHelpPromptToBeGiven", false);
+			
 
 		} else if (bsv.get("destinationReached")) {
 
 			sysDACF = "destinationReached";			
+			sysUttType = "navInstruction";
 			bsv.put("destinationReached", false);
 			bsv.put("destinationVisible", false);
-			sysUttType = "navInstruction";
+			
 
 		} else if (bsv.get("userRequestedRepeat")) {
 
 			l.log("prevSysDA:" + prevSysDA);
+
 			sysDA = prevSysDA;
 			sysDACF = (String) prevSysDA.get("cf");
 			sysUttType = prevSysUttType;
 			sysUtt = prevSysUtt;
+
 			bsv.put("userRequestedRepeat", false);
 			bsv.put("repeatingSysUtterance", true);			
 
 		} else if (bsv.get("userRequestedRoute")) {
 
 			sysDACF = "acknowledgeRouteRequest";
+			sysUttType = "navInstruction";
 			bsv.put("userRequestedRoute", false);
 			bsv.put("routeRequested", true); //routeRequested will be true until the system starts giving the user a route
-			sysUttType = "navInstruction";
+			
 
 		} else if (bsv.get("needToAcknowledgeUser")) {
 
 			sysDACF = "acknowledge";
-			bsv.put("needToAcknowledgeUser", false);
 			sysUttType = "dm";
+			bsv.put("needToAcknowledgeUser", false);
+			
 
 		} else if (bsv.get("userAsksForDirection")) {
 
 			if (bsv.get("navigatingUser")) {
 
 				sysDACF = "presentRoute";
-				bsv.put("userAsksForDirection", false);
 				sysUttType = "navInstruction";
-
+				bsv.put("userAsksForDirection", false);
+				
 			} else {
 
 				sysDACF = "null";
@@ -826,7 +874,7 @@ public class GruveIM {
 			
 			l.log("SysDA: " + sysDA);
 
-			// call the NLG module
+			// call the NLG module to frame the navInstruction
 			
 			sysUtt = nlg.realize(sysDA); 
 		}		
@@ -844,7 +892,7 @@ public class GruveIM {
 			bsv.put("repeatingSysUtterance", false);
 		}
 		
-		// if either the sys or the user say something.. lastTimeOfUtterance is set to now..
+		// if either the sys or the user say something, lastTimeOfUtterance is set to now
 
 		if (!sysUtt.equals("") || userDA != null) {
 

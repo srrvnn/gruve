@@ -86,7 +86,6 @@ public class GruveIM {
 	long elapsedTimeWithSameCoordinates, lastTimeOfDiffCoor;
 	long elapsedTimeOfDeviation, lastTimeOfNoDeviation;
 	
-	
 	RouteElement prevRE, nextRE, nextNextRE;
 	String prevNode, nextNode, nextNextNode, prevWayOnRoute, expectedWayOnRoute, nextWayOnRoute, prevWayName, expectedWayName, currentSlope;
 	
@@ -118,24 +117,23 @@ public class GruveIM {
 	
 	NLG nlg;	
 
-	public static final Boolean debug = False;
+	public static final boolean debug = false;
 
 	public static final String fsep = System.getProperty("file.separator");
 	
 	public GruveIM(String sessionId, String userEmail) {
 
-		// one initial run
+		// one initial run	
 		
-		// true if the webclient interacts with the IM over a servlet, false if over ICE 		
-		streetviewServlet = true; // or "false"
-		
-		// set to true if the webclient is playing the GRUVE game
-		gruve = false; // or "true"
+		gruve = false; // Webclient playing the GRUVE game?
+		streetview = true;	
+		streetviewServlet = true; // Webclient interaction with IM: Servlet or ICE?	
+
+		cityModel = "HWU";
 
 		if(debug) System.out.println("Gruve server:" + gruve);
 
-		String currentDir = Configuration.root + fsep + "WEB-INF" + fsep;								
-		
+		String currentDir = Configuration.root + fsep + "WEB-INF" + fsep;						
 		String classesDir = currentDir + "classes" + fsep;
 		String userModelsDir = classesDir + "usermodels" + fsep;
 		
@@ -145,16 +143,12 @@ public class GruveIM {
 		systemLog = logName + "systemLog";	
 		
 		um = new UserModel(userModelsDir, sessionId, userEmail);
-		
-		cityModel = "HWU";
-		streetview = true;
-		 
 		cm = new HWCityModel(new File(classesDir + "mymap.osm"));
-		
 		nlg = new NLG(um, cm);
 		
 		bsv = new Hashtable<String,Boolean>();
-		bsv.put("cmReady", true);
+
+		bsv.put("cmReady", true); // no idea what this is, but this is user everywhere! 
 		
 		resetEpisode();
 
@@ -187,7 +181,7 @@ public class GruveIM {
 			l.log("Time between updates: " + timeBetweenUpdates);
 		}
 
-		// logging user response JSONObject
+		// logging user response JSONObject that is to be replied to
 
 		Object obj = JSONValue.parse(userResponse);
 		JSONObject uResponse = (JSONObject) obj;		
@@ -226,7 +220,7 @@ public class GruveIM {
 
 		l.log("User DA: " + userDA);		
 
-		// getting user Position or setting it to null
+		// getting user position or setting it to null
 		
 		if (uResponse.containsKey("userPosition")) {
 
@@ -240,7 +234,7 @@ public class GruveIM {
 			userPosition = "null";			
 		}
 
-		// getting user Orientation or setting it to null
+		// getting user orientation or setting it to null
 	   
 		if (uResponse.containsKey("userOrientation")) {
 
@@ -293,7 +287,7 @@ public class GruveIM {
 			bsv.put("userCoordinatesAvailable", false);
 		}
 
-		// where is the user?
+		// calculating user location in real life street names
 
 		if (bsv.get("userCoordinatesAvailable") && bsv.get("cmReady")) {
 
@@ -315,7 +309,7 @@ public class GruveIM {
 			l.log("User location: " + currentUserLocation);
 		}
 		
-		// calculating the user's orientation, stepsize and more
+		// calculating the user orientation, stepsize and more
 
 		if (bsv.get("userCoordinatesAvailable")) { 
 
@@ -920,9 +914,9 @@ public class GruveIM {
 		sResponse.put("utterance", sysUtt);
 		sResponse.put("uttType", sysUttType);	
 		
-		String sysResponse = sResponse.toString(); 
-		l.log("sysResponse: " + sysResponse);
-		return sysResponse;
+		String str_sResponse = sResponse.toString(); 
+		l.log("sysResponse: " + str_sResponse);
+		return str_sResponse;
 	}
 	
 	public void close() {
@@ -937,12 +931,12 @@ public class GruveIM {
 		nUserOffCourse = 0;
 		randomAction = 0;
 		maxAction = 0;
-		l = new LogWriter(systemLog);	
-		
+		l = new LogWriter(systemLog);		
 		
 		bsv.put("userGreeted", false);
 		
-		//user position specific variables
+		// user position specific variables
+
 		currentUserOrientation = 0;
 		bsv.put("userInitialOrientationAvailable", false);
 		pastOrientations = new LinkedList<Double>();
@@ -955,11 +949,14 @@ public class GruveIM {
 		nextUserOrientDel = 0;
 		expectedOrientation = 0;
 		
-		if (streetview){
-			close2NodeDistance  = 10;
+		if (streetview) {
+
+			close2NodeDistance  = 10; // in metres
 			interNodeDistance = 10;
+
 		} else {
-			close2NodeDistance = 25; //25meters
+
+			close2NodeDistance = 25; 
 			interNodeDistance = 15;
 		}
 		
@@ -972,8 +969,7 @@ public class GruveIM {
 		prevSysUttType = "";
 		
 		lastStepSize = 0;
-		
-		
+
 		destinationsRejected = new ArrayList<String>();
 		destinationId = "null";
 		destinationName = "null";
@@ -987,35 +983,34 @@ public class GruveIM {
 		bsv.put("routeNotFound", false);
 		bsv.put("destinationReached", false);
 		bsv.put("destinationVisibleToUser", false);
+
 		convEnded = false;
 		destinationCoor = null;
 		nextNodeCoor = null;
 		nextNextNodeCoor = null;
-		prevUserCoor = null;
-		
+		prevUserCoor = null;	
 		
 		distanceToGoal = 0;
 		bsv.put("distanceToGoalLT5", false);
 		bsv.put("distanceToGoalLT10", false);
 		
 		bsv.put("distanceToNNLT10", false);
-		bsv.put("distanceToNNGT10", false);
+		bsv.put("distanceToNNGT10", false);		
 		
-		
-		//POI task specific variables
+		// POI task specific variables
 		landmarkInformed = new ArrayList<String>();
 		landmarksCloseToNextNode = new ArrayList<String>();
 		
-		//max speed per sec
+		// max speed per sec
 		expectedSpeed = 50;
-		//expectedSpeed = walkingSpeed;
+		// expectedSpeed = walkingSpeed;
 					
-		//resolving anaphora
+		// resolving anaphora
 		lastMentionedEntityId = "null";
 		entitiesInContext = new Hashtable<String,String>(); 
 		lastMentionedEntityType = "null";
 		
-		//RL specific variables
+		// RL specific variables
 		totalReward = 0;
 		
 		bsv.put("userRequestedRoute", false);
@@ -1059,7 +1054,8 @@ public class GruveIM {
 		elapsedTimeWithSameCoordinates = 0;
 		
 		bsv.put("expectingResponseFromUser", false);
-		//ll = new LocationLog("coord");
+
+		// ll = new LocationLog("coord");
 	}
 	
 	private void resetTurn() {

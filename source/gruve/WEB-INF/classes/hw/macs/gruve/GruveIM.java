@@ -126,7 +126,7 @@ public class GruveIM {
 		// one initial run	
 		
 		gruve = false; // Webclient playing the GRUVE game?
-		streetview = true;	
+		streetview = true;	// Close to node distance computed from streeview: 10 m or 20m?
 		streetviewServlet = true; // Webclient interaction with IM: Servlet or ICE?	
 
 		cityModel = "HWU";
@@ -148,8 +148,10 @@ public class GruveIM {
 		
 		bsv = new Hashtable<String,Boolean>();
 
-		bsv.put("cmReady", true); // no idea what this is, but this is user everywhere! 
+		bsv.put("cmReady", true); // no idea what this is, but this is used everywhere! 
 		
+		// resetting numerous variables 
+
 		resetEpisode();
 
 		if(debug) System.out.println("New Gruve IM created for " + sessionId);
@@ -158,7 +160,7 @@ public class GruveIM {
 	@SuppressWarnings("unchecked")
 	public String run(String userResponse) {
 
-		sysDA = new JSONObject();		
+		sysDA = new JSONObject(); // JSON sent to NLG module to frame a response		
 
 		resetTurn();
 		run++;	
@@ -171,20 +173,20 @@ public class GruveIM {
 
 		long now = (new Date()).getTime();
 		l.log("Time: " + now);
-		
-		long timeBetweenUpdates = 0;
 
 		// logging time between runs
+
+		long timeBetweenUpdates = 0;
 
 		if (lastUpdate != 0) {
 			timeBetweenUpdates = now - lastUpdate;
 			l.log("Time between updates: " + timeBetweenUpdates);
 		}
 
-		// logging user response JSONObject that is to be replied to
+		// logging user response JSONObject that is received
 
-		Object obj = JSONValue.parse(userResponse);
-		JSONObject uResponse = (JSONObject) obj;		
+		Object temp_obj = JSONValue.parse(userResponse);
+		JSONObject uResponse = (JSONObject) temp_obj;		
 		
 		l.log("userResponse:" + userResponse);
 
@@ -409,10 +411,11 @@ public class GruveIM {
 			destinationName = (String) userDA.get("destination_name");
 
 			if (bsv.get("navigatingUser")) {
+
 				bsv.put("navigatingUser", false);
 			}
 
-			bsv.put("userRequestedRoute", true); //userRequestedRoute will be true until it is acknowledged
+			bsv.put("userRequestedRoute", true); // userRequestedRoute will be true until it is acknowledged
 			bsv.put("routeNotFound", false);
 			bsv.put("routeRequested", false);
 
@@ -931,6 +934,7 @@ public class GruveIM {
 		nUserOffCourse = 0;
 		randomAction = 0;
 		maxAction = 0;
+
 		l = new LogWriter(systemLog);		
 		
 		bsv.put("userGreeted", false);

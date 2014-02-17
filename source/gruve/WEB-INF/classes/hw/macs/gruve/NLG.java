@@ -5,6 +5,8 @@ import java.io.File;
 import java.util.Iterator;
 import org.json.simple.JSONObject;
 
+import java.util.Random;
+
 import java.lang.Exception;
 
 class NLG {
@@ -12,6 +14,8 @@ class NLG {
 	HWCityModel cm;
 	UserModel um;
 	RG rg;
+
+	boolean presentingRoute; 
 	
 	public static void main(String[] arg) {
 	}
@@ -21,6 +25,8 @@ class NLG {
 		this.cm = cm;
 		this.um = um;
 		rg = new HWUNLG(um,cm);
+
+		presentingRoute = false;
 	}
 
 	public String realize(JSONObject da) {
@@ -32,11 +38,36 @@ class NLG {
 
 		if (cf.equals("presentRoute")) {
 
-			sysUtt = rg.presentRoute(da);
+			sysUtt = "* NOW: * " + rg.presentRoute(da);
+			presentingRoute = true;
 
 		} else if (cf.equals("null")) {
 
-			sysUtt = "";
+			if(presentingRoute) {
+
+				String[] smalltalk = { "We are getting there. Head Straight", 
+				"I will update your next move. Until then, keep going.", 
+				"Keep moving. In your buddy you must trust.", 
+				"Head Straight. Use the Which Direction now? button if you are need help.",
+				"Your next update with start with: * NOW *. ",
+				"" };
+
+				Random r = new Random();
+				int c = r.nextInt(4);
+
+				try {
+
+					sysUtt = smalltalk[c];
+
+				} catch (Exception e) {
+
+					sysUtt = "You are are doing good. Keep going.";	
+				}			
+
+			} else {
+
+				sysUtt = "";
+			}
 
 		} else if (cf.equals("greetUser")) {
 
@@ -44,7 +75,7 @@ class NLG {
 
 		} else if (cf.equals("startWalking")) {
 
-			sysUtt = "Let's get started. Move ahead, so that I know you are there.";
+			sysUtt = "Let us get started. Have you met the Pirate yet?";
 
 		} else if (cf.equals("introduceSelf")) {
 
@@ -66,7 +97,8 @@ class NLG {
 		} else if (cf.equals("destinationReached")) {
 
 			String destination = (String) da.get("entityName");
-			sysUtt = "We have reached " + destination;
+			sysUtt = "Hurray!! We have reached " + destination;
+			presentingRoute = false;
 
 		} else if (cf.equals("noRouteFound")) {
 

@@ -68,8 +68,8 @@ public class HWUNLG implements RG{
 
 				if(index == 1){
 
-					if(blocks>1) sb.append("We are <b>" + blocks + " blocks (node) </b> from our destination. <br/>");
-					if(blocks==1) sb.append("We are <b> 1 block (node) </b> from our destination. <br/>");
+					if(blocks>1) sb.append("We are <b>" + blocks + " blocks </b> from our destination. <br/>");
+					if(blocks==1) sb.append("We are <b> 1 block </b> from our destination. <br/>");
 				}					
 
 				sb.append(tellDirection(turnAngle));

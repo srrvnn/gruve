@@ -133,6 +133,8 @@ public class GruveIM {
 
 		if(debug) System.out.println("Gruve server:" + gruve);
 
+		System.out.println("Printing from GruveIM: " + Configuration.root);
+
 		String currentDir = Configuration.root + fsep + "WEB-INF" + fsep;						
 		String classesDir = currentDir + "classes" + fsep;
 		String userModelsDir = classesDir + "usermodels" + fsep;

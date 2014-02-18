@@ -1,1 +1,1 @@
-javac -Xlint:unchecked -cp "C:\Program Files\Apache Software Foundation\Tomcat 8.0\lib\servlet-api.jar;." WoZLogListServlet.java
+javac -Xlint:unchecked -cp "%CATALINA_H\lib\servlet-api.jar;." WoZLogListServlet.java

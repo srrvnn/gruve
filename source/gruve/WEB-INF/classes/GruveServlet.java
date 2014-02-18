@@ -83,6 +83,8 @@ public class GruveServlet extends HttpServlet {
 		}
 
 		uResponse.put("userType", "user");
+		
+		System.out.println("Printing from GruveServlet: " + Configuration.root);
 
 		String currentDir = Configuration.root + fsep + "WEB-INF" + fsep;
 		String classesDir = currentDir + "classes" + fsep;

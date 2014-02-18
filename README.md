@@ -8,26 +8,18 @@ To play a demo, it is necessary to run the system locally using a server than ca
 setup
 ----
 
-1. Install [Apache Tomcat](http://tomcat.apache.org/download-70.cgi), the server to run JSP files and Servlets. 
-  	
-2. Place the folder titled 'gruve' inside source at the webapps folder of Apache Tomcat. 
+1.	Setup Web Server. It is necessary to have Apache Tomcat installed on the computer to setup and run the GRUVE game. Please download and install the web server from the [official site](http://tomcat.apache.org/index.html).
 
-3. Give write permissions inside the ‘gruve’ folder. 
+2.	Setup permissions. Give write permissions to the current user at \webapps inside the Tomcat installation directory to allow the game to create log files when required. 
 
-4. Enter the absolute location of the ‘gruve’ folder here: 
+3.	Setup installation location as environment variables and in Configuration.java. Set `%CATALINA_HOME%` to be the installation location of the directory. Set the installation location here:  `source\gruve\WEB-INF\classes\hw\macs\gruve\Configuration.java:15`. 
 
-	`source/gruve/WEB-INF/classes/hw/macs/gruve/Configuration.java:13`
-	
-5. Enter the absolute location of Apache Tomcat in all the .bat files at `source/gruve/WEB-INF/classes`. 
+Ex.  `C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\gruve`
 
-6. On Windows: Run all .bat files at `source/gruve/WEB-INF/classes`
+4.	Copy the folder ‘gruve’ inside source into the `\webapps` folder of tomcat installation.
 
-   On Unix: Run all commands inside all .bat files at `source/gruve/WEB-INF/classes`
-   
-7. Start Apache Tomcat server.
+5.	Start the server, and go to `http://localhost:8080/gruve/`
 
-8. To play the game, open `source/gruve/game-index.html` on your localhost.
-   	
 gameplay
 ----
 

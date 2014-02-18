@@ -45,15 +45,16 @@ class NLG {
 
 			if(presentingRoute) {
 
-				String[] smalltalk = { "We are getting there. Head Straight", 
+				String[] smalltalk = { "We are getting there. Head Straight.", 
 				"I will update your next move. Until then, keep going.", 
 				"Keep moving. In your buddy you must trust.", 
-				"Head Straight. Use the Which Direction now? button if you are need help.",
-				"Your next update with start with: * NOW *. ",
+				"Head Straight. Use the Which Direction now? button if you are in need of help.",
+				"Your next update will start with: * NOW *. ",				
+				"The next update comes when you reach an intersection. Until, then keep going.",
 				"" };
 
 				Random r = new Random();
-				int c = r.nextInt(4);
+				int c = r.nextInt(smalltalk.length);
 
 				try {
 
@@ -75,7 +76,7 @@ class NLG {
 
 		} else if (cf.equals("startWalking")) {
 
-			sysUtt = "Let us get started. Have you met the Pirate yet?";
+			sysUtt = "Let us get started. Move forward and say Hi to the Pirate?";
 
 		} else if (cf.equals("introduceSelf")) {
 

@@ -50,7 +50,8 @@ public class HWUNLG implements RG{
 
 		StringBuilder sb = new StringBuilder();
 
-		while (ire.hasNext()){
+		while (ire.hasNext()) {
+			
 			RouteElement re = ire.next();			
 			if (re.getIndex() == index - 1){
 				wayName = re.getWayName();	
